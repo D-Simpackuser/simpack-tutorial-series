@@ -271,7 +271,7 @@ def main():
     parser = argparse.ArgumentParser(description='本地目录生成与受授权保护的 GitHub Release 发布')
     parser.add_argument('--work-root', type=Path, default=Path(__file__).resolve().parents[2])
     sub = parser.add_subparsers(dest='command', required=True)
-    for command in ('doctor','scan','build','report','audit','test'):
+    for command in ('doctor','scan','build','report','audit','test','i18n-build','i18n-validate'):
         sub.add_parser(command)
     for command in ('plan','upload','verify','release'):
         part = sub.add_parser(command)
@@ -295,6 +295,9 @@ def main():
             result = catalog_engine.scan(work)['summary']
         elif args.command == 'build':
             result = catalog_engine.build(work)
+        elif args.command in ('i18n-build', 'i18n-validate'):
+            import i18n_engine
+            result = i18n_engine.render(work) if args.command == 'i18n-build' else i18n_engine.validate(work)
         elif args.command == 'plan':
             full = catalog_engine.plan(work, args.series)
             result = {'mode': full['mode'], 'remote_calls': 0,
@@ -320,7 +323,7 @@ def main():
         else:
             result = report(work)
         print(json.dumps(result, ensure_ascii=False, indent=2))
-        if args.command == 'test' and not result['passed'] or args.command == 'audit' and not result['passed']:
+        if args.command in ('test', 'audit', 'i18n-validate') and not result['passed']:
             return 1
         return 0
     except (ValueError, RuntimeError, OSError, KeyError, json.JSONDecodeError) as exc:

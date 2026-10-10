@@ -2,7 +2,7 @@
   "series": [
     {
       "id": "1",
-      "display_name": "系列 1",
+      "display_name": "基于ABAQUS-Simpack联合的轨道车辆-柔性轨-浮置板耦合动力学",
       "release_tag": "series-1-v1",
       "page": "series/1/README.md",
       "videos": 18,
@@ -13,7 +13,7 @@
     },
     {
       "id": "2",
-      "display_name": "系列 2",
+      "display_name": "基于ANSYS/ABAQUS-Simpack-Fesafe的弹性体动态应力应变/疲劳仿真解决方案",
       "release_tag": "series-2-v1",
       "page": "series/2/README.md",
       "videos": 13,
@@ -24,7 +24,7 @@
     },
     {
       "id": "3",
-      "display_name": "系列 3",
+      "display_name": "基于ANSYS Workbench Mechanical & APDL的轨道车辆-弹性轨道动力学全平台实现",
       "release_tag": "series-3-v1",
       "page": "series/3/README.md",
       "videos": 16,
@@ -35,7 +35,7 @@
     },
     {
       "id": "5",
-      "display_name": "系列 5",
+      "display_name": "ABAQUS-Simpack联合仿真实现车线桥耦合动力学系统",
       "release_tag": "series-5-v1",
       "page": "series/5/README.md",
       "videos": 42,
@@ -46,7 +46,7 @@
     },
     {
       "id": "6",
-      "display_name": "系列 6",
+      "display_name": "Simpack轨道车辆动力学快速入门案例",
       "release_tag": "series-6-v1",
       "page": "series/6/README.md",
       "videos": 8,
@@ -57,7 +57,7 @@
     },
     {
       "id": "7",
-      "display_name": "系列 7",
+      "display_name": "ANSYS-SIMPACK 车-线-桥大系统联合仿真动力学（Beam-Solid）",
       "release_tag": "series-7-v1",
       "page": "series/7/README.md",
       "videos": 46,
@@ -68,7 +68,7 @@
     },
     {
       "id": "8",
-      "display_name": "系列 8",
+      "display_name": "ANSYS-SIMPACK 车-线-桥大系统联合仿真动力学（Beam-Beam）",
       "release_tag": "series-8-v1",
       "page": "series/8/README.md",
       "videos": 51,

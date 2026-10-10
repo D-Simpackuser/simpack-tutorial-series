@@ -1,0 +1,1365 @@
+{
+  "schema_version": 1,
+  "locale": "es",
+  "review_status": "editorial_draft_model_reviewed",
+  "lessons": {
+    "s01-e001": {
+      "title": "Modelado del carril flexible en Abaqus — Parte 1",
+      "source_title_hash": "25595aae80b517d59dc0ee7397d11054a9eebc52d9a0da7c10e194147bb7bebf",
+      "original_title": "1-ABAQUS柔性钢轨建模(上)",
+      "original_relative_path": "1/1-ABAQUS柔性钢轨建模(上).mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s01-e002": {
+      "title": "Modelado del carril flexible en Abaqus — Parte 2",
+      "source_title_hash": "d04d97274f8530aab030d089af0bcf3704ab1a32c333c5ffb558547bcee8f0aa",
+      "original_title": "2-ABAQUS柔性钢轨建模(下)",
+      "original_relative_path": "1/2-ABAQUS柔性钢轨建模(下).mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s01-e003": {
+      "title": "Generación del archivo .fbi del carril flexible para Simpack",
+      "source_title_hash": "79989a0b298e691334df81321ca49c1910656732d18b06160d4454499a40be34",
+      "original_title": "3-Simpack柔性钢轨.fbi生成",
+      "original_relative_path": "1/3-Simpack柔性钢轨.fbi生成.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s01-e004": {
+      "title": "Redacción del archivo FTR — Parte 1",
+      "source_title_hash": "04bbdbee51df75b816e45e9e9c7a006c4c13245f6554326e82e253ecb0090759",
+      "original_title": "4-ftr书写（上）",
+      "original_relative_path": "1/4-ftr书写（上）.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s01-e005": {
+      "title": "Redacción del archivo FTR — Parte 2",
+      "source_title_hash": "ae3cd3d7aa8774fcc910d3f3a58dd384a102851d77b1a0e401aa20c0b1126724",
+      "original_title": "5-ftr书写（下）",
+      "original_relative_path": "1/5-ftr书写（下）.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s01-e006": {
+      "title": "Modelado en Abaqus de una losa flotante sobre resortes de acero como cuerpo flexible",
+      "source_title_hash": "7afd17036f1042c69ef89417796bd61b60b3f6732a41e391e0905457dbe5e2bb",
+      "original_title": "6-ABAQUS钢弹簧浮置板柔性体建模",
+      "original_relative_path": "1/6-ABAQUS钢弹簧浮置板柔性体建模.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s01-e007": {
+      "title": "Modelado del eje montado",
+      "source_title_hash": "5e10384f392a07c6d20eeaa81f8d93502b1ebbedf9384344b698bdacb0b35330",
+      "original_title": "7-轮对建模",
+      "original_relative_path": "1/7-轮对建模.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s01-e008": {
+      "title": "Modelado del bastidor del bogie en Simpack",
+      "source_title_hash": "96703e7832e7e9c18eb20519dcf04944fc73fcabbed2e60fa100027bef409c75",
+      "original_title": "8-Simpack构架建模",
+      "original_relative_path": "1/8-Simpack构架建模.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s01-e009": {
+      "title": "Modelado del vehículo completo en Simpack",
+      "source_title_hash": "907b06610c8cfe6e546bafe9dac7b71292630c9c335c7cbbff92f4b47f04ad73",
+      "original_title": "9-Simpack整车建模",
+      "original_relative_path": "1/9-Simpack整车建模.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s01-e010": {
+      "title": "Configuración de la vía flexible en Simpack",
+      "source_title_hash": "3a443deac774c63f7bd63522b11f6c6e616bd7cc156acbbc1ddb1660ef8ab695",
+      "original_title": "10-Simpack柔性轨道设置",
+      "original_relative_path": "1/10-Simpack柔性轨道设置.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s01-e011": {
+      "title": "Acoplamiento de un vehículo a una vía sobre losa flotante en Simpack — Parte 1",
+      "source_title_hash": "b4bb25f9a1d3058d1ff3e7ee9f08b5da630737f6a1547f7bf8bee1e8cddea774",
+      "original_title": "11-Simpack 车辆-浮置板轨道系统耦合实现 （上）",
+      "original_relative_path": "1/11-Simpack 车辆-浮置板轨道系统耦合实现 （上）.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s01-e012": {
+      "title": "Acoplamiento de un vehículo a una vía sobre losa flotante en Simpack — Parte 2",
+      "source_title_hash": "6c51f017dc040ebb1695b57ca00741bb795ad0fcab74c2a0f71fad6176ebad5d",
+      "original_title": "12-Simpack 车辆-浮置板轨道系统耦合实现 （下）",
+      "original_relative_path": "1/12-Simpack 车辆-浮置板轨道系统耦合实现 （下）.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s01-e013": {
+      "title": "Redacción de un archivo de excitación TRE para Simpack",
+      "source_title_hash": "aeae1b616c5507a54d22a733f17cb34c0ec88ca931083d0d97e00a636ecc534c",
+      "original_title": "13-Simpack TRE 激励文件编写",
+      "original_relative_path": "1/13-Simpack TRE 激励文件编写.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s01-e014": {
+      "title": "Generación de excitación a partir de una PSD en Simpack",
+      "source_title_hash": "722a0b740cf8032127ded367692a26853090893234d289a9de24e0280d0ab2f1",
+      "original_title": "14-Simpack 生成激励（PSD)",
+      "original_relative_path": "1/14-Simpack 生成激励（PSD).mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s01-e015": {
+      "title": "Importación de un archivo externo de excitación TRE en Simpack",
+      "source_title_hash": "a6402cede967bbb8cdf645c862b4b9a96c16c94d32df6733f35790a2d069aebf",
+      "original_title": "15-Simpack 外部导入 TRE 激励文件",
+      "original_relative_path": "1/15-Simpack 外部导入 TRE 激励文件.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s01-e016": {
+      "title": "Animación de la deformación de un cuerpo flexible",
+      "source_title_hash": "161d59016344ce05cc2ad96ef7626f8bfd2c73bef0c571cda15512200a4c284b",
+      "original_title": "16-柔性体变形动画",
+      "original_relative_path": "1/16-柔性体变形动画.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s01-e017": {
+      "title": "Posprocesamiento y análisis de datos en Simpack — Parte 1",
+      "source_title_hash": "6ed476a717cf4dd6fc9348266338c14ec58b93e36ebbf5886b95302427bf8417",
+      "original_title": "17-Simpack 数据后处理及分析 （上）",
+      "original_relative_path": "1/17-Simpack 数据后处理及分析 （上）.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s01-e018": {
+      "title": "Posprocesamiento y análisis de datos en Simpack — Parte 2",
+      "source_title_hash": "3da2135e74f18542dcb837beadfcab905bdbd0cf500bf1b6e622e5defd5ab804",
+      "original_title": "18-Simpack 数据后处理及分析 （下）",
+      "original_relative_path": "1/18-Simpack 数据后处理及分析 （下）.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s02-e001": {
+      "title": "Preparación de archivos Abaqus para la generación FBI",
+      "source_title_hash": "25b0cb1dfa53278d3123fd9d6a9cafb84ee812fb76b707e14db3a6a167207342",
+      "original_title": "ABAQUS生成fbi准备文件",
+      "original_relative_path": "2/ABAQUS生成fbi准备文件.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s02-e002": {
+      "title": "Generación de un archivo FBI de cuerpo flexible desde Ansys y configuración en Simpack",
+      "source_title_hash": "e940f7d3b0665c12d7f5fa40579fab7f1b2ef2245fc073fec2d53b33067b904f",
+      "original_title": "ANSYS-fbi柔性体文件的生成&Simpack中柔性体的设置",
+      "original_relative_path": "2/ANSYS-fbi柔性体文件的生成&Simpack中柔性体的设置.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s02-e003": {
+      "title": "Recuperación de tensiones y deformaciones unitarias de un cuerpo flexible a partir de archivos stress de Ansys y visualización en Simpack Post",
+      "source_title_hash": "171e991cabf82fe1930b0f24b7f10bcf9ce29b85daf79f5d4f8adb523315b087",
+      "original_title": "ANSYS-通过stress应力文件求解柔性体应力应变 Simpack Post设置柔性体变形应力应变查看",
+      "original_relative_path": "2/ANSYS-通过stress应力文件求解柔性体应力应变 Simpack Post设置柔性体变形应力应变查看.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s02-e004": {
+      "title": "Preparación de archivos Ansys para la generación FBI",
+      "source_title_hash": "797228a632ef09ec0a54fd9bd68126723fd39d07ce02be2fb7fbafe7a7bfd252",
+      "original_title": "ANSYS生成fbi准备文件",
+      "original_relative_path": "2/ANSYS生成fbi准备文件.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s02-e005": {
+      "title": "Análisis de fatiga en fe-safe — variante con la etiqueta original «new»",
+      "source_title_hash": "a650644e0961c71054955de65afedabaf1f2c6477953c10764d694207f377412",
+      "original_title": "Fe-safe疲劳分析 - new",
+      "original_relative_path": "2/Fe-safe疲劳分析 - new.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s02-e006": {
+      "title": "Análisis de fatiga en fe-safe",
+      "source_title_hash": "3261038a8f8e38c298e99bc322f56ab861bcd1fa10eb75f70c2768858ccf8bba",
+      "original_title": "Fe-safe疲劳分析",
+      "original_relative_path": "2/Fe-safe疲劳分析.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s02-e007": {
+      "title": "Exportación de archivos de cálculo desde Simpack Post a fe-safe",
+      "source_title_hash": "02c15f2dc2334513a3754811b6cd3fc054b936f24a523da0a72dbfcac1e027d5",
+      "original_title": "Simpack Post导出Fe-sfae计算文件",
+      "original_relative_path": "2/Simpack Post导出Fe-sfae计算文件.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s02-e008": {
+      "title": "Visualización de la deformación, las tensiones y las deformaciones unitarias de un cuerpo flexible en Simpack Post",
+      "source_title_hash": "ff277f427a0db6a1601077cff79ed371bfb9859e1e031e9a4bc40c517d67d4a2",
+      "original_title": "Simpack Post设置柔性体变形应力应变查看",
+      "original_relative_path": "2/Simpack Post设置柔性体变形应力应变查看.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s02-e009": {
+      "title": "Configuración de un cuerpo flexible en Simpack",
+      "source_title_hash": "c43f4be1ebb7009326aabe7b0fb2c4c346f378fa7144af11322ef691db927212",
+      "original_title": "Simpack中柔性体的设置",
+      "original_relative_path": "2/Simpack中柔性体的设置.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s02-e010": {
+      "title": "Generación de un archivo FBI de cuerpo flexible",
+      "source_title_hash": "5fe035d6de1a28b8202739daaa612c65359ea8cad3233fc29709bd950932671b",
+      "original_title": "fbi柔性体文件的生成",
+      "original_relative_path": "2/fbi柔性体文件的生成.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s02-e011": {
+      "title": "Ejemplo de flujo integrado: Abaqus → Simpack → fe-safe",
+      "source_title_hash": "fe36be389f2c76964f7fa6a9189742cf4d4909099a8d821c372d0fbe745c2a5f",
+      "original_title": "案例：从abaqus到simpack再到fesafe的完整实现流程",
+      "original_relative_path": "2/案例：从abaqus到simpack再到fesafe的完整实现流程.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s02-e012": {
+      "title": "Recuperación de tensiones y deformaciones unitarias de un cuerpo flexible a partir de archivos stress",
+      "source_title_hash": "61256a2f7987b857973a0815ea2a4c5a6b324756a0df2904c76a18f31fc7171a",
+      "original_title": "通过stress应力文件求解柔性体应力应变",
+      "original_relative_path": "2/通过stress应力文件求解柔性体应力应变.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s02-e013": {
+      "title": "Recuperación de tensiones y deformaciones unitarias de un cuerpo flexible mediante matrices de recuperación",
+      "source_title_hash": "b7bbb1fd8375dab10e90f4acb71046ba58590a4f175d191b593f552d866446c7",
+      "original_title": "通过应力应变恢复矩阵求解柔性体应力应变",
+      "original_relative_path": "2/通过应力应变恢复矩阵求解柔性体应力应变.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s03-e001": {
+      "title": "Ansys APDL GUI Substructure y reducción de subestructuras MSC — versión exportada",
+      "source_title_hash": "63861cfebdce7f19be1408a8693f565d0602f43491da14c86f308a96ed42bcf1",
+      "original_title": "ANSYS APDL GUI Substructure&MSC 子结构缩减（导出版本）",
+      "original_relative_path": "3/ANSYS APDL GUI Substructure&MSC 子结构缩减（导出版本）.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s03-e002": {
+      "title": "Implementación de un flujo de comandos Ansys APDL",
+      "source_title_hash": "495aac3287afa8d3ea1f12a3d6c59ea5961f19067a44c91600df73299bd4cdf8",
+      "original_title": "ANSYS APDL命令流实现",
+      "original_relative_path": "3/ANSYS APDL命令流实现.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s03-e003": {
+      "title": "Creación de un vehículo sencillo en Simpack — modelo del vehículo completo",
+      "source_title_hash": "5da81dc895276ee0b47fd6e40737260c0b53e5fec2524db7f1f15a0785955bee",
+      "original_title": "Simpack 中简易车辆建立——Simpack整车建模",
+      "original_relative_path": "3/Simpack 中简易车辆建立——Simpack整车建模.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s03-e004": {
+      "title": "Creación de un vehículo sencillo en Simpack — modelo del bastidor del bogie",
+      "source_title_hash": "fc4f21f27ef994bc20be4d04d5eaa36d57003f0983b648e22c08a1a23baa39d5",
+      "original_title": "Simpack 中简易车辆建立——构架建模",
+      "original_relative_path": "3/Simpack 中简易车辆建立——构架建模.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s03-e005": {
+      "title": "Creación de un vehículo sencillo en Simpack — modelo del eje montado",
+      "source_title_hash": "3e4eea78154e87018545d7487161258fedca60935da4cfa28e12d1cade9d5256",
+      "original_title": "Simpack 中简易车辆建立——轮对建模",
+      "original_relative_path": "3/Simpack 中简易车辆建立——轮对建模.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s03-e006": {
+      "title": "Lectura de parámetros de posprocesamiento en Simpack",
+      "source_title_hash": "2283f1e97a9f9110a12f84e33ba88a04fe726d7229d05c8f2c912ca761527ad9",
+      "original_title": "Simpack 后处理参数读取",
+      "original_relative_path": "3/Simpack 后处理参数读取.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s03-e007": {
+      "title": "Importación de un archivo externo de excitación TRE en Simpack",
+      "source_title_hash": "db55198910a549ae7d34542be1a406e63a8682bed1fcd933bcedd6e51b6deab3",
+      "original_title": "Simpack 外部导入 TRE 激励文件",
+      "original_relative_path": "3/Simpack 外部导入 TRE 激励文件.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s03-e008": {
+      "title": "Configuración de conexiones a la cimentación de la vía mediante ajustes por lotes de elementos de fuerza en Simpack",
+      "source_title_hash": "2e77440e255bc724db604f5d49d501680e7315e279a98a84735b93042ddb1a2f",
+      "original_title": "Simpack 批量力元设置轨道基础连接",
+      "original_relative_path": "3/Simpack 批量力元设置轨道基础连接.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s03-e009": {
+      "title": "Animación de la deformación de un cuerpo flexible en Simpack",
+      "source_title_hash": "16c2afc155c23529fb57db9f418dd7a300d187cd50e63fc4f08b4892cb7274a8",
+      "original_title": "Simpack 柔性体变形动画",
+      "original_relative_path": "3/Simpack 柔性体变形动画.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s03-e010": {
+      "title": "Generación de archivos de excitación de irregularidades de la vía — redacción de un archivo TRE para Simpack",
+      "source_title_hash": "1c9da5032263da0a9acb21e83e3f6683123ff454eacd5bbb1292b97ced5044dc",
+      "original_title": "Simpack 钢轨不平顺激励文件生成——Simpack TRE 激励文件编写",
+      "original_relative_path": "3/Simpack 钢轨不平顺激励文件生成——Simpack TRE 激励文件编写.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s03-e011": {
+      "title": "Generación de archivos de excitación de irregularidades de la vía — excitación PSD en Simpack",
+      "source_title_hash": "2c2373d72d719a5f4d649344e554e9820011693fe425f5ca8fcedc5f6f47f299",
+      "original_title": "Simpack 钢轨不平顺激励文件生成——Simpack 生成激励（PSD)",
+      "original_relative_path": "3/Simpack 钢轨不平顺激励文件生成——Simpack 生成激励（PSD).mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s03-e012": {
+      "title": "Modelado de un carril con elementos viga en SpaceClaim",
+      "source_title_hash": "0996ee2de3de373c8fe42a24541ba48737332e625400d97dc31a6e70dae300bb",
+      "original_title": "Spaceclaim钢轨梁模型建模",
+      "original_relative_path": "3/Spaceclaim钢轨梁模型建模.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s03-e013": {
+      "title": "Reducción de subestructuras en Workbench Mechanical",
+      "source_title_hash": "427b4cd99c6438d27395080a205585610be0490b2a75d46b8d6f40384e344908",
+      "original_title": "Workbench Mechanical子结构缩减",
+      "original_relative_path": "3/Workbench Mechanical子结构缩减.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s03-e014": {
+      "title": "Generación de un archivo .fbi de cuerpo flexible — problemas de la interfaz Ansys–Simpack",
+      "source_title_hash": "15ad2137cc8434445ce9a53bf1595cc74f2a17276e3f3175f694586bbab48098",
+      "original_title": "弹性体.fbi 文件的生成（ANSYS-Simpack 接口问题）",
+      "original_relative_path": "3/弹性体.fbi 文件的生成（ANSYS-Simpack 接口问题）.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s03-e015": {
+      "title": "Configuración de conexiones a la cimentación de la vía en un archivo FTR de vía flexible",
+      "source_title_hash": "bdab3f6bbd7e7669489bb410ee782e1c4de188e8cd918b577e3a106d9911f967",
+      "original_title": "弹性轨道 ftr 文件设置轨道基础连接",
+      "original_relative_path": "3/弹性轨道 ftr 文件设置轨道基础连接.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s03-e016": {
+      "title": "Redacción de un archivo .ftr de vía flexible",
+      "source_title_hash": "6bff34247ef57851b89f96fdfafbad2ca4c38e482566c5f06010f4db5cf96be2",
+      "original_title": "弹性轨道.ftr 文件编写",
+      "original_relative_path": "3/弹性轨道.ftr 文件编写.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s05-e001": {
+      "title": "Vista previa del curso",
+      "source_title_hash": "855a8794f79ca30dbaef76ccb6aa560a06301b4487bf9730b7fdd34350bb9c4e",
+      "original_title": "0-课程效果",
+      "original_relative_path": "5/0-课程效果.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s05-e002": {
+      "title": "Modelado del carril — Parte 1",
+      "source_title_hash": "b7f744af3f369b92f0a334d3a5e6a0c0e31647e067b6663da67ff5979bf7189c",
+      "original_title": "1-1 钢轨建模上",
+      "original_relative_path": "5/1-1 钢轨建模上.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s05-e003": {
+      "title": "Modelado del carril — Parte 2",
+      "source_title_hash": "419a06291d348769f86ca636df7e740c2114e5d1b2cd7bf172bdeab420616adb",
+      "original_title": "1-2 钢轨建模下",
+      "original_relative_path": "5/1-2 钢轨建模下.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s05-e004": {
+      "title": "Creación y ensamblaje de una losa de vía CRTS III",
+      "source_title_hash": "204f1d66d96401083786a98ede97d2b8d04f6d4af0ce5a2c921a1ec65824e583",
+      "original_title": "2-1 CRTS3型轨道板建立与装配",
+      "original_relative_path": "5/2-1 CRTS3型轨道板建立与装配.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s05-e005": {
+      "title": "Creación y ensamblaje de la capa de hormigón autocompactante y la losa de base CRTS III",
+      "source_title_hash": "8cbd5be3b7afd7542e38f3836d5e297e1945bc3e2557116afc14b85d68a29214",
+      "original_title": "2-2 CRTS3自密实混凝土层与底座板建立与装配",
+      "original_relative_path": "5/2-2 CRTS3自密实混凝土层与底座板建立与装配.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s05-e006": {
+      "title": "Creación y ensamblaje de una viga de puente estándar simplemente apoyada",
+      "source_title_hash": "78aebeed6d63dbc0fc59546406d2dbe8b8b5495c4b143d957732f6300c931df9",
+      "original_title": "3-1 标准简支梁建立与装配",
+      "original_relative_path": "5/3-1 标准简支梁建立与装配.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s05-e007": {
+      "title": "Propiedades de los materiales",
+      "source_title_hash": "68e7a5081cfde1fb49e21882ccbc56744b84bcbb8319bd049d7a82a9ad357b55",
+      "original_title": "3-2  材料属性",
+      "original_relative_path": "5/3-2  材料属性.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s05-e008": {
+      "title": "Generación de la malla",
+      "source_title_hash": "985b95deb189fafdab4795fe7d46082dd51b40fa8d72626db49877f391f9136a",
+      "original_title": "3-3 网格划分",
+      "original_relative_path": "5/3-3 网格划分.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s05-e009": {
+      "title": "Configuración de las fijaciones del carril",
+      "source_title_hash": "fd9e4cc6d019f6fd9c4463d456f55cec34297fb910c18c9aa7909a9c3ac905b3",
+      "original_title": "3-4 扣件设置",
+      "original_relative_path": "5/3-4 扣件设置.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s05-e010": {
+      "title": "Configuración de contactos internos",
+      "source_title_hash": "c1f9809d60f464cc4b8acafc357e438269d9548404aa92fd6f77cd89db89bd6d",
+      "original_title": "3-5 内部接触设置",
+      "original_relative_path": "5/3-5 内部接触设置.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s05-e011": {
+      "title": "Generación de la subestructura",
+      "source_title_hash": "502bbc188a622c87862c7eba6e978603e56a0aa8cfe75dc64ae9814f70df5b52",
+      "original_title": "3-6 子结构生成",
+      "original_relative_path": "5/3-6 子结构生成.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s05-e012": {
+      "title": "Visualización de resultados modales",
+      "source_title_hash": "e626c264965f83987405c9dbad966db751880143b4ae2c0a2b172a338e343110",
+      "original_title": "3-7 模态效果展示",
+      "original_relative_path": "5/3-7 模态效果展示.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s05-e013": {
+      "title": "Generación FBI mediante comandos Abaqus",
+      "source_title_hash": "f339d04d756719501e625b189a22dd7acdd3bc3fa211d963e7d1c30678593ef1",
+      "original_title": "4-1 fbi生成——abaqus command 实现",
+      "original_relative_path": "5/4-1 fbi生成——abaqus command 实现.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s05-e014": {
+      "title": "Generación FBI mediante comandos Simpack",
+      "source_title_hash": "18535f5f13f30e7b01ce7a56ed6eb3adbcaa8cf830264b33f31c48bf386e7f85",
+      "original_title": "4-2 fbi生成-SIMPACK Command",
+      "original_relative_path": "5/4-2 fbi生成-SIMPACK Command.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s05-e015": {
+      "title": "Generación FBI mediante la interfaz gráfica Simpack",
+      "source_title_hash": "818fa30b1de7f239f1dcfbef5716dbce95a3b686fa01fd2403692050b342535e",
+      "original_title": "4-2 fbi生成-SIMPACK gui",
+      "original_relative_path": "5/4-2 fbi生成-SIMPACK gui.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s05-e016": {
+      "title": "Archivo FTR de cimentación elástica — software auxiliar",
+      "source_title_hash": "18fa3119f99d33b4d25d183da260493c42bd05ef84d6aa1a34f5db77c8f5bf31",
+      "original_title": "5-0 .弹性基础FTR文件——工具软件",
+      "original_relative_path": "5/5-0 .弹性基础FTR文件——工具软件.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s05-e017": {
+      "title": "Estructura detallada del archivo FTR de cimentación de la vía — ejemplo de una versión anterior de vía flexible",
+      "source_title_hash": "3d0cc506a7e7e39ab69398ec4d37cfda47d1c91f45d58608eba8c2fb2c61a8e2",
+      "original_title": "5-1 ftr线路基础文件详细解析（旧版本弹性轨道线路为例）",
+      "original_relative_path": "5/5-1 ftr线路基础文件详细解析（旧版本弹性轨道线路为例）.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s05-e018": {
+      "title": "Uso de mensajes de error Simpack para redactar un archivo FTR de cimentación de la vía",
+      "source_title_hash": "fc11c659d64bab3df46ea22f1623ac4d5b2994307324bf4675b7281229e7ab54",
+      "original_title": "5-2 利用Simpack error快速书写FTR轨道基础文件",
+      "original_relative_path": "5/5-2 利用Simpack error快速书写FTR轨道基础文件.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s05-e019": {
+      "title": "Ejemplo práctico de modelado parametrizado del eje montado en Simpack",
+      "source_title_hash": "e21cefccc2aba05b59a9e0ff9c6954a414cf99badb972917ef6a67d35e3ff6d9",
+      "original_title": "6 Simpack轮对参数化建模实例操作",
+      "original_relative_path": "5/6 Simpack轮对参数化建模实例操作.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s05-e020": {
+      "title": "Invocación de un submodelo de eje montado y parametrización de variables en Simpack",
+      "source_title_hash": "72f62305e582a64a707eac656811186a8a49f913f777dd0378d042f850bb34fa",
+      "original_title": "7-1  Simpack 轮对子模型调用及变量参数化",
+      "original_relative_path": "5/7-1  Simpack 轮对子模型调用及变量参数化.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s05-e021": {
+      "title": "Ejemplo práctico de construcción parametrizada del bastidor del bogie en un submodelo Simpack",
+      "source_title_hash": "f2e79ff4ab23ce659a89455e4ea62c6a64435c520380e640732e512c3dcd1111",
+      "original_title": "7-2  Simpack 转向架子模型构架参数化建模实例",
+      "original_relative_path": "5/7-2  Simpack 转向架子模型构架参数化建模实例.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s05-e022": {
+      "title": "Posicionamiento y ensamblaje de ejes montados en un submodelo de bogie en Simpack",
+      "source_title_hash": "7f00cfa76c11a6e758f46b32c6b8910572cae58ecac00ab3fff40941fff69906",
+      "original_title": "7-3  Simpack 转向架子模型轮对定位装配操作",
+      "original_relative_path": "5/7-3  Simpack 转向架子模型轮对定位装配操作.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s05-e023": {
+      "title": "Parametrización de la suspensión de un submodelo de bogie en Simpack",
+      "source_title_hash": "3265007bb6a5f8b779665e7590d6900d74aadbefd7d482ebbc22c292fc643eaf",
+      "original_title": "7-4  Simpack 转向架悬挂系统参数化建模操作",
+      "original_relative_path": "5/7-4  Simpack 转向架悬挂系统参数化建模操作.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s05-e024": {
+      "title": "Ejecución y prueba de un submodelo de bogie en Simpack",
+      "source_title_hash": "58bc57cbfb394b50222d471ee2645d3f967093361eaad630949f43b1af044e39",
+      "original_title": "7-5  Simpack 转向架子模型运行测试",
+      "original_relative_path": "5/7-5  Simpack 转向架子模型运行测试.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s05-e025": {
+      "title": "Modelado parametrizado de la caja del vehículo y configuración de la vía en Simpack",
+      "source_title_hash": "fc7f0aa379abe0a6945243158c6aab144bdec715b759f8fa4c3d15579f3dee92",
+      "original_title": "8-1 Simpack车体参数化建模及线路设置",
+      "original_relative_path": "5/8-1 Simpack车体参数化建模及线路设置.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s05-e026": {
+      "title": "Ensamblaje del modelo del vehículo completo en Simpack",
+      "source_title_hash": "abba5f9d65b6db599151f8539cd37805e76e958277d57c008b0273e9e019ac46",
+      "original_title": "8-2  Simpack整车模型装配",
+      "original_relative_path": "5/8-2  Simpack整车模型装配.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s05-e027": {
+      "title": "Depuración de un modelo de vehículo Simpack y del problema de «antigravedad»",
+      "source_title_hash": "1077004c3ff640420d15d671e1ea5a96df9c36885a488354afd3b2c2981d6037",
+      "original_title": "8-3  Simpack车辆模型运行调试及“反重力”问题解决",
+      "original_relative_path": "5/8-3  Simpack车辆模型运行调试及“反重力”问题解决.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s05-e028": {
+      "title": "Equilibrio estático de un vehículo Simpack: principios y ejemplo de depuración",
+      "source_title_hash": "747f157fc32d6b9dd7e82be3cb5c289a58434e04dedfe92d4728f4e5333021d6",
+      "original_title": "8-4  Simpack车辆静平衡实现原理及调试实例",
+      "original_relative_path": "5/8-4  Simpack车辆静平衡实现原理及调试实例.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s05-e029": {
+      "title": "Modelo acoplado vehículo–carril–losa–cimentación del puente",
+      "source_title_hash": "62dd7f6bd0fe20756810d55d26ce3f7de79ef0aeccfe7d28f44800ec8cf6cf64",
+      "original_title": "9-1 车辆-钢轨-板-桥基础耦合模型",
+      "original_relative_path": "5/9-1 车辆-钢轨-板-桥基础耦合模型.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s05-e030": {
+      "title": "Precarga del modelo y ajustes del solucionador",
+      "source_title_hash": "b450e64802ba21d64f3da64bf072a5f3fc64b13cd9f783375915159cab7cd28c",
+      "original_title": "9-2 模型预载荷及求解设置",
+      "original_relative_path": "5/9-2 模型预载荷及求解设置.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s05-e031": {
+      "title": "Descripción general de las irregularidades de la vía y simplificación de las expresiones PSD",
+      "source_title_hash": "b7b87e834376c4df773507bef301d8f0b6cd706ebb24acd370ec32a7ce7ed4a8",
+      "original_title": "10-1 轨道不平顺概述及PSD公式简化",
+      "original_relative_path": "5/10-1 轨道不平顺概述及PSD公式简化.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s05-e032": {
+      "title": "Ajustes de la función de densidad espectral de potencia (PSD) en Simpack",
+      "source_title_hash": "198f3ea94e1df97b5241592f918c39b5d786544972bbbe2f53cc3b2170a66820",
+      "original_title": "10-2 Simpack 功率谱密度函数（PSD) 设置",
+      "original_relative_path": "5/10-2 Simpack 功率谱密度函数（PSD) 设置.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s05-e033": {
+      "title": "Conversión de una PSD en excitación espacial en Simpack",
+      "source_title_hash": "25777bca364b9f5e859df822700fb844fd842b075eab1214c1c24282c963e49b",
+      "original_title": "10-3 Simpack PSD转换为空间激励",
+      "original_relative_path": "5/10-3 Simpack PSD转换为空间激励.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s05-e034": {
+      "title": "Importación de un archivo externo de excitación TRE en Simpack",
+      "source_title_hash": "f43ddca9410dc4e9c04603a3fdbc35f7fb0bfa820027673a253c2fa8bcc484b2",
+      "original_title": "11 Simpack 外部导入 TRE 激励文件",
+      "original_relative_path": "5/11 Simpack 外部导入 TRE 激励文件.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s05-e035": {
+      "title": "Formato detallado de un archivo de excitación TRE para Simpack",
+      "source_title_hash": "4a9dec4f8bf90288f22b09ae33c75e3a7a27614fdd246318a5677fca74d67be2",
+      "original_title": "12-1 Simpack tre 激励文件内容格式详解",
+      "original_relative_path": "5/12-1 Simpack tre 激励文件内容格式详解.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s05-e036": {
+      "title": "Ejemplo práctico de redacción de un archivo TRE para Simpack",
+      "source_title_hash": "c246cdd2ee00f33355dcd9e12f399a9585f6799f8580513c50744f5efbaf472d",
+      "original_title": "12-2 Simpack tre 文件编写操作实例",
+      "original_relative_path": "5/12-2 Simpack tre 文件编写操作实例.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s05-e037": {
+      "title": "Aplicación de excitación de irregularidades de la vía en Simpack",
+      "source_title_hash": "f35362a87bacf9a8411240c9188c442d0e8e4daea376d2cb20f09697add4e2fb",
+      "original_title": "12-2 Simpack 轨道不平顺激励施加",
+      "original_relative_path": "5/12-2 Simpack 轨道不平顺激励施加.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s05-e038": {
+      "title": "Posprocesamiento de la deformación de cuerpos flexibles y de las curvas",
+      "source_title_hash": "0aa41dc792a14c79158f782f5ea722bb3f714f5e0c509a6f08063bbf84e90020",
+      "original_title": "13 后处理弹性体变形及曲线",
+      "original_relative_path": "5/13 后处理弹性体变形及曲线.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s05-e039": {
+      "title": "Normas anteriores y más recientes de dinámica de locomotoras tratadas en la grabación",
+      "source_title_hash": "ddab3a2c7714143f15770d2e8b680da217fb44fd30db653cdbf6e88d342a4d19",
+      "original_title": "14-1 机车动力学新、旧标准",
+      "original_relative_path": "5/14-1 机车动力学新、旧标准.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s05-e040": {
+      "title": "Fuerzas rueda–carril y coeficiente de descarrilamiento",
+      "source_title_hash": "dfd10e3d66507cb3c506b0d9edad6a09af1053b37d2df5a05888dfbefba66a2f",
+      "original_title": "14-2 轮轨力、脱轨系数",
+      "original_relative_path": "5/14-2 轮轨力、脱轨系数.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s05-e041": {
+      "title": "Revisión de la documentación de ayuda RWP",
+      "source_title_hash": "776fb150c07307ee2da3232e7db72564e2e454fb2e5a2ea7b28182617d372804",
+      "original_title": "14-3 RWP帮助文档解析",
+      "original_relative_path": "5/14-3 RWP帮助文档解析.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s05-e042": {
+      "title": "Relación de reducción de la carga de la rueda, aceleración vibratoria de la caja del vehículo y evaluación de la calidad de marcha",
+      "source_title_hash": "6cf58fbbcd82baacd946c10aa2d31f2e9dc9b1c77fa442f5de34e563e6e0186a",
+      "original_title": "14-4 轮重减载率、车体振动加速度、平稳性",
+      "original_relative_path": "5/14-4 轮重减载率、车体振动加速度、平稳性.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s06-e001": {
+      "title": "Modelado del eje montado",
+      "source_title_hash": "f190ddc5740a382af1de8687c48782af418249982582a843bde6533ffd157b6d",
+      "original_title": "1 轮对建模",
+      "original_relative_path": "6/1 轮对建模.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s06-e002": {
+      "title": "Modelado del bastidor del bogie en Simpack",
+      "source_title_hash": "61f964ad9162978d5b192544d150db026cbd8a81f9664930cf130de8a55ae569",
+      "original_title": "2-Simpack构架建模",
+      "original_relative_path": "6/2-Simpack构架建模.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s06-e003": {
+      "title": "Modelado del vehículo completo en Simpack",
+      "source_title_hash": "24ebee46ad7493a263495b18a7113a66701a2a06022d634627b121dd0afaa26f",
+      "original_title": "3-Simpack整车建模",
+      "original_relative_path": "6/3-Simpack整车建模.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s06-e004": {
+      "title": "Redacción de un archivo de excitación TRE para Simpack",
+      "source_title_hash": "6c2052354b31f8b13a22e7c166a77c11139ce676d7e827e782fa013b362b6483",
+      "original_title": "4-Simpack TRE 激励文件编写",
+      "original_relative_path": "6/4-Simpack TRE 激励文件编写.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s06-e005": {
+      "title": "Generación de excitación a partir de una PSD en Simpack",
+      "source_title_hash": "6a0df8db43d45d783d99a84b3afac67a0b04fad548287d88256350f9bfeffe95",
+      "original_title": "5-Simpack 生成激励（PSD)",
+      "original_relative_path": "6/5-Simpack 生成激励（PSD).mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s06-e006": {
+      "title": "Importación de un archivo externo de excitación TRE en Simpack",
+      "source_title_hash": "5456464dafe061d9a94520571f904d1487749216bc7d95f7c53c271afedfb477",
+      "original_title": "6-Simpack 外部导入 TRE 激励文件",
+      "original_relative_path": "6/6-Simpack 外部导入 TRE 激励文件.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s06-e007": {
+      "title": "Posprocesamiento y análisis de datos en Simpack — Parte 1",
+      "source_title_hash": "cdcb317aa57dd87758ab5fc3df040cac07e567d02b4e5b18de877bce4a675a33",
+      "original_title": "7-Simpack 数据后处理及分析 （上）",
+      "original_relative_path": "6/7-Simpack 数据后处理及分析 （上）.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s06-e008": {
+      "title": "Posprocesamiento y análisis de datos en Simpack — Parte 2",
+      "source_title_hash": "662c3bdc309243b3791b3fdbd23012c795556935d86563496cd0f11172cf14a6",
+      "original_title": "8-Simpack 数据后处理及分析 （下）",
+      "original_relative_path": "6/8-Simpack 数据后处理及分析 （下）.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s07-e001": {
+      "title": "Modelo RAIL-EULER",
+      "source_title_hash": "239af0e8db51fc26832a338cf8e4f9cf61194cd56640e6bc396cbe61e6eff124",
+      "original_title": "1-RAIL-EULER",
+      "original_relative_path": "7/1-RAIL-EULER.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s07-e002": {
+      "title": "Modelo rail-timo",
+      "source_title_hash": "47bd0e2e6bb72b19b0b845335f57ab117c933fb207cd78eeea7c01cffeb3bdd1",
+      "original_title": "1-rail-timo",
+      "original_relative_path": "7/1-rail-timo.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s07-e003": {
+      "title": "Modelo de puente con elementos sólidos",
+      "source_title_hash": "150b64db71abf9f847a408aeac0040bab784151ddbf5ba1bbf34c42730b601dc",
+      "original_title": "2-bridge实体",
+      "original_relative_path": "7/2-bridge实体.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s07-e004": {
+      "title": "Temas de análisis modal",
+      "source_title_hash": "a3e380139405ebd294c41290025573dc25734a35e13ca7658438aeb8cfca539d",
+      "original_title": "3模态",
+      "original_relative_path": "7/3模态.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s07-e005": {
+      "title": "Generación del archivo FBI del carril mediante comandos Simpack",
+      "source_title_hash": "a642fa49b1367584fddbd542fa62a71b723a59ba7a2b673570d3175bc9aa712c",
+      "original_title": "4-1 钢轨fbi生成——SIMPACK Command 方式",
+      "original_relative_path": "7/4-1 钢轨fbi生成——SIMPACK Command 方式.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s07-e006": {
+      "title": "Generación del archivo FBI del carril en Simpack Pre y visualización de la información FBI",
+      "source_title_hash": "070f8fdadce9123653000ea901fa6ee6b47ac626f50a7a2c670d19a8a8e5fa84",
+      "original_title": "4-1 钢轨fbi生成——SIMPACK Pre GUI图形界面方式 & fbi 信息查看",
+      "original_relative_path": "7/4-1 钢轨fbi生成——SIMPACK Pre GUI图形界面方式 & fbi 信息查看.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s07-e007": {
+      "title": "Generación del archivo FBI del puente en Simpack Pre",
+      "source_title_hash": "abc0e2c53e1b5d4ad1f788c5ac7835fb78f3cc19044ae1f60eba9b2a693a91a0",
+      "original_title": "4-2 桥梁fbi生成——SIMPACK Pre GUI图形界面方式",
+      "original_relative_path": "7/4-2 桥梁fbi生成——SIMPACK Pre GUI图形界面方式.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s07-e008": {
+      "title": "Archivo FTR de cimentación elástica — software auxiliar",
+      "source_title_hash": "56a41a3158217eb1c0e3683df67add69f2c130bea808619c30b2cfead5163fbc",
+      "original_title": "5-0 弹性基础FTR文件——工具软件",
+      "original_relative_path": "7/5-0 弹性基础FTR文件——工具软件.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s07-e009": {
+      "title": "Estructura detallada del archivo FTR de cimentación de la vía — ejemplo de una versión anterior de vía flexible",
+      "source_title_hash": "3d0cc506a7e7e39ab69398ec4d37cfda47d1c91f45d58608eba8c2fb2c61a8e2",
+      "original_title": "5-1 ftr线路基础文件详细解析（旧版本弹性轨道线路为例）",
+      "original_relative_path": "7/5-1 ftr线路基础文件详细解析（旧版本弹性轨道线路为例）.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s07-e010": {
+      "title": "Uso de la información de la interfaz Simpack para un archivo FTR de cimentación de la vía",
+      "source_title_hash": "7a2faa03945fcf8a6dd4c4d71b563f051baed9b3cbcf3f5b4344f3c8a00b9f02",
+      "original_title": "5-2 利用Simpack GUI界面信息FTR轨道基础文件",
+      "original_relative_path": "7/5-2 利用Simpack GUI界面信息FTR轨道基础文件.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s07-e011": {
+      "title": "Uso de mensajes de error Simpack para redactar un archivo FTR de cimentación de la vía",
+      "source_title_hash": "fc11c659d64bab3df46ea22f1623ac4d5b2994307324bf4675b7281229e7ab54",
+      "original_title": "5-2 利用Simpack error快速书写FTR轨道基础文件",
+      "original_relative_path": "7/5-2 利用Simpack error快速书写FTR轨道基础文件.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s07-e012": {
+      "title": "Organización manual de un archivo FTR de cimentación de la vía y depuración del modelo FTR — variante etiquetada como copia de respaldo",
+      "source_title_hash": "e0304420c1aaa4c3407ea296a93b5ab5054f5d65384fcafad4a6ffb9bc6b52df",
+      "original_title": "5-2 利用Simpack 手动整理书写FTR轨道基础文件&FTR模型错误排查演示_备份",
+      "original_relative_path": "7/5-2 利用Simpack 手动整理书写FTR轨道基础文件&FTR模型错误排查演示_备份.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s07-e013": {
+      "title": "Ejemplo práctico de modelado parametrizado del eje montado en Simpack",
+      "source_title_hash": "e21cefccc2aba05b59a9e0ff9c6954a414cf99badb972917ef6a67d35e3ff6d9",
+      "original_title": "6 Simpack轮对参数化建模实例操作",
+      "original_relative_path": "7/6 Simpack轮对参数化建模实例操作.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s07-e014": {
+      "title": "Invocación de un submodelo de eje montado y parametrización de variables en Simpack",
+      "source_title_hash": "72f62305e582a64a707eac656811186a8a49f913f777dd0378d042f850bb34fa",
+      "original_title": "7-1  Simpack 轮对子模型调用及变量参数化",
+      "original_relative_path": "7/7-1  Simpack 轮对子模型调用及变量参数化.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s07-e015": {
+      "title": "Ejemplo práctico de construcción parametrizada del bastidor del bogie en un submodelo Simpack",
+      "source_title_hash": "f2e79ff4ab23ce659a89455e4ea62c6a64435c520380e640732e512c3dcd1111",
+      "original_title": "7-2  Simpack 转向架子模型构架参数化建模实例",
+      "original_relative_path": "7/7-2  Simpack 转向架子模型构架参数化建模实例.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s07-e016": {
+      "title": "Posicionamiento y ensamblaje de ejes montados en un submodelo de bogie en Simpack",
+      "source_title_hash": "7f00cfa76c11a6e758f46b32c6b8910572cae58ecac00ab3fff40941fff69906",
+      "original_title": "7-3  Simpack 转向架子模型轮对定位装配操作",
+      "original_relative_path": "7/7-3  Simpack 转向架子模型轮对定位装配操作.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s07-e017": {
+      "title": "Parametrización de la suspensión de un submodelo de bogie en Simpack",
+      "source_title_hash": "3265007bb6a5f8b779665e7590d6900d74aadbefd7d482ebbc22c292fc643eaf",
+      "original_title": "7-4  Simpack 转向架悬挂系统参数化建模操作",
+      "original_relative_path": "7/7-4  Simpack 转向架悬挂系统参数化建模操作.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s07-e018": {
+      "title": "Ejecución y prueba de un submodelo de bogie en Simpack",
+      "source_title_hash": "58bc57cbfb394b50222d471ee2645d3f967093361eaad630949f43b1af044e39",
+      "original_title": "7-5  Simpack 转向架子模型运行测试",
+      "original_relative_path": "7/7-5  Simpack 转向架子模型运行测试.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s07-e019": {
+      "title": "Modelado parametrizado de la caja del vehículo y configuración de la vía en Simpack",
+      "source_title_hash": "fc7f0aa379abe0a6945243158c6aab144bdec715b759f8fa4c3d15579f3dee92",
+      "original_title": "8-1 Simpack车体参数化建模及线路设置",
+      "original_relative_path": "7/8-1 Simpack车体参数化建模及线路设置.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s07-e020": {
+      "title": "Modelo del vehículo completo en Simpack — título original truncado",
+      "source_title_hash": "18a4fb5f327f038c8091f13af3fa1417d1bb5c6bf64fd2e5e5396726663bd6b7",
+      "original_title": "8-2  Simpack整车模型装",
+      "original_relative_path": "7/8-2  Simpack整车模型装.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s07-e021": {
+      "title": "Depuración de un modelo de vehículo Simpack y del problema de «antigravedad»",
+      "source_title_hash": "1077004c3ff640420d15d671e1ea5a96df9c36885a488354afd3b2c2981d6037",
+      "original_title": "8-3  Simpack车辆模型运行调试及“反重力”问题解决",
+      "original_relative_path": "7/8-3  Simpack车辆模型运行调试及“反重力”问题解决.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s07-e022": {
+      "title": "Equilibrio estático de un vehículo Simpack: principios y ejemplo de depuración",
+      "source_title_hash": "747f157fc32d6b9dd7e82be3cb5c289a58434e04dedfe92d4728f4e5333021d6",
+      "original_title": "8-4  Simpack车辆静平衡实现原理及调试实例",
+      "original_relative_path": "7/8-4  Simpack车辆静平衡实现原理及调试实例.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s07-e023": {
+      "title": "Prueba del orden de acoplamiento de un modelo vehículo–carril–puente y depuración de un modelo FTR — variante 1",
+      "source_title_hash": "89465896bc129988b35af3c718d5e15ed246e3ed0246fa9441ec83ddc8749fcb",
+      "original_title": "9-1 车辆-钢轨-桥耦合“先后顺序”效果测试及FTR异常模型调试演示-1",
+      "original_relative_path": "7/9-1 车辆-钢轨-桥耦合“先后顺序”效果测试及FTR异常模型调试演示-1.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s07-e024": {
+      "title": "Creación rápida de un modelo acoplado vehículo–carril–puente",
+      "source_title_hash": "92055c25036f10a727560e5c04b3d80d5f2a4dd56b791415a7482108e8f736a4",
+      "original_title": "9-2 车辆-钢轨-桥耦合模型快速创建",
+      "original_relative_path": "7/9-2 车辆-钢轨-桥耦合模型快速创建.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s07-e025": {
+      "title": "Rigidez y amortiguamiento del carril en la zona de transición — ajustes FTR",
+      "source_title_hash": "77b2acfb274759e53f3230296b597b5c92537e7e36f7e20cecb6ef6eb6321aa7",
+      "original_title": "9-3 钢轨过渡段刚度阻尼设置——FTR设置方式",
+      "original_relative_path": "7/9-3 钢轨过渡段刚度阻尼设置——FTR设置方式.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s07-e026": {
+      "title": "Rigidez y amortiguamiento del carril en la zona de transición — creación por lotes de elementos de fuerza en Simpack Pre, Parte 1",
+      "source_title_hash": "ee4d4b2d1a2dfb6b252bd17c75df7d487d697e6c5ac2b075d9936fe3dbeade33",
+      "original_title": "9-3 钢轨过渡段刚度阻尼设置——Simpack Pre 力元批量化创建（上）",
+      "original_relative_path": "7/9-3 钢轨过渡段刚度阻尼设置——Simpack Pre 力元批量化创建（上）.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s07-e027": {
+      "title": "Rigidez y amortiguamiento del carril en la zona de transición — creación por lotes de elementos de fuerza en Simpack Pre, Parte 2",
+      "source_title_hash": "70b1ef6141744c82dde4a20915b357043fa18e92a9eceee8954bd0bf46f07053",
+      "original_title": "9-3 钢轨过渡段刚度阻尼设置——Simpack Pre 力元批量化创建（下）",
+      "original_relative_path": "7/9-3 钢轨过渡段刚度阻尼设置——Simpack Pre 力元批量化创建（下）.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s07-e028": {
+      "title": "Precarga del modelo y depuración de una aceleración residual excesiva",
+      "source_title_hash": "05d8a5fbb919ee938c8e6e0e2f962fb27af0e505858fc0ae9fabe2c20eff56e9",
+      "original_title": "9-4 模型预载荷及残余加速度偏大的调试",
+      "original_relative_path": "7/9-4 模型预载荷及残余加速度偏大的调试.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s07-e029": {
+      "title": "Ajustes del solucionador en la interfaz Simpack Pre",
+      "source_title_hash": "47e2c6c0bf1384a3243d1bec534031e1831dde9e2119b5a5b64733a35830edb7",
+      "original_title": "9-5 Simpack Pre界面模型求解设置",
+      "original_relative_path": "7/9-5 Simpack Pre界面模型求解设置.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s07-e030": {
+      "title": "Configuración rápida del solucionador y comandos de envío del modelo",
+      "source_title_hash": "f990eb32bc36598f1427c542735baee06f6f58a35b8e203e34b8754a1c223fa3",
+      "original_title": "9-6 模型求解快速设置及模型提交命令",
+      "original_relative_path": "7/9-6 模型求解快速设置及模型提交命令.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s07-e031": {
+      "title": "Descripción general de las irregularidades de la vía y simplificación de las expresiones PSD",
+      "source_title_hash": "b7b87e834376c4df773507bef301d8f0b6cd706ebb24acd370ec32a7ce7ed4a8",
+      "original_title": "10-1 轨道不平顺概述及PSD公式简化",
+      "original_relative_path": "7/10-1 轨道不平顺概述及PSD公式简化.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s07-e032": {
+      "title": "Ajustes de la función de densidad espectral de potencia (PSD) en Simpack",
+      "source_title_hash": "198f3ea94e1df97b5241592f918c39b5d786544972bbbe2f53cc3b2170a66820",
+      "original_title": "10-2 Simpack 功率谱密度函数（PSD) 设置",
+      "original_relative_path": "7/10-2 Simpack 功率谱密度函数（PSD) 设置.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s07-e033": {
+      "title": "Conversión de una PSD en excitación espacial en Simpack",
+      "source_title_hash": "25777bca364b9f5e859df822700fb844fd842b075eab1214c1c24282c963e49b",
+      "original_title": "10-3 Simpack PSD转换为空间激励",
+      "original_relative_path": "7/10-3 Simpack PSD转换为空间激励.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s07-e034": {
+      "title": "Importación de un archivo externo de excitación TRE en Simpack",
+      "source_title_hash": "f43ddca9410dc4e9c04603a3fdbc35f7fb0bfa820027673a253c2fa8bcc484b2",
+      "original_title": "11 Simpack 外部导入 TRE 激励文件",
+      "original_relative_path": "7/11 Simpack 外部导入 TRE 激励文件.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s07-e035": {
+      "title": "Formato detallado de un archivo de excitación TRE para Simpack",
+      "source_title_hash": "4a9dec4f8bf90288f22b09ae33c75e3a7a27614fdd246318a5677fca74d67be2",
+      "original_title": "12-1 Simpack tre 激励文件内容格式详解",
+      "original_relative_path": "7/12-1 Simpack tre 激励文件内容格式详解.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s07-e036": {
+      "title": "Ejemplo práctico de redacción de un archivo TRE para Simpack",
+      "source_title_hash": "c246cdd2ee00f33355dcd9e12f399a9585f6799f8580513c50744f5efbaf472d",
+      "original_title": "12-2 Simpack tre 文件编写操作实例",
+      "original_relative_path": "7/12-2 Simpack tre 文件编写操作实例.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s07-e037": {
+      "title": "Aplicación de excitación de irregularidades de la vía en Simpack",
+      "source_title_hash": "f35362a87bacf9a8411240c9188c442d0e8e4daea376d2cb20f09697add4e2fb",
+      "original_title": "12-2 Simpack 轨道不平顺激励施加",
+      "original_relative_path": "7/12-2 Simpack 轨道不平顺激励施加.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s07-e038": {
+      "title": "Posprocesamiento de las animaciones de deformación de cuerpos flexibles y de las curvas",
+      "source_title_hash": "693ab5e165ac59170ab4adca2a3f10ce5be96eec14f22e3e2d72135514502f0d",
+      "original_title": "13 后处理弹性体变形动画及曲线展示",
+      "original_relative_path": "7/13 后处理弹性体变形动画及曲线展示.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s07-e039": {
+      "title": "Normas anteriores y más recientes de dinámica de locomotoras tratadas en la grabación",
+      "source_title_hash": "ddab3a2c7714143f15770d2e8b680da217fb44fd30db653cdbf6e88d342a4d19",
+      "original_title": "14-1 机车动力学新、旧标准",
+      "original_relative_path": "7/14-1 机车动力学新、旧标准.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s07-e040": {
+      "title": "Fuerzas rueda–carril y coeficiente de descarrilamiento",
+      "source_title_hash": "dfd10e3d66507cb3c506b0d9edad6a09af1053b37d2df5a05888dfbefba66a2f",
+      "original_title": "14-2 轮轨力、脱轨系数",
+      "original_relative_path": "7/14-2 轮轨力、脱轨系数.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s07-e041": {
+      "title": "Revisión de la documentación de ayuda RWP",
+      "source_title_hash": "776fb150c07307ee2da3232e7db72564e2e454fb2e5a2ea7b28182617d372804",
+      "original_title": "14-3 RWP帮助文档解析",
+      "original_relative_path": "7/14-3 RWP帮助文档解析.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s07-e042": {
+      "title": "Exportación de datos y control del formato de salida — variante 1",
+      "source_title_hash": "787dd562044cfee0b870054d35a82d91cec1e65607572be6652fe33bcf0827a6",
+      "original_title": "14-4 数据导出及格式控制-1",
+      "original_relative_path": "7/14-4 数据导出及格式控制-1.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s07-e043": {
+      "title": "Relación de reducción de la carga de la rueda, aceleración vibratoria de la caja del vehículo y evaluación de la calidad de marcha",
+      "source_title_hash": "6cf58fbbcd82baacd946c10aa2d31f2e9dc9b1c77fa442f5de34e563e6e0186a",
+      "original_title": "14-4 轮重减载率、车体振动加速度、平稳性",
+      "original_relative_path": "7/14-4 轮重减载率、车体振动加速度、平稳性.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s07-e044": {
+      "title": "Respuestas de la cimentación de la vía: respuesta del carril y respuesta en el centro del vano del puente",
+      "source_title_hash": "98c28c8c7143b74bbd0741d22ab53775eab3a8c7e447c63f402964cbb67b4e92",
+      "original_title": "14-5 轨道基础响应：钢轨及桥梁跨中响应",
+      "original_relative_path": "7/14-5 轨道基础响应：钢轨及桥梁跨中响应.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s07-e045": {
+      "title": "Cálculo de la deformación del carril",
+      "source_title_hash": "5c90209eb630a1ec5c3f1a5ea4ca2d88d04c36fc9493f324d15b09d1d9d12879",
+      "original_title": "14-6 钢轨变形量计算",
+      "original_relative_path": "7/14-6 钢轨变形量计算.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s07-e046": {
+      "title": "Organización y empaquetado de archivos de modelo; depuración de rutas de archivos ausentes",
+      "source_title_hash": "030b45946e4266548f8ec649b5edb2ac34fc3331d3482dc3158cc3aeb20b89ae",
+      "original_title": "15 文件模型及整理打包及文件路径丢失错误的调试",
+      "original_relative_path": "7/15 文件模型及整理打包及文件路径丢失错误的调试.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s08-e001": {
+      "title": "Modelo RAIL-EULER",
+      "source_title_hash": "239af0e8db51fc26832a338cf8e4f9cf61194cd56640e6bc396cbe61e6eff124",
+      "original_title": "1-RAIL-EULER",
+      "original_relative_path": "8/1-RAIL-EULER.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s08-e002": {
+      "title": "Modelo rail-timo",
+      "source_title_hash": "47bd0e2e6bb72b19b0b845335f57ab117c933fb207cd78eeea7c01cffeb3bdd1",
+      "original_title": "1-rail-timo",
+      "original_relative_path": "8/1-rail-timo.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s08-e003": {
+      "title": "Modelo de puente con elementos BEAM188",
+      "source_title_hash": "e6aa6e426d08a1f258632b558388223a9bfb8ce0bde69bb25098cd372351ace1",
+      "original_title": "2-bridge-beam188",
+      "original_relative_path": "8/2-bridge-beam188.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s08-e004": {
+      "title": "Temas de análisis modal",
+      "source_title_hash": "a3e380139405ebd294c41290025573dc25734a35e13ca7658438aeb8cfca539d",
+      "original_title": "3模态",
+      "original_relative_path": "8/3模态.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s08-e005": {
+      "title": "Generación del archivo FBI del carril mediante comandos Simpack — título original truncado",
+      "source_title_hash": "0818c742d493b9742514bcd05481e961db95cfe9038b52a51236cb887f076026",
+      "original_title": "4-1 钢轨fbi生成——SIMPACK Command 方",
+      "original_relative_path": "8/4-1 钢轨fbi生成——SIMPACK Command 方.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s08-e006": {
+      "title": "Generación del archivo FBI del carril en Simpack Pre y visualización de la información FBI",
+      "source_title_hash": "070f8fdadce9123653000ea901fa6ee6b47ac626f50a7a2c670d19a8a8e5fa84",
+      "original_title": "4-1 钢轨fbi生成——SIMPACK Pre GUI图形界面方式 & fbi 信息查看",
+      "original_relative_path": "8/4-1 钢轨fbi生成——SIMPACK Pre GUI图形界面方式 & fbi 信息查看.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s08-e007": {
+      "title": "Generación del archivo FBI del puente en Simpack Pre",
+      "source_title_hash": "abc0e2c53e1b5d4ad1f788c5ac7835fb78f3cc19044ae1f60eba9b2a693a91a0",
+      "original_title": "4-2 桥梁fbi生成——SIMPACK Pre GUI图形界面方式",
+      "original_relative_path": "8/4-2 桥梁fbi生成——SIMPACK Pre GUI图形界面方式.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s08-e008": {
+      "title": "Archivo FTR de cimentación elástica — software auxiliar",
+      "source_title_hash": "56a41a3158217eb1c0e3683df67add69f2c130bea808619c30b2cfead5163fbc",
+      "original_title": "5-0 弹性基础FTR文件——工具软件",
+      "original_relative_path": "8/5-0 弹性基础FTR文件——工具软件.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s08-e009": {
+      "title": "Estructura detallada del archivo FTR de cimentación de la vía — ejemplo de una versión anterior de vía flexible",
+      "source_title_hash": "3d0cc506a7e7e39ab69398ec4d37cfda47d1c91f45d58608eba8c2fb2c61a8e2",
+      "original_title": "5-1 ftr线路基础文件详细解析（旧版本弹性轨道线路为例）",
+      "original_relative_path": "8/5-1 ftr线路基础文件详细解析（旧版本弹性轨道线路为例）.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s08-e010": {
+      "title": "Redacción manual y depuración de un archivo FTR — etiqueta original «correcto para la versión 2022», variante de copia de respaldo",
+      "source_title_hash": "800dfb1c86f0f04eea401f53db18e62b33ea417b6aacfc7f7e582f072942d2af",
+      "original_title": "5-2 (2022版本正确) 利用Simpack 手动整理书写FTR轨道基础文件&FTR模型错误排查演示_备份",
+      "original_relative_path": "8/5-2 (2022版本正确) 利用Simpack 手动整理书写FTR轨道基础文件&FTR模型错误排查演示_备份.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s08-e011": {
+      "title": "Uso de la información de la interfaz Simpack para un archivo FTR de cimentación de la vía",
+      "source_title_hash": "7a2faa03945fcf8a6dd4c4d71b563f051baed9b3cbcf3f5b4344f3c8a00b9f02",
+      "original_title": "5-2 利用Simpack GUI界面信息FTR轨道基础文件",
+      "original_relative_path": "8/5-2 利用Simpack GUI界面信息FTR轨道基础文件.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s08-e012": {
+      "title": "Uso de mensajes de error Simpack para redactar un archivo FTR de cimentación de la vía",
+      "source_title_hash": "fc11c659d64bab3df46ea22f1623ac4d5b2994307324bf4675b7281229e7ab54",
+      "original_title": "5-2 利用Simpack error快速书写FTR轨道基础文件",
+      "original_relative_path": "8/5-2 利用Simpack error快速书写FTR轨道基础文件.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s08-e013": {
+      "title": "Ejemplo práctico de modelado parametrizado del eje montado en Simpack",
+      "source_title_hash": "e21cefccc2aba05b59a9e0ff9c6954a414cf99badb972917ef6a67d35e3ff6d9",
+      "original_title": "6 Simpack轮对参数化建模实例操作",
+      "original_relative_path": "8/6 Simpack轮对参数化建模实例操作.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s08-e014": {
+      "title": "Invocación de un submodelo de eje montado y parametrización de variables en Simpack",
+      "source_title_hash": "72f62305e582a64a707eac656811186a8a49f913f777dd0378d042f850bb34fa",
+      "original_title": "7-1  Simpack 轮对子模型调用及变量参数化",
+      "original_relative_path": "8/7-1  Simpack 轮对子模型调用及变量参数化.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s08-e015": {
+      "title": "Ejemplo práctico de construcción parametrizada del bastidor del bogie en un submodelo Simpack",
+      "source_title_hash": "f2e79ff4ab23ce659a89455e4ea62c6a64435c520380e640732e512c3dcd1111",
+      "original_title": "7-2  Simpack 转向架子模型构架参数化建模实例",
+      "original_relative_path": "8/7-2  Simpack 转向架子模型构架参数化建模实例.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s08-e016": {
+      "title": "Posicionamiento y ensamblaje de ejes montados en un submodelo de bogie en Simpack",
+      "source_title_hash": "7f00cfa76c11a6e758f46b32c6b8910572cae58ecac00ab3fff40941fff69906",
+      "original_title": "7-3  Simpack 转向架子模型轮对定位装配操作",
+      "original_relative_path": "8/7-3  Simpack 转向架子模型轮对定位装配操作.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s08-e017": {
+      "title": "Parametrización de la suspensión de un submodelo de bogie en Simpack",
+      "source_title_hash": "3265007bb6a5f8b779665e7590d6900d74aadbefd7d482ebbc22c292fc643eaf",
+      "original_title": "7-4  Simpack 转向架悬挂系统参数化建模操作",
+      "original_relative_path": "8/7-4  Simpack 转向架悬挂系统参数化建模操作.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s08-e018": {
+      "title": "Ejecución y prueba de un submodelo de bogie en Simpack",
+      "source_title_hash": "58bc57cbfb394b50222d471ee2645d3f967093361eaad630949f43b1af044e39",
+      "original_title": "7-5  Simpack 转向架子模型运行测试",
+      "original_relative_path": "8/7-5  Simpack 转向架子模型运行测试.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s08-e019": {
+      "title": "Modelado parametrizado de la caja del vehículo y configuración de la vía en Simpack",
+      "source_title_hash": "fc7f0aa379abe0a6945243158c6aab144bdec715b759f8fa4c3d15579f3dee92",
+      "original_title": "8-1 Simpack车体参数化建模及线路设置",
+      "original_relative_path": "8/8-1 Simpack车体参数化建模及线路设置.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s08-e020": {
+      "title": "Modelo del vehículo completo en Simpack — título original truncado",
+      "source_title_hash": "18a4fb5f327f038c8091f13af3fa1417d1bb5c6bf64fd2e5e5396726663bd6b7",
+      "original_title": "8-2  Simpack整车模型装",
+      "original_relative_path": "8/8-2  Simpack整车模型装.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s08-e021": {
+      "title": "Depuración de un modelo de vehículo Simpack y del problema de «antigravedad»",
+      "source_title_hash": "1077004c3ff640420d15d671e1ea5a96df9c36885a488354afd3b2c2981d6037",
+      "original_title": "8-3  Simpack车辆模型运行调试及“反重力”问题解决",
+      "original_relative_path": "8/8-3  Simpack车辆模型运行调试及“反重力”问题解决.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s08-e022": {
+      "title": "Equilibrio estático de un vehículo Simpack: principios y ejemplo de depuración",
+      "source_title_hash": "747f157fc32d6b9dd7e82be3cb5c289a58434e04dedfe92d4728f4e5333021d6",
+      "original_title": "8-4  Simpack车辆静平衡实现原理及调试实例",
+      "original_relative_path": "8/8-4  Simpack车辆静平衡实现原理及调试实例.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s08-e023": {
+      "title": "Prueba del orden de acoplamiento de un modelo vehículo–carril–puente",
+      "source_title_hash": "6b281ab6b0c720cfbc35c4daa36a38f43205a798897024377ed8572f27a4a5d4",
+      "original_title": "9-1 车辆-钢轨-桥耦合“先后顺序”效果测试",
+      "original_relative_path": "8/9-1 车辆-钢轨-桥耦合“先后顺序”效果测试.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s08-e024": {
+      "title": "Creación rápida de un modelo acoplado vehículo–carril–puente",
+      "source_title_hash": "92055c25036f10a727560e5c04b3d80d5f2a4dd56b791415a7482108e8f736a4",
+      "original_title": "9-2 车辆-钢轨-桥耦合模型快速创建",
+      "original_relative_path": "8/9-2 车辆-钢轨-桥耦合模型快速创建.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s08-e025": {
+      "title": "Rigidez y amortiguamiento del carril en la zona de transición — ajustes FTR",
+      "source_title_hash": "77b2acfb274759e53f3230296b597b5c92537e7e36f7e20cecb6ef6eb6321aa7",
+      "original_title": "9-3 钢轨过渡段刚度阻尼设置——FTR设置方式",
+      "original_relative_path": "8/9-3 钢轨过渡段刚度阻尼设置——FTR设置方式.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s08-e026": {
+      "title": "Rigidez y amortiguamiento del carril en la zona de transición — creación por lotes de elementos de fuerza en Simpack Pre",
+      "source_title_hash": "eae1861bd41f9026a0c8ab4948c9268a8a684b7a4ac41c0740f8acdbb11773f7",
+      "original_title": "9-3 钢轨过渡段刚度阻尼设置——Simpack Pre 力元批量化创建",
+      "original_relative_path": "8/9-3 钢轨过渡段刚度阻尼设置——Simpack Pre 力元批量化创建.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s08-e027": {
+      "title": "Creación por lotes de puntos de conexión del carril",
+      "source_title_hash": "9b6c05eeaa2855f3e76118e4595ac6041aae1086592342e5277b4c34d52a3ea3",
+      "original_title": "9-4 钢轨连接点创建——批量化程序方式",
+      "original_relative_path": "8/9-4 钢轨连接点创建——批量化程序方式.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s08-e028": {
+      "title": "Importación y posicionamiento de un modelo FBI del puente",
+      "source_title_hash": "4a883eebfc2bfbd64035e5b219dd249a8a20b499d1f8265c9e9ed2c45b40a4c8",
+      "original_title": "9-5 桥梁fbi导入及定位设置",
+      "original_relative_path": "8/9-5 桥梁fbi导入及定位设置.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s08-e029": {
+      "title": "Creación por lotes de puntos de conexión de la vía en un modelo de puente con elementos viga",
+      "source_title_hash": "d5166214ca728f80a21ae3de4224bb1c1261decfb3cd5a503f0018868cd29c25",
+      "original_title": "9-6 桥梁（梁单元）轨道连接点创建——批量化程序方式",
+      "original_relative_path": "8/9-6 桥梁（梁单元）轨道连接点创建——批量化程序方式.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s08-e030": {
+      "title": "Creación por lotes de conexiones carril–puente",
+      "source_title_hash": "4df18d0a37f1fc84b2b9ef9cb52183b58a3452cc8ecca44517980d47a2b0cbfd",
+      "original_title": "9-7 钢轨-桥梁连接作用创建——批量化程序",
+      "original_relative_path": "8/9-7 钢轨-桥梁连接作用创建——批量化程序.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s08-e031": {
+      "title": "Configuración de apoyos del puente y depuración de errores en el procedimiento por lotes",
+      "source_title_hash": "62f10d6bfd182a6e5256b07da151bbed59a321b4631ed7575d051f311ec123f3",
+      "original_title": "9-8 桥梁支座设置及批量化程序错误排查调试演示",
+      "original_relative_path": "8/9-8 桥梁支座设置及批量化程序错误排查调试演示.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s08-e032": {
+      "title": "Creación por lotes de sensores de respuesta vibratoria",
+      "source_title_hash": "8e340f733ce35d8f44152174b319927acb710107d80ead5f618250fe8e02b8e8",
+      "original_title": "9-9 振动响应sensor创建——批量化程序",
+      "original_relative_path": "8/9-9 振动响应sensor创建——批量化程序.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s08-e033": {
+      "title": "Precarga del modelo y depuración de una aceleración residual excesiva",
+      "source_title_hash": "951130a672a21ceb387f35c6cabac9890291109b512621452f88b631db5a232f",
+      "original_title": "9-10 模型预载荷及残余加速度偏大的调试",
+      "original_relative_path": "8/9-10 模型预载荷及残余加速度偏大的调试.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s08-e034": {
+      "title": "Ajustes del solucionador en la interfaz Simpack Pre",
+      "source_title_hash": "77c699b7107621b6b110bd927517a0774c94515c1d13adf75edbf5234846b152",
+      "original_title": "9-11 Simpack Pre界面模型求解设置",
+      "original_relative_path": "8/9-11 Simpack Pre界面模型求解设置.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s08-e035": {
+      "title": "Configuración rápida del solucionador y comandos de envío del modelo",
+      "source_title_hash": "eef407f0a12c01d7794ab78aadc7a851ff48b45981e829b56710adb01bd74772",
+      "original_title": "9-11 模型求解快速设置及模型提交命令",
+      "original_relative_path": "8/9-11 模型求解快速设置及模型提交命令.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s08-e036": {
+      "title": "Descripción general de las irregularidades de la vía y simplificación de las expresiones PSD",
+      "source_title_hash": "b7b87e834376c4df773507bef301d8f0b6cd706ebb24acd370ec32a7ce7ed4a8",
+      "original_title": "10-1 轨道不平顺概述及PSD公式简化",
+      "original_relative_path": "8/10-1 轨道不平顺概述及PSD公式简化.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s08-e037": {
+      "title": "Ajustes de la función de densidad espectral de potencia (PSD) en Simpack",
+      "source_title_hash": "198f3ea94e1df97b5241592f918c39b5d786544972bbbe2f53cc3b2170a66820",
+      "original_title": "10-2 Simpack 功率谱密度函数（PSD) 设置",
+      "original_relative_path": "8/10-2 Simpack 功率谱密度函数（PSD) 设置.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s08-e038": {
+      "title": "Conversión de una PSD en excitación espacial en Simpack",
+      "source_title_hash": "25777bca364b9f5e859df822700fb844fd842b075eab1214c1c24282c963e49b",
+      "original_title": "10-3 Simpack PSD转换为空间激励",
+      "original_relative_path": "8/10-3 Simpack PSD转换为空间激励.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s08-e039": {
+      "title": "Importación de un archivo externo de excitación TRE en Simpack",
+      "source_title_hash": "f43ddca9410dc4e9c04603a3fdbc35f7fb0bfa820027673a253c2fa8bcc484b2",
+      "original_title": "11 Simpack 外部导入 TRE 激励文件",
+      "original_relative_path": "8/11 Simpack 外部导入 TRE 激励文件.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s08-e040": {
+      "title": "Formato detallado de un archivo de excitación TRE para Simpack",
+      "source_title_hash": "4a9dec4f8bf90288f22b09ae33c75e3a7a27614fdd246318a5677fca74d67be2",
+      "original_title": "12-1 Simpack tre 激励文件内容格式详解",
+      "original_relative_path": "8/12-1 Simpack tre 激励文件内容格式详解.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s08-e041": {
+      "title": "Ejemplo práctico de redacción de un archivo TRE para Simpack",
+      "source_title_hash": "c246cdd2ee00f33355dcd9e12f399a9585f6799f8580513c50744f5efbaf472d",
+      "original_title": "12-2 Simpack tre 文件编写操作实例",
+      "original_relative_path": "8/12-2 Simpack tre 文件编写操作实例.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s08-e042": {
+      "title": "Aplicación de excitación de irregularidades de la vía en Simpack",
+      "source_title_hash": "f35362a87bacf9a8411240c9188c442d0e8e4daea376d2cb20f09697add4e2fb",
+      "original_title": "12-2 Simpack 轨道不平顺激励施加",
+      "original_relative_path": "8/12-2 Simpack 轨道不平顺激励施加.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s08-e043": {
+      "title": "Posprocesamiento de las animaciones de deformación de cuerpos flexibles y de las curvas",
+      "source_title_hash": "693ab5e165ac59170ab4adca2a3f10ce5be96eec14f22e3e2d72135514502f0d",
+      "original_title": "13 后处理弹性体变形动画及曲线展示",
+      "original_relative_path": "8/13 后处理弹性体变形动画及曲线展示.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s08-e044": {
+      "title": "Normas anteriores y más recientes de dinámica de locomotoras tratadas en la grabación",
+      "source_title_hash": "ddab3a2c7714143f15770d2e8b680da217fb44fd30db653cdbf6e88d342a4d19",
+      "original_title": "14-1 机车动力学新、旧标准",
+      "original_relative_path": "8/14-1 机车动力学新、旧标准.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s08-e045": {
+      "title": "Fuerzas rueda–carril y coeficiente de descarrilamiento",
+      "source_title_hash": "dfd10e3d66507cb3c506b0d9edad6a09af1053b37d2df5a05888dfbefba66a2f",
+      "original_title": "14-2 轮轨力、脱轨系数",
+      "original_relative_path": "8/14-2 轮轨力、脱轨系数.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s08-e046": {
+      "title": "Revisión de la documentación de ayuda RWP",
+      "source_title_hash": "776fb150c07307ee2da3232e7db72564e2e454fb2e5a2ea7b28182617d372804",
+      "original_title": "14-3 RWP帮助文档解析",
+      "original_relative_path": "8/14-3 RWP帮助文档解析.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s08-e047": {
+      "title": "Exportación de datos y control del formato de salida",
+      "source_title_hash": "01e4d2e189b3a70433a151ff5d4fd915c070290aa6d8e5cfb15eb92deea4cf2b",
+      "original_title": "14-4 数据导出及格式控制",
+      "original_relative_path": "8/14-4 数据导出及格式控制.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s08-e048": {
+      "title": "Relación de reducción de la carga de la rueda, aceleración vibratoria de la caja del vehículo y evaluación de la calidad de marcha",
+      "source_title_hash": "6cf58fbbcd82baacd946c10aa2d31f2e9dc9b1c77fa442f5de34e563e6e0186a",
+      "original_title": "14-4 轮重减载率、车体振动加速度、平稳性",
+      "original_relative_path": "8/14-4 轮重减载率、车体振动加速度、平稳性.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s08-e049": {
+      "title": "Respuestas de la cimentación de la vía: carril y centro del vano del puente — título original truncado, variante 1",
+      "source_title_hash": "cff1bf04423c8355688a55a4a2b77bd44d20f8fec6f26cb884cae6f6cb5c1cc9",
+      "original_title": "14-5 轨道基础响应：钢轨及桥梁跨中-1",
+      "original_relative_path": "8/14-5 轨道基础响应：钢轨及桥梁跨中-1.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s08-e050": {
+      "title": "Cálculo de la deformación del carril",
+      "source_title_hash": "5c90209eb630a1ec5c3f1a5ea4ca2d88d04c36fc9493f324d15b09d1d9d12879",
+      "original_title": "14-6 钢轨变形量计算",
+      "original_relative_path": "8/14-6 钢轨变形量计算.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    },
+    "s08-e051": {
+      "title": "Organización y empaquetado de archivos de modelo; depuración de rutas de archivos ausentes",
+      "source_title_hash": "030b45946e4266548f8ec649b5edb2ac34fc3331d3482dc3158cc3aeb20b89ae",
+      "original_title": "15 文件模型及整理打包及文件路径丢失错误的调试",
+      "original_relative_path": "8/15 文件模型及整理打包及文件路径丢失错误的调试.mp4",
+      "review_status": "editorial_draft_model_reviewed"
+    }
+  }
+}

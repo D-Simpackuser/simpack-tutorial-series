@@ -1,0 +1,28 @@
+name: Course question / 课程问题
+description: Ask about a specific course passage or workflow / 反馈具体课目段落或流程问题
+title: "[Course] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The library does not establish a software version or supply model files merely from a title. Do not attach proprietary files, licence details or material you cannot distribute.
+        资料库不凭题名确认软件版本或模型文件可获得性。请勿附专有文件、许可证信息或无权传播的资料。
+  - type: input
+    id: lesson
+    attributes:
+      label: Series and lesson ID / 系列与课程 ID
+      placeholder: "6 / s06-e001"
+    validations:
+      required: true
+  - type: input
+    id: timestamp
+    attributes:
+      label: Timestamp, if relevant / 相关时间戳（如适用）
+      placeholder: "00:03:12"
+  - type: textarea
+    id: question
+    attributes:
+      label: Question and relevant context / 问题及相关语境
+      description: Describe the exact passage and what you tried; do not include personal or confidential data. / 描述具体段落和已尝试的步骤，不含个人或机密数据。
+    validations:
+      required: true

@@ -554,7 +554,11 @@ def audit(work):
     git_dir = work.root / 'repo/.git'
     if git_dir.exists() and shutil.which('git'):
         result['git_index_checked'] = True
-        proc = subprocess.run(['git','-C',str(work.root / 'repo'),'diff','--cached','--name-only','-z'], capture_output=True, shell=False)
+        # Sandbox and interactive Windows accounts can differ. Trust only this
+        # already-confined repository for these commands; never change Git config.
+        git_prefix = ['git', '-c', 'safe.directory=' + (work.root / 'repo').resolve().as_posix(),
+                      '-C', str(work.root / 'repo')]
+        proc = subprocess.run([*git_prefix,'diff','--cached','--name-only','-z'], capture_output=True, shell=False)
         if proc.returncode:
             result['issues'].append({'kind': 'git_index_query_failed'})
             result['passed'] = False
@@ -564,7 +568,7 @@ def audit(work):
             result['issues'].append({'kind': 'unexpected_staged_files_in_stage_A', 'paths': staged})
             result['passed'] = False
         elif staged:
-            mode_proc = subprocess.run(['git', '-C', str(work.root / 'repo'), 'ls-files', '--stage', '-z'],
+            mode_proc = subprocess.run([*git_prefix, 'ls-files', '--stage', '-z'],
                                        capture_output=True, shell=False)
             modes = {}
             if mode_proc.returncode:
@@ -584,7 +588,7 @@ def audit(work):
                 if modes.get(rel) not in (b'100644', b'100755'):
                     result['issues'].append({'kind': 'unsafe_staged_file_mode', 'path': rel})
                     continue
-                blob = subprocess.run(['git', '-C', str(work.root / 'repo'), 'show', ':' + rel],
+                blob = subprocess.run([*git_prefix, 'show', ':' + rel],
                                       capture_output=True, shell=False)
                 if blob.returncode:
                     result['issues'].append({'kind': 'git_staged_blob_query_failed', 'path': rel})

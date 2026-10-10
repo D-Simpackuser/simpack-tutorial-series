@@ -32,7 +32,9 @@ class StageBCatalogTests(LocalFixture):
     def staged_audit(self, blobs, manifest=None, modes=None):
         self.manifest(list(blobs) if manifest is None else manifest)
         self.work.repo('.git').mkdir(exist_ok=True)
+        self.audit_git_commands = []
         def fake_git(args, **kwargs):
+            self.audit_git_commands.append(args)
             self.assertIs(kwargs.get('shell'), False)
             if 'diff' in args:
                 output = b'\0'.join(path.encode('utf-8') for path in blobs) + b'\0'
@@ -112,6 +114,18 @@ class StageBCatalogTests(LocalFixture):
         result = self.staged_audit({'README.md': b'other-file'}, modes={'README.md': b'120000'})
         self.assertFalse(result['passed'])
         self.assertIn('unsafe_staged_file_mode', json.dumps(result['issues']))
+
+    def test_git_index_audit_trusts_only_exact_workspace_repo_per_command(self):
+        self.prepare()
+        result = self.staged_audit({'README.md': self.work.repo('README.md').read_bytes()})
+        self.assertTrue(result['passed'], result['issues'])
+        self.assertEqual(3, len(self.audit_git_commands))
+        expected = 'safe.directory=' + (self.work_root / 'repo').resolve().as_posix()
+        for args in self.audit_git_commands:
+            self.assertEqual(args[:3], ['git', '-c', expected])
+            self.assertEqual(args[3:5], ['-C', str(self.work_root / 'repo')])
+            self.assertNotIn('--global', args)
+            self.assertNotIn('safe.directory=*', args)
 
     def test_build_uses_fresh_confirmed_rights_and_api_returned_private_links(self):
         ep = self.prepare()

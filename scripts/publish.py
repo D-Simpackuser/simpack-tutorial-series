@@ -132,8 +132,50 @@ def report_stage_b(work):
                       record.get('verification') in ('verified','download_verified')}
     failed_names = {name for name, record in records.items() if record.get('status') in
                     ('failed','conflict','deferred_retry_after','source_changed_after_upload','source_changed_during_verification')}
-    skipped = sum(records[name].get('status') == 'skipped_verified' for name in verified_names)
-    counts = {'authorized_available': len(expected), 'verified': len(verified_names), 'skipped_verified': skipped,
+    # Verification rewrites current statuses to "verified". Upload/skip history
+    # therefore comes from saved actual operation receipts, not current state.
+    uploaded_names, skipped_names = set(), set()
+    operation_receipts = []
+    receipt_repository = repository or authorization.get('repository')
+    failure_statuses = {'failed', 'conflict', 'deferred_retry_after', 'source_changed_after_upload', 'source_changed_during_verification'}
+    for receipt_file, operation in (('upload_trial_result.json', 'trial'), ('upload_batch_result.json', 'batch')):
+        receipt = work.read_json(receipt_file, {})
+        valid = (isinstance(receipt, dict) and receipt.get('mode') == 'apply' and
+                 receipt.get('remote_called') is True and isinstance(receipt.get('assets'), list))
+        if valid and 'repository' in receipt and receipt['repository'] != receipt_repository:
+            valid = False
+        uploaded, skipped, failed, unbound_failed = set(), set(), set(), set()
+        if valid:
+            for item in receipt['assets']:
+                if not isinstance(item, dict) or item.get('asset_name') not in expected:
+                    continue
+                # Older receipt schemas have no top-level repository field;
+                # their actual API-returned URL still binds each successful row.
+                url = item.get('browser_download_url')
+                name, status = item['asset_name'], item.get('status')
+                scoped_url = (bool(receipt_repository) and isinstance(url, str) and
+                              url.startswith(f'https://github.com/{receipt_repository}/releases/'))
+                if status in failure_statuses:
+                    failure_bound = (scoped_url or receipt.get('repository') == receipt_repository and bool(receipt_repository) or
+                                     bool(authorization.get('authorization_id')) and
+                                     receipt.get('authorization_id') == authorization['authorization_id'] or
+                                     bool(repository) and records[name].get('status') in failure_statuses)
+                    (failed if failure_bound else unbound_failed).add(name)
+                if scoped_url and item.get('verification') in ('verified', 'download_verified'):
+                    if status == 'uploaded_verified':
+                        uploaded.add(name)
+                    elif status == 'skipped_verified':
+                        skipped.add(name)
+        uploaded_names.update(uploaded)
+        skipped_names.update(skipped)
+        operation_receipts.append({'operation': operation, 'source_file': receipt_file, 'available': valid,
+                                   'completed_at': receipt.get('completed_at') if valid else None,
+                                   'uploaded_verified': len(uploaded), 'skipped_verified': len(skipped),
+                                   'failed': len(failed), 'unbound_failed': len(unbound_failed),
+                                   'unique_processed': len(uploaded | skipped | failed)})
+    counts = {'authorized_available': len(expected), 'verified': len(verified_names),
+              'uploaded_verified': len(uploaded_names), 'skipped_verified': len(skipped_names),
+              'upload_receipt_unique': len(uploaded_names | skipped_names),
               'failed': len(failed_names), 'pending': len(expected.keys() - verified_names - failed_names),
               'blocked_oversize': sum(item['reason'] == 'blocked_oversize' for item in blocked),
               'blocked_other': sum(item['reason'] != 'blocked_oversize' for item in blocked),
@@ -158,13 +200,23 @@ def report_stage_b(work):
              f'所选系列：{", ".join(selected)}；授权素材：{", ".join(materials)}；要求可见性：{authorization.get("visibility", "private")}。',
              '视频、字幕以逐项私有权利记录为准；未确认素材、逐字稿与其他资料不自动放行。', '',
              f'实际仓库地址：{repo_url or "尚未获得核验记录"}。',
-             '以下计数来自本地保存的真实上传及一致性验证状态；本报告本身不执行新的远端查询。',
+             '远端一致性验证总量取最新 upload_state；实际上传与续跑跳过取试传及批量的真实操作回执。本报告本身不执行新的远端查询。',
+             '同一附件可能试传上传后在批量中跳过，上传与跳过计数不可相加作为总附件数；回执去重总量按精确附件名取并集。',
              '', '| 指标 | 数量 |', '|---|---:|']
-    labels = {'authorized_available':'已确认且可上传附件', 'verified':'已校验一致附件', 'skipped_verified':'最近上传操作跳过且一致',
+    labels = {'authorized_available':'已确认且可上传附件', 'verified':'最新远端记录已校验一致附件',
+              'uploaded_verified':'操作回执记录上传且一致（独立附件）', 'skipped_verified':'操作回执记录跳过且一致（独立附件）',
+              'upload_receipt_unique':'上传/跳过操作回执去重附件总量',
               'failed':'失败/冲突/延期附件', 'pending':'尚未保存一致性验证附件', 'blocked_oversize':'超限附件',
               'blocked_other':'其他阻止附件', 'missing_subtitle_files':'缺失字幕文件', 'explicitly_excluded':'明确排除附件',
               'unconfirmed_excluded':'权利未确认而排除附件'}
     lines.extend(f'| {labels[key]} | {value} |' for key, value in counts.items())
+    lines += ['', '| 操作回执 | 上传且一致 | 跳过且一致 | 失败记录 | 操作内去重附件 |', '|---|---:|---:|---:|---:|']
+    for item in operation_receipts:
+        label = ('试传' if item['operation'] == 'trial' else '批量') + ('（未保存有效实际回执）' if not item['available'] else '')
+        failed_label = str(item['failed']) + (f'（另 {item["unbound_failed"]} 项归属无法确认）' if item['unbound_failed'] else '')
+        lines.append(f'| {label} | {item["uploaded_verified"]} | {item["skipped_verified"]} | {failed_label} | {item["unique_processed"]} |')
+    lines += ['', '未保存有效操作回执时，对应历史次数未知；表中的 0 仅表示没有已保存回执记录，不代表从未执行上传或跳过。']
+    lines += ['失败回执行没有下载链接时，使用匹配仓库字段、授权 ID 或当前仓库同名失败状态确认归属；无法确认的失败行单列，不冒充没有失败。']
     lines += ['', '| 系列 | 一致性验证附件 | Release 状态与实际地址 |', '|---|---:|---|']
     for row in release_rows:
         release_status = (f'已发布：{row["url"]}' if row['url'] else
@@ -188,6 +240,7 @@ def report_stage_b(work):
     work.write_local('acceptance_report.md', '\n'.join(lines))
     work.write_local('PROGRESS.md', '\n'.join(lines))
     result = {'phase': 'B', 'complete': complete, 'repository_url': repo_url, 'counts': counts,
+              'operation_receipts': operation_receipts,
               'releases': release_rows, 'audit_passed': audit['passed'], 'pending_reason': pending_reason}
     work.write_json('stage_b_report.json', result)
     return result

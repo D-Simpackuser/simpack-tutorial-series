@@ -7,9 +7,9 @@
       "page": "series/1/README.md",
       "videos": 18,
       "subtitles": 72,
-      "release_url": null,
-      "release_status": "待创建",
-      "release_visibility": null
+      "release_url": "https://github.com/D-Simpackuser/simpack-tutorial-series/releases/tag/series-1-v1",
+      "release_status": "已发布",
+      "release_visibility": "private"
     },
     {
       "id": "2",
@@ -18,9 +18,9 @@
       "page": "series/2/README.md",
       "videos": 13,
       "subtitles": 52,
-      "release_url": null,
-      "release_status": "待创建",
-      "release_visibility": null
+      "release_url": "https://github.com/D-Simpackuser/simpack-tutorial-series/releases/tag/series-2-v1",
+      "release_status": "已发布",
+      "release_visibility": "private"
     },
     {
       "id": "3",
@@ -29,9 +29,9 @@
       "page": "series/3/README.md",
       "videos": 16,
       "subtitles": 64,
-      "release_url": null,
-      "release_status": "待创建",
-      "release_visibility": null
+      "release_url": "https://github.com/D-Simpackuser/simpack-tutorial-series/releases/tag/series-3-v1",
+      "release_status": "已发布",
+      "release_visibility": "private"
     },
     {
       "id": "5",
@@ -40,9 +40,9 @@
       "page": "series/5/README.md",
       "videos": 42,
       "subtitles": 164,
-      "release_url": null,
-      "release_status": "待创建",
-      "release_visibility": null
+      "release_url": "https://github.com/D-Simpackuser/simpack-tutorial-series/releases/tag/series-5-v1",
+      "release_status": "已发布",
+      "release_visibility": "private"
     },
     {
       "id": "6",
@@ -51,9 +51,9 @@
       "page": "series/6/README.md",
       "videos": 8,
       "subtitles": 32,
-      "release_url": null,
-      "release_status": "待创建",
-      "release_visibility": null
+      "release_url": "https://github.com/D-Simpackuser/simpack-tutorial-series/releases/tag/series-6-v1",
+      "release_status": "已发布",
+      "release_visibility": "private"
     },
     {
       "id": "7",
@@ -62,9 +62,9 @@
       "page": "series/7/README.md",
       "videos": 46,
       "subtitles": 184,
-      "release_url": null,
-      "release_status": "待创建",
-      "release_visibility": null
+      "release_url": "https://github.com/D-Simpackuser/simpack-tutorial-series/releases/tag/series-7-v1",
+      "release_status": "已发布",
+      "release_visibility": "private"
     },
     {
       "id": "8",
@@ -73,9 +73,9 @@
       "page": "series/8/README.md",
       "videos": 51,
       "subtitles": 204,
-      "release_url": null,
-      "release_status": "待创建",
-      "release_visibility": null
+      "release_url": "https://github.com/D-Simpackuser/simpack-tutorial-series/releases/tag/series-8-v1",
+      "release_status": "已发布",
+      "release_visibility": "private"
     }
   ]
 }

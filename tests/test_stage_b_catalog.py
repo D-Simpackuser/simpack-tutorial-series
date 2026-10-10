@@ -187,3 +187,77 @@ class StageBCatalogTests(LocalFixture):
             self.assertIn('gh 尚未登录', text)
             self.assertNotIn('权利保持 unknown，allow_remote_write=false', text)
             self.assertNotIn('未创建远端仓库、未 push、未上传视频或字幕', text)
+
+    def test_final_verification_keeps_trial_and_batch_operation_counts_without_double_counting(self):
+        ep = self.prepare()
+        self.lesson('1/2-第二课程.mp4')
+        inventory = self.scan()
+        rights = self.work.read_json('rights.json')
+        for episode in inventory['episodes']:
+            rights['episodes'][episode['episode_id']].update(video='confirmed', **{'zh-CN':'confirmed','en':'confirmed'})
+        self.work.write_json('rights.json', rights)
+        catalog_engine.build(self.work)
+        self.manifest(['README.md'])
+        repository = 'owner/repository'
+        self.work.write_json('authorization.json', {'series':['1'],'materials':['video','zh-CN','en'],'visibility':'private',
+                                                   'repository':repository})
+        names = [item['asset_name'] for episode in inventory['episodes']
+                 for item in [episode['video'], *episode['subtitles'].values()]]
+        # The final verify has replaced every upload/skip status with verified.
+        self.work.write_json('upload_state.json', {'repository':repository, 'assets': {
+            f'{repository}/{name}': {'status':'verified','verification':'verified'} for name in names}})
+        def row(name, status):
+            return {'asset_name':name,'status':status,'verification':'verified',
+                    'browser_download_url':f'https://github.com/{repository}/releases/download/tag/{name}'}
+        trial = {'mode':'apply','remote_called':True,'assets':[row(name,'uploaded_verified') for name in names[:5]]}
+        batch = {'mode':'apply','remote_called':True,'assets':[
+            row(name,'skipped_verified' if index < 5 else 'uploaded_verified') for index,name in enumerate(names)]}
+        # Unrelated and malformed entries cannot inflate the operation count.
+        batch['assets'].extend([row('unapproved.mp4','uploaded_verified'),
+                                dict(row(names[-1],'uploaded_verified'), browser_download_url='https://github.com/other/repository/releases/download/tag/file'),
+                                row(names[-1],'uploaded_verified')])
+        self.work.write_json('upload_trial_result.json', trial)
+        self.work.write_json('upload_batch_result.json', batch)
+        result = publish.report(self.work)
+        self.assertEqual(10, result['counts']['verified'])
+        self.assertEqual(10, result['counts']['uploaded_verified'])
+        self.assertEqual(5, result['counts']['skipped_verified'])
+        self.assertEqual(10, result['counts']['upload_receipt_unique'])
+        self.assertEqual((5,0,5), tuple(result['operation_receipts'][0][key] for key in
+                                     ('uploaded_verified','skipped_verified','unique_processed')))
+        self.assertEqual((5,5,10), tuple(result['operation_receipts'][1][key] for key in
+                                       ('uploaded_verified','skipped_verified','unique_processed')))
+        self.assertEqual('verified', self.work.read_json('upload_state.json')['assets'][f'{repository}/{names[0]}']['status'])
+        text = self.work.local('PROGRESS.md').read_text(encoding='utf-8')
+        self.assertIn('不可相加作为总附件数', text)
+
+    def test_failure_receipts_without_urls_require_reliable_current_scope_binding(self):
+        ep = self.prepare()
+        self.manifest(['README.md'])
+        repository = 'owner/repository'
+        authorization_id = 'fixture-current-authorization'
+        self.work.write_json('authorization.json', {'series':['1'],'materials':['video','zh-CN','en'],'visibility':'private',
+                                                   'repository':repository,'authorization_id':authorization_id})
+        names = [ep['video']['asset_name'], ep['subtitles']['.zh-CN.srt']['asset_name'], ep['subtitles']['.en.srt']['asset_name']]
+        self.work.write_json('upload_state.json', {'repository':repository, 'assets': {
+            f'{repository}/{names[0]}': {'status':'failed','verification':'not_verified','error':'fixture HTTP 503'}}})
+        def failed_row(name):
+            return {'asset_name':name,'status':'failed','verification':'not_verified','browser_download_url':None}
+        trial = {'mode':'apply','remote_called':True,'assets':[failed_row(names[0]),failed_row(names[1])]}
+        batch = {'mode':'apply','remote_called':True,'authorization_id':authorization_id,'assets':[failed_row(names[2])]}
+        self.work.write_json('upload_trial_result.json', trial)
+        self.work.write_json('upload_batch_result.json', batch)
+        result = publish.report(self.work)
+        self.assertEqual(1, result['counts']['failed'])
+        self.assertEqual(1, result['operation_receipts'][0]['failed'])
+        self.assertEqual(1, result['operation_receipts'][0]['unbound_failed'])
+        self.assertEqual(1, result['operation_receipts'][1]['failed'])
+        self.assertIn('归属无法确认', self.work.local('PROGRESS.md').read_text(encoding='utf-8'))
+        # An explicit foreign repository cannot borrow current state or auth ID.
+        trial['repository'] = 'another/repository'
+        trial['authorization_id'] = authorization_id
+        self.work.write_json('upload_trial_result.json', trial)
+        result = publish.report(self.work)
+        self.assertFalse(result['operation_receipts'][0]['available'])
+        self.assertEqual(0, result['operation_receipts'][0]['failed'])
+        self.assertEqual('failed', self.work.read_json('upload_state.json')['assets'][f'{repository}/{names[0]}']['status'])

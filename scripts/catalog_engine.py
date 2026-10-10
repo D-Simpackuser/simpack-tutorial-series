@@ -386,9 +386,10 @@ def build(work):
                      'release_visibility': state.get('visibility') if _release_record(state, sid)[1] else None} for sid in SERIES]
     work.write_repo('series.json', json.dumps({'series': series_items}, ensure_ascii=False, indent=2) + '\n')
     work.write_repo('catalog.json', json.dumps({'schema_version': 1, 'episodes': public_eps}, ensure_ascii=False, indent=2) + '\n')
-    confirmed_groups = sum(all(ep['rights'][m] == 'confirmed' for m in ('video', 'zh-CN', 'en')) for ep in public_eps)
-    rights_description = (f'本轮已确认 {confirmed_groups} 课的视频、中文字幕和英文字幕上传许可；未确认资料仍排除，逐字稿及其他资料不自动放行。'
-                          if confirmed_groups else '视频与字幕传播权利待核实。')
+    confirmed_counts = {material: sum(ep['rights'][material] == 'confirmed' for ep in public_eps)
+                        for material in ('video', 'zh-CN', 'en')}
+    rights_description = (f'本轮已确认 {confirmed_counts["video"]} 课的视频上传许可、{confirmed_counts["zh-CN"]} 课的中文字幕上传许可和 {confirmed_counts["en"]} 课的英文字幕上传许可；未确认资料仍排除，逐字稿及其他资料不自动放行。'
+                          if any(confirmed_counts.values()) else '视频与字幕传播权利待核实。')
     readme = ['# Simpack 系列教程目录', '', f'本地实际清单：{summary["videos"]} 个视频、{summary["subtitles"]} 个字幕文件，{summary["complete_subtitle_groups"]} 课具备四种字幕文件。',
               '', '仅整理原始文件名、大小和字幕对应关系。系列名称为默认名称，未核实课程作者或资料来源。' + rights_description,
               '排序是文件名自然排序，不表示已核验教学先后顺序。字幕基础格式检查不代表语义、翻译质量或音画时间轴已校对。',
@@ -400,7 +401,10 @@ def build(work):
         visibility = 'private（需仓库访问权限）' if item['release_visibility'] == 'private' else item['release_visibility'] or '未验证'
         readme.append(f'| 系列 {item["id"]} | {release_link} | {visibility} |')
     download_count = sum(bool(ep['download_url']) for ep in public_eps)
-    readme += ['', '## 下载与使用', '', f'视频下载链接已验证：{download_count}/{len(public_eps)}。其余待上传或草稿待发布。视频作为每系列的 GitHub Release 附件；使用时下载视频及同课字幕，在本地播放器中选择字幕。',
+    download_description = f'视频下载链接已验证：{download_count}/{len(public_eps)}。'
+    if download_count < len(public_eps):
+        download_description += '尚未提供已验证下载链接的视频，具体状态见各课详情。'
+    readme += ['', '## 下载与使用', '', download_description + '视频作为每系列的 GitHub Release 附件；使用时下载视频及同课字幕，在本地播放器中选择字幕。',
                '本地字幕副本见[字幕目录](subtitles/README.md)，短英文附件名与稳定课程 ID 对应。缺字幕视频仍保留独立课程，详情页逐项标明缺失。',
                '', '视频不进入 Git，不使用 Git LFS；第一版未提供在线播放器。',
                '', '[来源与权利说明](PROVENANCE.md) · [发布工具与阶段 B 操作](docs/publishing.md)', '']

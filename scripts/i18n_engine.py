@@ -367,6 +367,10 @@ def _stat_paragraph(locale, episodes):
 
 def _root_readme(locale, data):
     text = data['introductions'][locale]
+    # Introduction sources live under i18n/readme, while generated pages live
+    # at the root. Keep these guide links valid in both reviewed locations.
+    text = re.sub(r'\(\.\./\.\./(docs/(?:using-the-library|learning-paths|quality-and-versions)\.md)\)',
+                  r'(\1)', text)
     paragraphs = text.split('\n\n')
     counts = [i for i, paragraph in enumerate(paragraphs) if
               re.search(r'\*\*\d+', paragraph) and 'SRT' in paragraph and 'VTT' in paragraph]

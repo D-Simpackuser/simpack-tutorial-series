@@ -12,6 +12,10 @@ RailDyn Atlas is a tutorial library comprising seven series on railway dynamics 
 
 194 video lessons · 772 subtitle files · 193 lessons with all four subtitle files. No accompanying subtitle files: `s05-e001` — 0-课程效果.
 
+[Download guide](docs/using-the-library.md) · [Learning paths](docs/learning-paths.md) · [Quality and versions](docs/quality-and-versions.md)
+
+Tutorial recordings; accompanying model files and software versions are not confirmed, and independent numerical validation is not established. Documentation is available in eight languages; subtitles remain Chinese and English.
+
 ## Series catalogue
 
 | Series | Subject | Lessons | Files |

@@ -10,6 +10,10 @@ RailDyn Atlas reúne siete series de tutoriales sobre flujos de trabajo de diná
 
 El catálogo contiene **194 vídeos**. **193 vídeos** incluyen subtítulos chinos e ingleses en formatos SRT y VTT, con un total de **772 archivos de subtítulos**. El vídeo introductorio `0-课程效果` de la serie 5 no tiene subtítulos asociados.
 
+[Descargas](../../docs/using-the-library.md) · [Itinerarios sugeridos](../../docs/learning-paths.md) · [Calidad y versiones](../../docs/quality-and-versions.md)
+
+La biblioteca reúne vídeos formativos. No se confirman los archivos de modelos ni las versiones del software, y no se acredita una validación numérica independiente. La documentación está en ocho idiomas; los subtítulos siguen en chino e inglés.
+
 ## Catálogo de series
 
 | Serie | Tema | Vídeos | Archivos |

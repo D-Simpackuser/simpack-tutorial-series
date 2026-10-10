@@ -12,6 +12,10 @@ RailDyn Atlas reúne siete series de tutoriales sobre flujos de trabajo de diná
 
 194 vídeos · 772 archivos de subtítulos · 193 vídeos con los cuatro archivos. Lecciones sin archivos de subtítulos: `s05-e001` — 0-课程效果.
 
+[Descargas](docs/using-the-library.md) · [Itinerarios sugeridos](docs/learning-paths.md) · [Calidad y versiones](docs/quality-and-versions.md)
+
+La biblioteca reúne vídeos formativos. No se confirman los archivos de modelos ni las versiones del software, y no se acredita una validación numérica independiente. La documentación está en ocho idiomas; los subtítulos siguen en chino e inglés.
+
 ## Catálogo de series
 
 | Serie | Tema | Vídeos | Archivos |

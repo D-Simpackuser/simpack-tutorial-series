@@ -12,6 +12,10 @@ RailDyn Atlas는 Simpack, Abaqus, Ansys, fe-safe를 이용한 철도 동역학 �
 
 영상 194개 · 자막 파일 772개 · 네 종류의 자막이 있는 강의 193개. 자막 파일이 없는 강의: `s05-e001` — 0-课程效果.
 
+[다운로드 안내](docs/using-the-library.md) · [학습 제안](docs/learning-paths.md) · [품질과 버전](docs/quality-and-versions.md)
+
+교육용 영상 자료입니다. 관련 모델 파일과 소프트웨어 버전은 확인되지 않았으며 독립적인 수치 검증 근거도 확립되지 않았습니다. 문서는 8개 언어로 제공되며 자막은 중국어와 영어입니다.
+
 ## 시리즈 목록
 
 | 시리즈 | 주제 | 영상 수 | 파일 |

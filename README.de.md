@@ -12,6 +12,10 @@ RailDyn Atlas bündelt sieben Tutorial-Reihen zu Arbeitsabläufen der Eisenbahnd
 
 194 Videos · 772 Untertiteldateien · 193 Videos mit allen vier Untertiteldateien. Lektionen ohne Untertiteldateien: `s05-e001` — 0-课程效果.
 
+[Downloadhinweise](docs/using-the-library.md) · [Lernempfehlungen](docs/learning-paths.md) · [Qualität und Versionen](docs/quality-and-versions.md)
+
+Die Bibliothek enthält Lehrvideos. Begleitende Modelldateien und Softwareversionen sind nicht bestätigt; eine unabhängige numerische Validierung ist nicht belegt. Die Dokumentation umfasst acht Sprachen; Untertitel gibt es auf Chinesisch und Englisch.
+
 ## Übersicht der Reihen
 
 | Reihe | Thema | Videos | Dateien |

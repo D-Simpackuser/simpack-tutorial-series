@@ -10,6 +10,10 @@ RailDyn Atlas réunit sept séries de tutoriels consacrées aux chaînes de calc
 
 Le catalogue comprend **194 vidéos**. **193 vidéos** disposent de sous-titres chinois et anglais aux formats SRT et VTT, soit **772 fichiers de sous-titres**. La vidéo d’introduction `0-课程效果` de la série 5 ne possède pas de sous-titres associés.
 
+[Téléchargement](../../docs/using-the-library.md) · [Parcours suggérés](../../docs/learning-paths.md) · [Qualité et versions](../../docs/quality-and-versions.md)
+
+Il s’agit de vidéos pédagogiques. Les fichiers de modèles associés et les versions logicielles ne sont pas confirmés ; aucune validation numérique indépendante n’est établie. La documentation existe en huit langues ; les sous-titres restent en chinois et en anglais.
+
 ## Catalogue des séries
 
 | Série | Sujet | Vidéos | Fichiers |

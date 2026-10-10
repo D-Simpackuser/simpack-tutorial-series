@@ -105,6 +105,22 @@ class BrandingTests(LocalFixture):
             self.assertTrue(text.startswith('# Complete fixture introduction\n'))
             self.assertNotIn('RailDyn Atlas', text)
 
+    def test_source_relative_first_screen_guides_render_to_valid_root_links(self):
+        self.prepare()
+        self.write_project(self.project())
+        source_path = 'i18n/readme/README.md'
+        source = self.work.repo(source_path).read_text(encoding='utf-8')
+        guides = ('using-the-library', 'learning-paths', 'quality-and-versions')
+        links = ' · '.join(f'[{name}](../../docs/{name}.md)' for name in guides)
+        self.work.write_repo(source_path, source.replace('\n## ', '\n' + links + '\n\n## ', 1))
+        engine.render(self.work)
+        page = self.work.repo('README.md').read_text(encoding='utf-8')
+        for name in guides:
+            self.assertIn(f'](../../docs/{name}.md)', self.work.repo(source_path).read_text(encoding='utf-8'))
+            self.assertIn(f'](docs/{name}.md)', page)
+            self.assertNotIn(f'](../../docs/{name}.md)', page)
+        self.assertTrue(engine.validate(self.work)['passed'])
+
     def test_canonical_metadata_overrides_stale_source_heading_and_keeps_raw_ampersand(self):
         self.prepare()
         project = self.project()

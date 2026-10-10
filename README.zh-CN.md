@@ -10,6 +10,10 @@ RailDyn Atlas 按七个系列整理 Simpack、Abaqus、Ansys 与 fe-safe 相关�
 
 194 个视频课程 · 772 个字幕文件 · 193 课具备四种配套字幕文件。 没有配套字幕的课程：`s05-e001` — 0-课程效果.
 
+[下载说明](docs/using-the-library.md) · [学习建议](docs/learning-paths.md) · [质量与版本](docs/quality-and-versions.md)
+
+本项目提供教程录像；未确认配套模型文件和软件版本，也未建立独立数值验证依据。文档提供八种语言，字幕仍为中文和英文。
+
 ## 系列目录
 
 | 系列 | 课程主题 | 视频数 | 文件 |

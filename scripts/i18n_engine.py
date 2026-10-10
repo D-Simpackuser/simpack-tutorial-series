@@ -205,6 +205,42 @@ def _stats(episodes):
             'complete': sum(all(ep['subtitles'][suffix].get('path') for suffix in SUFFIXES) for ep in episodes)}
 
 
+def _project(work):
+    """Load optional reader branding without changing catalogue identities.
+
+    Existing internationalization fixtures predate this input. Absence keeps
+    their introduction heading, while a present but incomplete file fails
+    before rendering. The production brand lives only in this data source.
+    """
+    if not work.repo('i18n/project.json').exists():
+        return None
+    project = _read(work, 'i18n/project.json')
+    if (not isinstance(project, dict) or project.get('schema_version') != 1 or
+            project.get('target_repository') != REPOSITORY or
+            project.get('target_repository_id') != REPOSITORY_ID):
+        raise ValueError('Reader project identity differs from the retained repository')
+    name = project.get('brand_name')
+    if not isinstance(name, str) or not name.strip() or name != name.strip():
+        raise ValueError('Reader project brand name is invalid')
+    values = [name]
+    for field in ('titles', 'subtitles'):
+        localized = project.get(field)
+        if not isinstance(localized, dict) or set(localized) != set(LOCALES):
+            raise ValueError('Reader project branding requires all eight locales')
+        for locale in LOCALES:
+            value = localized[locale]
+            if not isinstance(value, str) or not value.strip() or value != value.strip():
+                raise ValueError('Reader project display text is empty or invalid')
+            values.append(value)
+    if any(re.search(r'[<>\r\n`*\\\[\]]', value) for value in values):
+        raise ValueError('Reader project branding must contain plain single-line text')
+    for locale in LOCALES:
+        title = project['titles'][locale]
+        if title != name and title != name + '｜' + project['subtitles'][locale]:
+            raise ValueError('Reader project title must retain the common brand name')
+    return project
+
+
 def load(work, check_copies=True):
     """Strictly join translations to IDs and exact source strings before writes."""
     catalog, series = _read(work, 'catalog.json'), _read(work, 'series.json')
@@ -293,6 +329,7 @@ def load(work, check_copies=True):
             raise ValueError('Existing series statistics differ from the retained catalogue')
     return {'catalog': catalog, 'series': series, 'definitions': definitions,
             'named': by_series, 'lessons': localized, 'introductions': introductions,
+            'project': _project(work),
             'visibility': _visibility(work, catalog, series), 'subtitle_copies_checked': copies,
             'stats': _stats(episodes)}
 
@@ -369,6 +406,16 @@ def _root_readme(locale, data):
     if nav_index is None:
         raise ValueError(f'Missing introduction language navigation: {locale}')
     lines = text.splitlines()
+    project = data.get('project')
+    if project:
+        title, subtitle = project['titles'][locale], project['subtitles'][locale]
+        # The header before navigation is the brand presentation. The complete
+        # technical introduction, routes and source notices after it stay intact.
+        header = ['# ' + title, '']
+        if title != project['brand_name'] + '｜' + subtitle:
+            header += ['**' + subtitle + '**', '']
+        lines[:nav_index] = header
+        nav_index = len(header)
     lines[nav_index] = _navigation(locale)
     banner = _banner(locale, data['visibility'])
     if banner:

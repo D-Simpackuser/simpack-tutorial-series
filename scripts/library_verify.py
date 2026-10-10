@@ -4,6 +4,9 @@ GET-only, fixed repository identity, no media upload or download. Upload phase,
 authorization expiry and historical visibility are deliberately not consulted.
 SHA-256 checks compare remote metadata with the preserved baseline and catalog;
 this command does not recompute complete video hashes or establish public rights.
+Original lesson identities are pinned independently to a verified Git catalog
+blob and its SHA-256; the candidate catalog cannot define its own expected values.
+Missing local Git objects fail safely; there is no automatic fetch.
 Private receipts are written only with explicit --output / --observation options.
 """
 from __future__ import annotations
@@ -16,6 +19,7 @@ import os
 import re
 import subprocess
 import sys
+from dataclasses import dataclass
 from pathlib import Path
 from urllib.parse import quote
 
@@ -31,6 +35,13 @@ ASSET_COUNTS = dict(zip(SERIES, (90, 65, 80, 206, 40, 230, 255)))
 PREFIX = "repos/" + REPOSITORY
 REPO_ROOT = Path(__file__).resolve().parents[1]
 PRIVATE_ROOT = REPO_ROOT.parent / "_local"
+# Recorded from the independently verified Stage B main / Stage C backup.
+# These trust anchors are code constants, never read from a candidate catalog,
+# mutable baseline lesson fields, HEAD, a branch name, or CLI arguments.
+TRUSTED_CATALOG_COMMIT = "15726d0bbcdc3978ae064ee66e917cfe68390cdb"
+TRUSTED_CATALOG_SHA256 = "6044fabbd470419fdc2bd613c58196b7d6dff3c724d6131c94219e357d7cdad5"
+SOURCE_IDENTITY_FIELDS = ("series_id", "episode_id", "original_relative_path",
+                          "original_filename", "title")
 SHA256 = re.compile(r"sha256:[0-9a-f]{64}\Z")
 SHA1 = re.compile(r"[0-9a-f]{40}\Z")
 ASSET_NAME = re.compile(r"s(?:01|02|03|05|06|07|08)-e[0-9]{3}(?:\.mp4|\.(?:zh-CN|en)\.(?:srt|vtt))\Z")
@@ -46,6 +57,116 @@ def now():
 
 def valid_id(value):
     return isinstance(value, int) and not isinstance(value, bool) and value > 0
+
+
+@dataclass(frozen=True)
+class TrustedSourceIdentity:
+    """Immutable lesson rows extracted from an independently trusted source.
+
+    Synthetic instances are for dependency-injected tests only. The CLI always
+    reads the pinned Git blob and exposes no identity/commit/hash override.
+    """
+    rows: tuple
+    source_kind: str
+    commit: str | None = None
+    catalog_sha256: str | None = None
+
+    def receipt(self):
+        return {"source_kind": self.source_kind, "commit": self.commit,
+                "catalog_sha256": self.catalog_sha256,
+                "checked_fields": list(SOURCE_IDENTITY_FIELDS),
+                "lessons_checked": len(self.rows), "verified": True,
+                "synthetic_fixture": self.source_kind == "synthetic_test_fixture"}
+
+
+def freeze_source_identity(catalog, *, source_kind="synthetic_test_fixture",
+                           commit=None, catalog_sha256=None):
+    """Freeze independent fixture rows; production calls this after blob hashing."""
+    episodes = catalog.get("episodes") if isinstance(catalog, dict) else None
+    if (not isinstance(catalog, dict) or catalog.get("schema_version") != 1 or
+            not isinstance(episodes, list) or len(episodes) != sum(LESSON_COUNTS.values())):
+        raise VerificationError("Trusted source catalog scope is incomplete")
+    rows, seen_ids, seen_paths = [], set(), set()
+    counts = dict.fromkeys(SERIES, 0)
+    for episode in episodes:
+        if not isinstance(episode, dict):
+            raise VerificationError("Trusted source catalog lesson is invalid")
+        row = tuple(episode.get(field) for field in SOURCE_IDENTITY_FIELDS)
+        if any(not isinstance(value, str) or not value for value in row):
+            raise VerificationError("Trusted source catalog identity fields are incomplete")
+        sid, eid, relative, filename, title = row
+        if (sid not in SERIES or not re.fullmatch(f"s{int(sid):02d}-e[0-9]{{3}}", eid) or
+                eid in seen_ids or (sid, relative) in seen_paths or
+                relative != sid + "/" + filename or "/" in filename or "\\" in filename or
+                not filename.endswith(".mp4") or title != filename[:-4]):
+            raise VerificationError("Trusted source catalog lesson mapping is invalid")
+        counts[sid] += 1
+        seen_ids.add(eid)
+        seen_paths.add((sid, relative))
+        rows.append(row)
+    if counts != LESSON_COUNTS:
+        raise VerificationError("Trusted source catalog series scope is incomplete")
+    return TrustedSourceIdentity(tuple(rows), source_kind, commit, catalog_sha256)
+
+
+def load_trusted_source_identity(repo_root=REPO_ROOT):
+    """Read only the frozen Git object; never inspect HEAD or fetch missing data."""
+    root = Path(repo_root).absolute()
+    if not root.is_dir() or core.is_link(root):
+        raise VerificationError("Pinned source catalog repository is unavailable")
+    env = os.environ.copy()
+    # Ignore environment repository/config overrides and prevent optional writes,
+    # replacement objects, credentials prompts and partial-clone lazy fetching.
+    for name in list(env):
+        if name.startswith("GIT_") or name == "GH_DEBUG":
+            env.pop(name, None)
+    env.update(GIT_TERMINAL_PROMPT="0", GIT_OPTIONAL_LOCKS="0",
+               GIT_NO_LAZY_FETCH="1", GIT_NO_REPLACE_OBJECTS="1")
+    args = ["git", "-c", "safe.directory=" + str(root),
+            "-c", "protocol.allow=never", "-c", "protocol.file.allow=never",
+            "-C", str(root), "cat-file", "blob",
+            TRUSTED_CATALOG_COMMIT + ":catalog.json"]
+    try:
+        result = subprocess.run(args, shell=False, capture_output=True, check=False,
+                                timeout=transport.READ_TIMEOUT, env=env)
+    except (OSError, subprocess.TimeoutExpired):
+        raise VerificationError("Pinned source catalog Git object is unavailable; no automatic fetch") from None
+    if result.returncode:
+        raise VerificationError("Pinned source catalog Git object is unavailable; no automatic fetch")
+    if hashlib.sha256(result.stdout).hexdigest() != TRUSTED_CATALOG_SHA256:
+        raise VerificationError("Pinned source catalog blob SHA-256 does not match its fixed trust anchor")
+    try:
+        catalog = json.loads(result.stdout.decode("utf-8"))
+    except (UnicodeDecodeError, json.JSONDecodeError):
+        raise VerificationError("Pinned source catalog blob is not valid UTF-8 JSON") from None
+    return freeze_source_identity(catalog, source_kind="verified_frozen_git_catalog",
+                                  commit=TRUSTED_CATALOG_COMMIT,
+                                  catalog_sha256=TRUSTED_CATALOG_SHA256)
+
+
+def check_source_identity(catalog, trusted_identity):
+    """Compare candidate rows with frozen independent rows, never candidate fields."""
+    if not isinstance(trusted_identity, TrustedSourceIdentity):
+        raise VerificationError("An independent trusted source identity is required")
+    episodes = catalog.get("episodes") if isinstance(catalog, dict) else None
+    if not isinstance(episodes, list) or any(not isinstance(ep, dict) for ep in episodes):
+        raise VerificationError("Catalog lesson identities are invalid")
+    wanted = {row[1]: row for row in trusted_identity.rows}
+    if (len(wanted) != sum(LESSON_COUNTS.values()) or
+            tuple(ep.get("episode_id") for ep in episodes) !=
+            tuple(row[1] for row in trusted_identity.rows)):
+        raise VerificationError("Catalog episode IDs or ordering differ from the trusted frozen source")
+    for episode in episodes:
+        eid = episode["episode_id"]
+        actual = tuple(episode.get(field) for field in SOURCE_IDENTITY_FIELDS)
+        changes = [field for field, current, original in
+                   zip(SOURCE_IDENTITY_FIELDS, actual, wanted[eid]) if current != original]
+        if changes:
+            # The episode ID is from the validated frozen set; never echo altered
+            # source filenames, titles, paths or other candidate values.
+            raise VerificationError("Catalog source identity differs from the trusted frozen source (" +
+                                    eid + ": " + ", ".join(changes) + ")")
+    return trusted_identity.receipt()
 
 
 def check_endpoint(endpoint, method="GET", payload=None, source=None,
@@ -168,7 +289,9 @@ def baseline_releases(baseline):
     return result
 
 
-def expected_assets(catalog, saved, repo_root):
+def expected_assets(catalog, saved, repo_root, *, trusted_identity=None):
+    source = trusted_identity if trusted_identity is not None else load_trusted_source_identity(REPO_ROOT)
+    check_source_identity(catalog, source)
     episodes = catalog.get("episodes")
     if catalog.get("schema_version") != 1 or not isinstance(episodes, list):
         raise VerificationError("Catalog interface is not schema version 1")
@@ -252,9 +375,11 @@ def resolve_tag(client, reference):
     raise VerificationError("Tag object chain exceeded its safety limit")
 
 
-def verify(client, catalog, baseline, repo_root=REPO_ROOT):
+def verify(client, catalog, baseline, repo_root=REPO_ROOT, *, trusted_identity=None):
+    source = trusted_identity if trusted_identity is not None else load_trusted_source_identity(REPO_ROOT)
+    source_receipt = check_source_identity(catalog, source)
     saved = baseline_releases(baseline)
-    expected = expected_assets(catalog, saved, Path(repo_root))
+    expected = expected_assets(catalog, saved, Path(repo_root), trusted_identity=source)
     remote = client.get(PREFIX)
     if (not isinstance(remote, dict) or remote.get("full_name") != REPOSITORY or
             remote.get("id") != REPOSITORY_ID or
@@ -276,6 +401,7 @@ def verify(client, catalog, baseline, repo_root=REPO_ROOT):
               "repository": REPOSITORY, "repository_id": REPOSITORY_ID,
               "read_only": True, "remote_writes": 0, "media_downloads": 0,
               "visibility_observation": observation, "issues": [],
+              "source_identity": source_receipt,
               "releases": [], "assets": [], "expected_assets": len(expected),
               "video_full_hashes_recomputed": 0,
               "subtitle_copies_sha256_checked": sum(a["subtitle_copy_checked"] for a in expected.values()),
@@ -383,7 +509,7 @@ def write_private(path, document, private_root=PRIVATE_ROOT):
 def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--gh", default="gh", help="Existing GitHub CLI executable (default: gh)")
-    parser.add_argument("--catalog", type=Path, default=REPO_ROOT / "catalog.json", help="Existing schema-1 catalog")
+    parser.add_argument("--catalog", type=Path, default=REPO_ROOT / "catalog.json", help="Candidate schema-1 catalog; expected source identities stay pinned to verified Git history")
     parser.add_argument("--baseline", type=Path, default=PRIVATE_ROOT / "stage_c/baseline.json", help="Preserved private Stage C baseline")
     parser.add_argument("--output", type=Path, help="Explicit new private _local JSON receipt; never overwritten")
     parser.add_argument("--observation", type=Path, help="Explicit new private _local visibility observation; never changes GitHub visibility")

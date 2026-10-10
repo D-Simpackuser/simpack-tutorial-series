@@ -1,10 +1,12 @@
-# Tutorial di dinamica ferroviaria con Simpack
+# RailDyn Atlas
+
+**Biblioteca Simpack di dinamica ferroviaria e simulazione di corpi flessibili**
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Italiano](README.it.md) · [Español](README.es.md) · [한국어](README.ko.md)
 
 **Interazione veicolo–binario–ponte · Corpi flessibili · Recupero delle tensioni e fatica**
 
-Questo repository raccoglie sette serie di tutorial sui flussi di lavoro della dinamica ferroviaria con Simpack, Abaqus, Ansys e fe-safe. I temi comprendono i modelli di veicolo, le rotaie e le fondazioni flessibili, l’accoppiamento veicolo–binario–ponte, il recupero di tensioni e deformazioni e l’analisi a fatica dei corpi flessibili.
+RailDyn Atlas raccoglie sette serie di tutorial sui flussi di lavoro della dinamica ferroviaria con Simpack, Abaqus, Ansys e fe-safe. I temi comprendono i modelli di veicolo, le rotaie e le fondazioni flessibili, l’accoppiamento veicolo–binario–ponte, il recupero di tensioni e deformazioni e l’analisi a fatica dei corpi flessibili.
 
 Il catalogo comprende **194 video**. **193 video** dispongono di sottotitoli cinesi e inglesi nei formati SRT e VTT, per un totale di **772 file di sottotitoli**. Il video introduttivo `0-课程效果` della serie 5 non dispone di sottotitoli associati.
 

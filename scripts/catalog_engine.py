@@ -492,6 +492,7 @@ def audit(work):
     candidate, subtitle_materials, unmanaged = [], [], []
     owned_code = {'scripts/core.py','scripts/catalog_engine.py','scripts/publish.py','scripts/github_release.py',
                   'scripts/i18n_engine.py','tests/test_i18n.py',
+                  'scripts/library_verify.py','tests/test_library_verify.py','tests/test_branding.py',
                   'tests/test_local.py','tests/test_github_release.py','tests/test_stage_b_catalog.py',
                   'tests/test_stage_b_release.py','docs/publishing.md'}
     forbidden_extensions = VIDEO_EXT | {'.zip','.rar','.7z','.bin','.log','.tmp','.pem','.key','.exe','.dll'}

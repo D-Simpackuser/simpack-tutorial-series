@@ -1,10 +1,10 @@
-# Simpack 轨道车辆动力学教程
+# RailDyn Atlas｜轨道车辆系统动力学教程图谱
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Italiano](README.it.md) · [Español](README.es.md) · [한국어](README.ko.md)
 
 **车辆–轨道–桥梁耦合 · 柔性体 · 应力应变恢复与疲劳分析**
 
-本仓库按七个系列整理 Simpack、Abaqus、Ansys 与 fe-safe 相关的轨道车辆动力学视频教程，覆盖车辆建模、柔性钢轨与轨道基础、车–线–桥耦合，以及柔性体应力应变恢复和疲劳分析。目录用于按主题定位课程、下载视频并选择对应字幕。
+RailDyn Atlas 按七个系列整理 Simpack、Abaqus、Ansys 与 fe-safe 相关的轨道车辆动力学视频教程，覆盖车辆建模、柔性钢轨与轨道基础、车–线–桥耦合，以及柔性体应力应变恢复和疲劳分析。目录用于按主题定位课程、下载视频并选择对应字幕。
 
 当前目录包含 **194 个视频课程**。其中 **193 课**提供中文、英文两种语言的 SRT 与 VTT 字幕，合计 **772 个字幕文件**。系列 5 的 `0-课程效果` 为无配套字幕的视频。
 

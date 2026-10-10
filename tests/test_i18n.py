@@ -261,3 +261,120 @@ class InternationalizationTests(LocalFixture):
             result = catalog_engine.audit(self.work)
         self.assertFalse(result['passed'])
         self.assertIn('unsafe_staged_file_mode', json.dumps(result['issues']))
+
+
+class OwnedCodeAuditTests(LocalFixture):
+    """A fresh clone has no private record granting ownership to repo files."""
+
+    verifier_sources = ('scripts/library_verify.py', 'tests/test_library_verify.py')
+
+    def clone_file(self, relative, data=b'# Synthetic clone verifier source\n'):
+        path = self.work.repo(relative)
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_bytes(data)
+        return data
+
+    def private_fixture(self, relative, value):
+        # Do not create a managed-file record, just as on a fresh checkout.
+        path = self.work.local(relative)
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(json.dumps(value, ensure_ascii=False) + '\n', encoding='utf-8')
+        return path.read_bytes()
+
+    def stage_c_manifest(self, paths):
+        self.private_fixture('stage_c/stage_manifest.json', {
+            'phase': 'C', 'repository': engine.REPOSITORY, 'repository_id': engine.REPOSITORY_ID,
+            'authorization_scope': 'documentation_only', 'files': paths})
+
+    def audit_index(self, blobs):
+        self.assertFalse(self.work.local('managed_files.json').exists())
+        self.assertEqual(set(), self.work.managed)
+        self.work.repo('.git').mkdir()
+        self.audit_git_commands = []
+
+        def git(args, **kwargs):
+            self.audit_git_commands.append(args)
+            self.assertIs(kwargs.get('shell'), False)
+            if 'diff' in args:
+                output = b''.join(path.encode('utf-8') + b'\0' for path in blobs)
+            elif 'ls-files' in args:
+                output = b''.join(b'100644 ' + b'0' * 40 + b' 0\t' + path.encode('utf-8') + b'\0'
+                                  for path in blobs)
+            elif 'show' in args:
+                output = blobs[args[-1][1:]]
+            else:
+                raise AssertionError(args)
+            return SimpleNamespace(returncode=0, stdout=output, stderr=b'')
+
+        with patch.object(catalog_engine.shutil, 'which', return_value='fixture-git'), \
+                patch.object(catalog_engine.subprocess, 'run', side_effect=git):
+            result = catalog_engine.audit(self.work)
+        self.assertEqual(0, result['remote_calls'])
+        self.assertFalse(any(path.startswith('repo/') for path in self.work.managed))
+        return result
+
+    def test_fresh_clone_verifier_and_branding_sources_pass_exact_stage_c_manifest_without_private_ownership(self):
+        blobs = {path: self.clone_file(path) for path in (*self.verifier_sources, 'tests/test_branding.py')}
+        self.config['phase'] = 'B'
+        configuration = copy.deepcopy(self.config)
+        authorization = self.private_fixture('authorization.json', {
+            'authorization_id': 'retained-private-upload-scope', 'visibility': 'private',
+            'approved_existing_asset_names': ['s01-e001.mp4']})
+        self.stage_c_manifest(list(blobs))
+        result = self.audit_index(blobs)
+        self.assertTrue(result['passed'], result['issues'])
+        self.assertEqual(sorted(blobs), result['candidate_files'])
+        self.assertEqual(sorted(blobs), result['stage_c_documentation_files'])
+        self.assertEqual([], result['excluded_unmanaged_files'])
+        self.assertTrue(result['git_index_checked'])
+        self.assertEqual(configuration, self.config)
+        self.assertEqual(authorization, self.work.local('authorization.json').read_bytes())
+
+    def test_unknown_source_and_owned_source_outside_exact_stage_c_manifest_remain_blocked(self):
+        blobs = {path: self.clone_file(path) for path in self.verifier_sources}
+        unknown = 'scripts/unapproved.py'
+        blobs[unknown] = self.clone_file(unknown)
+        self.stage_c_manifest([self.verifier_sources[0], unknown])
+        result = self.audit_index(blobs)
+        self.assertFalse(result['passed'])
+        self.assertEqual([unknown], result['excluded_unmanaged_files'])
+        self.assertEqual([self.verifier_sources[0]], result['stage_c_documentation_files'])
+        self.assertEqual({unknown}, {item['path'] for item in result['issues']
+                                    if item['kind'] == 'unauthorized_stage_c_manifest_file'})
+        self.assertEqual({unknown, self.verifier_sources[1]},
+                         {item['path'] for item in result['issues']
+                          if item['kind'] == 'unauthorized_staged_file'})
+
+    def test_owned_verifier_sources_do_not_expand_stage_b_subtitle_authorization(self):
+        blobs = {path: self.clone_file(path) for path in self.verifier_sources}
+        approved = 's01-e001.en.srt'
+        excluded = 's01-e001.en.vtt'
+        subtitle_data = b'Synthetic unchanged subtitle fixture\n'
+        subtitle_paths = [f'subtitles/1/{name}' for name in (approved, excluded)]
+        for path in subtitle_paths:
+            self.clone_file(path, subtitle_data)
+        blobs[subtitle_paths[1]] = subtitle_data
+        self.config['phase'] = 'B'
+        configuration = copy.deepcopy(self.config)
+        self.private_fixture('inventory.json', {'episodes': [{
+            'episode_id': 's01-e001', 'series_id': '1', 'subtitles': {
+                '.en.srt': {'status': 'matched', 'asset_name': approved,
+                            'sha256': hashlib.sha256(subtitle_data).hexdigest()},
+                '.en.vtt': {'status': 'matched', 'asset_name': excluded,
+                            'sha256': hashlib.sha256(subtitle_data).hexdigest()}}}]})
+        rights = self.private_fixture('rights.json', {
+            'default': 'unknown', 'episodes': {'s01-e001': {'en': 'confirmed'}}})
+        authorization = self.private_fixture('authorization.json', {
+            'authorization_id': 'retained-private-upload-scope', 'visibility': 'private',
+            'approved_existing_asset_names': [approved]})
+        self.private_fixture('stage_b_stage_manifest.json', {'files': list(blobs)})
+        result = self.audit_index(blobs)
+        self.assertFalse(result['passed'])
+        self.assertEqual(sorted(self.verifier_sources), result['stage_b_authorized_files'])
+        self.assertEqual([subtitle_paths[0]], result['confirmed_subtitle_material_files'])
+        self.assertEqual([subtitle_paths[1]], result['unconfirmed_material_files'])
+        self.assertIn({'kind': 'unauthorized_stage_manifest_file', 'path': subtitle_paths[1]}, result['issues'])
+        self.assertIn({'kind': 'unauthorized_staged_file', 'path': subtitle_paths[1]}, result['issues'])
+        self.assertEqual(configuration, self.config)
+        self.assertEqual(authorization, self.work.local('authorization.json').read_bytes())
+        self.assertEqual(rights, self.work.local('rights.json').read_bytes())

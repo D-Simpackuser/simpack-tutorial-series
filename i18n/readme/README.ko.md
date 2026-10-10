@@ -1,10 +1,12 @@
-# Simpack 철도차량 동역학 튜토리얼
+# RailDyn Atlas
+
+**Simpack 철도차량 동역학 및 유연체 시뮬레이션 자료 라이브러리**
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Italiano](README.it.md) · [Español](README.es.md) · [한국어](README.ko.md)
 
 **차량–궤도–교량 상호작용 · 유연체 · 응력 복원 및 피로 해석**
 
-이 저장소는 Simpack, Abaqus, Ansys, fe-safe를 이용한 철도 동역학 작업 흐름을 일곱 시리즈로 정리합니다. 차량 모델링, 유연 레일과 궤도 기초, 차량–궤도–교량 연성, 유연체의 응력·변형률 복원 및 피로 해석을 주제별로 찾아볼 수 있습니다.
+RailDyn Atlas는 Simpack, Abaqus, Ansys, fe-safe를 이용한 철도 동역학 작업 흐름을 일곱 시리즈로 정리합니다. 차량 모델링, 유연 레일과 궤도 기초, 차량–궤도–교량 연성, 유연체의 응력·변형률 복원 및 피로 해석을 주제별로 찾아볼 수 있습니다.
 
 현재 목록에는 **194개 영상**이 있습니다. **193개 영상**에는 중국어와 영어 자막이 SRT·VTT 두 형식으로 제공되며, 자막 파일은 총 **772개**입니다. 시리즈 5의 소개 영상 `0-课程效果`에는 자막 파일이 없습니다.
 

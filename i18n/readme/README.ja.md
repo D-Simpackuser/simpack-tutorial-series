@@ -1,10 +1,12 @@
-# Simpack 鉄道車両動力学チュートリアル
+# RailDyn Atlas
+
+**Simpack 鉄道車両動力学・柔軟体シミュレーション資料ライブラリー**
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Italiano](README.it.md) · [Español](README.es.md) · [한국어](README.ko.md)
 
 **車両・軌道・橋梁の連成 · 弾性体 · 応力復元と疲労解析**
 
-本リポジトリは、Simpack、Abaqus、Ansys、fe-safeを用いた鉄道動力学の動画教材を七つのシリーズに整理しています。車両モデル、弾性レールと軌道基礎、車両・軌道・橋梁の連成、弾性体の応力・ひずみ復元と疲労解析を、テーマ別に探せます。
+RailDyn Atlasは、Simpack、Abaqus、Ansys、fe-safeを用いた鉄道動力学の動画教材を七つのシリーズに整理しています。車両モデル、弾性レールと軌道基礎、車両・軌道・橋梁の連成、弾性体の応力・ひずみ復元と疲労解析を、テーマ別に探せます。
 
 現在の目録には**194本の動画**があります。**193本**には中国語と英語の字幕がSRT・VTTの両形式で付属し、字幕ファイルは計**772個**です。シリーズ5の導入動画 `0-课程效果` には字幕ファイルがありません。
 

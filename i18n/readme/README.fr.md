@@ -1,10 +1,12 @@
-# Tutoriels de dynamique ferroviaire avec Simpack
+# RailDyn Atlas
+
+**Bibliothèque Simpack de dynamique ferroviaire et de simulation de corps flexibles**
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Italiano](README.it.md) · [Español](README.es.md) · [한국어](README.ko.md)
 
 **Interaction véhicule–voie–pont · Corps flexibles · Restitution des contraintes et fatigue**
 
-Ce dépôt réunit sept séries de tutoriels consacrées aux chaînes de calcul en dynamique ferroviaire avec Simpack, Abaqus, Ansys et fe-safe. Le classement couvre la modélisation des véhicules, les rails et fondations de voie flexibles, le couplage véhicule–voie–pont, ainsi que la restitution des contraintes et déformations et l’analyse de fatigue.
+RailDyn Atlas réunit sept séries de tutoriels consacrées aux chaînes de calcul en dynamique ferroviaire avec Simpack, Abaqus, Ansys et fe-safe. Le classement couvre la modélisation des véhicules, les rails et fondations de voie flexibles, le couplage véhicule–voie–pont, ainsi que la restitution des contraintes et déformations et l’analyse de fatigue.
 
 Le catalogue comprend **194 vidéos**. **193 vidéos** disposent de sous-titres chinois et anglais aux formats SRT et VTT, soit **772 fichiers de sous-titres**. La vidéo d’introduction `0-课程效果` de la série 5 ne possède pas de sous-titres associés.
 

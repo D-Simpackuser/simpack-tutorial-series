@@ -24,8 +24,8 @@ def temporary_fixture():
     return tempfile.TemporaryDirectory(prefix="library-verify-", dir=tests_root)
 
 
-def fixture(root):
-    """A complete seven-series library, including the one missing subtitle group."""
+def fixture(root, *, write_copies=True):
+    """Synthetic scope fixture; it does not establish any real course identity."""
     catalog = {"schema_version": 1, "episodes": []}
     baseline = {"repository": {"full_name": verifier.REPOSITORY,
                                 "id": verifier.REPOSITORY_ID, "private": True},
@@ -43,6 +43,7 @@ def fixture(root):
             eid = f"s{int(sid):02d}-e{number:03d}"
             ep = {"series_id": sid, "episode_id": eid,
                   "original_relative_path": f"{sid}/lesson-{number}.mp4",
+                  "original_filename": f"lesson-{number}.mp4", "title": f"lesson-{number}",
                   "asset_name": eid + ".mp4", "size_bytes": 99,
                   "download_url": verifier.download_url(sid, eid + ".mp4"),
                   "subtitles": {}}
@@ -60,8 +61,9 @@ def fixture(root):
                 digest = hashlib.sha256(payload).hexdigest()
                 relative = f"subtitles/{sid}/{name}"
                 target = root / relative
-                target.parent.mkdir(parents=True, exist_ok=True)
-                target.write_bytes(payload)
+                if write_copies:
+                    target.parent.mkdir(parents=True, exist_ok=True)
+                    target.write_bytes(payload)
                 url = verifier.download_url(sid, name)
                 ep["subtitles"][suffix] = {"status": "matched", "asset_name": name,
                                            "path": relative, "sha256": digest,
@@ -197,6 +199,8 @@ class LibraryInvariantTests(unittest.TestCase):
         cls.temp = temporary_fixture()
         cls.root = Path(cls.temp.name)
         cls.catalog, cls.baseline = fixture(cls.root)
+        # Frozen from independent fixture data before any candidate mutation.
+        cls.trusted_identity = verifier.freeze_source_identity(copy.deepcopy(cls.catalog))
 
     @classmethod
     def tearDownClass(cls):
@@ -204,7 +208,8 @@ class LibraryInvariantTests(unittest.TestCase):
 
     def check(self, client=None, catalog=None, baseline=None):
         return verifier.verify(client or FakeGitHub(self.baseline),
-                               catalog or self.catalog, baseline or self.baseline, self.root)
+                               catalog or self.catalog, baseline or self.baseline, self.root,
+                               trusted_identity=self.trusted_identity)
 
     def test_all_assets_paginated_with_no_media_reads(self):
         client = FakeGitHub(self.baseline)
@@ -333,6 +338,186 @@ class LibraryInvariantTests(unittest.TestCase):
                 self.check()
         finally:
             target.write_bytes(before)
+
+    def test_each_original_source_field_swap_fails_before_remote_get(self):
+        for field in ("original_relative_path", "original_filename", "title", "series_id"):
+            candidate = copy.deepcopy(self.catalog)
+            first, second = candidate["episodes"][:2]
+            if field == "series_id":
+                second = next(ep for ep in candidate["episodes"] if ep["series_id"] == "2")
+            first[field], second[field] = second[field], first[field]
+            client = FakeGitHub(self.baseline)
+            with self.subTest(field=field), self.assertRaises(verifier.VerificationError):
+                self.check(client, catalog=candidate)
+            self.assertEqual(client.calls, [])
+
+    def test_consistent_same_series_source_group_swap_also_fails(self):
+        candidate = copy.deepcopy(self.catalog)
+        first, second = candidate["episodes"][:2]
+        for field in ("original_relative_path", "original_filename", "title"):
+            first[field], second[field] = second[field], first[field]
+        # Internal filename/title/path consistency and counts still hold. The
+        # independent frozen episode mapping, rather than self-consistency, must fail.
+        self.assertEqual(first["original_relative_path"], first["series_id"] + "/" + first["original_filename"])
+        self.assertEqual(first["title"], first["original_filename"][:-4])
+        client = FakeGitHub(self.baseline)
+        with self.assertRaises(verifier.VerificationError):
+            self.check(client, catalog=candidate)
+        self.assertEqual(client.calls, [])
+
+    def test_forged_baseline_lesson_fields_do_not_redefine_trust(self):
+        candidate = copy.deepcopy(self.catalog)
+        ep = candidate["episodes"][0]
+        ep.update(original_relative_path="1/forged-course.mp4",
+                  original_filename="forged-course.mp4", title="forged-course")
+        baseline = copy.deepcopy(self.baseline)
+        baseline.update(catalog=copy.deepcopy(candidate), episodes=copy.deepcopy(candidate["episodes"]),
+                        source_identities=copy.deepcopy(candidate["episodes"]),
+                        head="f" * 40, file_sha256={"repo/catalog.json": hashlib.sha256(
+                            json.dumps(candidate).encode()).hexdigest()})
+        client = FakeGitHub(baseline)
+        with self.assertRaises(verifier.VerificationError):
+            self.check(client, catalog=candidate, baseline=baseline)
+        self.assertEqual(client.calls, [])
+
+    def test_missing_original_fields_and_reordered_episode_ids_fail(self):
+        for field in ("original_filename", "title", "episode_id", "order"):
+            candidate = copy.deepcopy(self.catalog)
+            if field == "order":
+                candidate["episodes"][0], candidate["episodes"][1] = candidate["episodes"][1], candidate["episodes"][0]
+            else:
+                candidate["episodes"][0].pop(field)
+            with self.subTest(field=field), self.assertRaises(verifier.VerificationError):
+                self.check(catalog=candidate)
+
+    def test_injected_synthetic_fixture_is_immutable_and_clearly_labelled(self):
+        with self.assertRaises(AttributeError):
+            self.trusted_identity.rows = ()
+        result = self.check()
+        self.assertEqual(result["source_identity"]["checked_fields"], list(verifier.SOURCE_IDENTITY_FIELDS))
+        self.assertTrue(result["source_identity"]["synthetic_fixture"])
+        self.assertEqual(result["source_identity"]["source_kind"], "synthetic_test_fixture")
+        self.assertIsNone(result["source_identity"]["commit"])
+
+    def test_cli_catalog_argument_is_candidate_not_trust_anchor(self):
+        candidate = copy.deepcopy(self.catalog)
+        candidate["episodes"][0]["title"] = "UNTRUSTED_PRIVATE_VALUE"
+        candidate_path, baseline_path = self.root / "candidate.json", self.root / "baseline.json"
+        candidate_path.write_text(json.dumps(candidate), encoding="utf-8")
+        baseline = copy.deepcopy(self.baseline)
+        baseline["catalog"] = candidate
+        baseline_path.write_text(json.dumps(baseline), encoding="utf-8")
+        client = FakeGitHub(baseline)
+        with mock.patch.object(verifier, "load_trusted_source_identity", return_value=self.trusted_identity) as load, \
+                mock.patch.object(verifier, "ReadOnlyGitHub", return_value=client), mock.patch("sys.stdout") as output:
+            code = verifier.main(["--catalog", str(candidate_path), "--baseline", str(baseline_path)])
+        self.assertEqual(code, 2)
+        load.assert_called_once_with(verifier.REPO_ROOT)
+        self.assertEqual(client.calls, [])
+        text = "".join(str(args[0]) for args, _ in output.write.call_args_list if args)
+        self.assertNotIn("UNTRUSTED_PRIVATE_VALUE", text)
+
+
+class PinnedGitIdentityTests(unittest.TestCase):
+    """Mock local Git only; synthetic bytes are never claimed as real lesson evidence."""
+    @classmethod
+    def setUpClass(cls):
+        cls.temp = temporary_fixture()
+        cls.root = Path(cls.temp.name)
+        cls.catalog, cls.baseline = fixture(cls.root, write_copies=False)
+        cls.payload = (json.dumps(cls.catalog, indent=2) + "\n").encode("utf-8")
+
+    @classmethod
+    def tearDownClass(cls):
+        cls.temp.cleanup()
+
+    def test_local_git_uses_fixed_blob_and_blocks_fetch_replace_and_overrides(self):
+        # Substitute *both* anchors with explicitly synthetic test values.
+        # No real commit or real 194-course identity is established by this test.
+        response = subprocess.CompletedProcess([], 0, self.payload, b"")
+        digest = hashlib.sha256(self.payload).hexdigest()
+        with mock.patch.object(verifier, "TRUSTED_CATALOG_COMMIT", "f" * 40), \
+                mock.patch.object(verifier, "TRUSTED_CATALOG_SHA256", digest), \
+                mock.patch.dict(verifier.os.environ, {"GIT_DIR": "override", "GIT_CONFIG_COUNT": "1", "GH_DEBUG": "api"}), \
+                mock.patch.object(verifier.subprocess, "run", return_value=response) as run:
+            identity = verifier.load_trusted_source_identity(self.root)
+        command = run.call_args.args[0]
+        options = run.call_args.kwargs
+        self.assertEqual(command[-3:], ["cat-file", "blob", "f" * 40 + ":catalog.json"])
+        self.assertIn("protocol.allow=never", command)
+        self.assertIn("protocol.file.allow=never", command)
+        self.assertNotIn("fetch", command)
+        self.assertNotIn("HEAD", command)
+        self.assertFalse(options["shell"])
+        self.assertEqual(options["env"]["GIT_NO_LAZY_FETCH"], "1")
+        self.assertEqual(options["env"]["GIT_NO_REPLACE_OBJECTS"], "1")
+        self.assertEqual(options["env"]["GIT_OPTIONAL_LOCKS"], "0")
+        self.assertNotIn("GIT_DIR", options["env"])
+        self.assertNotIn("GIT_CONFIG_COUNT", options["env"])
+        self.assertNotIn("GH_DEBUG", options["env"])
+        self.assertEqual(identity.catalog_sha256, digest)
+        self.assertEqual(identity.commit, "f" * 40)
+        self.assertEqual(run.call_count, 1)
+
+    def test_valid_json_with_wrong_frozen_blob_hash_is_rejected(self):
+        response = subprocess.CompletedProcess([], 0, self.payload, b"")
+        with mock.patch.object(verifier.subprocess, "run", return_value=response):
+            with self.assertRaises(verifier.VerificationError) as error:
+                verifier.load_trusted_source_identity(self.root)
+        self.assertIn("fixed trust anchor", str(error.exception))
+
+    def test_missing_git_object_fails_without_fetch_or_stderr_leak(self):
+        response = subprocess.CompletedProcess([], 128, b"", b"private/path/SECRET_git_failure")
+        with mock.patch.object(verifier.subprocess, "run", return_value=response) as run:
+            with self.assertRaises(verifier.VerificationError) as error:
+                verifier.load_trusted_source_identity(self.root)
+        self.assertEqual(run.call_count, 1)
+        self.assertIn("no automatic fetch", str(error.exception))
+        self.assertNotIn("SECRET_git_failure", str(error.exception))
+        self.assertNotIn("private/path", str(error.exception))
+
+    def test_git_timeout_and_unavailable_executable_are_safe_failures(self):
+        for failure in (OSError("private SECRET"), subprocess.TimeoutExpired(["git"], 60)):
+            with self.subTest(failure=type(failure).__name__), \
+                    mock.patch.object(verifier.subprocess, "run", side_effect=failure) as run:
+                with self.assertRaises(verifier.VerificationError) as error:
+                    verifier.load_trusted_source_identity(self.root)
+                self.assertEqual(run.call_count, 1)
+                self.assertNotIn("SECRET", str(error.exception))
+
+    def test_missing_pinned_object_does_not_fall_back_to_candidate_or_baseline(self):
+        baseline = copy.deepcopy(self.baseline)
+        baseline["catalog"] = copy.deepcopy(self.catalog)
+        baseline["file_sha256"] = {"repo/catalog.json": hashlib.sha256(self.payload).hexdigest()}
+        client = FakeGitHub(baseline)
+        with mock.patch.object(verifier, "load_trusted_source_identity", side_effect=verifier.VerificationError("missing fixed object")) as load:
+            with self.assertRaises(verifier.VerificationError):
+                verifier.verify(client, self.catalog, baseline, self.root)
+        load.assert_called_once_with(verifier.REPO_ROOT)
+        self.assertEqual(client.calls, [])
+
+    def test_malformed_trusted_identity_fields_and_scope_fail(self):
+        for change in ("duplicate_id", "missing_filename", "filename_inconsistency", "missing_course"):
+            candidate = copy.deepcopy(self.catalog)
+            if change == "duplicate_id":
+                candidate["episodes"][0]["episode_id"] = candidate["episodes"][1]["episode_id"]
+            elif change == "missing_filename":
+                candidate["episodes"][0].pop("original_filename")
+            elif change == "filename_inconsistency":
+                candidate["episodes"][0]["original_filename"] = "other.mp4"
+            else:
+                candidate["episodes"].pop()
+            with self.subTest(change=change), self.assertRaises(verifier.VerificationError):
+                verifier.freeze_source_identity(candidate)
+
+    def test_cli_has_no_trusted_identity_commit_or_hash_override(self):
+        for option in ("--trusted-identity", "--trusted-commit", "--trusted-catalog-sha256"):
+            with self.subTest(option=option), mock.patch.object(verifier.subprocess, "run") as run, \
+                    mock.patch("sys.stdout"), mock.patch("sys.stderr"):
+                with self.assertRaises(SystemExit) as result:
+                    verifier.main([option, "untrusted"])
+                self.assertEqual(result.exception.code, 2)
+                run.assert_not_called()
 
 
 class ReceiptBoundaryTests(unittest.TestCase):

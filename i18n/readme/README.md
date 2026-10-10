@@ -1,10 +1,12 @@
-# Simpack Railway Dynamics Tutorials
+# RailDyn Atlas
+
+**Simpack Railway Dynamics & Flexible-Body Simulation Library**
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Italiano](README.it.md) · [Español](README.es.md) · [한국어](README.ko.md)
 
 **Vehicle–track–bridge interaction · Flexible bodies · Stress recovery and fatigue**
 
-This repository brings together seven tutorial series on railway dynamics workflows using Simpack, Abaqus, Ansys and fe-safe. It provides a structured route through vehicle modelling, flexible rails and track foundations, vehicle–track–bridge coupling, and flexible-body stress and fatigue analysis.
+RailDyn Atlas is a tutorial library comprising seven series on railway dynamics workflows using Simpack, Abaqus, Ansys and fe-safe. It provides a structured route through vehicle modelling, flexible rails and track foundations, vehicle–track–bridge coupling, and flexible-body stress and fatigue analysis.
 
 The current catalogue contains **194 video lessons**. **193 lessons** have Chinese and English subtitle files in both SRT and VTT formats, for a total of **772 subtitle files**. The introductory video `0-课程效果` in Series 5 has no accompanying subtitle files.
 

@@ -1,10 +1,12 @@
-# Simpack-Tutorials zur Schienenfahrzeugdynamik
+# RailDyn Atlas
+
+**Simpack-Bibliothek für Schienenfahrzeugdynamik und Simulation flexibler Körper**
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Italiano](README.it.md) · [Español](README.es.md) · [한국어](README.ko.md)
 
 **Fahrzeug–Fahrweg–Brücken-Interaktion · Flexible Körper · Spannungsrückgewinnung und Ermüdung**
 
-Dieses Repository bündelt sieben Tutorial-Reihen zu Arbeitsabläufen der Eisenbahndynamik mit Simpack, Abaqus, Ansys und fe-safe. Die Themen reichen von Fahrzeugmodellen über elastische Schienen und Gleisfundamente bis zur Fahrzeug–Fahrweg–Brücken-Kopplung sowie zur Spannungs-, Dehnungs- und Ermüdungsanalyse flexibler Körper.
+RailDyn Atlas bündelt sieben Tutorial-Reihen zu Arbeitsabläufen der Eisenbahndynamik mit Simpack, Abaqus, Ansys und fe-safe. Die Themen reichen von Fahrzeugmodellen über elastische Schienen und Gleisfundamente bis zur Fahrzeug–Fahrweg–Brücken-Kopplung sowie zur Spannungs-, Dehnungs- und Ermüdungsanalyse flexibler Körper.
 
 Der Katalog enthält **194 Videos**. Zu **193 Videos** liegen chinesische und englische Untertitel in SRT und VTT vor, insgesamt **772 Untertiteldateien**. Das Einführungsvideo `0-课程效果` in Reihe 5 besitzt keine zugehörigen Untertiteldateien.
 

@@ -301,12 +301,32 @@ def _tag_commit(client, repository, tag):
     raise ReleaseError("Tag target cannot be resolved safely to a commit")
 
 
+def _find_release(client, repository, tag):
+    """Drafts can be absent from the by-tag route until their Git tag exists."""
+    remote = _get(client, f"repos/{repository}/releases/tags/{tag}", optional=True)
+    if remote is not None:
+        return remote
+    matches, page = [], 1
+    while True:
+        batch = _get(client, f"repos/{repository}/releases?per_page=100&page={page}")
+        if not isinstance(batch, list) or any(not isinstance(item, dict) for item in batch):
+            raise ReleaseError("Invalid paginated Release response")
+        matches.extend(item for item in batch if item.get("tag_name") == tag)
+        if len(matches) > 1:
+            raise ReleaseError("Multiple remote Releases share the exact tag; no write is permitted")
+        if len(batch) < 100:
+            return matches[0] if matches else None
+        page += 1
+        if page > 100:
+            raise ReleaseError("Remote Release listing exceeded safety limit")
+
+
 def _release(client, repository, commit, series_id, create, require_draft=True):
     tag = f"series-{series_id}-v1"
     target = _tag_commit(client, repository, tag)
     if target is not None and target != commit:
         raise ReleaseError(f"Existing tag {tag} targets another commit; no tag rewriting is permitted")
-    remote = _get(client, f"repos/{repository}/releases/tags/{tag}", optional=True)
+    remote = _find_release(client, repository, tag)
     if remote is None:
         if not create:
             return None
@@ -316,7 +336,7 @@ def _release(client, repository, commit, series_id, create, require_draft=True):
             remote = client.request(f"repos/{repository}/releases", method="POST", payload=payload)
         except GHError as error:
             # A lost creation response is reconciled before any retry or further mutation.
-            remote = _get(client, f"repos/{repository}/releases/tags/{tag}", optional=True)
+            remote = _find_release(client, repository, tag)
             if remote is None:
                 raise error
     if remote.get("tag_name") != tag or TASK_MARKER not in (remote.get("body") or "").splitlines():
@@ -477,6 +497,9 @@ def _record(state, repository, remote_release, asset, remote, status, verificati
               "source_path": str(asset["source"]), "size_bytes": asset["size_bytes"], "mtime_ns": asset["mtime_ns"],
               "sha256": asset["sha256"], "sha256_origin": asset["sha256_origin"], "release_id": remote_release["id"], "asset_id": remote.get("id") if remote else None,
               "remote_name": remote.get("name") if remote else None, "status": status, "verification": verification,
+              "remote_size_bytes": remote.get("size") if remote else None,
+              "remote_digest": remote.get("digest") if remote else None,
+              "remote_asset_state": remote.get("state") if remote else None,
               "browser_download_url": remote.get("browser_download_url") if remote else None,
               "release_url": remote_release.get("html_url"), "draft": remote_release.get("draft"),
               "visibility": state.get("visibility"), "error": error,
@@ -615,6 +638,9 @@ def upload(work, series="all", limit=None, apply=False, authorization=None):
             raise ReleaseError("Draft Release is immutable; no attachment write is permitted")
         state["releases"][repository + "/" + series_id] = {"id": remote_release["id"], "tag": remote_release["tag_name"],
                                                                "draft": remote_release.get("draft"), "html_url": remote_release.get("html_url")}
+        # A created/reused Release is real progress even if a later safety check
+        # refuses the first attachment. Save its receipt before any byte-send.
+        work.write_json("upload_state.json", state)
         remote_assets = list_assets(client, repository, remote_release["id"])
         existing = {a["name"]: a for a in remote_assets}
         if len(existing) + sum(a["name"] not in existing for a in group) > MAX_ASSETS:

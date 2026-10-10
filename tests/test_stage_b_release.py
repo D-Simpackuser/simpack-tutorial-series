@@ -253,6 +253,125 @@ class StageBReleaseTests(unittest.TestCase):
             self.bulk("1")
         self.assertEqual(before, len(self.fake.calls))
 
+    def hide_draft_by_tag(self):
+        request = self.fake.request
+        def hidden(endpoint, **kwargs):
+            if "/releases/tags/" in endpoint:
+                self.fake.calls.append(("GET", endpoint))
+                raise engine.GHError(404, code=1)
+            return request(endpoint, **kwargs)
+        return patch.object(self.fake, "request", side_effect=hidden)
+
+    def test_draft_missing_by_tag_is_reused_from_list_without_duplicate_creation(self):
+        self.fake.make_release("1")
+        with self.hide_draft_by_tag():
+            result = self.apply_trial()
+        self.assertTrue(result["trial_passed"])
+        self.assertEqual(5, len(self.fake.assets[11]))
+        self.assertFalse(any(call == ("POST", f"repos/{REPOSITORY}/releases") for call in self.fake.writes))
+        self.assertTrue(any("releases?per_page=" in endpoint for _, endpoint in self.fake.calls))
+
+    def test_draft_creation_by_tag_404_uploads_without_creating_second_release(self):
+        with self.hide_draft_by_tag():
+            result = self.apply_trial()
+        self.assertTrue(result["trial_passed"])
+        self.assertEqual(1, len([call for call in self.fake.writes
+                                 if call == ("POST", f"repos/{REPOSITORY}/releases")]))
+        self.assertEqual(5, len(self.fake.assets[11]))
+
+    def test_created_draft_receipt_is_saved_even_when_first_upload_is_blocked(self):
+        request = self.fake.request
+        def blocked(endpoint, **kwargs):
+            if "/assets?per_page=" in endpoint:
+                raise engine.ReleaseError("Mock guard prevents first upload")
+            return request(endpoint, **kwargs)
+        with patch.object(self.fake, "request", side_effect=blocked):
+            with self.assertRaisesRegex(engine.ReleaseError, "Mock guard"):
+                self.apply_trial()
+        state = self.work.read_json("upload_state.json")
+        self.assertEqual(11, state["releases"][REPOSITORY + "/1"]["id"])
+        self.assertTrue(state["releases"][REPOSITORY + "/1"]["draft"])
+        self.assertEqual({}, state["assets"])
+        self.assertEqual(1, len(self.fake.writes))
+
+    def test_remote_observed_receipt_keeps_remote_values_and_missing_nulls(self):
+        self.apply_trial()
+        key = REPOSITORY + "/s01-e001.mp4"
+        recorded = self.work.read_json("upload_state.json")["assets"][key]
+        remote = self.fake.assets[11][0]
+        self.assertEqual(remote["size"], recorded["remote_size_bytes"])
+        self.assertEqual(remote["digest"], recorded["remote_digest"])
+        self.assertEqual("uploaded", recorded["remote_asset_state"])
+        local_size, local_sha = recorded["size_bytes"], recorded["sha256"]
+        remote.update(size=1, digest="sha256:" + "f" * 64, state="starter")
+        engine.verify(self.work, "1")
+        recorded = self.work.read_json("upload_state.json")["assets"][key]
+        self.assertEqual("conflict", recorded["status"])
+        self.assertEqual(1, recorded["remote_size_bytes"])
+        self.assertEqual("sha256:" + "f" * 64, recorded["remote_digest"])
+        self.assertEqual("starter", recorded["remote_asset_state"])
+        self.assertEqual(local_size, recorded["size_bytes"])
+        self.assertEqual(local_sha, recorded["sha256"])
+        self.fake.assets[11].pop(0)
+        engine.verify(self.work, "1")
+        recorded = self.work.read_json("upload_state.json")["assets"][key]
+        self.assertEqual("missing_remote", recorded["status"])
+        self.assertIsNone(recorded["remote_size_bytes"])
+        self.assertIsNone(recorded["remote_digest"])
+        self.assertIsNone(recorded["remote_asset_state"])
+
+    def test_lost_draft_creation_response_is_reconciled_through_release_list(self):
+        request = self.fake.request
+        def lost(endpoint, **kwargs):
+            if "/releases/tags/" in endpoint:
+                self.fake.calls.append(("GET", endpoint))
+                raise engine.GHError(404, code=1)
+            value = request(endpoint, **kwargs)
+            if kwargs.get("method") == "POST" and endpoint == f"repos/{REPOSITORY}/releases":
+                raise engine.GHError(503, {"retry-after": "0"}, 1)
+            return value
+        with patch.object(self.fake, "request", side_effect=lost):
+            self.assertTrue(self.apply_trial()["trial_passed"])
+        self.assertEqual(1, len([call for call in self.fake.writes
+                                 if call == ("POST", f"repos/{REPOSITORY}/releases")]))
+
+    def test_draft_list_lookup_paginates_and_rejects_duplicate_exact_tag(self):
+        remote = self.fake.make_release("1")
+        first_page = [{"id": index + 1000, "tag_name": f"unrelated-{index}"} for index in range(100)]
+        request = self.fake.request
+        def paginated(endpoint, **kwargs):
+            if "/releases/tags/" in endpoint:
+                raise engine.GHError(404, code=1)
+            if "releases?per_page=100&page=" in endpoint:
+                self.fake.calls.append(("GET", endpoint))
+                return copy.deepcopy(first_page if endpoint.endswith("page=1") else [remote])
+            return request(endpoint, **kwargs)
+        with patch.object(self.fake, "request", side_effect=paginated):
+            found = engine._release(self.fake, REPOSITORY, COMMIT, "1", create=False)
+            self.assertEqual(11, found["id"])
+            first_page[0] = copy.deepcopy(remote)
+            with self.assertRaisesRegex(engine.ReleaseError, "Multiple remote Releases"):
+                engine._release(self.fake, REPOSITORY, COMMIT, "1", create=True)
+        self.assertEqual([], self.fake.writes)
+
+    def test_draft_list_lookup_still_rejects_foreign_marker_and_commit(self):
+        remote = self.fake.make_release("1")
+        # Drafts do not need a Git tag, but must target the authorized commit.
+        request = self.fake.request
+        def no_tag(endpoint, **kwargs):
+            if "/git/ref/tags/" in endpoint or "/releases/tags/" in endpoint:
+                raise engine.GHError(404, code=1)
+            return request(endpoint, **kwargs)
+        with patch.object(self.fake, "request", side_effect=no_tag):
+            remote["body"] = "foreign material"
+            with self.assertRaisesRegex(engine.ReleaseError, "not marked"):
+                self.apply_trial()
+            remote["body"] = engine.TASK_MARKER
+            remote["target_commitish"] = "b" * 40
+            with self.assertRaisesRegex(engine.ReleaseError, "explicit authorized commit"):
+                self.apply_trial()
+        self.assertEqual([], self.fake.writes)
+
 
 if __name__ == "__main__":
     unittest.main()

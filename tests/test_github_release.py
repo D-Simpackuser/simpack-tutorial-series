@@ -86,6 +86,9 @@ class FakeGitHub:
         if method == "POST" and endpoint == f"repos/{REPOSITORY}/releases":
             series = payload["tag_name"].split("-")[1]
             return copy.deepcopy(self.make_release(series))
+        if method == "GET" and endpoint.startswith(f"repos/{REPOSITORY}/releases?per_page="):
+            page = int(urllib.parse.parse_qs(urllib.parse.urlsplit(endpoint).query)["page"][0])
+            return copy.deepcopy(list(self.releases.values())[(page - 1) * 100:page * 100])
         if "/assets?per_page=" in endpoint:
             release_id = int(endpoint.split("/releases/")[1].split("/")[0])
             page = int(urllib.parse.parse_qs(urllib.parse.urlsplit(endpoint).query)["page"][0])

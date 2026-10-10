@@ -1,0 +1,654 @@
+1
+00:00:02,910 --> 00:00:15,420
+One of the special ways that we described in the previous section is that of Abacus and NewTac,
+which is to solve it by means of a clever and complex approach, corresponding to a wise change.
+
+2
+00:00:15,440 --> 00:00:20,260
+The same way that these are online,
+is with stress files in this way.
+
+3
+00:00:21,960 --> 00:00:30,720
+The stress file in this way does not have to check this default during
+the production of FBI, and then it solves at an overall faster rate.
+
+4
+00:00:33,150 --> 00:00:43,960
+Here, we can see which files it
+needs through the help files.
+
+5
+00:00:43,960 --> 00:00:46,900
+It actually needs two files.
+
+6
+00:00:49,190 --> 00:00:56,850
+What it needs in Abacus is two types of documents,
+one of which should be the kind that ends with MOD.
+
+7
+00:00:56,850 --> 00:01:00,360
+One is a text that ends with RRM.
+
+8
+00:01:01,940 --> 00:01:15,380
+And then we can see that RM is the way we used to be Unital
+Relief Model, the way we care about the release method.
+
+9
+00:01:15,380 --> 00:01:18,020
+Creates a file.
+
+10
+00:01:18,400 --> 00:01:29,840
+The other is Engage Models, which created files
+that are actually accessible in our models.
+
+11
+00:01:29,840 --> 00:01:34,460
+Let's use the way it doesn't
+bring back the right finger.
+
+12
+00:01:39,200 --> 00:01:50,760
+It corresponds to two ways, actually, to the
+model.x, which is the EngageModel, which is the MOD.
+
+13
+00:01:54,410 --> 00:02:00,030
+That's the way we end MOD.
+That's the way MOD ends.
+
+14
+00:02:04,040 --> 00:02:09,320
+We created this stress file, which
+needs these four files in Apox.
+
+15
+00:02:09,540 --> 00:02:19,280
+So let's talk about how to create these four files
+first in Chinese and then how to solve the stress file.
+
+16
+00:02:19,780 --> 00:02:27,020
+Here we are not to go to,
+which is caught up in,
+
+17
+00:02:27,020 --> 00:02:36,240
+And the way F1 is, we can either automatically
+identify it or set it up as Abacus.
+
+18
+00:02:36,240 --> 00:02:44,700
+What we need to be aware of here is that we've
+said before that the path here is a relative path.
+
+19
+00:02:44,700 --> 00:02:52,620
+And it's the current target it's designated
+as our document SBCK, which is the target.
+
+20
+00:02:52,620 --> 00:02:59,970
+That's why we take it out, but
+it's the way it is after us.
+
+21
+00:02:59,980 --> 00:03:02,200
+The face can be changed.
+
+22
+00:03:02,420 --> 00:03:10,590
+Because we're hard copies, and it's just writing
+here to produce the female pioneers we need.
+
+23
+00:03:10,850 --> 00:03:13,810
+She's still going back to the woman
+of her age to find a solution.
+
+24
+00:03:14,290 --> 00:03:17,610
+This position is not
+particularly important for us.
+
+25
+00:03:19,120 --> 00:03:21,440
+Let's let it meet.
+
+26
+00:03:24,540 --> 00:03:28,340
+It's got a scalding technique, and
+we'll just have to step forward.
+
+27
+00:03:29,100 --> 00:03:36,700
+Here you can see it says it can't be used
+to delete it because we didn't apply it.
+
+28
+00:03:36,700 --> 00:03:45,620
+We'll have to change the application before
+we can delete it and click on Rate and PutDex.
+
+29
+00:03:45,620 --> 00:03:53,720
+Then we can see that it's down this path and
+delete the two files that we need to calculate.
+
+30
+00:03:54,950 --> 00:03:57,610
+Let's go back under this path.
+
+31
+00:04:00,090 --> 00:04:12,060
+Look at the corresponding document, and
+here we can see that it has both documents.
+
+32
+00:04:12,160 --> 00:04:22,620
+This is the kind of document that we're looking for here,
+and we're looking for this web type that creates the sint.
+
+33
+00:04:22,740 --> 00:04:25,960
+We don't have to use it.
+We can see it online.
+
+34
+00:04:26,180 --> 00:04:27,860
+All we have to do is decide the first two.
+
+35
+00:04:28,420 --> 00:04:36,370
+Let's open these two files and open them.
+
+36
+00:04:41,750 --> 00:04:55,070
+Actually, it's stuck in the grid
+file with the nodes before us.
+
+37
+00:04:55,070 --> 00:04:58,870
+It's a little bit of a
+inertia that makes it work.
+
+38
+00:04:59,980 --> 00:05:08,720
+In this place, particular attention is paid to the fact that if it's true in
+the high-level version, it'll show you to delete it and then wrap it up wrongly.
+
+39
+00:05:09,080 --> 00:05:14,000
+Let's just follow the previous
+one and get it on 6.14 pc.
+
+40
+00:05:21,940 --> 00:05:30,400
+If you're interested in leading this in, you can take
+it in and see how it works. It's not happening here.
+
+41
+00:05:30,400 --> 00:05:34,160
+We're not here to copy this file.
+
+42
+00:05:35,280 --> 00:05:42,530
+Let's create a folder to get this file.
+
+43
+00:05:43,540 --> 00:05:44,220
+It's...
+
+44
+00:05:45,520 --> 00:05:47,960
+Don't worry about it. Let's create it.
+
+45
+00:05:50,220 --> 00:05:50,780
+stress
+
+46
+00:05:52,690 --> 00:05:59,920
+It's got two files in it that we need to
+squeeze in while we see it in this position.
+
+47
+00:05:59,920 --> 00:06:07,540
+Loading a file is our web-based document,
+and we'll assemble the web-based document.
+
+48
+00:06:08,690 --> 00:06:14,660
+It's in this one of ours.
+We'll copy it in this position.
+
+49
+00:06:17,380 --> 00:06:25,400
+We'll open the 6.14's sax.
+
+50
+00:06:36,390 --> 00:06:37,610
+Let's sail by command.
+
+51
+00:06:38,740 --> 00:06:39,760
+Take it off.
+
+52
+00:06:50,700 --> 00:06:52,800
+Then we'll go down to our tribe.
+
+53
+00:07:01,440 --> 00:07:15,040
+Try it first, so this is abq6144, because I have multiple
+versions here, so say I'm going through this expression.
+
+54
+00:07:15,040 --> 00:07:16,800
+Give it to him.
+
+55
+00:07:16,880 --> 00:07:26,910
+If there's only one version, we'll just enter r8-4ablqus,
+then we'll find the equivalent, and we'll count this first.
+
+56
+00:07:31,080 --> 00:07:35,740
+You don't have to type the name of the info
+after it's submitted. Let me press a button.
+
+57
+00:07:37,500 --> 00:07:42,880
+CPUBUS equals everything
+we set parallel Into sales
+
+58
+00:08:04,320 --> 00:08:05,640
+We need to figure this out.
+
+59
+00:08:25,490 --> 00:08:29,510
+Well, it's done.
+
+60
+00:08:29,830 --> 00:08:36,190
+And then we're going to count the other,
+this MOD, and this is our Engine Models.
+
+61
+00:09:23,140 --> 00:09:25,900
+Okay, we're sure the other document is done.
+
+62
+00:09:25,900 --> 00:09:30,100
+If we do this, we'll need a couple
+of documents, and we'll be done.
+
+63
+00:09:30,100 --> 00:09:31,400
+Ah, a hard drive.
+
+64
+00:09:31,700 --> 00:09:37,660
+RODB, also hard disk, RODB, let's go through these
+four documents and let's try our stress files.
+
+65
+00:09:38,360 --> 00:09:39,940
+Open our synpark.
+
+66
+00:09:45,820 --> 00:09:51,360
+It's created with FDR through
+eulities's spressfuel and then try it.
+
+67
+00:09:56,150 --> 00:10:05,200
+Let's see what it needs from the AboX
+door, it needs to be added to our FBI file.
+
+68
+00:10:07,400 --> 00:10:14,510
+Let's get these four stress files in the
+first place and make the right choice.
+
+69
+00:10:16,540 --> 00:10:20,380
+And then we'll select our FBI.
+
+70
+00:10:20,440 --> 00:10:22,160
+FBI We're in here.
+
+71
+00:10:25,080 --> 00:10:32,940
+We use FBI files that are not in the Indonesia
+Recovery Agency, click on generations.
+
+72
+00:10:39,720 --> 00:10:44,200
+It'll create a stress file for us.
+
+73
+00:10:47,950 --> 00:10:56,660
+And this process, along with the performance of this certain number
+of machines, is complete with the creation of none of the two of us.
+
+74
+00:10:56,660 --> 00:11:06,510
+We can go through Sympact Flex, this Mini, and then we can
+get this much, but you'll find it's a school comparison.
+
+75
+00:11:06,510 --> 00:11:15,570
+More, if not more than a special model, we do it this
+way, and we do it this way, or we do it that way.
+
+76
+00:11:15,570 --> 00:11:20,150
+When it's finished, let's take
+a look at this Stress file.
+
+77
+00:11:21,190 --> 00:11:22,490
+It's okay.
+
+78
+00:11:25,560 --> 00:11:33,880
+This document follows the name it follows
+is our RRM back team and MOD back team.
+
+79
+00:11:33,880 --> 00:11:45,440
+It's not the path that follows our FBI and it's the
+directory where the Input and ODB files are located.
+
+80
+00:11:45,440 --> 00:11:46,720
+All right, let's read it.
+
+81
+00:11:57,880 --> 00:11:58,800
+Let's check it out.
+
+82
+00:12:04,800 --> 00:12:11,820
+It's all right here. It's
+all right. It's all right.
+
+83
+00:12:12,620 --> 00:12:14,300
+This hard force.
+
+84
+00:12:16,510 --> 00:12:19,830
+If we do this, we'll have the files created.
+
+85
+00:12:22,780 --> 00:12:30,040
+And after the creation is complete, our English zero
+file is actually to be placed under our AutoPut folder.
+
+86
+00:12:30,780 --> 00:12:32,580
+Let's make a decision.
+
+87
+00:12:36,690 --> 00:12:39,330
+Check again if our settings are correct.
+
+88
+00:12:48,240 --> 00:12:56,150
+Let's open up the mode of our high-grade
+charging Google Classy RecoverStart.
+
+89
+00:13:02,370 --> 00:13:05,570
+All right, let's re-engineer it.
+
+90
+00:13:11,680 --> 00:13:15,100
+We'll make the decision.
+
+91
+00:13:23,070 --> 00:13:26,630
+Have a taste of the pressure
+we put on this file.
+
+92
+00:13:32,700 --> 00:13:34,600
+Here's our model.
+
+93
+00:13:59,760 --> 00:14:02,600
+Well, we're done with this model.
+
+94
+00:14:03,900 --> 00:14:05,820
+And then we open this reprocessing.
+
+95
+00:14:07,690 --> 00:14:09,690
+Same way, same way before.
+
+96
+00:14:09,730 --> 00:14:10,530
+Let's drag it up.
+
+97
+00:14:11,370 --> 00:14:13,030
+And then it's an Indian map.
+
+98
+00:14:16,030 --> 00:14:17,250
+Let's put it in print, for example.
+
+99
+00:14:17,710 --> 00:14:21,150
+Come, it's here to look, find out.
+
+100
+00:14:21,590 --> 00:14:27,950
+There is no way to read stress corresponding
+to this name under this Otep folder.
+
+101
+00:14:28,710 --> 00:14:35,270
+So what we need is to put
+this stress down to Cobby.
+
+102
+00:14:35,270 --> 00:14:37,330
+But be aware of its name.
+
+103
+00:14:38,700 --> 00:14:47,620
+Let's button it down and cough,
+cough, cough, cough, cough.
+
+104
+00:14:54,950 --> 00:15:01,460
+Changes in cough, cough, cough and cough.
+
+105
+00:15:03,270 --> 00:15:08,850
+So we need to get this spress
+folder that we already created.
+
+106
+00:15:09,090 --> 00:15:14,120
+Can you come in?
+
+107
+00:15:20,300 --> 00:15:20,840
+Can you do that?
+
+108
+00:15:21,760 --> 00:15:26,060
+And then let's see what this name is.
+
+109
+00:15:26,520 --> 00:15:37,010
+So as long as you do it according to the process, it
+generates this folder accordingly, the file name is fine.
+
+110
+00:15:37,010 --> 00:15:40,070
+Let's do this again.
+
+111
+00:15:42,380 --> 00:15:49,040
+For example, to carry out OpenLine, it's not
+really covered at this time, it's already done.
+
+112
+00:15:55,710 --> 00:15:57,930
+Then its boundaries can be delivered.
+
+113
+00:16:04,900 --> 00:16:06,820
+It's all gonna take a while.
+
+114
+00:16:18,800 --> 00:16:21,740
+Actually, we're a lot of filers now.
+
+115
+00:16:22,280 --> 00:16:23,940
+And this is our model file.
+
+116
+00:16:24,060 --> 00:16:28,660
+And this is the FB, which
+was also generated in Mabaks.
+
+117
+00:16:29,000 --> 00:16:31,160
+And this is the English
+zero that we created.
+
+118
+00:16:31,620 --> 00:16:34,920
+And when we're done with the
+model, we'll pack it all together.
+
+119
+00:16:35,400 --> 00:16:39,320
+In that case, it might be
+better to see the effect.
+
+120
+00:16:39,940 --> 00:16:45,690
+In this process, the key is to say that the
+corresponding document is the corresponding model.
+
+121
+00:16:46,570 --> 00:16:50,910
+And there's nothing wrong with the names,
+and if there's something wrong, he's wrong.
+
+122
+00:16:52,290 --> 00:16:59,740
+What about our strain
+pointer, strain's camp map?
+
+123
+00:16:59,740 --> 00:17:11,990
+Well, then we're going to have a long time.
+Let's save this document, just call us.
+
+124
+00:17:16,550 --> 00:17:20,670
+This is saved to not the same Carbo.
+
+125
+00:17:27,020 --> 00:17:37,490
+So it's easier for us to check later. Let's look at the
+situation. It's already working as we thought it would.
+
+126
+00:17:38,400 --> 00:17:46,280
+And if we do the same thing,
+we'll find this one at some point.
+
+127
+00:17:47,080 --> 00:17:54,460
+Well, because you're going to export it,
+like we lose first, so let's export this.
+
+128
+00:17:56,210 --> 00:17:59,990
+One second, let's say a
+hundred and a thousand.
+
+129
+00:18:02,680 --> 00:18:15,680
+This is where it's located, under a lot of different files, and we're going to put it out, and
+it's already out, and we're going to export it, and it's going to change, and it's going down.
+
+130
+00:18:15,860 --> 00:18:21,900
+Thank you for the speed.
+We've chosen 100 1000.
+
+131
+00:18:26,030 --> 00:18:30,770
+We've already finished exporting
+him and bring him in more often.
+
+132
+00:18:34,100 --> 00:18:40,850
+Go to this operation and
+then go to this again.
+
+133
+00:18:42,520 --> 00:18:50,840
+And then we'll seal the city.
+
+134
+00:18:50,840 --> 00:18:51,960
+Take a look at it.
+
+135
+00:18:55,680 --> 00:18:59,300
+For example, check this out first.
+
+136
+00:19:01,630 --> 00:19:06,460
+Rey, look at this one.
+
+137
+00:19:08,640 --> 00:19:11,800
+It's fixed. We'll seal it.
+
+138
+00:19:18,100 --> 00:19:31,940
+And then we compare it to the one we've worked on, and we find the
+effect of the word, and it's a lot, like, a lot, and then we're...
+
+139
+00:19:31,940 --> 00:19:41,370
+And this, even if it works, if it's okay, then
+let's go through this Indonesian document.
+
+140
+00:19:41,790 --> 00:19:49,240
+stress uses English files to
+solve the problem of strain.
+
+141
+00:19:49,240 --> 00:19:59,480
+And we're going to go through this SympherPost, and the person who's going
+to export fcf is going to go through with this fcf, even if it's a file.
+
+142
+00:19:59,480 --> 00:20:09,950
+We can get through this. spress The document is the recovery pointer
+we're in front of. There's no way to import it. fe7 It's up to you.
+
+143
+00:20:09,950 --> 00:20:11,410
+That's why everyone's paying attention.

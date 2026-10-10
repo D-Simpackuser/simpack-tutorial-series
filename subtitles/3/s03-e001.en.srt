@@ -1,0 +1,389 @@
+1
+00:00:01,300 --> 00:00:13,000
+We've already lost our orders in APDL, but some
+might want to know about this mechanical, the APDL.
+
+2
+00:00:13,000 --> 00:00:21,180
+This GUI method of operation, and
+here we'll give him an explanation.
+
+3
+00:00:22,080 --> 00:00:34,540
+Well, we'll find out by reference
+to the corresponding APDL.
+
+4
+00:00:35,050 --> 00:00:41,590
+It's the same thing that means
+that we're part of the same thing.
+
+5
+00:00:43,320 --> 00:00:53,840
+The material attribute is the creation of a dot and the other one is to
+draw him a grid and then make a choice of one of his nodes after it's done.
+
+6
+00:00:54,260 --> 00:01:05,420
+After the selection has been completed, we'll do a solver job on one
+of his conscious shrinks, and we'll export the CDD files that we need.
+
+7
+00:01:05,420 --> 00:01:15,560
+Just a few specific operating procedures
+and we'll put them in Ansys, APDL, GUI.
+
+8
+00:01:16,240 --> 00:01:24,200
+And here we need a verbal document that's our
+interface document and we're almost ready to use.
+
+9
+00:01:28,460 --> 00:01:35,810
+Let's open this Ukaneco,APDL,
+for example. It's a nervous day.
+
+10
+00:01:44,160 --> 00:01:52,270
+I'm nervous. I'm nervous today.
+
+11
+00:02:14,350 --> 00:02:19,950
+Let's give the show lesson what he tried.
+
+12
+00:02:24,000 --> 00:02:26,980
+So we can take a closer look at this one.
+
+13
+00:02:36,680 --> 00:02:42,010
+We're here to give him one of
+our representative types first.
+
+14
+00:02:44,590 --> 00:02:49,050
+Or we'll add a thing we use and have a dad.
+
+15
+00:02:54,340 --> 00:02:59,980
+Well, then he can leave us alone.
+
+16
+00:03:03,210 --> 00:03:07,490
+Let's define the revival
+of one of our materials.
+
+17
+00:03:15,850 --> 00:03:23,220
+We're here to choose structures, lines, keep up with
+the same sex, be flexible and keep up with the same sex.
+
+18
+00:03:23,400 --> 00:03:30,780
+We're using 2.061 time here, for example.
+
+19
+00:03:31,890 --> 00:03:36,030
+Then it's 2.063,
+
+20
+00:03:38,590 --> 00:03:40,730
+And then it adds this material.
+
+21
+00:03:40,730 --> 00:03:45,950
+Everyone cut my fangs in later.
+
+22
+00:03:47,260 --> 00:03:49,260
+This one's already defined.
+
+23
+00:03:50,310 --> 00:03:58,050
+When you've got a definition, then you're
+going to have to come in with this.
+
+24
+00:03:58,050 --> 00:04:06,070
+It's and then we use customer section.
+
+25
+00:04:06,410 --> 00:04:12,330
+And then we plug this in,
+like, and we go to this.
+
+26
+00:04:14,380 --> 00:04:21,630
+Just choose this one, and
+then we'll use the other one.
+
+27
+00:04:21,630 --> 00:04:24,510
+All we're saying is that
+it's possible, for example.
+
+28
+00:04:27,400 --> 00:04:36,890
+It's an interface. You see, you've got a
+business in it. You've got a business in it.
+
+29
+00:04:36,890 --> 00:04:40,490
+For example, we create two dots.
+
+30
+00:04:41,770 --> 00:04:42,950
+Like the first point.
+
+31
+00:04:44,110 --> 00:04:46,470
+Like 00 or water.
+
+32
+00:04:49,000 --> 00:04:50,400
+And the second point.
+
+33
+00:04:51,810 --> 00:04:55,470
+Like 21 m and zero.
+
+34
+00:05:01,070 --> 00:05:05,650
+We can see it. It's been created. Let's see.
+
+35
+00:05:11,140 --> 00:05:18,240
+And here we are, once we've created the dot, we're
+creating a line that's a dot, a dot to a dot.
+
+36
+00:05:26,280 --> 00:05:27,560
+The wire's fine.
+
+37
+00:05:35,980 --> 00:05:42,210
+After we've finished creating
+this line, let's give this to us.
+
+38
+00:05:43,380 --> 00:05:44,960
+Let's use this American tow.
+
+39
+00:05:53,300 --> 00:05:56,000
+Let's choose these.
+
+40
+00:05:57,120 --> 00:05:59,220
+And then choose this key.
+
+41
+00:06:01,460 --> 00:06:05,940
+Let's say we're at 103, we're
+going to draw it at 103.
+
+42
+00:06:15,740 --> 00:06:17,940
+And here it is, we're done with the grid.
+
+43
+00:06:20,310 --> 00:06:25,970
+We'll be ready in front of
+the grid when it's done.
+
+44
+00:06:27,910 --> 00:06:31,930
+Let's create a new analytical
+department, we use substructing or CMS.
+
+45
+00:06:32,730 --> 00:06:35,450
+So this CMS is different from it.
+
+46
+00:06:38,030 --> 00:06:40,830
+In other people's forums
+they say there are some.
+
+47
+00:06:40,830 --> 00:06:50,550
+So the difference is that I've also said in
+Walkerbonch that this is what it used to do.
+
+48
+00:06:51,990 --> 00:06:59,970
+This simplified procedure comes from the upper
+house, which does not use this global scale.
+
+49
+00:07:01,360 --> 00:07:03,860
+That's the way to solve
+one of its indentations.
+
+50
+00:07:04,160 --> 00:07:07,620
+So that's what makes it
+heavier when you go to school.
+
+51
+00:07:08,160 --> 00:07:12,420
+But it's still not quite true
+about this thing when it's dynamic.
+
+52
+00:07:12,540 --> 00:07:15,670
+There is a risk of
+miscalculating the results.
+
+53
+00:07:16,070 --> 00:07:20,930
+So we're usually using this
+CMS method of synthesizing.
+
+54
+00:07:21,110 --> 00:07:25,050
+You can refer to this verse
+of help or some of the papers.
+
+55
+00:07:25,050 --> 00:07:29,940
+I can see some of it this way.
+
+56
+00:07:33,330 --> 00:07:33,570
+Premium
+
+57
+00:07:35,240 --> 00:07:38,700
+We'll just have to get straight on this.
+
+58
+00:07:39,900 --> 00:07:49,060
+And then we'll give this another sizeoption to
+it and we'll use this CMS because of substing.
+
+59
+00:07:49,660 --> 00:07:57,340
+It's this power circle that we're going
+to have to have a higher limit on it.
+
+60
+00:07:57,340 --> 00:07:59,860
+And then the next setup before we come.
+
+61
+00:08:01,250 --> 00:08:08,100
+It's also said here that it
+didn't make it into this free.
+
+62
+00:08:08,580 --> 00:08:22,460
+This free model, and then we'll contact it, and this is CMS
+option, and we'll put it in free, and we'll give it this.
+
+63
+00:08:22,460 --> 00:08:30,640
+Set it up as 40, then choose all of
+these, and he corresponds to this.
+
+64
+00:08:31,160 --> 00:08:35,260
+We just need to cut him down with Division.
+
+65
+00:08:36,340 --> 00:08:40,600
+And then we'll choose where
+he needs a defined supply.
+
+66
+00:08:42,010 --> 00:08:44,430
+Let's click on this here.
+
+67
+00:08:45,870 --> 00:08:54,270
+Well, then we'll choose all of them,
+for example, to keep all of his freedom.
+
+68
+00:08:55,000 --> 00:08:58,100
+When we're done, we'll take a decision.
+
+69
+00:09:00,000 --> 00:09:09,180
+Here chooses to let it go straight to
+completion, and then we can leave this CMS.
+
+70
+00:09:12,720 --> 00:09:16,940
+Here, let's talk about that
+substing. It might need this.
+
+71
+00:09:17,480 --> 00:09:25,660
+This is where we put that file on CMS.
+This is where we create a substing.
+
+72
+00:09:25,840 --> 00:09:29,880
+And then we'll just have to
+drag it out just like it did.
+
+73
+00:09:31,020 --> 00:09:40,580
+Then it's basically in our position
+where Alan sizeOptional is.
+
+74
+00:09:40,580 --> 00:09:48,260
+We'll use it here if we use it.
+
+75
+00:09:48,260 --> 00:09:59,320
+Choosing Substing, it's actually about two o'clock in
+here, but CMS actually uses a bit of Multi-one to run more.
+
+76
+00:10:00,000 --> 00:10:04,680
+It's here to give it a name,
+and it's here to keep it.
+
+77
+00:10:05,970 --> 00:10:13,210
+It's a high quality and then it can be ticked
+or it can be unticked under the output security.
+
+78
+00:10:13,770 --> 00:10:15,610
+And then we'll go to this.
+
+79
+00:10:16,740 --> 00:10:22,880
+Pick this main node. We've already
+picked this one before. PKO.
+
+80
+00:10:23,990 --> 00:10:24,950
+This one's on.
+
+81
+00:10:29,260 --> 00:10:32,520
+And then we can make it happen again.
+
+82
+00:10:34,260 --> 00:10:40,920
+Well, when it loses what
+it means, it produces one.
+
+83
+00:10:42,640 --> 00:10:45,140
+CDB file
+
+84
+00:10:54,930 --> 00:11:04,680
+And then we need a CDB file, and this
+is where we're going to order it, OK.
+
+85
+00:11:06,740 --> 00:11:18,650
+And then let's see, this CGB and CUB, right, so we can,
+like, go down there and create our elastic F-2 file.

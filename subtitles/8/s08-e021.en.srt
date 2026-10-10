@@ -1,0 +1,57 @@
+1
+00:00:02,320 --> 00:00:08,560
+And when it's done, we give
+it a certain speed, like 10.
+
+2
+00:00:09,860 --> 00:00:15,400
+See if it's running. We'll
+look at it. Other questions.
+
+3
+00:00:30,820 --> 00:00:32,120
+Do something new.
+
+4
+00:00:33,330 --> 00:00:41,460
+Well, it can run now, but why would it go
+up? This is because we're not even there.
+
+5
+00:00:45,250 --> 00:00:58,990
+When we were running, we found a problem, saying it's on the
+body, last time, so we said, uh, gravity, acceleration was wrong.
+
+6
+00:00:58,990 --> 00:01:06,620
+9.8 cm, and then we'll use the timer or the Manbu
+Icer to write the net, and open it through VS Code.
+
+7
+00:01:07,240 --> 00:01:10,720
+When we open it, we can see
+where it's going with gravity.
+
+8
+00:01:12,240 --> 00:01:20,100
+It's the opposite, so I haven't found a
+number of special ways in its software.
+
+9
+00:01:20,100 --> 00:01:22,460
+Just drop it right here.
+
+10
+00:01:23,480 --> 00:01:27,920
+Then we turn this model off and turn
+it off and then we turn it back on.
+
+11
+00:01:32,840 --> 00:01:39,600
+And then, run the character
+again and it's right.
+
+12
+00:01:41,980 --> 00:01:46,480
+I've seen this before, but for
+specific reasons, it's not so light.

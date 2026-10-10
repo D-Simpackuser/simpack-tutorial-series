@@ -1,0 +1,423 @@
+1
+00:00:01,840 --> 00:00:09,280
+Here, we're going to follow the same pattern as the structure, we're going
+to use the agroteam model and then we're going to produce bogie frame.
+
+2
+00:00:10,020 --> 00:00:13,100
+Open the new Parker here.
+
+3
+00:00:19,820 --> 00:00:24,730
+This is where we can build
+a new decomposition module.
+
+4
+00:00:31,790 --> 00:00:34,150
+Include UFO here
+
+5
+00:00:39,040 --> 00:00:42,680
+Here I play three bodies.
+
+6
+00:00:44,120 --> 00:00:49,980
+It's supposed to be bogie frame, and the
+other one is a flag military connection.
+
+7
+00:00:52,500 --> 00:00:57,880
+Goo Jia Chai's project is about M
+
+8
+00:01:02,620 --> 00:01:14,180
+And the other two are the ones who have enough to call the
+farm team, and first we can say we can get rid of this thing.
+
+9
+00:01:14,180 --> 00:01:21,150
+We don't delete it here, and then we call
+the whole word model, for example, ours.
+
+10
+00:01:22,440 --> 00:01:27,720
+It's called the front-end
+farming team WSF, Front.
+
+11
+00:01:29,030 --> 00:01:35,570
+Here, you can go straight to
+the top and then go to WS.
+
+12
+00:01:37,220 --> 00:01:38,420
+Touch this again.
+
+13
+00:01:40,300 --> 00:01:47,920
+Okay, the second wheel has been thrown in
+and the second one has been bent to the rear.
+
+14
+00:01:48,840 --> 00:01:56,990
+WS A.R. is a soft backside to dump our WS.
+
+15
+00:01:56,990 --> 00:02:06,670
+Well, it's now using two. It looks one, but it's darker.
+It's two bodies that overlap. We'll be right back.
+
+16
+00:02:06,670 --> 00:02:08,370
+Let's just fix this.
+
+17
+00:02:11,090 --> 00:02:22,260
+These two networks need to be set up to describe the vastness of the dead racks
+as these properties, as well as this wide luminous properties of the innuendo.
+
+18
+00:02:22,260 --> 00:02:30,990
+Besides, we've got a connection
+to it, so we've got to set it up.
+
+19
+00:02:31,870 --> 00:02:34,830
+Let's set this up first.
+
+20
+00:02:40,180 --> 00:02:47,180
+The position of the rack sets
+the changes to its nail net.
+
+21
+00:02:56,180 --> 00:02:58,920
+We've got a mistake here.
+We should show it a mistake.
+
+22
+00:03:02,280 --> 00:03:02,640
+Item
+
+23
+00:03:07,920 --> 00:03:17,540
+The main focus is on quality and the
+process of moving in three directions.
+
+24
+00:03:24,880 --> 00:03:30,140
+The parameters here are the same as this.
+
+25
+00:03:30,280 --> 00:03:38,650
+But in order to keep the model moving, we set the parameters
+according to one of the parameters of my previous model.
+
+26
+00:03:49,180 --> 00:03:55,350
+Yeah, yeah, yeah, yeah, yeah,
+yeah, yeah, yeah, yeah, yeah.
+
+27
+00:03:59,420 --> 00:04:07,080
+Yeah, x is our nod, YYY.
+
+28
+00:04:07,080 --> 00:04:17,140
+It's our nod, Rx,x. It's our
+Azina. It's our Ut, like this.
+
+29
+00:04:19,920 --> 00:04:23,180
+We are 20,
+
+30
+00:04:30,220 --> 00:04:41,280
+One more nod, Rx,x is our nod.
+
+31
+00:04:41,280 --> 00:04:42,260
+That's embarrassing.
+
+32
+00:04:46,440 --> 00:04:52,420
+I will writeI will write your examI it
+
+33
+00:04:54,760 --> 00:04:55,480
+will do it
+
+34
+00:04:58,930 --> 00:05:06,600
+I'm... will The oil's in. 2 -6
+
+35
+00:05:06,600 --> 00:05:08,100
+I don't...
+
+36
+00:05:09,570 --> 00:05:17,900
+It's hot enough for the whole meal and then
+we'll attach it to an initial period of time.
+
+37
+00:05:19,580 --> 00:05:23,020
+Give me the name UIM.
+
+38
+00:05:25,950 --> 00:05:29,930
+That's when we got up, because
+it's actually what it is.
+
+39
+00:05:30,950 --> 00:05:39,450
+I've got it softly, and I've got it in this
+little bit of a connection and it's set up.
+
+40
+00:05:40,280 --> 00:05:41,380
+One.
+
+41
+00:05:43,390 --> 00:05:44,490
+This time.
+
+42
+00:05:49,260 --> 00:05:56,150
+We can get on the hood here or we
+can just drop it at this fat mouth.
+
+43
+00:06:02,940 --> 00:06:09,800
+So our bogie frame and the
+exporter's economy is over.
+
+44
+00:06:11,560 --> 00:06:12,800
+It's a logical parameter.
+
+45
+00:06:13,660 --> 00:06:23,080
+And then, we might need to make sure that it's based
+on the positioning parameters of the connection.
+
+46
+00:06:37,570 --> 00:06:43,020
+Here's the variable we need to create.
+
+47
+00:06:45,290 --> 00:06:48,810
+And when it comes to the results,
+we're gonna have to create it.
+
+48
+00:06:50,040 --> 00:06:58,940
+We'll put this in the car as we turn to the wheels
+and go inside the restaurant. Vehicle Dmitri Promise
+
+49
+00:07:03,920 --> 00:07:05,820
+Vehicles, Vehicles,
+
+50
+00:07:11,820 --> 00:07:12,820
+Dimitri.
+
+51
+00:07:28,580 --> 00:07:35,260
+This one's common in here.
+We'll take him here first.
+
+52
+00:07:37,280 --> 00:07:40,480
+The legend will decide.
+
+53
+00:07:40,980 --> 00:07:47,080
+What's common in here is that
+we're called Farmer. This is LT.
+
+54
+00:07:47,580 --> 00:07:54,210
+Here's LT. We're studying
+regular orbital contracts.
+
+55
+00:07:54,210 --> 00:08:06,640
+Just over there saying I'm gonna stay on the
+side, and then I'm gonna get my hands on it.
+
+56
+00:08:06,640 --> 00:08:16,970
+That means two. bogie It's the
+distance from where it's at the center.
+
+57
+00:08:16,970 --> 00:08:24,410
+This custom is 15.7 m, 15700 mm.
+
+58
+00:08:25,500 --> 00:08:33,030
+After that, there's another
+item Z for the purchase price.
+
+59
+00:08:33,030 --> 00:08:40,040
+The Z rule is that we're at
+the altitude of the track.
+
+60
+00:08:41,580 --> 00:08:43,620
+Just write it down.
+
+61
+00:08:48,050 --> 00:08:48,990
+Box Z.
+
+62
+00:08:58,940 --> 00:09:00,100
+600
+
+63
+00:09:23,640 --> 00:09:36,460
+This was used in its application. This is
+our order. We need a first-degree steel.
+
+64
+00:09:36,460 --> 00:09:46,270
+And the second degree of steel,
+and put it in this trunk, too.
+
+65
+00:09:55,750 --> 00:09:57,210
+We don't need this.
+
+66
+00:09:57,210 --> 00:10:00,450
+Create a screw for 1 C-2C later
+
+67
+00:10:05,080 --> 00:10:09,280
+It's a medium operation
+that teaches exercise.
+
+68
+00:10:12,450 --> 00:10:13,030
+Chinese Soft Fuck
+
+69
+00:10:15,230 --> 00:10:17,230
+Medium Soft
+
+70
+00:10:24,980 --> 00:10:29,770
+Soft Church
+
+71
+00:10:31,170 --> 00:10:39,260
+Chinese Chinese Language Operation Teaching Chinese Language
+Software Chinese Language Software Chinese Soft Learning.
+
+72
+00:10:39,260 --> 00:10:41,480
+Soft-fucking teaching.
+
+73
+00:10:41,510 --> 00:10:46,520
+Cax is one.
+
+74
+00:10:49,360 --> 00:10:51,860
+I'll give you the money.
+
+75
+00:10:55,990 --> 00:11:00,050
+You've got to get the
+right gear to pay for it.
+
+76
+00:11:02,020 --> 00:11:08,660
+We're creating Hong Kong.
+
+77
+00:11:10,930 --> 00:11:24,150
+QI6600-1000--1000-1000--
+
+78
+00:11:24,660 --> 00:11:30,340
+1000 -- -10001000 --
+
+79
+00:11:34,380 --> 00:11:35,560
+I'm...
+
+80
+00:11:42,980 --> 00:11:47,950
+-10001000 ---
+
+81
+00:11:52,110 --> 00:11:57,830
+- Oh, by the way.
+
+82
+00:12:00,090 --> 00:12:11,400
+No, no, no, no, no, no, no, no, no.
+
+83
+00:12:13,960 --> 00:12:19,780
+No, no, no, no.
+
+84
+00:12:21,610 --> 00:12:21,970
+No, no, no.
+
+85
+00:12:28,180 --> 00:12:28,940
+No, no, no.
+
+86
+00:13:03,580 --> 00:13:07,380
+I just need to make a detailed
+modification of its parameter values.
+
+87
+00:13:14,800 --> 00:13:19,620
+For example, with regard to detailed air springs,
+most of the fine air springs are worth it.
+
+88
+00:13:20,770 --> 00:13:24,910
+The details of the micro-mail, we'll
+probably talk about it in the next step.
+
+89
+00:13:26,010 --> 00:13:32,980
+And that's the way it's going to be.
+
+90
+00:13:50,210 --> 00:13:50,230
+Yes.
+
+91
+00:13:51,880 --> 00:13:54,340
+Foreign news is 32.
+
+92
+00:14:00,510 --> 00:14:06,610
+This parameter guidance network will be
+available throughout the box opening room.
+
+93
+00:14:07,620 --> 00:14:12,560
+You can say more about reference,
+but these questions are right.
+
+94
+00:14:14,190 --> 00:14:18,110
+Parameters need to be changed
+when using their own models.
+
+95
+00:14:19,100 --> 00:14:24,180
+In the morning, the parameter guidance that
+can be used in the building has been created.

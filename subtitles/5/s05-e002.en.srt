@@ -1,0 +1,538 @@
+1
+00:00:01,360 --> 00:00:15,100
+Hello, class. I'd like to thank you very
+much for your support. This is what we do.
+
+2
+00:00:15,100 --> 00:00:19,560
+A very big motivation for the pay video.
+
+3
+00:00:21,020 --> 00:00:34,380
+Starting today, we're starting with the first class, and all of this is a complete
+street-building of the train Wooza tracks and the bridge dolls and dynamics models.
+
+4
+00:00:34,380 --> 00:00:48,060
+The course was full of dry goods with no flaws,
+so all the contents were recognizable, nothing.
+
+5
+00:00:48,060 --> 00:00:50,540
+The problem is, they're
+all reenactable, okay?
+
+6
+00:00:50,540 --> 00:01:00,080
+So, today, we're going to talk about the first class, the
+first class, which is a sword model of the steel track.
+
+7
+00:01:00,480 --> 00:01:13,980
+The steel track must be important,
+so what about its modes?
+
+8
+00:01:13,980 --> 00:01:21,860
+It's a very important
+point of drawing, isn't it?
+
+9
+00:01:21,860 --> 00:01:31,160
+Alkos We're here right now.
+evacus It's built inside.
+
+10
+00:01:33,000 --> 00:01:44,660
+What about orbits and bridges, I'll follow, a video
+that will take over the model I made in evacus.
+
+11
+00:01:44,660 --> 00:01:46,940
+Here's the one for everyone.
+
+12
+00:01:48,300 --> 00:01:55,730
+Direct reference, same thing.
+Well, then, follow it up.
+
+13
+00:01:55,730 --> 00:02:06,740
+It's all that's seen in the course, that's what the Abacus
+personnel, including what's in the car, and everyone can ignore it.
+
+14
+00:02:07,060 --> 00:02:20,640
+Because there's no such thing as joint access technology at Abacus
+Impact, so I try to clean up the clothes of those cars, but what if...
+
+15
+00:02:20,640 --> 00:02:27,960
+There's the animation in this car, but
+everyone's just gonna ignore it by default.
+
+16
+00:02:27,960 --> 00:02:35,120
+Just look from the steel track to
+the bridge. Thank you very much.
+
+17
+00:02:35,120 --> 00:02:42,520
+Let's get back to this.
+
+18
+00:02:43,060 --> 00:02:46,440
+And then we're going to do the steel grid.
+
+19
+00:02:47,820 --> 00:02:54,920
+The lesson of modeling steel tracks
+and griding is patient for a long time.
+
+20
+00:02:54,920 --> 00:03:03,920
+Well, thank you for first
+importing our 60, the ghost.
+
+21
+00:03:06,640 --> 00:03:10,200
+Oh, that cross section of 60 ghost.
+
+22
+00:03:11,580 --> 00:03:18,340
+We can take a look at this 60 ghost.
+
+23
+00:03:19,580 --> 00:03:20,080
+Hey!
+
+24
+00:03:21,820 --> 00:03:29,520
+Well, it's actually pretty good, but
+it's a matter of convenience, isn't it?
+
+25
+00:03:30,440 --> 00:03:42,520
+And then we'll build this model.
+
+26
+00:03:44,060 --> 00:03:52,110
+So let's start with one of these.
+
+27
+00:03:52,110 --> 00:03:56,040
+It's called 63.
+
+28
+00:03:58,360 --> 00:04:07,300
+Actually, 063 is 0.63. Okay,
+so let's take our model.
+
+29
+00:04:07,300 --> 00:04:13,020
+It's open. Okay, so there's no problem.
+
+30
+00:04:14,350 --> 00:04:16,630
+Then pull 0.63 m.
+
+31
+00:04:22,560 --> 00:04:34,140
+Well, it's in this model, and there's some, maybe something,
+but it's not really important, okay, it's not necessary.
+
+32
+00:04:34,140 --> 00:04:46,080
+Well, then we'll basically take the track,
+so we'll see if there's anything to focus on.
+
+33
+00:04:46,080 --> 00:04:57,360
+Actually, no, basically all 0.63 is
+enough so we can build this track now.
+
+34
+00:04:57,360 --> 00:05:00,770
+We're mainly doing mountain bridges.
+
+35
+00:05:01,650 --> 00:05:07,010
+What about the mountain
+bridge? It has to be a lot.
+
+36
+00:05:08,740 --> 00:05:10,060
+Long steel cabinets.
+
+37
+00:05:10,970 --> 00:05:22,130
+So we'll start with a mountain bridge, make
+a steel cabinet on both sides, pour this in.
+
+38
+00:05:27,580 --> 00:05:35,790
+Where it goes, it could
+fly a little further.
+
+39
+00:05:39,580 --> 00:05:43,990
+Take a look. We haven't even looked.
+
+40
+00:05:43,990 --> 00:05:49,800
+Oh, well, then we'll look for it.
+
+41
+00:05:51,520 --> 00:05:55,100
+It's here. It's far away.
+
+42
+00:05:57,240 --> 00:06:02,840
+All right, let's get it up to the point.
+
+43
+00:06:03,020 --> 00:06:06,680
+Okay, so now, basically, it's done, right?
+
+44
+00:06:08,480 --> 00:06:11,060
+Ah, what's it got to do
+with some of the outside?
+
+45
+00:06:11,280 --> 00:06:13,980
+Let's see if there's a solution, okay.
+
+46
+00:06:15,200 --> 00:06:17,680
+If it's not resolved, it's impossible.
+
+47
+00:06:18,420 --> 00:06:26,700
+Well, we're, uh, we can't really fix this.
+
+48
+00:06:27,400 --> 00:06:30,820
+That's what it's for.
+
+49
+00:06:31,700 --> 00:06:33,380
+These dots do not exist.
+
+50
+00:06:34,250 --> 00:06:37,030
+That's not necessary. Whatever.
+
+51
+00:06:38,530 --> 00:06:45,660
+So what about this one? We're gonna change
+the 52-key part of the weapon, right?
+
+52
+00:06:45,760 --> 00:06:46,920
+So let's take a look at it.
+
+53
+00:06:55,270 --> 00:06:58,630
+Well, that's a good idea.
+
+54
+00:07:00,510 --> 00:07:03,570
+Yeah, yeah, yeah. That's it.
+
+55
+00:07:09,300 --> 00:07:12,070
+A green shirt.
+
+56
+00:07:17,050 --> 00:07:20,070
+All right, then, now.
+
+57
+00:07:26,920 --> 00:07:33,940
+Yeah, this should be 51 or 5.
+
+58
+00:07:41,840 --> 00:07:48,540
+Eleven. fastener So this is the bridge
+length, which means the left mark of the word.
+
+59
+00:07:50,970 --> 00:07:55,630
+It's supposed to be 51 fastener, okay,
+and then we're gonna have to be here.
+
+60
+00:08:00,470 --> 00:08:09,500
+The bridge's too much, uh, this is...
+
+61
+00:08:09,500 --> 00:08:11,040
+The bridge's overflowing.
+
+62
+00:08:17,280 --> 00:08:19,720
+It's an overturn of the bridge.
+
+63
+00:08:24,460 --> 00:08:31,060
+You don't have to do that, do you, 51?
+
+64
+00:08:32,070 --> 00:08:43,410
+fastener I'll just count it again.
+Sorry. I didn't do it. 32.6 m
+
+65
+00:08:43,410 --> 00:08:52,070
+Less what, minus 0.235 on
+both sides, multiplied by 2
+
+66
+00:08:52,130 --> 00:09:00,320
+To 32.13 m divided by 0.6 equals 51
+
+67
+00:09:00,790 --> 00:09:14,520
+That's 51, so what we did was 52 when I did it,
+right? 52, this is at the end, whatever, and so...
+
+68
+00:09:14,520 --> 00:09:26,740
+It's 51, 51, so this is, this is the bridge, the steel
+track in the middle of the bridge, okay, so we...
+
+69
+00:09:40,500 --> 00:09:42,600
+Let's do this. Okay.
+
+70
+00:09:44,060 --> 00:09:47,060
+And we're here to record the first one.
+
+71
+00:10:06,180 --> 00:10:20,150
+Actually, we can figure out how
+many of them it's supposed to be.
+
+72
+00:10:20,150 --> 00:10:26,480
+Ah, well, it's not working. It's not smart.
+
+73
+00:10:26,680 --> 00:10:30,540
+Well, let's figure it out.
+
+74
+00:10:35,270 --> 00:10:44,600
+Let's go, Joe's one plus
+one plus one plus 51
+
+75
+00:10:44,600 --> 00:10:46,480
+What's added?
+
+76
+00:10:48,980 --> 00:10:58,600
+Plus 51 is multiplied by 3, right? 51
+multiplied by 3, plus Joe's and Joe's.
+
+77
+00:10:58,600 --> 00:11:06,040
+If you say so, it's two,
+plus one of the steps.
+
+78
+00:11:06,040 --> 00:11:07,740
+Word.
+
+79
+00:11:07,740 --> 00:11:15,130
+Okay, let's count 511 by 3 plus 4
+
+80
+00:11:15,130 --> 00:11:16,870
+157 units
+
+81
+00:11:19,430 --> 00:11:28,840
+157 section good. Then let's just get
+out of here. Let's go straight to 157.
+
+82
+00:11:41,580 --> 00:11:48,700
+Two. 157 One.
+
+83
+00:11:51,900 --> 00:11:59,700
+Well, then our steel tracks are born, right?
+
+84
+00:12:55,530 --> 00:12:59,370
+This computer's older,
+more troublesome, slow.
+
+85
+00:13:00,740 --> 00:13:08,100
+Looks like it's all right.
+Well, then we'll pour it out.
+
+86
+00:13:15,830 --> 00:13:18,250
+Just give me a second
+to see my original Rail.
+
+87
+00:13:38,180 --> 00:13:48,400
+That's the same thing. Look
+at this. That's the same.
+
+88
+00:13:52,180 --> 00:13:56,040
+But if you need an intention,
+you should remember it correctly.
+
+89
+00:13:59,640 --> 00:14:04,110
+Let's do this. We'll talk later.
+
+90
+00:14:11,860 --> 00:14:24,930
+Just keep it like this, so we can move
+it in assembly, and I can delete it.
+
+91
+00:14:26,480 --> 00:14:30,750
+We're input A,
+
+92
+00:14:36,430 --> 00:14:39,510
+Yeah, that's all right.
+
+93
+00:14:43,970 --> 00:14:54,710
+Okay, basically input's coming
+over. Let's see that assembly.
+
+94
+00:14:55,070 --> 00:14:58,370
+That's how it hurts.
+
+95
+00:14:59,870 --> 00:15:05,760
+Isn't it two? Don't you see?
+
+96
+00:15:06,280 --> 00:15:07,600
+Oh, look.
+
+97
+00:15:13,100 --> 00:15:15,480
+It's not going to work.
+
+98
+00:15:16,110 --> 00:15:18,620
+That's all right. That's all right.
+
+99
+00:15:40,690 --> 00:15:44,950
+It's in the middle of it.
+Let's just take a look.
+
+100
+00:15:49,220 --> 00:15:53,970
+Feels better than before.
+
+101
+00:16:19,740 --> 00:16:25,520
+Then we'll delete it.
+There's no need to keep it.
+
+102
+00:16:34,740 --> 00:16:38,770
+In fact, cold sex is a
+very difficult thing to do.
+
+103
+00:16:49,740 --> 00:16:53,600
+Forget it. Let's just stay that way.
+
+104
+00:16:57,040 --> 00:17:00,580
+Zero doesn't count. That's one 508.
+
+105
+00:17:03,290 --> 00:17:11,320
+Come on, 1.508.
+
+106
+00:17:16,140 --> 00:17:17,600
+Actually, that's good.
+
+107
+00:17:38,690 --> 00:17:39,970
+It's so far away.
+
+108
+00:17:41,620 --> 00:17:41,880
+Nothing.
+
+109
+00:17:43,180 --> 00:17:44,500
+Let's put it here first.
+
+110
+00:17:45,970 --> 00:17:56,510
+I'm just trying to change the name. You
+can change the name I've never changed.
+
+111
+00:17:56,510 --> 00:17:57,690
+You've changed now.
+
+112
+00:18:23,900 --> 00:18:25,120
+Change this one.
+
+113
+00:18:25,120 --> 00:18:27,590
+Okay. So...
+
+114
+00:18:30,660 --> 00:18:32,580
+Look where it's point.
+
+115
+00:18:32,840 --> 00:18:35,200
+It's an X point, isn't it?
+
+116
+00:18:35,760 --> 00:18:37,380
+We'll see.
+
+117
+00:18:38,880 --> 00:18:44,430
+It's a lot more trouble to change
+the model than to recreate it.
+
+118
+00:18:46,190 --> 00:18:47,130
+X is.
+
+119
+00:18:49,620 --> 00:18:56,050
+That's it, 103.29. We'll
+move 103.29 Yeah from there!
+
+120
+00:19:08,610 --> 00:19:17,240
+It's 13:29 for 0004, see if it's true
+
+121
+00:19:17,950 --> 00:19:21,130
+One hundred and thirty-nine,
+then ninety-two.
+
+122
+00:19:25,320 --> 00:19:32,140
+That's right down there, isn't it, OK?

@@ -1,0 +1,22 @@
+# 系列 2
+
+原始系列编号：2；默认名称：系列 2。
+显示顺序为文件名自然排序；课程 ID 在后续新增文件时保持稳定。下载可见性以每课状态为准。
+
+| 稳定 ID | 原始中文标题 | 时长（秒） | 视频 | 中文 SRT | 中文 VTT | 英文 SRT | 英文 VTT | 详情 |
+|---|---|---|---|---|---|---|---|---|
+| s02-e001 | ABAQUS生成fbi准备文件 | 未知 | 待上传 | [本地副本](../../subtitles/2/s02-e001.zh-CN.srt) | [本地副本](../../subtitles/2/s02-e001.zh-CN.vtt) | [本地副本](../../subtitles/2/s02-e001.en.srt) | [本地副本](../../subtitles/2/s02-e001.en.vtt) | [课程详情](../../lessons/s02-e001.md) |
+| s02-e002 | ANSYS-fbi柔性体文件的生成&amp;Simpack中柔性体的设置 | 未知 | 待上传 | [本地副本](../../subtitles/2/s02-e002.zh-CN.srt) | [本地副本](../../subtitles/2/s02-e002.zh-CN.vtt) | [本地副本](../../subtitles/2/s02-e002.en.srt) | [本地副本](../../subtitles/2/s02-e002.en.vtt) | [课程详情](../../lessons/s02-e002.md) |
+| s02-e003 | ANSYS-通过stress应力文件求解柔性体应力应变 Simpack Post设置柔性体变形应力应变查看 | 未知 | 待上传 | [本地副本](../../subtitles/2/s02-e003.zh-CN.srt) | [本地副本](../../subtitles/2/s02-e003.zh-CN.vtt) | [本地副本](../../subtitles/2/s02-e003.en.srt) | [本地副本](../../subtitles/2/s02-e003.en.vtt) | [课程详情](../../lessons/s02-e003.md) |
+| s02-e004 | ANSYS生成fbi准备文件 | 未知 | 待上传 | [本地副本](../../subtitles/2/s02-e004.zh-CN.srt) | [本地副本](../../subtitles/2/s02-e004.zh-CN.vtt) | [本地副本](../../subtitles/2/s02-e004.en.srt) | [本地副本](../../subtitles/2/s02-e004.en.vtt) | [课程详情](../../lessons/s02-e004.md) |
+| s02-e005 | Fe-safe疲劳分析 - new | 未知 | 待上传 | [本地副本](../../subtitles/2/s02-e005.zh-CN.srt) | [本地副本](../../subtitles/2/s02-e005.zh-CN.vtt) | [本地副本](../../subtitles/2/s02-e005.en.srt) | [本地副本](../../subtitles/2/s02-e005.en.vtt) | [课程详情](../../lessons/s02-e005.md) |
+| s02-e006 | Fe-safe疲劳分析 | 未知 | 待上传 | [本地副本](../../subtitles/2/s02-e006.zh-CN.srt) | [本地副本](../../subtitles/2/s02-e006.zh-CN.vtt) | [本地副本](../../subtitles/2/s02-e006.en.srt) | [本地副本](../../subtitles/2/s02-e006.en.vtt) | [课程详情](../../lessons/s02-e006.md) |
+| s02-e007 | Simpack Post导出Fe-sfae计算文件 | 未知 | 待上传 | [本地副本](../../subtitles/2/s02-e007.zh-CN.srt) | [本地副本](../../subtitles/2/s02-e007.zh-CN.vtt) | [本地副本](../../subtitles/2/s02-e007.en.srt) | [本地副本](../../subtitles/2/s02-e007.en.vtt) | [课程详情](../../lessons/s02-e007.md) |
+| s02-e008 | Simpack Post设置柔性体变形应力应变查看 | 未知 | 待上传 | [本地副本](../../subtitles/2/s02-e008.zh-CN.srt) | [本地副本](../../subtitles/2/s02-e008.zh-CN.vtt) | [本地副本](../../subtitles/2/s02-e008.en.srt) | [本地副本](../../subtitles/2/s02-e008.en.vtt) | [课程详情](../../lessons/s02-e008.md) |
+| s02-e009 | Simpack中柔性体的设置 | 未知 | 待上传 | [本地副本](../../subtitles/2/s02-e009.zh-CN.srt) | [本地副本](../../subtitles/2/s02-e009.zh-CN.vtt) | [本地副本](../../subtitles/2/s02-e009.en.srt) | [本地副本](../../subtitles/2/s02-e009.en.vtt) | [课程详情](../../lessons/s02-e009.md) |
+| s02-e010 | fbi柔性体文件的生成 | 未知 | 待上传 | [本地副本](../../subtitles/2/s02-e010.zh-CN.srt) | [本地副本](../../subtitles/2/s02-e010.zh-CN.vtt) | [本地副本](../../subtitles/2/s02-e010.en.srt) | [本地副本](../../subtitles/2/s02-e010.en.vtt) | [课程详情](../../lessons/s02-e010.md) |
+| s02-e011 | 案例：从abaqus到simpack再到fesafe的完整实现流程 | 未知 | 待上传 | [本地副本](../../subtitles/2/s02-e011.zh-CN.srt) | [本地副本](../../subtitles/2/s02-e011.zh-CN.vtt) | [本地副本](../../subtitles/2/s02-e011.en.srt) | [本地副本](../../subtitles/2/s02-e011.en.vtt) | [课程详情](../../lessons/s02-e011.md) |
+| s02-e012 | 通过stress应力文件求解柔性体应力应变 | 未知 | 待上传 | [本地副本](../../subtitles/2/s02-e012.zh-CN.srt) | [本地副本](../../subtitles/2/s02-e012.zh-CN.vtt) | [本地副本](../../subtitles/2/s02-e012.en.srt) | [本地副本](../../subtitles/2/s02-e012.en.vtt) | [课程详情](../../lessons/s02-e012.md) |
+| s02-e013 | 通过应力应变恢复矩阵求解柔性体应力应变 | 未知 | 待上传 | [本地副本](../../subtitles/2/s02-e013.zh-CN.srt) | [本地副本](../../subtitles/2/s02-e013.zh-CN.vtt) | [本地副本](../../subtitles/2/s02-e013.en.srt) | [本地副本](../../subtitles/2/s02-e013.en.vtt) | [课程详情](../../lessons/s02-e013.md) |
+
+[返回总目录](../../README.md)

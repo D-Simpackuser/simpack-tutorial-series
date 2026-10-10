@@ -1,0 +1,1035 @@
+1
+00:00:08,340 --> 00:00:13,680
+All right, let's go to the web site of the last
+section to continue with the writing of the MT2 file.
+
+2
+00:00:16,320 --> 00:00:23,940
+The network here looks at the description of
+the remaining parameters in its HELP file.
+
+3
+00:00:25,650 --> 00:00:31,670
+Let's look at its help files. There's
+these lines down there. Let's copy them.
+
+4
+00:00:33,010 --> 00:00:35,810
+We don't have to pay special
+attention to these lines.
+
+5
+00:00:37,610 --> 00:00:40,330
+Copy it and change the parameters to use it.
+
+6
+00:00:47,720 --> 00:00:50,480
+Personally, I like to put it on top.
+
+7
+00:00:51,670 --> 00:00:59,030
+But putting this in place doesn't make any
+difference to the whole song. Change it first.
+
+8
+00:00:59,130 --> 00:01:02,240
+And then let's look at the
+explanation for it in Black Bomund.
+
+9
+00:01:04,050 --> 00:01:10,910
+Node Tolerance, which means
+determining its space tolerance,
+
+10
+00:01:12,120 --> 00:01:18,030
+The space tolerance difference
+in the main node and flag check.
+
+11
+00:01:18,490 --> 00:01:20,830
+We don't have to worry
+about that. By default.
+
+12
+00:01:20,830 --> 00:01:30,130
+For stepher minimal, for example, when we
+generate a LBR file, for this little stiffness
+
+13
+00:01:30,130 --> 00:01:40,130
+When we import it, we can ignore it.
+
+14
+00:01:40,130 --> 00:01:47,870
+MassMemo also sells it in the same
+way, and it's the most important thing.
+
+15
+00:01:47,870 --> 00:01:55,750
+It's also a mutation.
+
+16
+00:01:56,410 --> 00:02:04,420
+It's a mirror that it gives to 0 in the Anlysium
+below, but only 0's network is best designed for it.
+
+17
+00:02:04,420 --> 00:02:16,180
+And if it's designed, it's got the advantage of reading and writing when we're imported into the
+new pa. FT2 And when it does, it will respond to this. MPL What time coordinates are with us?
+
+18
+00:02:16,340 --> 00:02:24,660
+MPL seems to have a corresponding relationship, if it doesn't exist,
+and it's a hint, and then it's to make it easier for us to look.
+
+19
+00:02:27,220 --> 00:02:37,750
+We need to create a folder.
+
+20
+00:02:37,750 --> 00:02:45,310
+This folder is a specific folder
+for F7r that must be under data base
+
+21
+00:02:46,040 --> 00:02:54,240
+Then the name must be a training
+one, and you can't change it. lbsdb
+
+22
+00:02:54,240 --> 00:03:01,340
+And then the flagtrack below and then we're
+going into this, so we can name ourselves.
+
+23
+00:03:01,620 --> 00:03:09,880
+If you name yourself, it has a requirement that
+our FT2 file name must be the same as the folder.
+
+24
+00:03:10,220 --> 00:03:12,280
+If it's not the same, it
+won't be able to read.
+
+25
+00:03:13,700 --> 00:03:17,680
+When it's done, we can build
+a new one for everyone.
+
+26
+00:03:21,160 --> 00:03:27,640
+FT2's test file, and then look at our
+FT2 if we need to write further nodes.
+
+27
+00:03:29,010 --> 00:03:30,830
+New key Ultrack
+
+28
+00:03:32,710 --> 00:03:36,730
+Well, this way to the
+desktop, it's T. Fade out.
+
+29
+00:03:38,790 --> 00:03:46,890
+Fade out, and then we can find out what we
+have to do if it's a floor network, is Se Pass.
+
+30
+00:03:46,890 --> 00:03:51,350
+BitBitSearch. The silver
+teeth are poured in.
+
+31
+00:03:53,810 --> 00:04:05,710
+Well, it's in the world, so we can find the keys
+to it, and we can choose the P type, FluxTr.
+
+32
+00:04:05,710 --> 00:04:13,250
+Then we can have a relative type, an absolute type, and then we
+can choose Database here, and we can see it's been identified.
+
+33
+00:04:13,250 --> 00:04:19,090
+If it's not recognized at first, it's definitely a
+problem with the permission of your folder setup.
+
+34
+00:04:21,480 --> 00:04:24,120
+This place needs special
+attention, and then it's ok.
+
+35
+00:04:28,080 --> 00:04:36,940
+This. fg2 All of them. fg2 If it's like this,
+it's our book. Econos That's a good word for both.
+
+36
+00:04:37,810 --> 00:04:48,290
+Look at it. It shows which dots correspond to which dots do not have
+left, which is the number in the structure model that we're producing.
+
+37
+00:04:48,290 --> 00:04:50,510
+And where it is in space.
+
+38
+00:04:51,600 --> 00:04:59,160
+That's us on the right. FD2 It's
+written in it. Node ID This number.
+
+39
+00:04:59,160 --> 00:05:06,860
+This way you can see the left
+side of it from 100 m to 121 m.
+
+40
+00:05:07,380 --> 00:05:09,020
+One is corresponding.
+
+41
+00:05:09,870 --> 00:05:15,430
+The right-hand steel track
+from 100 to 120 m is the same.
+
+42
+00:05:15,510 --> 00:05:19,890
+And then it's the last
+one, and it doesn't match.
+
+43
+00:05:22,330 --> 00:05:26,050
+And then we can take a look at
+the location of this parameter.
+
+44
+00:05:26,590 --> 00:05:34,270
+We can see this when we're done with the coordinates.
+100 Negative. 0.753 And then the virtues. 0.176
+
+45
+00:05:34,270 --> 00:05:41,410
+Yes, according to this coordinates of UNC, it
+means we've reserved the bottom of the terminal.
+
+46
+00:05:41,410 --> 00:05:48,010
+So there's still a lot of problems with
+the document that we wrote earlier.
+
+47
+00:05:49,790 --> 00:05:57,110
+After we've looked at this, we found our
+problem, so we need to turn this off for her.
+
+48
+00:05:58,330 --> 00:06:01,100
+We'll write our MTN files again.
+
+49
+00:06:02,120 --> 00:06:11,110
+And in this writing process, we can see it.
+
+50
+00:06:14,280 --> 00:06:20,780
+Look, we got 70, so it's in the back row, you're
+missing a line, and we're gonna lock it down.
+
+51
+00:06:22,530 --> 00:06:30,050
+Then name it a 7 U,U2,0.3,
+which should be U.
+
+52
+00:06:36,820 --> 00:06:39,340
+Again, let's get this off it.
+
+53
+00:06:40,720 --> 00:06:48,370
+Put this down and give it to him.
+
+54
+00:06:51,160 --> 00:06:58,540
+And then these points below us, it's all about the hammer,
+because it needs to connect to the points below the steel track.
+
+55
+00:06:58,540 --> 00:07:03,040
+So it's totally inappropriate. Let's
+just put it behind us and change it.
+
+56
+00:07:04,090 --> 00:07:16,590
+Here's another thing that we're doing: the time of life,
+this space connection under the flexible body orbit.
+
+57
+00:07:17,760 --> 00:07:23,180
+At this point, I've sorted out one
+thing before, and that's about it.
+
+58
+00:07:25,450 --> 00:07:32,810
+For example, the inside of us is the point
+on the top of our safe, which means 0.3 m 1.
+
+59
+00:07:32,810 --> 00:07:44,980
+Because we're going out of here, and the inside of the right
+position on the left side of the post has that long point. 0 Points
+
+60
+00:07:44,980 --> 00:07:53,390
+I just said the outside side was supposed to have
+a zero-thirty on top of our safe to extract data.
+
+61
+00:07:53,390 --> 00:07:55,670
+This line on the inside is...
+
+62
+00:07:57,060 --> 00:08:05,040
+The point below the port track is used for our
+fastener connection to 0.3 and one in each cell 6.
+
+63
+00:08:07,860 --> 00:08:16,500
+And if this number is numbered, you can see it's the first point of the
+deadliest dot in the grid and then it staggers to the surface of the steel track.
+
+64
+00:08:16,500 --> 00:08:26,140
+The second point starts with technology and goes down to
+the second last point of steel, which is only one way off.
+
+65
+00:08:26,140 --> 00:08:34,460
+From this forecast table, we can see
+that it's one steel high, that is, 0.176.
+
+66
+00:08:34,460 --> 00:08:44,060
+So in that case, we need to change that parameter
+a little bit. There's a quick way to change that.
+
+67
+00:08:44,780 --> 00:08:53,900
+We can pull it from the previous table and we can
+test it from the point on the previous steel track.
+
+68
+00:08:53,900 --> 00:09:05,300
+The Bank of America removes the extra points every
+0.6 and then converts it into a negative 0.16, 0.16.
+
+69
+00:09:05,620 --> 00:09:10,500
+We're here in a way that we can
+understand, or open up this X for us.
+
+70
+00:09:15,650 --> 00:09:22,230
+This x requires the name of its node number, and we'll
+study the way it was written in the files before it.
+
+71
+00:09:22,230 --> 00:09:29,750
+We're still the first 21 on the
+left, and the next post is 20, right?
+
+72
+00:09:29,750 --> 00:09:33,540
+2101
+
+73
+00:09:34,980 --> 00:09:40,860
+21022192
+
+74
+00:09:42,810 --> 00:09:51,870
+Then this is my brother, and this
+is his position. This is 100.3.
+
+75
+00:09:51,870 --> 00:09:59,940
+We can take a look at the smell of
+the past. It's on the face of the 1.
+
+76
+00:09:59,940 --> 00:10:11,820
+On the surface of the third steel track, at this point in the middle, if you
+put it in a hundred, and you put it in a hundred, it's one hundred and three.
+
+77
+00:10:11,820 --> 00:10:18,820
+That's the point below us.
+If we're all here, it's 100.
+
+78
+00:10:18,820 --> 00:10:26,900
+.3-1.4 plus 1 for each of our zeros, and
+then we're gonna have to come out like this.
+
+79
+00:10:28,090 --> 00:10:29,110
+It's a collection.
+
+80
+00:10:30,130 --> 00:10:32,350
+And then we'll be small in XM.
+
+81
+00:10:35,110 --> 00:10:36,110
+100.9
+
+82
+00:10:37,710 --> 00:10:41,730
+This is 0.753.
+
+83
+00:10:43,410 --> 00:10:52,650
+0.753, then we're 0.176,
+and this is our track.
+
+84
+00:10:53,090 --> 00:11:02,300
+At the height of the pen, look at our coordinates,
+they're far away, so we must be cheaper than the next.
+
+85
+00:11:02,300 --> 00:11:05,860
+If it's cheap, we can measure it from here.
+
+86
+00:11:07,620 --> 00:11:15,400
+You can see it, you can see it, you can see
+it, you can see it, you can see it, you know.
+
+87
+00:11:16,330 --> 00:11:23,770
+And then we'll pull it up and we'll probably
+have to get how many of these. 35 One, right?
+
+88
+00:11:23,770 --> 00:11:29,590
+It's because it's a 71 dot, and
+then it's a 35 in the middle.
+
+89
+00:11:31,250 --> 00:11:39,130
+Because it's every 0.67, so let's take this one more
+time and it'll automatically report to this location.
+
+90
+00:11:39,670 --> 00:11:47,460
+It's got a better shape.
+
+91
+00:11:47,460 --> 00:11:56,040
+Then we'll tell it on the whole left
+side, and we'll find it on the left side.
+
+92
+00:11:56,040 --> 00:12:07,120
+Let's be careful to call the English word, the Chinese
+word, although it's English, but it's all there.
+
+93
+00:12:07,150 --> 00:12:10,800
+The whole thing's still not a sign.
+
+94
+00:12:14,460 --> 00:12:22,180
+Choose and then copy. Come on, let's go.
+
+95
+00:12:22,180 --> 00:12:27,260
+It's like we're writing something like this.
+
+96
+00:12:31,400 --> 00:12:41,110
+N, it's more expensive on the left, two,
+two is negative, and let's set this up.
+
+97
+00:12:43,600 --> 00:12:48,990
+It has to be in English. That's good.
+
+98
+00:12:52,330 --> 00:12:59,760
+Then it'll set you up in Chinese.
+Be careful. I'll set it up.
+
+99
+00:13:03,220 --> 00:13:04,560
+There's a space for it.
+
+100
+00:13:04,580 --> 00:13:07,120
+It's easier to find out.
+
+101
+00:13:10,460 --> 00:13:15,760
+It's in English again. It's
+in Chinese. It's in English.
+
+102
+00:13:22,610 --> 00:13:27,330
+It's in English.
+
+103
+00:13:29,480 --> 00:13:33,140
+All right, let's go to the
+left. The right is a good point.
+
+104
+00:13:33,460 --> 00:13:41,160
+You put it on this.
+
+105
+00:13:46,910 --> 00:13:49,270
+Okay, then let's change this side.
+
+106
+00:13:59,450 --> 00:14:02,030
+Then give it a little
+bit like the coordinates.
+
+107
+00:14:06,120 --> 00:14:13,710
+All right, then we're going to do the whole steel
+cabinet and the point below, and we're going to do it.
+
+108
+00:14:13,830 --> 00:14:17,250
+Then we'll put it in the new card again.
+
+109
+00:14:17,970 --> 00:14:19,450
+This isn't a problem.
+
+110
+00:14:21,080 --> 00:14:22,700
+That's what we're talking about today.
+
+111
+00:14:24,140 --> 00:14:27,600
+Let's open this first.
+
+112
+00:14:27,600 --> 00:14:28,440
+Well...
+
+113
+00:14:36,250 --> 00:14:42,180
+Let's take a look at these. FLAG CHECK
+
+114
+00:14:45,700 --> 00:14:50,980
+Then let's hear about the
+path so to pass whatever.
+
+115
+00:14:54,250 --> 00:14:56,690
+get a piece, you know get a piece
+
+116
+00:14:59,160 --> 00:14:59,540
+ok
+
+117
+00:15:04,550 --> 00:15:13,490
+We're going to import it now, at flag
+check, under bass, our files, just OK.
+
+118
+00:15:23,930 --> 00:15:29,160
+Let's take a look at Econos.
+
+119
+00:15:33,070 --> 00:15:34,810
+Let me order this E-Roll.
+
+120
+00:15:40,560 --> 00:15:53,980
+It's this 14171. It's this
+point. We can't find it.
+
+121
+00:15:53,980 --> 00:15:55,980
+What's the location of this point?
+
+122
+00:15:55,980 --> 00:15:59,880
+Take the 21 dot for 0..
+
+123
+00:16:00,030 --> 00:16:02,290
+753, then 0, this position.
+
+124
+00:16:04,460 --> 00:16:13,830
+Then open it up. We don't seem
+to have a secondary number here.
+
+125
+00:16:13,830 --> 00:16:15,670
+The right one is 200712.
+
+126
+00:16:16,750 --> 00:16:17,770
+200712, take a look.
+
+127
+00:16:18,900 --> 00:16:24,980
+We set the 200712 and just gave the
+point down, and it's all set for me.
+
+128
+00:16:26,160 --> 00:16:28,840
+I'm in charge of 0.753.
+
+129
+00:16:42,280 --> 00:16:44,660
+Go back inside.
+
+130
+00:16:57,720 --> 00:17:02,380
+I really don't want to do this anymore.
+
+131
+00:17:05,590 --> 00:17:09,110
+We found this point in 2072.
+
+132
+00:17:10,470 --> 00:17:16,310
+He's in the wrong position, and he's in charge
+of 0.753, so he's completely out of line.
+
+133
+00:17:30,420 --> 00:17:35,340
+Let's take a look at his
+entire file and put it on.
+
+134
+00:17:41,740 --> 00:17:49,470
+clean, one second, press
+this file, and we'll play it.
+
+135
+00:17:51,010 --> 00:17:53,310
+That's it. That's it.
+
+136
+00:17:58,880 --> 00:17:59,160
+OK
+
+137
+00:18:08,490 --> 00:18:11,230
+It's complicated. It's got to be inside.
+
+138
+00:18:11,590 --> 00:18:14,090
+There's a lot more to it than
+the first time it's written.
+
+139
+00:18:14,410 --> 00:18:20,970
+The way I suggest it is, let's pour FB2
+into it, and we'll see what it takes.
+
+140
+00:18:21,450 --> 00:18:26,190
+The other one, we gave it the ECONOZ option.
+
+141
+00:18:26,570 --> 00:18:34,890
+After the selection, we can see its
+entire FB2 points in relation to M72.
+
+142
+00:18:36,790 --> 00:18:43,870
+Look at him. He's not really wrong
+about the whole relationship.
+
+143
+00:18:46,150 --> 00:18:46,990
+There's no mistake.
+
+144
+00:18:49,070 --> 00:18:57,570
+He's talking about his entire position
+in space, and we'll see when we're done.
+
+145
+00:18:57,570 --> 00:19:01,060
+We can see and then look at our help files.
+
+146
+00:19:01,160 --> 00:19:02,740
+Helps the document to be more detailed.
+
+147
+00:19:05,180 --> 00:19:09,740
+After that, we need to change
+the mistake we just made.
+
+148
+00:19:10,520 --> 00:19:15,080
+That means we connect the points
+on the track to the ground.
+
+149
+00:19:15,180 --> 00:19:18,340
+In that case, this is not right.
+
+150
+00:19:18,760 --> 00:19:27,350
+And the quickest way for us to do that
+is to get these two breasts together.
+
+151
+00:19:29,780 --> 00:19:36,900
+It's possible to copy it directly
+because it's a regular number for us.
+
+152
+00:19:36,900 --> 00:19:38,120
+Make it 1.
+
+153
+00:19:40,770 --> 00:19:42,370
+And turn this into 1.
+
+154
+00:19:45,550 --> 00:19:48,150
+The damping value of this place name.
+
+155
+00:19:50,210 --> 00:19:58,730
+We're still not good at this, we're not good at it
+because we have fewer numbers down here than we are above.
+
+156
+00:19:58,730 --> 00:19:59,370
+This way.
+
+157
+00:20:03,870 --> 00:20:05,670
+Switch it off.
+
+158
+00:20:13,420 --> 00:20:16,800
+And then we'll come out
+with this, and we won't.
+
+159
+00:20:19,650 --> 00:20:21,410
+35, we deleted it.
+
+160
+00:20:22,840 --> 00:20:29,930
+Let's get rid of these before we do.
+
+161
+00:20:34,320 --> 00:20:37,600
+All right, then we're going to do it, and
+we're going to copy this series of points.
+
+162
+00:20:38,020 --> 00:20:44,230
+And then we'll take this, and
+we'll choose another option.
+
+163
+00:20:44,230 --> 00:20:46,010
+I'll pull it out.
+
+164
+00:20:47,110 --> 00:20:54,570
+One of us is already 35 after it's done, and we're going
+to look at the second and pull the whole thing over.
+
+165
+00:20:54,670 --> 00:20:56,290
+Look at this.
+
+166
+00:21:05,500 --> 00:21:07,420
+Well, that's not a good idea.
+
+167
+00:21:09,860 --> 00:21:11,560
+I think this is the location.
+
+168
+00:21:14,180 --> 00:21:19,440
+It's got a little problem. A little problem.
+
+169
+00:21:20,590 --> 00:21:21,850
+I'll give you this.
+
+170
+00:21:29,300 --> 00:21:34,840
+I think that's the same way.
+I'll just get this right here.
+
+171
+00:21:41,020 --> 00:21:46,540
+Let's get it cleaned up over here.
+
+172
+00:21:54,540 --> 00:22:07,070
+Yeah, well, that's our brochure book book
+book book book book book book book book.
+
+173
+00:22:07,070 --> 00:22:15,540
+Book Book Book Book Book Book Book Book Book
+Book Book Book Book Book Book Book Books
+
+174
+00:22:21,020 --> 00:22:27,320
+Book
+
+175
+00:22:36,080 --> 00:22:42,120
+Book Book
+
+176
+00:22:43,140 --> 00:22:50,620
+Book
+
+177
+00:22:50,620 --> 00:23:00,150
+The book, uh, it's basically wrapped up
+in it, but we're missing something here.
+
+178
+00:23:00,170 --> 00:23:09,060
+A Agetrop not before the flak
+section and after the flak section
+
+179
+00:23:09,060 --> 00:23:15,620
+According to their
+official files, we're here.
+
+180
+00:23:18,820 --> 00:23:28,180
+The front and back ends of the flexible orbit have to extend
+out at least three points and take the top of the top four here.
+
+181
+00:23:28,180 --> 00:23:35,300
+It's a guarantee that we don't have that
+kind of mutation in the flexible body area.
+
+182
+00:23:35,900 --> 00:23:40,160
+We'd be better off with a
+simulation without a mutation.
+
+183
+00:23:42,060 --> 00:23:49,680
+If we do this, we'll write
+it down in equal spacing.
+
+184
+00:23:50,230 --> 00:23:54,980
+For example, the leader can
+be consulted in front of us.
+
+185
+00:23:56,010 --> 00:23:57,410
+He's throwing his life back.
+
+186
+00:24:02,210 --> 00:24:05,510
+Simple, on the front of the
+left side of the steel track,
+
+187
+00:24:14,660 --> 00:24:16,980
+Write it out five or six points.
+
+188
+00:24:26,520 --> 00:24:28,280
+That's a row of points up there.
+
+189
+00:24:39,390 --> 00:24:40,990
+Pull it over here.
+
+190
+00:24:41,210 --> 00:24:42,870
+This writing is the same.
+
+191
+00:24:43,050 --> 00:24:45,630
+It's four points ahead.
+
+192
+00:24:46,560 --> 00:24:47,640
+Four points back.
+
+193
+00:24:57,220 --> 00:24:59,120
+Then put it in front.
+
+194
+00:24:59,880 --> 00:25:05,490
+The writer has no effect, as long as
+you get more and adjust this yourself.
+
+195
+00:25:07,250 --> 00:25:18,160
+Now we're done with the whole node, and after
+that, it's still one of the most important places.
+
+196
+00:25:27,940 --> 00:25:37,330
+It means that our entire steel tracks
+are vertically unfixed and unfixed.
+
+197
+00:25:37,330 --> 00:25:46,300
+Then we don't know how to put a few steels
+on the four feet of his steel cabinet.
+
+198
+00:25:48,650 --> 00:25:53,840
+Give it yellow. That's the spot for two.
+
+199
+00:25:54,860 --> 00:25:58,070
+Three or four of them are these positions.
+
+200
+00:26:09,670 --> 00:26:15,120
+It's perfect here, right here.
+
+201
+00:26:15,520 --> 00:26:17,700
+Do you think we're 1's -9?
+
+202
+00:26:17,820 --> 00:26:25,000
+Or we can set the steel size to be large
+enough for 1's -24 should be possible.
+
+203
+00:26:25,640 --> 00:26:27,720
+That's where we're going.
+
+204
+00:26:33,220 --> 00:26:34,060
+Think again.
+
+205
+00:26:41,680 --> 00:26:49,740
+This steel setup can be bigger, so it can be
+more effective if it's connected, for example.
+
+206
+00:27:04,420 --> 00:27:11,520
+Our whole node is long and active and yellow,
+and then a part down is a part to say.
+
+207
+00:27:12,080 --> 00:27:19,900
+But the part where it uses this PE is PE, the key
+word is the connection between the two points.
+
+208
+00:27:19,900 --> 00:27:28,520
+It means that I don't usually use it when it's connected
+to a ladder like this one that's used only for nodes.
+
+209
+00:27:28,520 --> 00:27:29,820
+Because it's not necessary.
+
+210
+00:27:32,900 --> 00:27:39,900
+It means that the two poles are vertically and vertically
+and the two poles are horizontally and then it works.
+
+211
+00:27:39,900 --> 00:27:47,060
+It's more like the status of the
+new documents in our I.D. class.
+
+212
+00:27:47,060 --> 00:27:49,500
+It's like we've got a good work unit and...
+
+213
+00:27:51,120 --> 00:27:55,020
+We'll add one to this.
+
+214
+00:27:57,440 --> 00:27:57,840
+Take it.
+
+215
+00:28:01,020 --> 00:28:04,740
+The significance of So Lash.
+
+216
+00:28:04,740 --> 00:28:07,680
+In that case, it's coming out of the heart.
+
+217
+00:28:08,060 --> 00:28:10,760
+That way we don't have
+to have one-on-one face.
+
+218
+00:28:12,270 --> 00:28:14,910
+It's especially effective
+when it's like Jorrain.
+
+219
+00:28:16,980 --> 00:28:19,220
+Take this off.
+
+220
+00:28:20,520 --> 00:28:20,980
+Button it up.
+
+221
+00:28:22,630 --> 00:28:24,570
+Give it to the leftover.
+
+222
+00:28:30,390 --> 00:28:31,530
+Take it to upload again for a second.
+
+223
+00:28:42,790 --> 00:28:43,870
+It's scored for a while.
+
+224
+00:29:19,100 --> 00:29:24,120
+I can see in the morning that his
+whole line shows are finished.
+
+225
+00:29:24,340 --> 00:29:27,320
+He did not say exactly what
+time it was and did not do so.
+
+226
+00:29:32,950 --> 00:29:37,740
+His entire display
+position is in this place.
+
+227
+00:29:44,240 --> 00:29:49,400
+Okay, we're in the middle of a
+lesson today about FCL books.

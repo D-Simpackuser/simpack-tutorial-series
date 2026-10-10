@@ -1,0 +1,1297 @@
+1
+00:00:06,260 --> 00:00:17,270
+All right, let's move on to the last issue, where we're going to do the second part
+of the typographic modeling, which is a freeze on the SIMPAC purchase price model.
+
+2
+00:00:17,950 --> 00:00:25,310
+And here we're going to use the same way that we're going to use the structure
+to make an agricultural typographical model and then generate the purchase price.
+
+3
+00:00:31,820 --> 00:00:33,420
+We open SIMPAC here,
+
+4
+00:00:41,130 --> 00:00:45,380
+We can create a new Rule checkmark here.
+
+5
+00:00:45,380 --> 00:00:47,020
+Thank you.
+
+6
+00:00:53,800 --> 00:00:55,060
+Thanks. Thank you.
+
+7
+00:01:00,180 --> 00:01:06,590
+There are three main questions about the
+network, one of which is a malfunction.
+
+8
+00:01:07,700 --> 00:01:19,350
+The other one is a car repair
+company connected to a car company.
+
+9
+00:01:23,640 --> 00:01:30,040
+Connection barrier connect to home business
+failure connection to failure industry connection
+
+10
+00:01:32,470 --> 00:01:44,490
+Unable to connect. [unclear]
+
+11
+00:01:44,490 --> 00:01:53,000
+The front end of the front
+is now covered with ointment.
+
+12
+00:01:53,000 --> 00:01:56,280
+That's right. Now use the ointment.
+
+13
+00:01:58,110 --> 00:01:59,370
+Use of molds
+
+14
+00:02:01,390 --> 00:02:08,990
+Okay, the first wheel has been thrown
+in and we've got it all worked out.
+
+15
+00:02:09,510 --> 00:02:18,110
+WS. Ah, and soft attachment
+to this, throw it into our WS.
+
+16
+00:02:20,310 --> 00:02:29,870
+Well, it's now in two, though it looks one, but it's darker
+than two from here together, so we'll just fix this later.
+
+17
+00:02:31,690 --> 00:02:39,780
+These two are the attributes that need to be
+set up, which are the short light of the price.
+
+18
+00:02:40,300 --> 00:02:48,990
+And the short light properties of the barbarians,
+other than the price and the connection.
+
+19
+00:02:48,990 --> 00:02:54,510
+We're also going to set
+it up for a short time.
+
+20
+00:03:00,780 --> 00:03:08,040
+That's a lot of money. This is
+a number. This is its quality.
+
+21
+00:03:08,040 --> 00:03:08,600
+Go ahead.
+
+22
+00:03:17,560 --> 00:03:19,720
+It's a mistake to look here.
+
+23
+00:03:32,150 --> 00:03:43,050
+It's down here. It's still about
+quality and three directions.
+
+24
+00:03:46,860 --> 00:03:54,190
+The parameters are the same as this one, but we're
+trying to make sure that the model is consistent.
+
+25
+00:03:54,190 --> 00:03:59,660
+I'm going to put this parameter into one
+of the parameters of my pre-net letters.
+
+26
+00:04:11,160 --> 00:04:16,580
+It's ancient Tibetan. This is it. This x.
+
+27
+00:04:21,150 --> 00:04:33,850
+x, that's our nod, ryy, orry
+is our nod, rx,x is a mistake.
+
+28
+00:04:34,010 --> 00:04:35,830
+And here's our bait.
+
+29
+00:04:40,720 --> 00:04:44,440
+So we're, uh, a little...
+
+30
+00:04:51,360 --> 00:04:52,980
+Let's get ahead of it.
+
+31
+00:04:52,980 --> 00:04:57,270
+Okay, that's it.
+
+32
+00:04:58,640 --> 00:04:58,920
+That's it.
+
+33
+00:05:00,000 --> 00:05:03,380
+If we're 740, would it be a big deal?
+
+34
+00:05:08,230 --> 00:05:16,350
+And then its IOWIIOWI is our U2GT.
+
+35
+00:05:20,160 --> 00:05:24,160
+We'll delete U2G from U2GT.
+
+36
+00:05:25,540 --> 00:05:29,040
+This is really U2GT.
+
+37
+00:05:30,640 --> 00:05:36,240
+Let go of Kotya's entire meal
+and then we'll put it together.
+
+38
+00:05:37,370 --> 00:05:39,270
+That's why we deleted it.
+
+39
+00:05:40,580 --> 00:05:44,110
+Thank you for your AM.
+
+40
+00:05:47,070 --> 00:05:54,510
+At this point, we're just picking soup because it's
+just one thing and I'm gonna cut off its cold melons.
+
+41
+00:05:54,510 --> 00:06:05,380
+Just pick it up to the minimum
+point where it's connected.
+
+42
+00:06:11,270 --> 00:06:16,110
+Double-clicking can also change
+it directly at this side.
+
+43
+00:06:16,110 --> 00:06:17,150
+Come on, put the model on.
+
+44
+00:06:23,960 --> 00:06:26,800
+That's what we're buying and exporting.
+
+45
+00:06:28,990 --> 00:06:30,890
+It's a fixed time, and we're done.
+
+46
+00:06:32,840 --> 00:06:33,880
+Here's the parameter.
+
+47
+00:06:34,730 --> 00:06:44,160
+And then we might need to make sure it's
+more connected positioning parameters.
+
+48
+00:06:58,510 --> 00:07:04,190
+Here we go on with the arguments we created.
+
+49
+00:07:06,320 --> 00:07:10,180
+We're going to have to do it structurally.
+
+50
+00:07:11,100 --> 00:07:13,160
+Flexible box racks are positive.
+
+51
+00:07:13,460 --> 00:07:18,320
+We'll take it and put it
+in the number of cars.
+
+52
+00:07:18,360 --> 00:07:20,220
+is vehicle dimension premise.
+
+53
+00:07:49,380 --> 00:07:53,250
+It's in here. We created it.
+
+54
+00:07:53,550 --> 00:07:56,890
+Let's just get this...
+
+55
+00:08:01,660 --> 00:08:10,100
+Chinese Soft Operation Teaching
+
+56
+00:08:14,530 --> 00:08:20,320
+Chinese Software
+
+57
+00:08:22,490 --> 00:08:33,360
+Chinese Software Chinese Soft
+
+58
+00:08:33,360 --> 00:08:43,640
+Or do we have to keep the usual
+state-of-the-art rules? 15.7 m Yeah. 15.7 m
+
+59
+00:08:43,640 --> 00:08:44,180
+Age
+
+60
+00:08:46,680 --> 00:08:50,040
+There's only one after that in the morning.
+
+61
+00:08:51,980 --> 00:08:57,030
+The idea of national ideals is ours.
+
+62
+00:08:58,760 --> 00:09:05,780
+It's at the height of the orbit.
+
+63
+00:09:09,620 --> 00:09:10,680
+Together, together.
+
+64
+00:09:20,660 --> 00:09:28,570
+Together, together,
+together, together, together.
+
+65
+00:09:40,120 --> 00:09:53,150
+Together, together, together, together, together, together, together,
+together, together, together, together, dialing, dialing, dialing on.
+
+66
+00:09:56,090 --> 00:09:58,770
+Dial
+
+67
+00:10:00,000 --> 00:10:00,980
+20 cylinder length
+
+68
+00:10:02,130 --> 00:10:07,440
+Put it in the body control room.
+
+69
+00:10:16,890 --> 00:10:20,430
+We won't have to create 1720 later.
+
+70
+00:10:22,570 --> 00:10:29,870
+Well, let's just finish the window
+parts and we'll create the 1720.
+
+71
+00:10:32,690 --> 00:10:39,070
+Let's say, for example, this is
+the first. This is the first.
+
+72
+00:10:46,180 --> 00:10:47,300
+This is the first one.
+
+73
+00:10:50,460 --> 00:10:59,960
+This is the first paper package in
+here. This is a paper bag in here.
+
+74
+00:11:00,500 --> 00:11:12,680
+I guess Chinese is new from
+Chinese, and KX is 10,000 meters.
+
+75
+00:11:17,190 --> 00:11:21,630
+Unit you have to write about
+its rules, thousands of miles.
+
+76
+00:11:21,830 --> 00:11:28,540
+It's turned to roots. We'll create it again.
+
+77
+00:11:31,610 --> 00:11:45,270
+It's just like Qi66007 a thousand
+miles, and it's a mistake.
+
+78
+00:11:45,820 --> 00:11:51,330
+The window comes down with a hammer. UZ 14.
+
+79
+00:12:03,630 --> 00:12:05,090
+And then delete the tights.
+
+80
+00:12:06,110 --> 00:12:07,290
+From 23
+
+81
+00:12:08,630 --> 00:12:09,160
+SET
+
+82
+00:12:13,580 --> 00:12:19,500
+We're defined as 15.
+
+83
+00:12:26,930 --> 00:12:35,410
+This line is like a CY.
+
+84
+00:12:35,410 --> 00:12:36,270
+Again.
+
+85
+00:12:49,940 --> 00:12:54,840
+Take a CZ from the remaining
+value and we'll delete it.
+
+86
+00:12:55,920 --> 00:12:56,420
+20
+
+87
+00:13:01,520 --> 00:13:13,450
+When it's done, the king sees it,
+so he can turn it into a Second.
+
+88
+00:13:19,710 --> 00:13:28,600
+I'm just going to add its parameters
+to a corresponding fundamental.
+
+89
+00:13:35,780 --> 00:13:40,560
+Like similar things about air
+springs. Most air springs.
+
+90
+00:13:41,730 --> 00:13:53,080
+What about the deformed stuff?
+
+91
+00:13:53,080 --> 00:13:53,920
+and money
+
+92
+00:14:21,670 --> 00:14:34,460
+The network of this parameter value will be available to you throughout the
+opening, and you can refer to it more often, but you have to bring it together.
+
+93
+00:14:35,740 --> 00:14:39,180
+Changes are being made in the number
+of internships using their own models.
+
+94
+00:14:40,030 --> 00:14:52,250
+Well, the parameters that can be used by the craftsmen in the
+morning are basically in the morning after they're finished.
+
+95
+00:14:52,250 --> 00:14:54,150
+These parameters have changed.
+
+96
+00:15:00,000 --> 00:15:06,510
+Let's start with a copy of the
+school business, instead of sex.
+
+97
+00:15:19,220 --> 00:15:22,390
+Let's try it first. It's better.
+
+98
+00:15:24,890 --> 00:15:29,330
+Give me this position.
+
+99
+00:15:36,940 --> 00:15:46,560
+That's right. Then we'll take this F4
+and we'll see that it doesn't go in.
+
+100
+00:15:52,230 --> 00:15:54,750
+Then we'll go to this bogie frame.
+
+101
+00:15:57,100 --> 00:15:59,000
+bogie frame, of course, is the same way.
+
+102
+00:16:11,800 --> 00:16:15,880
+If it's created automatically, it
+might not work. Let's get rid of it.
+
+103
+00:16:18,400 --> 00:16:31,850
+We'll take a look at it ourselves, and then we'll
+put it in, and we'll put it in the right place.
+
+104
+00:16:35,490 --> 00:16:39,400
+But well, OS looks, it's this copy.
+
+105
+00:16:54,910 --> 00:16:59,960
+No more electricity, Tol, and
+then I'm going to put this in.
+
+106
+00:17:01,860 --> 00:17:05,340
+You can introduce it to see if
+it's correct and then point to OK.
+
+107
+00:17:05,520 --> 00:17:08,860
+It's actually the same as IP,
+except this window won't close.
+
+108
+00:17:16,710 --> 00:17:20,950
+Our quality and the glimmer
+algorithm, we'll see it done.
+
+109
+00:17:21,130 --> 00:17:32,690
+And when we're done, there's one more thing we need
+to do, which means we're going to create a connection.
+
+110
+00:17:33,460 --> 00:17:34,020
+These.
+
+111
+00:17:35,250 --> 00:17:38,230
+Purchases the connection point to 12.
+
+112
+00:17:42,360 --> 00:17:52,720
+And then we'll create bogie frame on bogie
+frame, which has a connection to luck under it.
+
+113
+00:17:54,770 --> 00:18:06,040
+We're under luck. We're at the four
+points of connection. We're in Chinese.
+
+114
+00:18:06,040 --> 00:18:10,440
+Studying.
+
+115
+00:18:11,080 --> 00:18:15,740
+Chinese software gymnastics.
+
+116
+00:18:18,030 --> 00:18:20,810
+Chinese operational instruction.
+
+117
+00:18:26,560 --> 00:18:34,640
+Chinese-Chinese-Chinese-Chinese-Chinese-Chinese soft operation is
+soft on the parameters. Give him a certain value in the morning.
+
+118
+00:18:35,200 --> 00:18:39,700
+He's 1.8.
+
+119
+00:18:54,770 --> 00:18:57,450
+Let's get this ready.
+
+120
+00:18:58,490 --> 00:18:58,890
+Okay.
+
+121
+00:19:03,230 --> 00:19:11,470
+It turns to the right, and you can see it in these two
+places, the one that we're using for the buyer's connection.
+
+122
+00:19:13,470 --> 00:19:17,050
+We just had a bit of fun.
+That's the buyer's guest number.
+
+123
+00:19:17,870 --> 00:19:21,590
+If we do this, it'll work better.
+
+124
+00:19:22,210 --> 00:19:28,610
+Let's just give it this caller.
+
+125
+00:19:36,700 --> 00:19:48,360
+With Ko Chia, let's see if there's
+enough hair we can move quickly.
+
+126
+00:19:48,480 --> 00:19:55,760
+It's also possible to draw our own
+good-looking and more complicated ones.
+
+127
+00:19:55,760 --> 00:20:06,850
+Get this special type 22, VLVL
+body, and you can see it here.
+
+128
+00:20:08,480 --> 00:20:22,460
+The value of several parameters is six, which essentially determines the length of
+the purchase price, the height of the whole purchase price and its height, width and
+
+129
+00:20:22,460 --> 00:20:31,570
+It's horizontal. You can look at the location
+of the hand mark. It's here. It's set.
+
+130
+00:20:32,580 --> 00:20:40,460
+And then we can fart if we're familiar with it and
+we're sure you can enter it either way on the left side.
+
+131
+00:20:45,120 --> 00:20:53,210
+L1's in the direction of our vertical
+longness at your camera is 4.
+
+132
+00:20:53,210 --> 00:20:58,500
+L2. It's our direction.
+
+133
+00:21:02,420 --> 00:21:04,660
+That's where you're going.
+
+134
+00:21:06,580 --> 00:21:07,380
+Two structures.
+
+135
+00:21:09,550 --> 00:21:10,610
+You go first.
+
+136
+00:21:11,980 --> 00:21:14,680
+I'm here to rephrase it.
+
+137
+00:21:19,480 --> 00:21:24,320
+This could be something that doesn't
+really make it to the power profession.
+
+138
+00:21:27,600 --> 00:21:28,520
+Do you want to be too big?
+
+139
+00:21:30,810 --> 00:21:31,670
+♪ We've already ♪
+
+140
+00:21:36,340 --> 00:21:43,700
+Seeing the spot as it hasn't changed since it's been
+a long morning and it hasn't changed a little bit.
+
+141
+00:21:43,700 --> 00:21:46,310
+And then look at its class.
+
+142
+00:21:48,010 --> 00:21:56,440
+We've been hiding the second degree
+of connection since it's all over.
+
+143
+00:22:00,140 --> 00:22:12,150
+You've ordered a series of wheel wheel wheels for
+the four front wheels, wheel wheels for the wheels.
+
+144
+00:22:17,720 --> 00:22:25,520
+Wheel wheel wheel wheel wheel wheel wheels
+
+145
+00:22:26,250 --> 00:22:37,450
+Wheel
+
+146
+00:22:40,420 --> 00:22:51,350
+Because he's in front of us, we've chosen his evidence to be similar
+to that of a flying fish who's watching yellow in the country.
+
+147
+00:22:51,580 --> 00:22:57,270
+Wait a minute. His last
+home is a flying fish. 0.46.
+
+148
+00:23:00,430 --> 00:23:03,290
+It's usually in this position.
+
+149
+00:23:03,410 --> 00:23:09,200
+If we move this building to a
+commercial location, it'll be fine.
+
+150
+00:23:13,170 --> 00:23:16,250
+It gave it to cover early in
+the morning, cover itself.
+
+151
+00:23:18,030 --> 00:23:23,100
+For example, f2, it's a
+very powerful position.
+
+152
+00:23:24,600 --> 00:23:25,880
+Okay.
+
+153
+00:23:27,410 --> 00:23:31,990
+And then there's Rangon,Rangon Left.
+
+154
+00:23:34,550 --> 00:23:39,430
+It's this direction, that's the position.
+
+155
+00:23:46,420 --> 00:23:52,600
+Continue, continue, continue.
+
+156
+00:23:55,890 --> 00:24:02,280
+Continue and continue to follow the four
+points of [unclear] used for 1 rotation.
+
+157
+00:24:04,560 --> 00:24:08,980
+These are the two points
+used to rotate 20 with 10.
+
+158
+00:24:09,820 --> 00:24:16,130
+Here's a change in the foot of the team.
+
+159
+00:24:17,250 --> 00:24:19,430
+Then we'll look a little more convenient.
+
+160
+00:24:21,780 --> 00:24:24,700
+Is it a word model in English?
+
+161
+00:24:24,820 --> 00:24:25,460
+A synonym model.
+
+162
+00:24:26,060 --> 00:24:30,840
+So we're going to find the next
+pattern, find the connection.
+
+163
+00:24:31,700 --> 00:24:43,550
+This wellset, it's half the farm's turn.
+
+164
+00:24:43,550 --> 00:24:50,410
+Then you can make some
+changes and go to the page.
+
+165
+00:24:56,520 --> 00:24:59,020
+Change is LTP.
+
+166
+00:25:06,100 --> 00:25:07,420
+Drag to our corresponding parameters
+
+167
+00:25:09,820 --> 00:25:15,990
+Drag to x-Rain to x
+
+168
+00:25:16,820 --> 00:25:24,260
+Fong
+
+169
+00:25:24,260 --> 00:25:24,440
+Redirect
+
+170
+00:25:26,750 --> 00:25:27,350
+Deferred
+
+171
+00:25:29,560 --> 00:25:37,600
+x
+
+172
+00:25:41,950 --> 00:25:50,540
+We're going to drag it to X and
+we're going to take it home again.
+
+173
+00:25:50,540 --> 00:25:55,240
+Give us a little bit of BOPZ position.
+
+174
+00:26:24,210 --> 00:26:31,180
+This one fits.
+
+175
+00:26:36,590 --> 00:26:49,070
+Well, that's the right thing, that's the right thing,
+that's the right thing, that's the right thing.
+
+176
+00:26:50,920 --> 00:26:59,720
+This one's the right one.
+
+177
+00:27:04,370 --> 00:27:08,850
+We'll use the changes in the linear model.
+
+178
+00:27:18,450 --> 00:27:27,370
+He's got ears and ears and ears.
+
+179
+00:27:33,640 --> 00:27:46,260
+The ears, the ears, the ears, the ears,
+the ears, the ears, the ears, the ears.
+
+180
+00:27:47,800 --> 00:27:55,900
+Ears, ears, ears, ears, ears.
+
+181
+00:27:57,890 --> 00:27:59,830
+That's what we're gonna do.
+
+182
+00:28:03,060 --> 00:28:06,020
+Take the 5 number inside.
+
+183
+00:28:06,310 --> 00:28:07,970
+It's about the 5 number.
+
+184
+00:28:09,890 --> 00:28:11,890
+Let's just say we can try.
+
+185
+00:28:19,060 --> 00:28:20,280
+In the 5 number,
+
+186
+00:28:29,190 --> 00:28:33,210
+Try it. We are. Just try its name.
+
+187
+00:28:35,060 --> 00:28:36,600
+Name Spring,
+
+188
+00:28:51,770 --> 00:28:55,400
+Spring,Depart,Parl,CMP,
+
+189
+00:28:57,700 --> 00:28:59,900
+This is sugar.
+
+190
+00:29:02,600 --> 00:29:13,480
+There's no detail about what's going on here, and
+there's a model that you click on it and you can open it.
+
+191
+00:29:13,800 --> 00:29:17,880
+You can hide it somewhere else,
+and you can see how it works.
+
+192
+00:29:21,660 --> 00:29:28,660
+Here we go in this direction, three directions,
+fx,fy,fz, three directions, give it.
+
+193
+00:29:28,660 --> 00:29:29,180
+Go ahead.
+
+194
+00:29:29,180 --> 00:29:36,760
+It's just a book. CX and DX In here. CX
+It's the height. DX It's his children.
+
+195
+00:29:36,760 --> 00:29:44,760
+These three or eight are different, and
+this one is really going to be back there.
+
+196
+00:29:44,800 --> 00:29:50,660
+If you're sitting in the Jade River,
+you don't have to take care of it.
+
+197
+00:29:51,940 --> 00:29:54,520
+All right, we'll play
+with the Charged Ducks.
+
+198
+00:29:56,890 --> 00:29:59,110
+It's a green garden.
+
+199
+00:30:01,650 --> 00:30:03,550
+In this position.
+
+200
+00:30:03,550 --> 00:30:09,030
+We also need to have some rules here when
+we're created and we can keep them up later.
+
+201
+00:30:09,470 --> 00:30:14,370
+Then we'll call it one.
+
+202
+00:30:17,340 --> 00:30:19,780
+Series is Primer and Suspicion, PS.
+
+203
+00:30:26,810 --> 00:30:30,530
+PS We are the first FL.
+
+204
+00:30:33,440 --> 00:30:38,280
+Here it is required to go to the from points
+and to market points and select the securities.
+
+205
+00:30:38,820 --> 00:30:43,680
+Let's do it, choose the
+price, choose the price.
+
+206
+00:30:47,520 --> 00:30:59,970
+Select the point of release, the point of selection, the point of selection, the point
+of selection, the point of selection, the point of release, the point of release,
+
+207
+00:31:13,430 --> 00:31:16,790
+We need to drag the corresponding
+parameters into the corresponding position.
+
+208
+00:31:33,010 --> 00:31:36,050
+Next is our Darfa.
+
+209
+00:31:45,670 --> 00:31:47,830
+Put it in the corresponding position.
+
+210
+00:31:47,830 --> 00:31:52,780
+That's the spider.
+
+211
+00:31:57,930 --> 00:31:59,650
+time to grab your connection
+
+212
+00:32:01,040 --> 00:32:08,240
+Because they're in four directions and four corners are waiting
+for something to be added, so let's wrap it up a quarter.
+
+213
+00:32:08,430 --> 00:32:21,780
+And then this is fr, and then
+I, and then I, and this is...
+
+214
+00:32:21,780 --> 00:32:22,160
+r
+
+215
+00:32:23,810 --> 00:32:31,390
+When we give it, we can pick it from the number box below
+here, because there's a rule that we can go straight to.
+
+216
+00:32:31,390 --> 00:32:32,870
+This is for F2.
+
+217
+00:32:36,510 --> 00:32:44,990
+But the right spot on the right side
+of the front was close to the left.
+
+218
+00:32:47,330 --> 00:32:53,930
+I'll change this to the right.
+
+219
+00:32:55,270 --> 00:32:58,430
+It's probably the right back end.
+
+220
+00:33:15,740 --> 00:33:22,230
+This point is red.
+
+221
+00:33:23,730 --> 00:33:29,220
+Color, this point is
+green, this point is red.
+
+222
+00:33:33,310 --> 00:33:39,670
+It's green. The dots are green.
+
+223
+00:33:43,340 --> 00:33:45,960
+This is a green, colored word, Solanya.
+
+224
+00:34:01,070 --> 00:34:07,830
+Two for S4S2S2.
+
+225
+00:34:10,200 --> 00:34:17,740
+22 SSS2SS22S2SS2S2
+
+226
+00:34:23,540 --> 00:34:32,750
+S2S2S
+
+227
+00:34:35,500 --> 00:34:41,620
+2
+
+228
+00:34:50,200 --> 00:34:59,140
+S2S22S2 Fight! from dinnersound
+that you haven ♪ 'T' done
+
+229
+00:35:00,340 --> 00:35:03,840
+It's Chinese software.
+
+230
+00:35:05,510 --> 00:35:12,490
+Do it.
+
+231
+00:35:20,040 --> 00:35:23,960
+Teaching
+
+232
+00:35:30,920 --> 00:35:32,280
+It's operation teaching.
+
+233
+00:35:32,360 --> 00:35:40,000
+It's Man-seok, Chinese,
+Chinese, Chinese, Chinese.
+
+234
+00:35:40,000 --> 00:35:43,140
+The Chinese language is soft and Chinese and Chinese
+is a Chinese language soft operation teaching.
+
+235
+00:35:43,140 --> 00:35:51,090
+Then we can give this DOM to see that
+its drinking point is in the ghost.
+
+236
+00:35:51,090 --> 00:35:58,610
+It's the tunnel, so we're gonna have to open up
+the staircase and we're gonna have to eat it.
+
+237
+00:36:18,330 --> 00:36:23,470
+His height is our car.
+
+238
+00:36:25,960 --> 00:36:35,240
+But we have a model here, so let's give
+him a wet soup if he doesn't have one.
+
+239
+00:36:35,240 --> 00:36:35,780
+Here.
+
+240
+00:36:43,690 --> 00:36:44,930
+Let's go inside.
+
+241
+00:36:49,180 --> 00:36:53,410
+1, for example, let him put one inside.
+
+242
+00:36:54,610 --> 00:36:59,320
+Then we'll change his position after this.
+
+243
+00:37:09,420 --> 00:37:16,940
+This one.
+
+244
+00:37:16,940 --> 00:37:23,120
+You can set it up, see the student body,
+or you can use it without setting it.
+
+245
+00:37:24,460 --> 00:37:30,160
+It's not obvious that it's
+long. I'll set it up here.
+
+246
+00:37:30,160 --> 00:37:31,000
+Maybe.
+
+247
+00:37:39,700 --> 00:37:43,480
+We can give it a word after the turn.
+
+248
+00:37:44,540 --> 00:37:46,860
+Give me a spot where it's obvious.
+
+249
+00:37:56,330 --> 00:37:59,090
+The next one's charged.
+
+250
+00:38:00,240 --> 00:38:03,420
+Her sleeves were all deleted after all.
+
+251
+00:38:05,570 --> 00:38:08,570
+She could actually run for us.
+
+252
+00:38:15,640 --> 00:38:18,760
+Look at her. This could be a good run.
+
+253
+00:38:23,420 --> 00:38:30,420
+These pants are cold, and I'm not going to evolve
+anymore, but I'm not going to get them in detail.
+
+254
+00:38:30,420 --> 00:38:37,790
+There's a lot of people who can tell
+the truth. Let's look at her model.
+
+255
+00:38:37,820 --> 00:38:39,160
+It's all made up.
+
+256
+00:38:40,980 --> 00:38:51,440
+Let's give it a place to wash it.
+
+257
+00:38:51,440 --> 00:38:59,970
+You can see it's all over here.
+
+258
+00:39:00,900 --> 00:39:06,910
+Put it back and forth, and then it's
+a little remote, and then look at it.
+
+259
+00:39:09,560 --> 00:39:15,620
+Because our farm team is running low.
+
+260
+00:39:15,920 --> 00:39:20,330
+We can, we can see it through this car.
+
+261
+00:39:21,490 --> 00:39:23,290
+For example, let's take
+a look at this farm team.
+
+262
+00:39:24,680 --> 00:39:26,900
+It's low at X.
+
+263
+00:39:26,900 --> 00:39:32,340
+But why isn't it moving?
+
+264
+00:39:33,500 --> 00:39:39,040
+It's fixed. Why are we fixed
+because it's fixed with the body?
+
+265
+00:39:40,230 --> 00:39:45,750
+The whole thing's gonna be fixed, but we're
+gonna take a look at the hardware model, right?
+
+266
+00:39:47,120 --> 00:39:50,960
+It's our 7. That's the way it works.
+
+267
+00:39:55,140 --> 00:39:58,040
+All the insides are from our VL module.
+
+268
+00:40:04,460 --> 00:40:08,540
+We can look inside Kelf about
+the foundations of the climate.
+
+269
+00:40:14,080 --> 00:40:17,120
+It's not the foundation
+that's solved inside.
+
+270
+00:40:17,580 --> 00:40:20,460
+He's got more detail here.
+
+271
+00:40:23,520 --> 00:40:25,120
+He's got more detail here.
+
+272
+00:40:25,460 --> 00:40:27,680
+He's more detailed here than he is here.
+
+273
+00:40:27,800 --> 00:40:29,380
+He's also more detailed.
+
+274
+00:40:31,200 --> 00:40:34,680
+He's also more detailed in this.
+
+275
+00:40:35,340 --> 00:40:36,220
+He's got all the details here.
+
+276
+00:40:41,210 --> 00:40:44,410
+Fine.
+
+277
+00:40:47,130 --> 00:40:55,630
+In the morning, because of Global, it's going to light it once and
+it's going to confirm that you're actually covering it full-time.
+
+278
+00:40:55,630 --> 00:40:58,810
+I wanted this for later this
+morning, so I said this.
+
+279
+00:41:00,000 --> 00:41:05,000
+You've changed. Let's give it to
+him. We can give it to him in global.
+
+280
+00:41:07,530 --> 00:41:09,700
+Then we'll do it this way.
+
+281
+00:41:14,120 --> 00:41:18,680
+I don't think so. Let's find out more.
+
+282
+00:41:38,090 --> 00:41:45,630
+What about us, re-opening the model, the model, and
+what about the wine order that we were talking about?
+
+283
+00:41:47,170 --> 00:41:54,910
+Zero, because it's connected to the car, so it's a zero,
+and then it's often turned into a seven with these lines.
+
+284
+00:41:55,260 --> 00:41:58,640
+And when it's done,
+you'll have to take this.
+
+285
+00:42:03,040 --> 00:42:05,600
+It'll take the whole speed around the world.
+
+286
+00:42:07,820 --> 00:42:11,400
+After the show, just let it run again.
+
+287
+00:42:13,980 --> 00:42:15,740
+Now the whole thing can break.
+
+288
+00:42:17,970 --> 00:42:20,370
+Second, just to test our model for entry.
+
+289
+00:42:20,910 --> 00:42:29,730
+Because in the back it's going with the necklace of the car,
+so, to this corner, to model the word for the next whole car,
+
+290
+00:42:29,830 --> 00:42:32,390
+We still need to change it to the 0 page.
+
+291
+00:42:37,860 --> 00:42:39,340
+And when it's good?
+
+292
+00:42:41,230 --> 00:42:48,750
+When it looks at it, it's because it's
+untimely and fixes its lower speed.
+
+293
+00:42:48,750 --> 00:42:51,150
+That's what it's all about.
+
+294
+00:42:53,580 --> 00:43:01,880
+Okay, so what about today's modeling part of the modeling
+part of a vehicle, we'll talk about that understanding.
+
+295
+00:43:01,880 --> 00:43:02,420
+This place.

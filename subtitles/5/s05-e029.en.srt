@@ -1,0 +1,289 @@
+1
+00:00:06,060 --> 00:00:10,740
+And here we are with this model of a
+car that was created before, and then...
+
+2
+00:00:12,230 --> 00:00:20,860
+So how do you model how to connect our
+elastic foundations to our vehicles?
+
+3
+00:00:22,120 --> 00:00:28,320
+Let's get our files in here first.
+
+4
+00:00:35,100 --> 00:00:38,240
+We're here to work, and then
+we're on the absolute path.
+
+5
+00:00:39,480 --> 00:00:44,760
+For example, we're here to choose this U.
+
+6
+00:00:46,230 --> 00:00:50,650
+ference. Yes, I want it in. Yes, no delay.
+
+7
+00:00:55,580 --> 00:00:58,240
+Let's open that mouse form.
+
+8
+00:01:03,920 --> 00:01:08,200
+And then it's easy for everyone
+to try some of the shortcuts.
+
+9
+00:01:23,560 --> 00:01:26,760
+It may take some time.
+
+10
+00:01:32,430 --> 00:01:38,190
+It's already pouring in here. It's probably
+going to slow down. Take a look at OK.
+
+11
+00:01:54,970 --> 00:02:04,000
+It's okay here, but he's still
+doing some of that math on the dock.
+
+12
+00:02:04,000 --> 00:02:09,730
+So it's gonna take a while.
+We'll wait here a little bit.
+
+13
+00:02:11,520 --> 00:02:20,740
+Well, then we're going into the circle, save it for him first, or if you give it back, it's
+very easy to crash, so we can keep it here, so we can see that there's a small piece of him.
+
+14
+00:02:20,740 --> 00:02:27,040
+It's a default creation of this
+body that doesn't need a bullet.
+
+15
+00:02:31,320 --> 00:02:39,100
+In fact, if we're going to be a little slow after we've imported
+this elastic base, let's give him this byte lesson first.
+
+16
+00:02:40,070 --> 00:02:41,570
+How does it look like this?
+
+17
+00:02:42,760 --> 00:02:50,700
+Give him first, result, which means it'll be a lot
+faster to get rid of his entire upper and lower levels.
+
+18
+00:02:52,060 --> 00:02:52,860
+Here.
+
+19
+00:02:54,200 --> 00:02:59,520
+Let's get rid of him first and
+then we'll find another model here.
+
+20
+00:03:01,000 --> 00:03:14,860
+You can see that it's settled in here, but this model, if it's
+imported first, it's stuck and it's cursed, so here we are.
+
+21
+00:03:14,860 --> 00:03:28,350
+And then we're going to import the elastics, and the elastic basis is going to be a
+little wider. And here, what's the reason we're lifting it, that it's from the top down.
+
+22
+00:03:28,350 --> 00:03:35,500
+There's no way to build this, uh, flexible
+foundation with the four dragons at the same time.
+
+23
+00:03:35,500 --> 00:03:45,100
+Well, it's a relationship, so the way we're going to create it here is actually
+we're going to check it out for ourselves, so we're going to choose this one.
+
+24
+00:03:45,720 --> 00:03:51,180
+Because it's the same, because there
+are four dragons in the front shelf.
+
+25
+00:03:53,580 --> 00:04:01,660
+We created it, but here, we can actually go directly
+to create four dragons, just like we've made it smelly.
+
+26
+00:04:01,660 --> 00:04:08,780
+So the process is irreversible, which means if you're going to let
+it go, you're going to have to come back and say it's not going back.
+
+27
+00:04:08,780 --> 00:04:18,810
+So we need to be very careful about
+creating a name here called FTA or FDAXCHK.
+
+28
+00:04:28,360 --> 00:04:38,340
+We choose the same path as
+before, and we choose our FTA.
+
+29
+00:04:39,000 --> 00:04:43,120
+And here we choose the absolute path.
+
+30
+00:04:45,910 --> 00:04:51,290
+We'll just give it to the paper teeth.
+
+31
+00:04:52,540 --> 00:04:54,080
+We'll find the right path.
+
+32
+00:04:59,780 --> 00:05:11,290
+This is where we're imported, but it's just the size of the model, and it's still
+necessary to wait for the prison, so let's get rid of the top-down relationship.
+
+33
+00:05:11,290 --> 00:05:24,020
+And then to create this kind of pecan relationship with this farm council, to put
+it at the end of the day, that's to say it's gonna be a lot smaller than waiting.
+
+34
+00:05:24,020 --> 00:05:32,420
+If not, it'll have to wait
+once every step of the way.
+
+35
+00:05:34,340 --> 00:05:38,930
+We'll remove the same from the
+lift after this is imported.
+
+36
+00:05:40,560 --> 00:05:43,660
+We didn't do anything about this.
+
+37
+00:05:44,920 --> 00:05:47,720
+So you see this happens when it's imported?
+
+38
+00:05:49,840 --> 00:05:54,590
+It's the people who take a step, so it's
+usually recommended to do it in bulk.
+
+39
+00:05:56,450 --> 00:05:58,150
+Like the one we created behind us.
+
+40
+00:05:59,350 --> 00:06:09,570
+What if the relationship is a lot to meet, and the best thing to do is finally
+import this Tan issue into the front and try to do it as little as possible?
+
+41
+00:06:09,570 --> 00:06:16,480
+That would minimize the possibility
+of a sudden collapse of this model.
+
+42
+00:06:20,760 --> 00:06:30,250
+And when we get here, we'll delete it, and then
+remember, we'll try to save it more than we can save it.
+
+43
+00:06:30,250 --> 00:06:37,930
+To create a model even before, and the key
+step is to replace his relationship skills.
+
+44
+00:06:37,930 --> 00:06:45,150
+If you replace it, if you recommend it here, then you choose
+it all, and then you select shift, and we'll start with delete.
+
+45
+00:06:45,150 --> 00:06:49,670
+The creation of this trajectories.
+
+46
+00:07:00,990 --> 00:07:08,490
+If it's here, it's a little more
+elastic, so it's a bit more cardy.
+
+47
+00:07:10,940 --> 00:07:18,960
+And when this is the place, bring this card to
+the police and we'll see one step at a time.
+
+48
+00:07:18,960 --> 00:07:22,020
+What's the point of calling the
+police? Is there an example?
+
+49
+00:07:24,950 --> 00:07:26,610
+Let's hear the news.
+
+50
+00:07:28,200 --> 00:07:37,240
+And when this is going to have to choose a change because we've deleted
+it, it's actually the kind of Balance from the old friendly country.
+
+51
+00:07:37,240 --> 00:07:43,750
+It's the same option here that doesn't
+change and here we choose what we just chose.
+
+52
+00:07:45,840 --> 00:07:47,700
+Imported Flexible Technologies
+
+53
+00:07:49,400 --> 00:07:57,100
+And then I'll give you a point to click on OpenLineOpenLine,
+and then it'll probably have to wait a while.
+
+54
+00:07:59,250 --> 00:08:03,630
+Then we'll take a step, and
+we'll clean it up every time.
+
+55
+00:08:03,890 --> 00:08:10,770
+If we're clear, then
+we'll all do it cheaply.
+
+56
+00:08:10,970 --> 00:08:13,610
+And here we go. create element.
+
+57
+00:08:14,090 --> 00:08:21,090
+That's how you recreate it as a
+flexible base between our farm team.
+
+58
+00:08:21,090 --> 00:08:21,870
+The farm team relationship.
+
+59
+00:08:22,490 --> 00:08:25,070
+This step may also take some time.
+
+60
+00:08:26,740 --> 00:08:29,620
+And here it is, when it's
+done, we'll order it, OK.
+
+61
+00:08:30,740 --> 00:08:37,720
+After it's half-way charged,
+we're all connected to it.
+
+62
+00:08:40,420 --> 00:08:43,060
+This part is actually done.

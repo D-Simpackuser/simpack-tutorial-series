@@ -1,0 +1,344 @@
+1
+00:00:00,270 --> 00:00:10,050
+Hello, class. We've already finished some of the
+connections inside the bridge in the last class.
+
+2
+00:00:10,050 --> 00:00:22,190
+It's just that we're going to go around the model, and we're going to have to talk
+to the face, and it's a more crucial step, so we're going to pick the main node.
+
+3
+00:00:22,190 --> 00:00:31,250
+That's when you set up a meeting with the newcomers
+and how it chooses it or pulls the response to the bid.
+
+4
+00:00:31,250 --> 00:00:39,310
+How do you choose that point? We don't
+have to talk about it. I copied a model.
+
+5
+00:00:39,310 --> 00:00:43,510
+We're, uh, moving this model now.
+
+6
+00:00:48,420 --> 00:00:52,210
+You don't have to do that, huh?
+
+7
+00:00:53,580 --> 00:00:54,380
+That's it.
+
+8
+00:00:57,470 --> 00:01:06,880
+And now we're going to choose the point, the steel
+track, and we're going to choose the point across.
+
+9
+00:01:07,140 --> 00:01:08,980
+Of course, other points can be chosen.
+
+10
+00:01:09,340 --> 00:01:14,640
+So first we're gonna build a
+click-ha, we're set a little bit,
+
+11
+00:01:16,570 --> 00:01:24,340
+And then manager, and then we can choose
+a click, and this track is clicked on.
+
+12
+00:01:25,280 --> 00:01:26,720
+Yes, I do.
+
+13
+00:01:29,560 --> 00:01:30,240
+Remember.
+
+14
+00:01:31,870 --> 00:01:34,300
+Remember, and then...
+
+15
+00:01:35,760 --> 00:01:44,000
+So he'll just show up and
+we'll just choose this one.
+
+16
+00:01:44,000 --> 00:01:46,180
+His main node on the steel track.
+
+17
+00:01:49,670 --> 00:01:57,390
+It doesn't really have to be
+right because it doesn't work.
+
+18
+00:01:57,390 --> 00:02:03,420
+But we're still doing it for the sake of American
+consistency, and it doesn't matter if we choose a family.
+
+19
+00:02:03,640 --> 00:02:07,860
+So let's just create this click.
+Let's show you how it works.
+
+20
+00:02:10,890 --> 00:02:18,190
+You can see that I'm just one in
+two and you're just making a point.
+
+21
+00:02:18,530 --> 00:02:20,290
+One in two makes a point, okay.
+
+22
+00:02:20,290 --> 00:02:29,520
+And after this, we have to
+choose that and build it.
+
+23
+00:02:30,920 --> 00:02:40,180
+That's what I'm saying. output The point is where we're going
+to be and where you're going to extract it from this piece.
+
+24
+00:02:40,860 --> 00:02:50,160
+The shock response is if you have to get a response
+from a point after you've calculated it in the new one.
+
+25
+00:02:50,160 --> 00:02:57,700
+You're gonna make this the main
+node, so we can make a collection.
+
+26
+00:02:59,280 --> 00:03:08,830
+Let's say we have no problem
+with the steel track.
+
+27
+00:03:08,830 --> 00:03:18,050
+For example, I'm looking for
+a piece of this orbital board.
+
+28
+00:03:18,050 --> 00:03:25,710
+You can take it, right? You can take it to the right.
+shift ♪ And then the keys can be like this and then ♪
+
+29
+00:03:25,710 --> 00:03:38,680
+And then, and then, the bridge's in the middle, and we're able to extract it. Right, the bridge's
+in the middle, we can extract it, and even you can extract a series of points, for example.
+
+30
+00:03:39,830 --> 00:03:53,500
+Ah, it's the bridge in the middle, isn't
+it? When we get it right, we can all see it.
+
+31
+00:03:53,500 --> 00:04:06,570
+You'll be in syncpack. Who's going to pick these points, he'll just
+have to choose to get them out, and he'll be able to identify them.
+
+32
+00:04:06,570 --> 00:04:10,730
+A number of responses were
+obtained through the calculations.
+
+33
+00:04:11,070 --> 00:04:17,480
+So here we are, uh, on these
+three points, for example, okay.
+
+34
+00:04:20,330 --> 00:04:29,430
+Okay, so we'll pick the main node, and we'll, uh,
+the main node, and we'll include this point below.
+
+35
+00:04:29,430 --> 00:04:40,150
+We made a MPC setup, which
+means we made a steel field.
+
+36
+00:04:40,150 --> 00:04:49,590
+The steel field, uh, you can look at me.
+I don't think this is the steel field.
+
+37
+00:04:49,590 --> 00:04:57,510
+This steel field is actually very simple,
+uh, after this MPC has been chosen here.
+
+38
+00:04:57,510 --> 00:05:07,120
+Pick the spot between the uh, and then the 8 dots
+around, and it's a hard language, and then...
+
+39
+00:05:07,120 --> 00:05:20,460
+Type directly selects Beam,
+Type, Link, but usually this MPC.
+
+40
+00:05:20,940 --> 00:05:28,580
+It's usually this MPCBeam,
+and every dot is a newcomer.
+
+41
+00:05:28,580 --> 00:05:35,600
+As you can see, there's a
+newcomer at every point.
+
+42
+00:05:35,600 --> 00:05:43,500
+We'll just make four words into
+a new life, so that's ok and ok.
+
+43
+00:05:44,700 --> 00:05:46,980
+That's what we're setting up.
+
+44
+00:05:48,440 --> 00:05:55,920
+stab We haven't set it up yet. stab Right? We're going
+to set it up. stabstab1 That's what we set up. frequency
+
+45
+00:05:55,920 --> 00:06:05,550
+We're just trying to figure out the magic, and
+we're writing about the general bridge you need.
+
+46
+00:06:05,550 --> 00:06:08,110
+Well, 50 knots is already quite enough.
+
+47
+00:06:09,420 --> 00:06:16,770
+And when it's done, we choose to create
+it on the basis of the first step.
+
+48
+00:06:17,330 --> 00:06:24,970
+And then the first step, then the create, creates the
+second step and then the second step, chooses the syllable.
+
+49
+00:06:25,430 --> 00:06:32,730
+Ah, it's called a syllable
+and it's right here.
+
+50
+00:06:32,730 --> 00:06:38,950
+And then we're gonna have to hook these three
+up and you're gonna have to fill it out.
+
+51
+00:06:41,030 --> 00:06:50,150
+Like yours. frequency It's written. 50 It's usually filled out. 50 But
+you can also fill in less than 50 But you can't fill it out. 50 The...
+
+52
+00:06:50,150 --> 00:07:00,140
+All right, so we're going to go to 1 and then the
+rest of it's going to be okay, so we can take this st.
+
+53
+00:07:00,140 --> 00:07:12,900
+aff is done, and when it's done, we're going to start
+making the main node into a soft body and extracting it.
+
+54
+00:07:13,220 --> 00:07:18,000
+How do you extract it? To
+free it of its freedom.
+
+55
+00:07:18,000 --> 00:07:26,140
+For example, we choose first and then
+we choose the second and second steps.
+
+56
+00:07:26,140 --> 00:07:32,760
+It's free as free as freeness, first
+of all, the one we just picked.
+
+57
+00:07:37,060 --> 00:07:44,960
+This side of the steel track, we'll
+click to release the freedom degree.
+
+58
+00:07:45,620 --> 00:07:55,920
+So we'll release the steel track's freedom,
+so we'll release the OP point from our track.
+
+59
+00:07:55,920 --> 00:07:56,380
+Read it.
+
+60
+00:07:58,760 --> 00:08:00,550
+We can take a look at these three points.
+
+61
+00:08:01,620 --> 00:08:03,400
+We'll also release it.
+
+62
+00:08:06,400 --> 00:08:14,340
+This orbital version of
+freedom has been released.
+
+63
+00:08:15,420 --> 00:08:22,720
+We've all seen that we've actually
+made this free-standing setting.
+
+64
+00:08:22,720 --> 00:08:30,530
+That's what we're talking about,
+isn't it? 8 Just a little bit.
+
+65
+00:08:31,030 --> 00:08:39,170
+If it wasn't for 8 points, it'd be a circle around them, and then
+we'd have selected it and released the same degree of freedom.
+
+66
+00:08:40,880 --> 00:08:46,000
+Okay, so we're basically done.
+Uh, this is, uh, let me see.
+
+67
+00:08:48,620 --> 00:08:55,660
+And there's another point, that's when
+we, uh, made the button connector.
+
+68
+00:08:55,660 --> 00:09:06,760
+We're going to, uh, make a button connector, but we're going to have to hold on to
+the level of freedom of the swirling, which is the point under the orbital board.
+
+69
+00:09:06,960 --> 00:09:18,580
+Select all points, select, then turn their selection to three
+degrees of freedom, R,R,E,U,R,U,R,U,R,R,U,U,U,R,R,R,U,U,U,
+
+70
+00:09:23,240 --> 00:09:28,940
+R,R,U,R,R,U,U,R
+
+71
+00:09:30,800 --> 00:09:38,480
+Create a job, like job3, so we
+can submit the calculations.
+
+72
+00:09:39,800 --> 00:09:43,860
+We'll just have a look at the
+results in the next section.

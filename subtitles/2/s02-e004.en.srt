@@ -1,0 +1,488 @@
+1
+00:00:04,150 --> 00:00:15,450
+Hello, we've had our tour in Abacus by morning, and
+we're here because a lot of us are going to do it.
+
+2
+00:00:15,450 --> 00:00:24,610
+Although they're the same in theory, they're the same in terms
+of practical steps and journeys across the whole process.
+
+3
+00:00:25,290 --> 00:00:34,730
+It's similar to Abbax, but there's a lot of them, so you
+don't know what documents are in this. sdmi To what extent?
+
+4
+00:00:34,730 --> 00:00:44,570
+And I'm going to use this to help the site.
+
+5
+00:00:46,140 --> 00:00:56,520
+And then we're going to take stock, because
+this is what we do to help the website.
+
+6
+00:00:56,520 --> 00:01:05,880
+I'd like to make a simple set-up.
+
+7
+00:01:06,540 --> 00:01:13,540
+Well, then let's talk about this, then we'll
+talk about it, and I'll say what I can say.
+
+8
+00:01:13,540 --> 00:01:23,780
+Each section is very short, and no one in it says we're going to
+talk about the uh, this operation inside, and it's not going to work.
+
+9
+00:01:23,780 --> 00:01:33,820
+So that's what we're
+talking about. fbi This one.
+
+10
+00:01:33,820 --> 00:01:42,330
+Why do we have a file that
+says we know each other better?
+
+11
+00:01:42,330 --> 00:01:53,470
+They know that one of them ipdo's charismatic flow code is moving
+faster, so if so, we'll do it according to the command area it provides.
+
+12
+00:01:53,470 --> 00:02:04,160
+And I'm going to add one thing to that, which is to say that our
+GIG's face is to do it faster, and this is to add more documents.
+
+13
+00:02:04,160 --> 00:02:11,020
+Let's start with a new stress
+ansys. Let's put our files in here.
+
+14
+00:02:12,380 --> 00:02:20,890
+And then I'm gonna build a document,
+and that's from this, that's stress.
+
+15
+00:02:21,390 --> 00:02:26,940
+Then I'll add another one and I'll say
+it's generated. FBI This one. ansys Yeah.
+
+16
+00:02:28,950 --> 00:02:36,430
+Let's just put it in this position like he
+did, and then our model is his original model.
+
+17
+00:02:36,950 --> 00:02:45,910
+This is the one that broke my seal, this one that's its model,
+and this is the motor model, and this is the one we use.
+
+18
+00:02:47,300 --> 00:02:54,900
+This model of start is
+the model of startsppk.
+
+19
+00:02:56,850 --> 00:02:59,250
+And we put MB2.2 under this file.
+
+20
+00:03:00,460 --> 00:03:09,810
+We're going to have to use a lower degree of
+control to produce it, as we did yesterday.
+
+21
+00:03:09,810 --> 00:03:22,850
+Because it's got some ideas, especially over there. sys At the same time, it doesn't have the
+knowledge, so let's just say... 16 Dots, for example, when I'm here, it's Ances. 16 Let's make it clear.
+
+22
+00:03:22,850 --> 00:03:23,110
+Let's go.
+
+23
+00:03:24,720 --> 00:03:31,660
+First of all, it's a syscdb in this
+folder, and it's this assembly grid file.
+
+24
+00:03:32,160 --> 00:03:39,190
+input is the mini stream
+that we created this fbi
+
+25
+00:03:41,110 --> 00:03:52,330
+This mini, we can actually look at your grids and say
+they're good and they're at the center and the side.
+
+26
+00:03:52,330 --> 00:03:55,250
+cpu It's actually for what
+you're buying. cpu More
+
+27
+00:03:56,510 --> 00:04:06,700
+Then we'll say we'll let it get in,
+we'll give it a name and that's it.
+
+28
+00:04:08,170 --> 00:04:08,350
+Call.
+
+29
+00:04:08,790 --> 00:04:20,860
+And then we're going to set up our own self-structured analysis
+department, and this is actually the paper stick that's assigned to it.
+
+30
+00:04:21,220 --> 00:04:26,960
+One just read a quality paper stick and
+the other created a combination of this.
+
+31
+00:04:29,240 --> 00:04:35,080
+The other means what he needs to export.
+
+32
+00:04:36,340 --> 00:04:46,500
+This is tcms. Most people
+don't really use it.
+
+33
+00:04:46,500 --> 00:04:52,980
+I've been producing this document for a
+long time since I started doing it myself.
+
+34
+00:04:54,040 --> 00:05:06,820
+When we're working on the contract, we'll look at it and down there, and that's what our paper-shoe store keeps,
+which direct points, for example, we're gonna keep the direct points numbered here, and we're gonna keep it.
+
+35
+00:05:06,820 --> 00:05:17,710
+All direct points, and then the main part is that much, much of it is just
+enough, so let's just say you're not familiar with the word or add to the table.
+
+36
+00:05:18,230 --> 00:05:22,490
+Then we come here and we'll
+just go ahead and do it.
+
+37
+00:05:24,000 --> 00:05:32,630
+Give this to our Answers for you to come in.
+
+38
+00:05:32,630 --> 00:05:38,730
+Then we come here and give it
+to Answers16.0 and open it.
+
+39
+00:05:54,670 --> 00:06:06,330
+Then set our path in the morning and put it on the morning
+table, SSP, then come tomorrow and set it up and I'll go.
+
+40
+00:06:11,000 --> 00:06:15,720
+I'll close the screen when
+it's convenient, that's all.
+
+41
+00:06:19,280 --> 00:06:29,000
+Well, in the first place, we could actually produce it, but,
+uh, for this effect, I'll give it to you one step at a time.
+
+42
+00:06:34,260 --> 00:06:45,360
+First of all, Prepair, SS
+mini, all know, get ready.
+
+43
+00:06:45,520 --> 00:06:56,410
+And then, we get this net money from our
+CDV, it's in, but it doesn't show us.
+
+44
+00:06:56,410 --> 00:06:57,880
+Guys, reflow, give me a second.
+
+45
+00:07:01,500 --> 00:07:05,560
+Well, that's it. You can
+actually see it and say,
+
+46
+00:07:16,470 --> 00:07:17,750
+Let's open up our business in the village.
+
+47
+00:07:27,650 --> 00:07:29,070
+It could have been a little quick.
+
+48
+00:07:39,050 --> 00:07:45,780
+Let's open this one. This
+one's good. Let's copy it.
+
+49
+00:07:52,210 --> 00:07:58,450
+It's blocked. We've got something on it.
+
+50
+00:08:00,600 --> 00:08:07,140
+And then turn this angle,
+and we can zoom in.
+
+51
+00:08:08,240 --> 00:08:21,680
+It's just that we're going to say it's still here, and it's going to fit in here, and it's
+actually going to fit through the cgmini, and that's going to be the one in the front.
+
+52
+00:08:21,680 --> 00:08:25,900
+Just step on it in this form, and then what?
+
+53
+00:08:30,140 --> 00:08:33,260
+And then we'll see its name,
+and we'll try its analysis.
+
+54
+00:08:37,810 --> 00:08:43,360
+It's already in this department of analysis.
+
+55
+00:08:45,020 --> 00:08:48,820
+Next is to keep some of its answers.
+
+56
+00:08:53,110 --> 00:09:05,340
+Yeah, well, it's, uh, it's got to say
+something right now, and we're gonna say yes.
+
+57
+00:09:06,000 --> 00:09:10,700
+Look at him. That's how he
+keeps a little bit of freedom.
+
+58
+00:09:12,110 --> 00:09:13,290
+You see, he's actually...
+
+59
+00:09:14,790 --> 00:09:18,030
+You see, a few direct points of
+his position have been preserved.
+
+60
+00:09:19,080 --> 00:09:23,070
+He can get us to give you
+this. Can you come in?
+
+61
+00:09:25,600 --> 00:09:30,460
+He's also violent with this UXUIUZ.
+
+62
+00:09:31,490 --> 00:09:38,290
+XUIUZ, all of them.
+
+63
+00:09:48,340 --> 00:09:53,080
+The process is with your season
+model and your deformation.
+
+64
+00:10:08,060 --> 00:10:13,620
+It's the center and center,
+and it's done a CP olympic.
+
+65
+00:10:20,790 --> 00:10:29,090
+In fact, in this case, you'll find that it's only done a structural
+analysis, not a model, but it's possible to do it directly.
+
+66
+00:10:29,110 --> 00:10:31,750
+If you've been a model for this
+structure before it went well,
+
+67
+00:10:32,880 --> 00:10:41,940
+That would save the time of the equivalent, and
+that would mean there would be a second round of us.
+
+68
+00:10:46,120 --> 00:10:51,900
+We're done with the charismatic cow.
+
+69
+00:10:54,240 --> 00:11:06,960
+The next thing we're gonna do is we're gonna need to do this in a dark way, except for
+some of the charisma, and I'm gonna show you how to do this GUI, and we're gonna...
+
+70
+00:11:06,960 --> 00:11:20,280
+In this case, it's the name, and then we'll do it in the same
+way as this GUI, and then this GUI we'll just need this CDP.
+
+71
+00:11:25,400 --> 00:11:29,970
+All right, let's give this to domestics.
+
+72
+00:11:33,330 --> 00:11:37,850
+And then we'll take that again and
+put it in this button based on it.
+
+73
+00:11:43,420 --> 00:11:50,620
+Well, it may seem a little more intuitive than the
+daughter who ordered it, but she's doing the same thing.
+
+74
+00:11:56,890 --> 00:11:59,390
+All right, let's read the papers first.
+
+75
+00:12:02,060 --> 00:12:08,890
+Read our CDB, take it replot a little bit.
+
+76
+00:12:12,220 --> 00:12:20,460
+We should have this in YZ comment.
+
+77
+00:12:20,660 --> 00:12:25,620
+Yeah, YZ comments that
+this might work better.
+
+78
+00:12:30,710 --> 00:12:34,010
+So we go straight to the
+comment at the beginning.
+
+79
+00:12:34,090 --> 00:12:41,640
+Let's start with the type, which is to
+create a structure, right down there.
+
+80
+00:12:42,470 --> 00:12:49,970
+Okay, well, you're already wearing this analysis and we're
+going to choose some of the parameters of this analysis.
+
+81
+00:12:49,970 --> 00:12:58,210
+Select the analysis department, and then here we are, and this matrix
+of concern we've created, we've chosen this higher and then OK.
+
+82
+00:12:58,990 --> 00:13:06,640
+What we need to do with
+this is to, uh, be direct.
+
+83
+00:13:07,460 --> 00:13:21,050
+Well, come on, let's get a definition, let's get a definition, let's
+go, let's go, let's go, let's go, let's go, let's go, let's go.
+
+84
+00:13:21,050 --> 00:13:25,890
+Well, if it's like this now, we've seen it.
+
+85
+00:13:28,180 --> 00:13:30,460
+The whole degree of freedom
+should be preserved.
+
+86
+00:13:36,170 --> 00:13:43,970
+Actually, it's easy to get ready for
+it, and we'll take a decision on this.
+
+87
+00:13:51,710 --> 00:13:54,650
+And it's exactly the same as
+the previous command stream.
+
+88
+00:13:56,090 --> 00:14:06,500
+In fact, the key to this is the choice to
+reduce the freedom if it's named or you're GIG.
+
+89
+00:14:06,500 --> 00:14:16,820
+It's a little faster than a manual selection or a sort
+of M1-comfort and then a couple of points and dents.
+
+90
+00:14:17,700 --> 00:14:20,120
+And that's it.
+
+91
+00:14:22,740 --> 00:14:30,080
+It was the same way we were before this.
+
+92
+00:14:31,140 --> 00:14:38,520
+That's the same chain of command we were
+talking about, and we'll give it all to them.
+
+93
+00:14:39,120 --> 00:14:51,240
+In fact, we've completed the process of
+preparing documents for Anssens' production.
+
+94
+00:14:51,240 --> 00:14:59,990
+It'll make you export that CDBCDB output.
+
+95
+00:14:59,990 --> 00:15:13,760
+Let's show it, because we already have this CDB file, so it doesn't
+matter much. If it's a self-made model, we might need to come from it.
+
+96
+00:15:13,760 --> 00:15:26,440
+It's going to go on exporting it, and it's going to say that this is
+the CDB, and it's in this one of ours, and it's looking for this one.
+
+97
+00:15:26,440 --> 00:15:32,110
+write,write will let you write a CDB.
+
+98
+00:15:32,130 --> 00:15:38,830
+CDB, let's call this CDB-1
+to make a difference.
+
+99
+00:15:40,650 --> 00:15:46,650
+And then you see, these are going
+to look at it. Let's look at it.
+
+100
+00:15:48,520 --> 00:15:50,260
+In that case, we are.
+
+101
+00:15:51,840 --> 00:15:54,080
+Well, that's all we need.
+
+102
+00:15:55,570 --> 00:15:56,190
+It's done.
+
+103
+00:15:58,860 --> 00:16:07,080
+And then we'll take the next class, and we'll talk
+about this prep from Ances, how to produce our F.
+
+104
+00:16:07,080 --> 00:16:07,860
+Information for DR.

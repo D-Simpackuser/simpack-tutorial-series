@@ -1,0 +1,1482 @@
+WEBVTT
+
+1
+00:00:01.230 --> 00:00:13.340
+Hey, guys, according to our opening plan today, we're going to do the
+sixth word, SIMPAC, vehicle pedal track and system implementation.
+
+2
+00:00:14.430 --> 00:00:24.220
+And here, in the last section, SIMPAC, we have
+completed the setting of the flexible orbit.
+
+3
+00:00:24.220 --> 00:00:35.220
+How we're going to expand the integration of our vehicle
+slab orbital systems based on a flexible orbital model.
+
+4
+00:00:35.220 --> 00:00:46.150
+Here we're divided into a few parts, one of which is
+to import the board and set it to the right position.
+
+5
+00:00:46.150 --> 00:00:51.840
+Set this in the previous
+CMPARK flexible body
+
+6
+00:00:54.280 --> 00:01:05.100
+We're going to introduce the main
+repositioning and renaming of the site.
+
+7
+00:01:05.750 --> 00:01:12.350
+And the next thing to do is to connect it
+to the steel track and to the king below.
+
+8
+00:01:12.550 --> 00:01:19.170
+And when we're done, we're
+the whole system, so to speak.
+
+9
+00:01:20.460 --> 00:01:22.100
+Next we open.
+
+10
+00:01:23.660 --> 00:01:29.400
+We had already created a
+good model of track vehicles.
+
+11
+00:01:35.160 --> 00:01:44.220
+Let's get a new version
+and open this up for us.
+
+12
+00:01:44.220 --> 00:01:53.530
+We need to check our entire set-up.
+
+13
+00:01:53.530 --> 00:02:06.760
+We've done some analysis at Abbox and say it's set up with a plate on each board,
+so that's the distribution of courage on each board, it's either that or that.
+
+14
+00:02:07.340 --> 00:02:10.560
+It has six connections on each board, yes.
+
+15
+00:02:11.320 --> 00:02:20.450
+In that case, we'll have to remove the steel cabinet,
+18 points to the left, 18 points to the right.
+
+16
+00:02:21.010 --> 00:02:32.300
+And then we need to reset the mark points in the
+third shot and then use them to connect to the setup.
+
+17
+00:02:38.620 --> 00:02:48.380
+For example, we can pick a
+little bit of, uh, track here.
+
+18
+00:02:48.420 --> 00:02:54.290
+Let's just create a little
+bit. Let's create it.
+
+19
+00:02:56.310 --> 00:03:03.540
+The first version of 1,
+let's keep it secret.
+
+20
+00:03:05.220 --> 00:03:09.370
+Black Check D11
+
+21
+00:03:10.990 --> 00:03:12.590
+Just a few.
+
+22
+00:03:13.140 --> 00:03:16.860
+Or the board's board 1's
+first grouping point.
+
+23
+00:03:25.100 --> 00:03:27.300
+Let's set it up to be safe, Note.
+
+24
+00:03:28.530 --> 00:03:35.190
+Let's open this list of pulls and
+we can see that we've found a point.
+
+25
+00:03:46.060 --> 00:03:56.670
+Like our model, like this,
+we set it up in 105.7 m.
+
+26
+00:03:56.670 --> 00:04:08.360
+This position. 105.7 That's what we look at. 105.7 I
+think it's down there. The light's down there. 1110
+
+27
+00:04:09.940 --> 00:04:13.960
+This is the right. If we go
+left, we'll open it again.
+
+28
+00:04:16.560 --> 00:04:18.820
+My 105.7
+
+29
+00:04:21.060 --> 00:04:25.580
+All right, 2110, let's do this, shall we?
+
+30
+00:04:33.580 --> 00:04:40.750
+We created this point. We can
+actually look at the points behind it.
+
+31
+00:04:45.890 --> 00:04:52.590
+If you put it on the other side and
+you get it down below, we can see it.
+
+32
+00:04:53.710 --> 00:04:59.860
+1057, we're the 106.3106.
+
+33
+00:05:00.770 --> 00:05:06.500
+They are sorted by 2110, 2111, 2112.
+
+34
+00:05:06.860 --> 00:05:19.700
+Which means, the point we're going to have to delete at the
+back, is when we set the height, we need to put 2110 on.
+
+35
+00:05:19.700 --> 00:05:28.860
+To 2127's, we need to delete it.
+
+36
+00:05:32.900 --> 00:05:40.340
+Now we know that we need to remove
+those praises from our data base file.
+
+37
+00:05:41.600 --> 00:05:51.600
+And then find our hackjack through me.
+
+38
+00:05:51.600 --> 00:05:59.700
+We told vscodevscode earlier that
+it'd be good for it to be deleted.
+
+39
+00:05:59.940 --> 00:06:06.120
+And then here's where we're going to get
+the part that's missing, which is ours.
+
+40
+00:06:08.390 --> 00:06:09.810
+Spring link point.
+
+41
+00:06:14.080 --> 00:06:25.660
+The spring link, if we don't get rid of it,
+connects it to our steel cabinets and grades.
+
+42
+00:06:25.780 --> 00:06:32.380
+On the other hand, it's connected to our
+slabs, so our models are in conflict.
+
+43
+00:06:32.380 --> 00:06:41.260
+So let's get rid of it and
+we'll get rid of it and find us.
+
+44
+00:06:41.820 --> 00:06:53.120
+Uh, 1100 and 2100 started
+getting 1127 to 2127, right?
+
+45
+00:06:53.120 --> 00:06:56.320
+And then we'll delete it.
+
+46
+00:07:00.220 --> 00:07:07.140
+Just delete the right and
+we'll delete the left.
+
+47
+00:07:13.540 --> 00:07:17.960
+We're also going to delete our fans.
+
+48
+00:07:33.390 --> 00:07:38.130
+Then we'll remove the whole model.
+
+49
+00:07:40.290 --> 00:07:51.980
+We don't need the rest of this place.
+
+50
+00:07:51.980 --> 00:07:53.200
+Reopen it.
+
+51
+00:08:02.210 --> 00:08:13.750
+We're going to open the set with an adapted version, and it's gone wrong, and we can
+slow it down here and change it to the old version, and it's not going to go wrong.
+
+52
+00:08:30.330 --> 00:08:32.530
+Okay, open our flag check.
+
+53
+00:08:33.540 --> 00:08:38.430
+With Mark points, we've already
+created a collection before, right?
+
+54
+00:08:46.890 --> 00:08:50.010
+All right, let's go. Now we
+can create it to the right.
+
+55
+00:08:52.060 --> 00:09:00.040
+Here's a network that can be said to be doing
+an operation in SIMpark, which is copying paste.
+
+56
+00:09:00.040 --> 00:09:02.540
+And then give it that few
+points to plant the back way.
+
+57
+00:09:02.980 --> 00:09:09.560
+I can just take the text
+and open this for spck.
+
+58
+00:09:10.840 --> 00:09:17.740
+The file, and then we'll go straight to the file
+that we're going to put in, and we're going to do it.
+
+59
+00:09:18.580 --> 00:09:22.800
+Here we are, we can find
+it directly inside body.
+
+60
+00:09:22.800 --> 00:09:28.980
+We found our flag check.
+
+61
+00:09:35.890 --> 00:09:41.610
+This is our flag check.
+
+62
+00:09:45.740 --> 00:09:51.840
+Under this, we can find some
+of its equivalents, like mark.
+
+63
+00:10:18.500 --> 00:10:22.820
+There's a lot more in here. We'll have
+to pay special attention when we do it.
+
+64
+00:10:26.270 --> 00:10:32.410
+So if you are not particularly familiar with this
+approach, let alone disrespect it by changing it.
+
+65
+00:10:32.930 --> 00:10:43.000
+This way, if we're going to introduce it,
+we can connect to the board at the back.
+
+66
+00:10:43.180 --> 00:10:45.900
+We can use it when the colon is created.
+
+67
+00:10:46.080 --> 00:10:48.340
+That's because it's probably stronger.
+
+68
+00:10:48.920 --> 00:10:58.640
+If you're not particularly familiar with this here, or if you
+want to change it in your own way, it's best to carry a document.
+
+69
+00:11:03.000 --> 00:11:09.960
+And here's what we're looking for. You look
+at this type of thing. That's our mark type.
+
+70
+00:11:10.300 --> 00:11:20.660
+Our point is that we can put this piece down directly, and then, by changing
+the number of this leaked point of the name once, we can make sure of it.
+
+71
+00:11:20.660 --> 00:11:21.040
+Okay.
+
+72
+00:11:21.460 --> 00:11:28.810
+We're just here to say that it's a clear way
+of copying pasting, and maybe time is slower.
+
+73
+00:11:28.840 --> 00:11:39.660
+That's why we can all skip things quickly,
+but the same way to get things done.
+
+74
+00:11:46.740 --> 00:11:47.260
+I don't know
+
+75
+00:12:07.620 --> 00:12:15.320
+That's what happens when you keep a
+reporter in the middle of the process.
+
+76
+00:12:15.320 --> 00:12:23.420
+It'll give us a lot of room, or it'll be a
+lot harder to focus on when our model's up.
+
+77
+00:12:28.250 --> 00:12:31.050
+We can take a look at this
+when we're not worried.
+
+78
+00:12:32.250 --> 00:12:37.890
+But because we were regular at what
+time, it's good for us to say so.
+
+79
+00:12:38.940 --> 00:12:46.040
+For example, our first point now is the next
+point of this position, which is U2U3U4.
+
+80
+00:12:46.040 --> 00:12:57.220
+And then we'll do the secret on the left side of this version of the
+corresponding location, like, we're on the second left side of the machine.
+
+81
+00:12:57.950 --> 00:12:59.710
+And give it a chance.
+
+82
+00:13:00.800 --> 00:13:03.740
+And you can see how it's
+going to change down here.
+
+83
+00:13:09.310 --> 00:13:12.790
+It's over. Let's just keep working.
+
+84
+00:13:27.960 --> 00:13:30.850
+One, two, three, just created here.
+
+85
+00:13:37.930 --> 00:13:40.110
+We can copy it here.
+
+86
+00:13:56.330 --> 00:13:56.910
+Again.
+
+87
+00:14:00.170 --> 00:14:07.300
+That's two, and then that's the projection.
+
+88
+00:14:12.570 --> 00:14:17.590
+Oh, we've created three points here.
+
+89
+00:14:18.700 --> 00:14:20.560
+Actually, it's down to six points.
+
+90
+00:14:21.520 --> 00:14:22.400
+We're going to create it.
+
+91
+00:14:23.060 --> 00:14:25.720
+So let's cancel this line.
+
+92
+00:14:42.420 --> 00:14:45.840
+So we have to have rules when we're created.
+
+93
+00:14:46.120 --> 00:14:50.600
+We'll all be there when we're
+created. We'll see a really tall show.
+
+94
+00:14:50.600 --> 00:14:58.820
+If you have to look at what
+the name is meant to be.
+
+95
+00:14:58.820 --> 00:15:11.680
+Well, we see the efficiency of the
+membrane and the slowness of the time.
+
+96
+00:15:11.680 --> 00:15:13.990
+Three hips.
+
+97
+00:15:34.860 --> 00:15:46.320
+This is supposed to be the waist
+five. This is the waist wire.
+
+98
+00:15:47.760 --> 00:15:55.500
+And in the course of this membrane, we can
+always focus on this part of our interface.
+
+99
+00:15:56.160 --> 00:15:57.340
+Look what's wrong now.
+
+100
+00:16:08.990 --> 00:16:16.460
+It will also help us to
+change that point in time.
+
+101
+00:16:22.930 --> 00:16:25.990
+Let's define it this way
+when we can't find it.
+
+102
+00:16:27.140 --> 00:16:29.100
+And then let it talk.
+
+103
+00:16:30.190 --> 00:16:35.120
+All of a sudden on the
+net, make it one, six.
+
+104
+00:16:41.210 --> 00:16:45.020
+Ouch, it's a six.
+
+105
+00:17:00.270 --> 00:17:04.030
+We'll build a plate and we'll get it out.
+
+106
+00:17:17.130 --> 00:17:21.550
+In that case, we'll see when
+we're done with the left four.
+
+107
+00:17:28.360 --> 00:17:36.860
+And because we have 2 on the right, 2 on the left,
+and 1 on the right, at what point does it start?
+
+108
+00:17:36.860 --> 00:17:38.860
+Change it to 1.
+
+109
+00:17:43.150 --> 00:17:55.630
+In that case, we'll be looking at some of the
+things we've got wrong when we're modeling.
+
+110
+00:17:55.630 --> 00:17:58.690
+It'll be easier with the later strip model.
+
+111
+00:18:03.160 --> 00:18:04.100
+Same thing.
+
+112
+00:18:05.180 --> 00:18:05.800
+One three.
+
+113
+00:18:07.410 --> 00:18:08.290
+Two-one.
+
+114
+00:18:08.850 --> 00:18:09.670
+Third point.
+
+115
+00:18:10.130 --> 00:18:10.630
+Right.
+
+116
+00:18:21.460 --> 00:18:26.380
+So you can see that this whole process
+is still a bit of a chole in here.
+
+117
+00:18:26.600 --> 00:18:29.580
+Otherwise, it's based on
+personal computer configuration.
+
+118
+00:18:32.120 --> 00:18:41.610
+So if you're more familiar with the structure
+of the SPCK file, you can just turn it out.
+
+119
+00:18:42.010 --> 00:18:43.790
+It then goes directly through
+a document modification.
+
+120
+00:18:44.950 --> 00:18:54.370
+And then you open up this spc
+file, and it doesn't leak.
+
+121
+00:18:54.930 --> 00:18:59.350
+I'll tell you the way
+the document was changed.
+
+122
+00:19:13.880 --> 00:19:20.880
+Connect to the right and left of
+the 1 plate to the steel tower.
+
+123
+00:19:20.880 --> 00:19:23.440
+Up on the top of the board, we're done.
+
+124
+00:19:23.560 --> 00:19:30.630
+One time we're going to make
+the rest of the two plates.
+
+125
+00:21:51.170 --> 00:21:53.130
+Come here to copy directly
+its group colour points.
+
+126
+00:22:32.900 --> 00:22:34.180
+Now it looks like 88.
+
+127
+00:23:30.910 --> 00:23:40.160
+I've come all the way here to see if we have
+any leaks or shortcomings and repeat points.
+
+128
+00:23:40.770 --> 00:23:46.140
+Let's check it out. Six points
+to the left are continuous.
+
+129
+00:23:47.230 --> 00:23:57.430
+And then it goes to six points on the right, and it goes on to the
+other side, and then to the second plate on the left side of six points.
+
+130
+00:23:58.420 --> 00:24:12.400
+One, two, three, four, 5, this is the right 6
+block, this is the right one, but here we are.
+
+131
+00:24:12.400 --> 00:24:25.040
+In the middle, it's the middle of the second
+board, and that's how it works with b24 and b14.
+
+132
+00:24:25.040 --> 00:24:29.910
+The folded b24 is folded, so
+we can delete the two points.
+
+133
+00:24:33.300 --> 00:24:39.660
+And then you can create these two dots
+when you're going to create three colors.
+
+134
+00:24:51.040 --> 00:24:55.440
+We'll sort it out here.
+
+135
+00:25:04.320 --> 00:25:07.520
+Now we need to create a three or four more.
+
+136
+00:25:14.500 --> 00:25:20.280
+Like six points, that's
+two, two, two, that's three.
+
+137
+00:25:36.800 --> 00:25:38.080
+That's two or three.
+
+138
+00:25:44.940 --> 00:25:49.880
+So why do we have to talk about this rule
+when we write this teaching document?
+
+139
+00:25:50.760 --> 00:25:57.930
+And after we've imported the model, the effect
+on our overall impact is still a very big one.
+
+140
+00:25:58.850 --> 00:26:06.920
+If the whole node is off-limits, then we'll survive
+these connections in a few minutes, three, four.
+
+141
+00:26:06.920 --> 00:26:09.440
+Sometimes, there's a lot of problems.
+
+142
+00:26:26.220 --> 00:26:30.680
+Three, six, seven.
+
+143
+00:26:37.960 --> 00:26:41.830
+All right, we're missing a three or
+four, right? Let's put a sticker on it.
+
+144
+00:26:47.180 --> 00:26:48.320
+Get up there and we'll change it.
+
+145
+00:27:10.210 --> 00:27:18.880
+The left-sided dots are created in the morning, and the same
+shakers do the left dot, give the taste and create the right dot.
+
+146
+00:29:02.820 --> 00:29:06.860
+Okay, we're done with the
+whole point. Let's try it.
+
+147
+00:29:08.650 --> 00:29:16.710
+There's no problem. We created
+the connection on FlagTrack.
+
+148
+00:29:16.710 --> 00:29:27.870
+Next thing we need to do, we need to create three points
+above the board, which we need to invest separately in it.
+
+149
+00:29:30.530 --> 00:29:33.330
+Let's create a new title called Snap.
+
+150
+00:29:38.990 --> 00:29:39.930
+Selection
+
+151
+00:29:47.640 --> 00:29:53.430
+The circle, the circle, the circle.
+
+152
+00:29:54.900 --> 00:29:57.100
+Select the circle of choice
+
+153
+00:30:03.230 --> 00:30:09.230
+Yeah, well, we can check it out.
+
+154
+00:30:11.150 --> 00:30:14.490
+Position, let's just leave it alone.
+
+155
+00:30:20.190 --> 00:30:27.670
+We need to get rid of
+this whole hammer first.
+
+156
+00:30:27.670 --> 00:30:32.250
+That's right. Delete it.
+
+157
+00:30:37.910 --> 00:30:42.550
+We can see that our copyboard
+is already pouring in.
+
+158
+00:30:47.930 --> 00:30:56.390
+That's where it's at, when we're cutting our hair,
+where we're going to be, if we can do it now.
+
+159
+00:30:56.390 --> 00:31:00.010
+That's what we're gonna do when we do this.
+
+160
+00:31:16.840 --> 00:31:27.180
+This way, it can be changed to directly
+point to the connection location.
+
+161
+00:31:27.660 --> 00:31:27.980
+Yeah.
+
+162
+00:31:30.730 --> 00:31:33.870
+Then let's see how many are in here.
+
+163
+00:31:35.440 --> 00:31:44.080
+This connection point on the ninth step? Yeah, well,
+basically, we're gonna have to clear it up until we're done.
+
+164
+00:31:44.500 --> 00:31:52.700
+For example, let's check out its model, order some
+parts, like, let's check the time, click it out.
+
+165
+00:32:06.400 --> 00:32:13.760
+Its build-up models are the same as some of
+us, and there's no problem with the frequency.
+
+166
+00:32:18.010 --> 00:32:29.530
+There's an option. We also said on the guide day that we're here to make it
+easier, because we've already reserved the memory we need for it in the game.
+
+167
+00:32:29.610 --> 00:32:34.510
+So we can have a Spot type through Generate.
+
+168
+00:32:35.630 --> 00:32:41.410
+Let's just say we create a mark point
+at each node and click on Generate.
+
+169
+00:32:45.640 --> 00:32:50.640
+Okay, we have this Generate, and we
+can see a series of these points.
+
+170
+00:32:53.010 --> 00:33:00.520
+And then we can change the name and
+then we can use the source connection.
+
+171
+00:33:02.820 --> 00:33:04.160
+Why change the name?
+
+172
+00:33:04.220 --> 00:33:10.140
+Because we need to change it back to make
+it by changing the way RPC files are opened.
+
+173
+00:33:10.600 --> 00:33:14.540
+So we need to change its name.
+
+174
+00:33:18.990 --> 00:33:22.530
+Let's give this piece to it first.
+
+175
+00:33:24.100 --> 00:33:28.660
+To connect us to the past, we need to
+prepare this decision point for it.
+
+176
+00:33:35.620 --> 00:33:37.480
+We can check its location.
+
+177
+00:33:37.480 --> 00:33:50.580
+Here. 0.3 V. 0.9 I'm sorry, but I don't know. 0.3 V,
+this is supposed to be the point below us, isn't it? 0.9
+
+178
+00:33:52.910 --> 00:33:56.590
+We can check this out,
+or we can figure it out.
+
+179
+00:33:58.740 --> 00:34:06.990
+This position shows that 0.753 handles
+zero points, basically zero, and this one.
+
+180
+00:34:06.990 --> 00:34:11.320
+Zero, but that's the point up there.
+
+181
+00:34:12.640 --> 00:34:15.460
+So let's name it.
+
+182
+00:34:15.460 --> 00:34:16.300
+Like what?
+
+183
+00:34:28.820 --> 00:34:30.280
+Say slap1.
+
+184
+00:34:31.460 --> 00:34:38.620
+slap and then b1.
+
+185
+00:34:39.100 --> 00:34:39.420
+go
+
+186
+00:34:40.460 --> 00:34:41.300
+You're here.
+
+187
+00:34:44.880 --> 00:34:55.240
+Take a look at this and we'll call it U1
+Yeah, it is. UPU1 We're up there. 6 Points
+
+188
+00:34:55.240 --> 00:34:56.240
+Lord.
+
+189
+00:35:00.220 --> 00:35:07.760
+The main thing is that we're
+mainly connected to our fees.
+
+190
+00:35:36.270 --> 00:35:40.630
+We can identify other
+points through the group.
+
+191
+00:35:45.730 --> 00:35:51.700
+This, for example, is a serial version of 2.
+
+192
+00:36:17.630 --> 00:36:23.350
+This is the first edition of 4.
+
+193
+00:36:32.640 --> 00:36:36.140
+This is the first edition of 5, and...
+
+194
+00:36:48.940 --> 00:36:53.800
+Let's take the first edition
+of 6, and we can see it.
+
+195
+00:37:07.100 --> 00:37:16.320
+Let's take a look at this location and
+see if it's all over our left side.
+
+196
+00:37:16.780 --> 00:37:18.280
+That's what we want.
+
+197
+00:37:21.050 --> 00:37:28.590
+We're going down there and we're
+going to see what's down there.
+
+198
+00:37:28.590 --> 00:37:31.630
+Because the distance we were
+connected to was probably 1.2 m.
+
+199
+00:37:36.440 --> 00:37:38.220
+Always think about it. 1.2 m. One.
+
+200
+00:37:39.400 --> 00:37:47.100
+That's the same as 0.67, 6, a point
+connected to the orbital system.
+
+201
+00:37:47.100 --> 00:37:55.700
+If we're down here with the spring, that means we just need three
+points, right? 1.2 If it's like this, half of it is three points.
+
+202
+00:37:58.680 --> 00:38:04.540
+The same 0.3G that goes down is the mass behind
+this panel, the height behind it, and we call it
+
+203
+00:38:05.720 --> 00:38:10.990
+B1, bottom,
+
+204
+00:38:12.410 --> 00:38:14.050
+The sculpt of the point below,
+
+205
+00:38:26.320 --> 00:38:33.990
+And this, our Dag, is the image of 1.2 m.
+
+206
+00:38:45.060 --> 00:38:54.660
+B1-2L must be, if we're here, we'll just fix the name of the dot.
+We're all gonna be B1. It's supposed to be a location, right?
+
+207
+00:39:04.380 --> 00:39:09.280
+That's why you have to be careful
+when you start a business.
+
+208
+00:39:40.500 --> 00:39:43.730
+This is one or two.
+
+209
+00:40:08.820 --> 00:40:13.610
+We can also see the right side, right?
+
+210
+00:40:15.850 --> 00:40:19.630
+The first dot basket on the right,
+according to the left is our corner.
+
+211
+00:40:27.000 --> 00:40:30.680
+Then, according to the naming
+rules, we're called U2L.
+
+212
+00:40:34.600 --> 00:40:40.860
+If we're the first one,
+we're supposed to be U1.
+
+213
+00:40:43.220 --> 00:40:52.700
+We're on the left side of U2, we're on the top,
+up,B is button, and that's when we're on the back.
+
+214
+00:40:52.700 --> 00:40:59.980
+And then the point behind this is the first point on
+this plate, and the point is that it's on the left.
+
+215
+00:41:00.000 --> 00:41:00.560
+There's the right.
+
+216
+00:41:07.350 --> 00:41:09.450
+The second point is our 94.
+
+217
+00:41:14.060 --> 00:41:16.780
+U1-2,
+
+218
+00:41:25.240 --> 00:41:28.980
+These three points are our theme point.
+
+219
+00:41:31.740 --> 00:41:32.860
+U1-32,
+
+220
+00:41:44.090 --> 00:41:49.100
+Suddenly, we saw U1-4.
+
+221
+00:42:06.590 --> 00:42:08.450
+1.5.
+
+222
+00:42:22.340 --> 00:42:22.900
+6.
+
+223
+00:42:32.010 --> 00:42:38.630
+6.6.6.6.6.6.6.6.
+
+224
+00:42:41.190 --> 00:42:46.870
+6.6.6.6.
+
+225
+00:42:50.430 --> 00:42:57.330
+6.6.6.6.6.6.6.
+
+226
+00:42:58.670 --> 00:42:58.890
+6
+
+227
+00:43:06.400 --> 00:43:13.840
+The second one is our one,
+two, two, one, one, two, three.
+
+228
+00:43:24.570 --> 00:43:30.400
+Three. This is our 12:7. One, three.
+
+229
+00:43:41.130 --> 00:43:47.670
+And here we are.
+
+230
+00:43:48.680 --> 00:43:59.940
+And when we're done, we've
+got a couple of points here.
+
+231
+00:44:00.380 --> 00:44:07.940
+A model of a suction suction, which
+needs to be caught in three positions.
+
+232
+00:44:08.100 --> 00:44:10.900
+There can be settings here.
+
+233
+00:44:14.360 --> 00:44:21.360
+And when it's done, it's still not
+very good to see where the model is.
+
+234
+00:44:21.360 --> 00:44:21.720
+Right.
+
+235
+00:44:22.770 --> 00:44:29.750
+For ease of identification,
+change the color to red.
+
+236
+00:44:37.050 --> 00:44:44.120
+In that case, we'll have to make it
+through this long-lasting process.
+
+237
+00:44:45.480 --> 00:44:52.600
+Let's make a new connection.
+flag check Medium mark bgl
+
+238
+00:44:55.810 --> 00:45:00.110
+Let's check it out. It's
+105.7, negative 0.7530.
+
+239
+00:45:00.600 --> 00:45:01.860
+173 around.
+
+240
+00:45:02.300 --> 00:45:06.640
+Then turn it down a distance and
+create it to 0.2 or something.
+
+241
+00:45:07.950 --> 00:45:14.410
+To comment on putting the first negative
+version of our grouping in this position.
+
+242
+00:45:15.070 --> 00:45:17.130
+Our model is regular.
+
+243
+00:45:18.220 --> 00:45:25.710
+Create a Mark point in Reference
+System, for example, we create a Stab,
+
+244
+00:45:29.640 --> 00:45:30.700
+Stab1.
+
+245
+00:45:33.660 --> 00:45:34.780
+That's the kind of thing.
+
+246
+00:45:37.560 --> 00:45:42.820
+We'll give it to the more 105.70.75.
+
+247
+00:45:44.550 --> 00:45:53.240
+Zero left to zero left.
+753 drops a high 0.2.
+
+248
+00:45:59.420 --> 00:46:02.240
+You can see it right here.
+
+249
+00:46:03.960 --> 00:46:05.700
+Give it a little more down there.
+
+250
+00:46:12.150 --> 00:46:20.710
+Okay, one of the things we're doing right now is to give you this
+pad by changing the finals, and we can go over here and clear it.
+
+251
+00:46:22.890 --> 00:46:26.670
+That's the type. That's the type we choose.
+
+252
+00:46:32.970 --> 00:46:34.430
+That's the kind of thing I did six times.
+
+253
+00:46:35.720 --> 00:46:37.360
+That's twice what you do.
+
+254
+00:46:39.220 --> 00:46:52.450
+The first point is our slab, this point, the
+full value and the Termac point is our EL.
+
+255
+00:46:52.450 --> 00:47:00.000
+That's it. That's it. OK. That's it.
+
+256
+00:47:05.540 --> 00:47:08.200
+It's bad to see us on this board.
+
+257
+00:47:08.640 --> 00:47:15.150
+Then we can see that it's right, right?
+
+258
+00:47:15.230 --> 00:47:18.770
+And then it's the steel cabinet connection point,
+and then it's the link point that we're in charge of.
+
+259
+00:47:21.180 --> 00:47:28.200
+On the 20th and 9th steps of this 20th
+stub, let's look at the packaging.
+
+260
+00:47:40.400 --> 00:47:43.160
+This is it to shut it
+down for introduction six.
+
+261
+00:47:47.350 --> 00:47:52.820
+A nine steps in a free-rate direction.
+
+262
+00:47:54.450 --> 00:47:59.690
+That's how it moves in a few directions.
+
+263
+00:48:02.060 --> 00:48:06.460
+A sedan may be considered to
+be subject to arbitrary change.
+
+264
+00:48:09.360 --> 00:48:19.440
+It's got this four-strength
+of saloons down there.
+
+265
+00:48:19.700 --> 00:48:20.940
+You can look inside.
+
+266
+00:48:21.660 --> 00:48:25.920
+That way we'll be finished with
+the creation of our first plate.
+
+267
+00:48:26.340 --> 00:48:29.120
+The second plate is similar to the third.
+
+268
+00:48:29.120 --> 00:48:36.470
+I'll show you here, but maybe I'll connect.
+
+269
+00:48:36.470 --> 00:48:40.930
+We're gonna have to move this speed
+so we can save everybody's time.
+
+270
+00:57:34.660 --> 00:57:48.200
+We're going to be finished, and when we're
+done, we're going to be missing a piece here.
+
+271
+00:57:48.200 --> 00:57:56.560
+That's us, because there's no legal basis in this, and
+if there's a basis, we're connected to the entire tower.
+
+272
+00:57:56.980 --> 00:58:03.240
+And then the whole foundation is fixed or
+connected to one of our full-time departments.
+
+273
+00:58:03.420 --> 00:58:09.920
+In that case, we need to create a series of such
+roots, just back to the point of connection.
+
+274
+00:58:10.360 --> 00:58:22.690
+And it's actually under our connection
+point, B1,R1,3,R3, which is more like it.
+
+275
+00:58:30.710 --> 00:58:33.070
+So you can see that it's
+these points down there.
+
+276
+00:58:33.880 --> 00:58:41.240
+There are three above each, three on the left,
+three on the right, and we can find it, for example.
+
+277
+00:58:43.560 --> 00:58:48.980
+Each board is this 6 point,
+which we actually need to create.
+
+278
+00:58:50.360 --> 00:58:57.400
+It was created in a place where we could make some kind of
+comment on it on the basis of our disciplinary committee.
+
+279
+00:58:57.400 --> 00:59:06.800
+This distance is easy to do, but normally we
+give it our opinion, and it's the right place.
+
+280
+00:59:06.900 --> 00:59:18.540
+Then let's look at this B3 point below this point, yeah, which is
+7.5, then negative 0.899, which is negative 0.9, and then 0.3000.
+
+281
+00:59:18.540 --> 00:59:28.300
+And then, in that case, it's a brf point relative to it, if
+we're going to set down the link point on the global level.
+
+282
+00:59:28.300 --> 00:59:35.870
+We need to measure it, for
+example, to find this bl point.
+
+283
+00:59:35.870 --> 00:59:39.130
+You can see its first point is 113.2.
+
+284
+00:59:40.230 --> 00:59:45.290
+And then, for example, if we're going to start
+with the first one, we're going to start with bl.
+
+285
+00:59:47.610 --> 00:59:55.630
+Then it's Z-P. 0.57 So we could just start this
+up and talk about the connections down there.
+
+286
+00:59:55.630 --> 01:00:08.520
+Let's set it up in the global picture, say it's a 0.6 in the
+fridge because our first board is headed in the direction of 0.57.
+
+287
+01:00:08.520 --> 01:00:17.430
+So according to this rule, we can create
+something like the first one we call EGL.
+
+288
+01:00:18.640 --> 01:00:24.980
+It's the first plate, the first barrier
+link on the first board and then...
+
+289
+01:00:31.280 --> 01:00:39.780
+For convenience's sake, we have a pattern, so we can go
+straight to our point if you're not particularly familiar.
+
+290
+01:00:39.780 --> 01:00:47.320
+It's going to produce these things, and you're going to copy them, so
+we're going to get to know them directly, like the first point is 106.
+
+291
+01:00:49.050 --> 01:00:55.640
+Negative direction 0.9.
+Box is always 0.6, right?
+
+292
+01:01:00.540 --> 01:01:11.900
+All right, so we can take a look at this point, and
+it's right down there, and we'll take a look at this V.
+
+293
+01:01:11.900 --> 01:01:19.470
+It's just a little bit of the
+lower way, so we can see it.
+
+294
+01:01:24.100 --> 01:01:28.040
+The same network can get
+the other points out.
+
+295
+01:01:29.890 --> 01:01:33.510
+Well, let's see if we
+can get to the Internet.
+
+296
+01:01:34.560 --> 01:01:43.660
+For example, we're under pressure. It's an addition at the old airport. 0.6
+I guess we were just a few minutes away. 1.2 I'm sorry, but I don't know.
+
+297
+01:01:50.790 --> 01:01:52.530
+Let's just add a 1.2.
+
+298
+01:02:03.150 --> 01:02:04.490
+I'm starting to put this on the table.
+
+299
+01:02:10.390 --> 01:02:12.310
+Then you can move it up there.
+
+300
+01:02:12.310 --> 01:02:25.970
+I think we're two times three times three times five
+times five, six, seven, eight, nine times we need a mouth.
+
+301
+01:02:25.970 --> 01:02:27.970
+It's a sign.
+
+302
+01:02:47.940 --> 01:02:51.860
+When the tablet may be a little
+slow, we can recreate it ourselves.
+
+303
+01:02:55.740 --> 01:03:04.780
+1.2 It's the second one. 1.2 The next point
+is... 1.3 Oh, that's what it's built on. 2.
+
+304
+01:03:07.620 --> 01:03:10.660
+1.3. Oh, that's where it's
+raised to the 2.4 point.
+
+305
+01:03:22.990 --> 01:03:27.430
+This is the second point, the
+second point of the plate. It's 2.8.
+
+306
+01:03:30.800 --> 01:03:37.360
+And then, once, it adds
+a 3. to the original.
+
+307
+01:03:37.640 --> 01:03:37.920
+6,
+
+308
+01:03:48.970 --> 01:03:53.930
+The second part of the second
+plate is 2. that fascinates it.
+
+309
+01:04:03.040 --> 01:04:06.040
+Plus a 4:8.
+
+310
+01:04:14.770 --> 01:04:16.590
+Second plate. Third plate.
+
+311
+01:04:18.800 --> 01:04:22.400
+Second
+
+312
+01:04:29.790 --> 01:04:37.480
+The third, the third, the
+third, the third, the third.
+
+313
+01:04:44.620 --> 01:04:53.930
+Block two, block three, block three, block three,
+block three, block three, block three, block three.
+
+314
+01:05:08.640 --> 01:05:14.150
+And this is 9.6, and this is 33.
+
+315
+01:05:16.860 --> 01:05:25.340
+As you can see, the point
+on our left is finished.
+
+316
+01:05:25.340 --> 01:05:33.130
+We can switch to item Z to see the
+strength we've created and we can hide it.
+
+317
+01:05:39.520 --> 01:05:44.220
+Change the TIME indicator
+for the outer line.
+
+318
+01:05:59.290 --> 01:06:01.530
+We can do it in bulk, too.
+
+319
+01:06:07.020 --> 01:06:11.740
+Okay, so this one goes to the right, and
+then you push it and you make it all.
+
+320
+01:07:05.860 --> 01:07:12.360
+Okay, so we're the whole connection
+point, so we can figure it out.
+
+321
+01:07:14.340 --> 01:07:22.860
+When we see it done, we'll show
+you how to connect next week.
+
+322
+01:07:23.630 --> 01:07:33.380
+The fastener simulation, which is just between the welfare version, and the
+just-in-the-room simulation between the room and the welfare version and base.
+
+323
+01:07:33.890 --> 01:07:37.810
+All right, let's talk about it
+here today. I'll see you next time.

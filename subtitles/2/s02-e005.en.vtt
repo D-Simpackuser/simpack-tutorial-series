@@ -1,0 +1,189 @@
+WEBVTT
+
+1
+00:00:00.980 --> 00:00:11.980
+Hello, in the preceding section, we've already
+done this kind of strain of New Parks and Abbax.
+
+2
+00:00:12.380 --> 00:00:18.860
+And here we are, as a sudden element, to talk
+about the simulation between it and FESF.
+
+3
+00:00:20.840 --> 00:00:31.160
+It sees how we're mainly talking about FESF and how to
+read the corresponding computational files and export them.
+
+4
+00:00:37.280 --> 00:00:50.660
+Here I'll use the Simulia 2020 version to explain
+these things, although it's not shown in the front.
+
+5
+00:00:50.660 --> 00:00:54.780
+Whether or not this result was provided,
+but the whole calculation is fine.
+
+6
+00:00:56.610 --> 00:01:00.560
+It's easier to combine
+than any other version.
+
+7
+00:01:16.860 --> 00:01:22.600
+Here, we create a FESF folder on
+the desktop that we can manage.
+
+8
+00:01:30.050 --> 00:01:35.810
+And when we're done, we need
+to read our exported files.
+
+9
+00:01:36.010 --> 00:01:39.990
+Fill Project Open FGA,
+then customizes the file.
+
+10
+00:01:41.650 --> 00:01:46.270
+We found our file. It's in our Start.
+
+11
+00:01:48.600 --> 00:01:50.560
+Output is inside.
+
+12
+00:01:50.560 --> 00:01:57.640
+We just said that there's no way that recover can
+prove it, like it's no way to get to that stress file.
+
+13
+00:01:57.640 --> 00:02:04.000
+So there's no way at the moment
+to have a joint visit with fecif.
+
+14
+00:02:06.510 --> 00:02:17.520
+We read the folder that we just got, which
+is the selected project file for the fecif.
+
+15
+00:02:21.610 --> 00:02:29.950
+And then here, when the file is imported,
+uh, it's going to import the results.
+
+16
+00:02:35.620 --> 00:02:44.620
+When you're imported, we'll have to give the component
+the material properties that correspond to the cost.
+
+17
+00:02:45.520 --> 00:02:49.090
+Well, pick this one with the material.
+
+18
+00:02:50.100 --> 00:02:51.460
+We're giving it a bad time.
+
+19
+00:02:54.080 --> 00:02:58.580
+When the negatives are finished,
+we can choose to export them here.
+
+20
+00:02:59.640 --> 00:03:13.370
+What kind of output transmissions do we need, and here we
+submit calculations, and here we ignore the ad and check it out.
+
+21
+00:03:13.370 --> 00:03:18.880
+The transfer of the set should
+then be submitted for calculation,
+
+22
+00:03:21.540 --> 00:03:23.760
+It's done here.
+
+23
+00:03:27.610 --> 00:03:35.740
+Take it completely. I need to put this corresponding
+result component in the back of this one.
+
+24
+00:03:37.300 --> 00:03:43.280
+Select the folder for the FESF.
+Select the corresponding folder.
+
+25
+00:03:44.360 --> 00:03:56.120
+Then here's the choice of the laboring file,
+FF component, open and open and hold us.
+
+26
+00:03:56.120 --> 00:03:59.680
+Let's expand here, and then we'll
+drag in a corresponding present.
+
+27
+00:04:00.780 --> 00:04:03.080
+Here, we can see it's loaded.
+
+28
+00:04:09.040 --> 00:04:16.880
+If you want to adjust the options for this use,
+we can make a response adjustment in this content.
+
+29
+00:04:17.540 --> 00:04:29.200
+For example, here's the boundary, we can
+make it subtitled, or we can try one, like 5.
+
+30
+00:04:29.460 --> 00:04:35.400
+And 7's try.
+
+31
+00:04:39.710 --> 00:04:47.500
+So the rest of the fatigue analysis we've
+been working on here has already been done.
+
+32
+00:04:47.500 --> 00:04:58.410
+So we've chosen because it's also our procrastination, so
+we're going to analyze this fatigue and NCS's fatigue analysis.
+
+33
+00:04:58.410 --> 00:05:03.880
+We put it in our writings and we said
+we created a model of the physical unit.
+
+34
+00:05:04.320 --> 00:05:08.360
+And then we'll go through
+the entire process.
+
+35
+00:05:08.820 --> 00:05:13.560
+Because we're talking about this
+model with that guaranteed document.
+
+36
+00:05:13.640 --> 00:05:17.580
+It's probably a bit of a mess
+to say it's a file conversion.
+
+37
+00:05:17.920 --> 00:05:28.140
+Let's talk about how we can produce FB2 from a
+model we started with, how we can put it in English.
+
+38
+00:05:28.140 --> 00:05:35.800
+And then how do we get it out of FB4 and split it into
+something this big, and then we'll probably talk about it here.
+
+39
+00:05:36.920 --> 00:05:39.700
+Now we'll talk about
+what's going on in Ancest.

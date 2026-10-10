@@ -1,0 +1,965 @@
+1
+00:00:07,980 --> 00:00:21,020
+With regard to the FTR presentation, I will bring together SIMPAC Help
+for formatting and description of FTR file writing in the document, and
+
+2
+00:00:21,020 --> 00:00:33,080
+The FBR steel track flexible body file that was previously
+imported in SIMPAC provides a detailed explanation.
+
+3
+00:00:33,080 --> 00:00:41,420
+First, let's open up the F7.2
+file, which was written before.
+
+4
+00:00:42,640 --> 00:00:52,750
+One is a screening of these nodes and the
+other is a call to read our F7.2 file.
+
+5
+00:00:52,750 --> 00:01:00,030
+and the whole section after placing it in its corresponding
+position and performing the corresponding operational conversion.
+
+6
+00:01:00,030 --> 00:01:13,100
+One is that we renumber it at the node in the flexible
+body or directly use the number in the flexible body.
+
+7
+00:01:14,500 --> 00:01:27,940
+When this part is finished, it's our shot at the fixed orbital
+structure and the depth of fastener springs below the steel track.
+
+8
+00:01:28,550 --> 00:01:33,830
+The spring steel and damping are set
+up with a certain pitization effect.
+
+9
+00:01:33,830 --> 00:01:43,030
+Here we come to show you this F72 file
+and we open the SIMPACT help file.
+
+10
+00:01:43,030 --> 00:01:48,590
+Search directly in the search box for
+F72's first candidate is our F72 file
+
+11
+00:01:49,750 --> 00:01:52,710
+This F72 file is FLAGTRACK
+
+12
+00:01:54,550 --> 00:01:57,230
+G72 file for flexible orbits
+
+13
+00:02:03,490 --> 00:02:12,370
+It's here to introduce it. It says this f-file can
+be called one or more f-variety information files.
+
+14
+00:02:14,620 --> 00:02:17,560
+to create an information orbiting structure.
+
+15
+00:02:23,890 --> 00:02:32,510
+It says here we need to
+call our track interface.
+
+16
+00:02:33,310 --> 00:02:38,050
+And place it in the space in synpark
+
+17
+00:02:39,620 --> 00:02:44,870
+and set the corresponding point conversion
+
+18
+00:02:49,420 --> 00:02:58,540
+And here we go back to the first part
+of it that we see in the F2 file.
+
+19
+00:02:58,540 --> 00:03:02,900
+That's what we're calling
+this FBI flexible start file.
+
+20
+00:03:03,520 --> 00:03:16,440
+It's the key word here, and let's look at the case
+of the writing format that it provides for M72.
+
+21
+00:03:17,370 --> 00:03:29,900
+Here you see the first part, reading the soft start, the
+second part, setting the node number, and then following us.
+
+22
+00:03:29,900 --> 00:03:37,280
+It's also set up the fastener that it
+just gave and its fixed connection.
+
+23
+00:03:38,720 --> 00:03:48,260
+And then it's part of a non-linear
+fastener. We think it's linear.
+
+24
+00:03:48,260 --> 00:03:56,640
+And that's what it's all about,
+and that's what it's about.
+
+25
+00:03:56,640 --> 00:04:04,500
+This last position in the option
+direction does not affect our modeling.
+
+26
+00:04:07,800 --> 00:04:13,500
+Read the FBL flexible body
+file, its key word is SE.
+
+27
+00:04:16,350 --> 00:04:30,010
+SE, it's got a case down here, and the next
+option is the file name of our flexible body.
+
+28
+00:04:30,010 --> 00:04:34,670
+It must be written and it must not be wrong.
+
+29
+00:04:35,410 --> 00:04:42,990
+And then the Rilithni identified in our
+entire game is through Alpha and Beta.
+
+30
+00:04:42,990 --> 00:04:51,290
+The first step of Rilithni
+
+31
+00:04:52,430 --> 00:05:00,020
+We could probably tell you
+about the whole damping.
+
+32
+00:05:00,040 --> 00:05:04,000
+It's the m of alpha b plus the k of beta b.
+
+33
+00:05:04,610 --> 00:05:13,220
+Then we set alpha with beta in this
+file and it's these two parameters.
+
+34
+00:05:15,050 --> 00:05:23,640
+And then we set up the location where flexible
+body is placed under the simpark coordinates.
+
+35
+00:05:24,080 --> 00:05:26,900
+This is the x-direction, our vertical.
+
+36
+00:05:26,900 --> 00:05:31,980
+Y, lead our Koreans like Z, lead our hammer.
+
+37
+00:05:33,290 --> 00:05:41,630
+And this is the most important part of it.
+
+38
+00:05:44,250 --> 00:05:47,550
+Conversion of XY wind volume
+
+39
+00:05:48,670 --> 00:05:50,450
+The first parameter is that
+
+40
+00:05:54,280 --> 00:05:56,460
+Soft Solver Key Converts to
+
+41
+00:05:59,610 --> 00:06:04,120
+The conversion limits required for
+the positive vertical direction.
+
+42
+00:06:05,860 --> 00:06:10,200
+One of the following parameters
+is that it leans in the direction.
+
+43
+00:06:10,600 --> 00:06:14,480
+In particular, the conversion limit
+for files to SIMPACT coordinates.
+
+44
+00:06:15,160 --> 00:06:20,500
+In short, we're leaning
+vertically and by z in x.
+
+45
+00:06:20,920 --> 00:06:27,140
+The conversion of the two coordinates is based on
+the right-hand rule, and we can determine the whole.
+
+46
+00:06:27,560 --> 00:06:34,560
+The left-hand correspondence between the
+flexible and SIMPAC may be a little abstract.
+
+47
+00:06:34,560 --> 00:06:37,940
+Our simplest and most direct way.
+
+48
+00:06:39,120 --> 00:06:43,080
+That means we think...
+
+49
+00:06:45,480 --> 00:06:52,760
+It's the first conversion effect to
+mean under the SIMPAC coordinates.
+
+50
+00:06:54,390 --> 00:07:06,860
+When the flexible device is imported, its conversion effect is the second coordinate conversion
+effect, and we can see the position where the Z entry is softened under the SIMPARC coordinates.
+
+51
+00:07:07,640 --> 00:07:11,680
+Let's take the example of the
+document we just imported.
+
+52
+00:07:12,440 --> 00:07:15,940
+For example, we can do this.
+
+53
+00:07:20,610 --> 00:07:30,280
+Seeing our longitudinal X direction,
+it's supposed to be our soft Z direction.
+
+54
+00:07:30,280 --> 00:07:37,930
+In other words, our new Party is
+a Z entry for our flexible body.
+
+55
+00:07:42,780 --> 00:07:45,480
+And what about our flexible body entry?
+
+56
+00:07:47,690 --> 00:08:00,030
+It's supposed to be the direction we're heading
+down, that's FY, so we can write an M-list.
+
+57
+00:08:00,030 --> 00:08:00,430
+Documentation
+
+58
+00:08:02,940 --> 00:08:04,100
+Like what?
+
+59
+00:08:06,080 --> 00:08:06,380
+Table
+
+60
+00:08:07,480 --> 00:08:15,260
+I'll take a look at the
+name I wrote. It's myboss.
+
+61
+00:08:23,280 --> 00:08:23,880
+It's...
+
+62
+00:08:31,880 --> 00:08:33,160
+To select a file to speak
+
+63
+00:08:34,270 --> 00:08:40,510
+Select a new file to the desktop
+
+64
+00:08:44,660 --> 00:08:55,020
+Here's a reference to the file
+we wrote earlier. I'll open it.
+
+65
+00:09:01,660 --> 00:09:12,820
+Later on this network will say that it's a structure directory, that it has to be set up in accordance
+with our structure catalogue, otherwise it may not be able to read our corresponding file, or it will be.
+
+66
+00:09:21,020 --> 00:09:21,880
+Drag to the right.
+
+67
+00:09:21,880 --> 00:09:29,830
+Then we read the file and take s1, go.
+
+68
+00:09:30,760 --> 00:09:39,060
+For example, our paper should be
+called a new letter just produced.
+
+69
+00:09:39,090 --> 00:09:49,020
+I think real60 is the name I'm
+going to have to withhold it.
+
+70
+00:09:49,020 --> 00:09:57,380
+real60 And follow its rules. We alpha
+and beta. release What about you?
+
+71
+00:09:57,380 --> 00:10:04,960
+Go now to 01, 0.05,
+
+72
+00:10:10,880 --> 00:10:24,680
+And then we're going to have the same placement, like we're going to go
+to 100 m, and then we're going to go to the left because we're the model.
+
+73
+00:10:24,680 --> 00:10:34,640
+It's a location, it's just at the top. If we're going to put it in
+0.753, we're going to put it in accordance with our standard rules.
+
+74
+00:10:35,530 --> 00:10:38,910
+Like the left, and then you
+put it on the bill, 153.
+
+75
+00:10:40,340 --> 00:10:50,800
+And then it's all Z in the direction because it's at the top of the height ratio,
+so there's no need to deflect it if it's below the height of the high liner.
+
+76
+00:10:50,800 --> 00:10:56,220
+And you're going to have to make
+a big mistake with this model.
+
+77
+00:10:59,710 --> 00:10:59,890
+Move
+
+78
+00:11:07,410 --> 00:11:10,390
+And then there's our conversion line.
+
+79
+00:11:11,400 --> 00:11:13,580
+And in this, we can see,
+
+80
+00:11:15,540 --> 00:11:19,740
+In our USA rules, SIMPAC
+uses this mode of action.
+
+81
+00:11:20,240 --> 00:11:23,660
+In this way, it should be vertical.
+
+82
+00:11:23,940 --> 00:11:33,760
+And we can see that it has information that should
+be a Z. So we're going to convert it to the Z.
+
+83
+00:11:33,760 --> 00:11:43,310
+So what we're writing is
+001, and this is what we do.
+
+84
+00:11:43,310 --> 00:11:50,440
+unc's hammer is what we call the hammer.
+
+85
+00:11:50,540 --> 00:11:59,680
+It corresponds to the rediscovery of our
+cable mv2, so let's just make it a 00.
+
+86
+00:12:02,190 --> 00:12:05,750
+This is the conversion of two phase spaces.
+
+87
+00:12:06,210 --> 00:12:08,970
+The same web can write this line out.
+
+88
+00:12:13,010 --> 00:12:16,650
+60. f2 0.
+
+89
+00:12:19,770 --> 00:12:27,300
+001 0.005, this is the calendar year, and if
+you place a position, put it to the right.
+
+90
+00:12:27,300 --> 00:12:32,040
+It's 00:05.
+
+91
+00:12:36,580 --> 00:12:45,650
+And then it's also
+zero-one-zero-one-one-one.
+
+92
+00:12:45,650 --> 00:12:46,430
+nil
+
+93
+00:12:48,990 --> 00:12:52,270
+We're going to have to
+get paid for the files.
+
+94
+00:12:56,690 --> 00:12:59,190
+And then we'll help it.
+
+95
+00:13:02,620 --> 00:13:06,080
+Here's what we're going
+to do to promote him.
+
+96
+00:13:10,080 --> 00:13:23,460
+His concept word is N, then his first word is the word,
+then his number, and then he's under the new bubble.
+
+97
+00:13:23,460 --> 00:13:26,540
+Nodes to mark.
+
+98
+00:13:26,540 --> 00:13:33,960
+Well, that's because we
+explained it from the beginning.
+
+99
+00:13:33,960 --> 00:13:43,420
+We have the conversion of fbr and synpark,
+so we'll just go straight to synpark.
+
+100
+00:13:43,420 --> 00:13:52,940
+For example, the first point we start
+with is 100 -0.753, which is 103 -100.3.
+
+101
+00:13:52,940 --> 00:13:58,140
+And then it's attached to zero,
+and 730 is recording a piece here.
+
+102
+00:14:04,780 --> 00:14:11,840
+The M price must be given special attention,
+otherwise it would be more problematic.
+
+103
+00:14:12,610 --> 00:14:20,820
+So you can change it against our model.
+
+104
+00:14:22,740 --> 00:14:33,220
+One of the most important features of the network is that the ID
+value of the node number of ID must be flying wing in the M price.
+
+105
+00:14:33,220 --> 00:14:42,200
+It's easy for us to understand if there's two of them. RD It's worth
+it, but it's got two numbers and two numbers and it won't recognize it.
+
+106
+00:14:42,200 --> 00:14:49,980
+Then we'll tell you how to
+get this file out quickly.
+
+107
+00:14:53,480 --> 00:15:05,280
+If our coordinates are all X is the direction of the vertical z is the direction of
+the steel track and its entire coordinates are in position, the top of the steel track.
+
+108
+00:15:06,750 --> 00:15:19,000
+In that case, I suggest that we all agree to the coordinates, so that we as a
+whole, the document in this one, if we write it, it's 1000, and then it's 001.
+
+109
+00:15:19,420 --> 00:15:23,620
+In that way, we would avoid any problems that might
+arise in the process of the conversion of coordinates.
+
+110
+00:15:27,100 --> 00:15:30,300
+If we all survive,
+
+111
+00:15:32,470 --> 00:15:40,530
+What we're talking about is that the labels in the Mandarin Garden are new
+to us. pattern If the labels are overlapping, then we can just shake it.
+
+112
+00:15:41,640 --> 00:15:43,980
+For example, we'll create a test.
+
+113
+00:15:45,160 --> 00:15:48,960
+And then we'll shake these
+points out, and note.
+
+114
+00:15:52,330 --> 00:15:59,880
+We can see it as a whole,
+and it's coming out.
+
+115
+00:15:59,880 --> 00:16:02,220
+Adi's numbering a few Adi pieces of paper.
+
+116
+00:16:05,400 --> 00:16:12,980
+It can also be exported
+directly, e.g. to Rommel.
+
+117
+00:16:14,250 --> 00:16:15,230
+Like Rommy.
+
+118
+00:16:18,550 --> 00:16:27,070
+In this way, if we say the
+coordinates are the same as the two.
+
+119
+00:16:27,310 --> 00:16:31,390
+We can all copy it
+directly into our FTA file.
+
+120
+00:16:31,390 --> 00:16:43,510
+But in our case, it's not the same thing, so we're
+not going to do it the way we're going to do it.
+
+121
+00:16:43,510 --> 00:16:51,290
+Then we take out a series of values and we make the
+whole thing through the VSCode column editing mode.
+
+122
+00:16:56,330 --> 00:17:07,240
+For example, this rule of ours is the rule
+of its kind, and it's the one of its kind.
+
+123
+00:17:07,240 --> 00:17:12,440
+Longer, we'll use it longer, and we'll
+just get this RT ready to be sure.
+
+124
+00:17:15,500 --> 00:17:20,760
+All the units in it are implicitly in the S2
+sequence, and international units, if it is true.
+
+125
+00:17:22,180 --> 00:17:33,340
+We use the rule of a case that we've done before, which is to say, to the left, to the R to the R to the R to the R to the
+R to the R to the Right, to the E to the E to the E to the E to the R to the R to the R to the R to the R to the R to the R.
+
+126
+00:17:33,340 --> 00:17:42,020
+You can see that it's mainly an N-key and then
+a couple of sides and the hardest coordinates.
+
+127
+00:17:42,900 --> 00:17:50,900
+In that case, you can see that it's especially common
+that it's placed in 100, and then our whole model is 21 m.
+
+128
+00:17:50,900 --> 00:17:54,760
+Then it goes to the back, to this side.
+
+129
+00:17:55,990 --> 00:18:07,270
+We can pull it out through a form of 4, and
+we can write it out directly, for example.
+
+130
+00:18:07,270 --> 00:18:18,930
+Say, let me show you, first of all, you
+have to have a good English character.
+
+131
+00:18:21,420 --> 00:18:34,470
+And then, for example, 1.0, it starts
+with 1, and then it's all good.
+
+132
+00:18:38,300 --> 00:18:40,160
+We can be ice-free in a good way.
+
+133
+00:18:40,750 --> 00:18:48,470
+We'll be able to get this thing in later.
+
+134
+00:18:48,470 --> 00:18:56,390
+For example, our first dot 100, the left-hand steel cabinet and the right-hand steel
+cabinet on the right side of the steel cabinet are very much like the left 10.753.
+
+135
+00:18:56,390 --> 00:18:58,770
+It's a zero.
+
+136
+00:19:00,650 --> 00:19:06,480
+Then drag this to 70, I see,
+
+137
+00:19:11,190 --> 00:19:19,040
+70 one, and then we'll give it to,
+say, zero, zero, zero, zero, two.
+
+138
+00:19:28,000 --> 00:19:33,630
+And then it's done individually,
+and it's set straight into numbers.
+
+139
+00:19:36,960 --> 00:19:48,540
+Don't let it be this way of science and technology, a
+small number for us, I see, 120, that's not necessary.
+
+140
+00:19:53,060 --> 00:20:00,080
+And this one is good
+00:03. It's set at 20:30.
+
+141
+00:20:00,100 --> 00:20:11,340
+6, a few, a few, a few.
+
+142
+00:20:12,400 --> 00:20:19,490
+A few.
+
+143
+00:20:24,480 --> 00:20:34,440
+How many, how many, how many.
+
+144
+00:20:34,440 --> 00:20:36,040
+The FG2 file.
+
+145
+00:20:38,890 --> 00:20:39,390
+This way.
+
+146
+00:20:40,460 --> 00:20:46,480
+Switch to our neutral
+model, where we have Sneaks.
+
+147
+00:20:47,650 --> 00:20:49,290
+ClubSneaks Mod
+
+148
+00:20:52,400 --> 00:20:56,560
+We'll see what's in here. We'll
+move it back for alignment.
+
+149
+00:20:59,170 --> 00:21:06,430
+This whole FG2 file, we're gonna get
+it wrong and we're gonna write it.
+
+150
+00:21:06,430 --> 00:21:10,260
+It's easier in the process.
+
+151
+00:21:11,000 --> 00:21:16,280
+In that case, we can set it up with
+a decimal number, so it's all right.
+
+152
+00:21:16,920 --> 00:21:24,340
+And here we need to be careful until the
+end, hold on to Shift and change it all.
+
+153
+00:21:25,240 --> 00:21:27,840
+It's important to note that it's going
+to be a reading of English characters.
+
+154
+00:21:27,840 --> 00:21:30,700
+Now look at it. It's a Chinese character.
+
+155
+00:21:34,500 --> 00:21:40,400
+So change this here to hold the shift count.
+
+156
+00:21:43,070 --> 00:21:44,710
+English is fine.
+
+157
+00:21:57,120 --> 00:22:00,600
+It's best to leave a space
+in this writing process.
+
+158
+00:22:02,220 --> 00:22:04,720
+It'll be easier if we go back and check.
+
+159
+00:22:07,400 --> 00:22:08,200
+Stay.
+
+160
+00:22:13,510 --> 00:22:22,420
+That way we're going to edit the other one faster if
+a web-based one is written according to the rules.
+
+161
+00:22:22,420 --> 00:22:30,060
+And there's gonna be a
+lot of problems for us.
+
+162
+00:22:40,430 --> 00:22:42,090
+Let's just get it right.
+
+163
+00:23:01,290 --> 00:23:04,670
+It's got a bit of a
+problem with this location.
+
+164
+00:23:04,990 --> 00:23:14,120
+If we don't get off the books, we won't see it.
+Confiscation of the stash, this place is not working.
+
+165
+00:23:14,650 --> 00:23:20,650
+This place sets it up with a 1.93.
+
+166
+00:23:23,310 --> 00:23:29,190
+In the same way, our right-hand dot belt is
+the same as our number, but it's important.
+
+167
+00:23:29,870 --> 00:23:37,000
+We'll try it after we copy it.
+
+168
+00:23:37,880 --> 00:23:44,890
+We just need to get what we've just made.
+
+169
+00:23:49,850 --> 00:23:54,730
+Add a symbol and we'll
+give it our entire file.
+
+170
+00:23:56,550 --> 00:23:58,530
+We'll finish the node.
+
+171
+00:24:04,160 --> 00:24:08,460
+Let's come down and see what he's
+helping us with the next concept.
+
+172
+00:24:08,960 --> 00:24:19,160
+This Keylin, it's two points of the doctrine, or
+a position in the department of global relations.
+
+173
+00:24:19,420 --> 00:24:26,420
+It's a Key concept, and then the
+first, second, if no one else, it is.
+
+174
+00:24:26,420 --> 00:24:27,300
+Global label system.
+
+175
+00:24:27,300 --> 00:24:34,280
+The earth is what we're talking
+about and then it's X,Y,Z,A,B,Z,G,M.
+
+176
+00:24:39,130 --> 00:24:43,430
+Let's try this on the basis
+of the previous parameters.
+
+177
+00:24:52,170 --> 00:24:57,470
+We can also give it the
+two paragraphs above.
+
+178
+00:25:11,810 --> 00:25:14,860
+As you can see, this is U20.
+
+179
+00:25:18,400 --> 00:25:29,700
+We just forgot to take a step and turn this place into a
+2-Cart thing like that, and we're easy to see the problem.
+
+180
+00:25:30,300 --> 00:25:34,320
+Right steel cabinet. Right steel
+cabinet. Right steel cabinet.
+
+181
+00:25:37,740 --> 00:25:41,160
+We'll change the side steel cabinet.
+
+182
+00:25:46,140 --> 00:25:54,020
+After that, what we need from this
+document is k0 and what number?
+
+183
+00:25:54,020 --> 00:26:05,100
+And then a pure-coloured waist paper and three-way steel do the
+column parameters, so let's use the parameter that was already set.
+
+184
+00:26:15,790 --> 00:26:24,870
+k0, this is Da-hee k0.
+
+185
+00:26:24,870 --> 00:26:27,970
+Then we can delete it from the back, and...
+
+186
+00:26:33,860 --> 00:26:36,220
+We need a fight every day. It's two points.
+
+187
+00:26:37,460 --> 00:26:45,420
+And then we need to sleep with everyone on this steel pea
+fork tree, which I think I've been sleeping well before.
+
+188
+00:26:45,420 --> 00:26:48,260
+And it's a place that's never been before.
+
+189
+00:26:49,560 --> 00:26:53,760
+You can see this bean river that
+was created and it's Chinese.
+
+190
+00:26:55,130 --> 00:26:57,430
+Make sure it's a single character.
+
+191
+00:27:00,940 --> 00:27:04,640
+And then we'll take a
+closer look at the middle.
+
+192
+00:27:07,750 --> 00:27:14,150
+Okay, then delete it and then set the steel
+X-direction and the group name parameters.
+
+193
+00:27:18,050 --> 00:27:19,890
+Get up there and cut it all off.
+
+194
+00:27:20,690 --> 00:27:23,470
+This is VS buttoned, better than the rest.
+
+195
+00:27:23,730 --> 00:27:29,450
+It's where it's empty, it jumps,
+it doesn't add us to that number.
+
+196
+00:27:29,450 --> 00:27:37,010
+All right, come here all day. XYZ What's with the hair?
+And this is it. 90 [zhao: spoken unit unclear] Bull.
+
+197
+00:27:37,870 --> 00:27:43,950
+No rice, that's what we used to say. 90 You don't have a millimeter.
+It's under your legs. 35 [zhao: spoken unit unclear] Bull.
+
+198
+00:27:46,110 --> 00:27:47,330
+We can take this.
+
+199
+00:27:48,930 --> 00:27:50,530
+And this part, because it's...
+
+200
+00:27:51,900 --> 00:27:59,100
+Well, because it's a
+lot like our group name.
+
+201
+00:27:59,620 --> 00:28:05,520
+Just trust the book, so
+let's give it this part.
+
+202
+00:28:08,940 --> 00:28:09,380
+A lot.
+
+203
+00:28:10,800 --> 00:28:18,070
+Let's give it a chance
+after we don't come down.
+
+204
+00:28:18,070 --> 00:28:20,330
+Let's see. It's right here.
+
+205
+00:28:27,650 --> 00:28:28,610
+Replace it with
+
+206
+00:28:31,700 --> 00:28:32,360
+Zero.
+
+207
+00:28:34,920 --> 00:28:39,200
+Then it's damping, and
+we'll follow the parameters.
+
+208
+00:28:40,680 --> 00:28:43,480
+We'll just have to define the parameters.
+
+209
+00:28:45,680 --> 00:28:48,260
+Show the same method of action.
+
+210
+00:28:53,700 --> 00:29:04,980
+Well, it has been replaced as a whole by the need to keep
+an eye on words like this, and to remember to delete them.

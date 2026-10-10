@@ -1,0 +1,845 @@
+1
+00:00:05,100 --> 00:00:15,400
+All right, let's move on to the third part of the
+SIMPAC modeling component, which is the SIMPAC model.
+
+2
+00:00:15,940 --> 00:00:27,970
+The whole car model. We're still using the purple model, which
+means creating a car block and then two. bogie frame The way.
+
+3
+00:00:30,230 --> 00:00:33,270
+First of all, let's open up a break.
+
+4
+00:00:40,440 --> 00:00:45,520
+One blank shoe, we'll just
+have to choose this one.
+
+5
+00:00:47,880 --> 00:00:49,320
+Named the VIP.
+
+6
+00:01:03,600 --> 00:01:07,360
+We don't have to set it up here.
+
+7
+00:01:09,000 --> 00:01:15,450
+Because the whole setup was
+already set up in the structure.
+
+8
+00:01:18,130 --> 00:01:23,970
+And first to create the
+attributes of the body of the car
+
+9
+00:01:30,940 --> 00:01:37,960
+The previous boxes have been set up,
+but there's still a need to create them.
+
+10
+00:01:37,960 --> 00:01:47,020
+And then you create Vivo
+here, and you create Go.
+
+11
+00:01:47,440 --> 00:01:49,520
+We've seen a couple of pieces, Bless.
+
+12
+00:01:54,010 --> 00:01:56,850
+For example, here's for sure.
+
+13
+00:02:01,800 --> 00:02:07,600
+The rainbow of the previous model
+can be changed by its own model.
+
+14
+00:02:08,800 --> 00:02:13,740
+XX,433, we...
+
+15
+00:02:18,860 --> 00:02:20,960
+Through the inside, there's a new one.
+
+16
+00:02:22,950 --> 00:02:23,810
+RUYY
+
+17
+00:03:00,000 --> 00:03:00,960
+It's remember to save.
+
+18
+00:03:01,880 --> 00:03:08,440
+It's this way. It's a little
+bit of a decomposition.
+
+19
+00:03:17,170 --> 00:03:17,390
+Volume.
+
+20
+00:03:23,700 --> 00:03:27,120
+Why does it say it can't be changed?
+
+21
+00:03:28,540 --> 00:03:38,230
+Here, we need to set this legend to MEMO.
+
+22
+00:03:38,330 --> 00:03:43,830
+It's impossible to evolve before we
+survive with Otto Bicycle on Demitrate.
+
+23
+00:03:44,210 --> 00:03:47,430
+It's based directly on
+the delivery of the mass.
+
+24
+00:03:48,160 --> 00:03:52,620
+When you have to switch, you turn
+it into a little bit of a way.
+
+25
+00:03:56,080 --> 00:03:56,620
+Just OK
+
+26
+00:03:58,690 --> 00:03:59,770
+And when it's over?
+
+27
+00:04:06,290 --> 00:04:18,410
+What we need to note here is that relative is changed to central
+gravity, otherwise this BIF will change, so it won't go in.
+
+28
+00:04:19,910 --> 00:04:22,610
+That's what we need to
+visualize when we're done.
+
+29
+00:04:23,070 --> 00:04:32,340
+And it's still in our hands, but it eats onions, which
+we can define by the amount of onions that we can eat.
+
+30
+00:04:32,340 --> 00:04:40,480
+So take his height and
+put it in a cheap spot.
+
+31
+00:04:40,480 --> 00:04:49,930
+Width is 4 and height is 7.2.
+
+32
+00:04:55,440 --> 00:05:06,860
+He knows because our UIC indicator is that it's a small one,
+and then we sort this out for a little while, and we're gonna...
+
+33
+00:05:06,860 --> 00:05:07,700
+Pay attention to this distinction.
+
+34
+00:05:08,300 --> 00:05:16,100
+And then we'll use it to form
+some frames, so we'll be easier.
+
+35
+00:05:21,140 --> 00:05:24,440
+When it's done, let's take a
+look at this car on Wine Street.
+
+36
+00:05:25,180 --> 00:05:34,020
+We'll just use this for a
+little bit at Wine Street.
+
+37
+00:05:34,020 --> 00:05:38,350
+That's our car. realtrack.ient.
+
+38
+00:05:39,360 --> 00:05:42,480
+Click the opelite to keep the defaults.
+
+39
+00:05:46,120 --> 00:05:58,060
+There's been a mistake here. track over The definition is so
+that we can create it in the first place. realtrack So soon.
+
+40
+00:05:58,060 --> 00:05:59,980
+Let's compare the other people's lines.
+
+41
+00:06:28,010 --> 00:06:41,280
+The Chinese language in the
+Chinese language is soft and soft.
+
+42
+00:06:42,880 --> 00:06:47,720
+Soft Select Right Select the
+BFT model that was then seen
+
+43
+00:06:50,180 --> 00:06:55,700
+Okay, one of them's already in front
+and we can put the other one in front.
+
+44
+00:06:56,940 --> 00:06:57,640
+BF
+
+45
+00:06:59,140 --> 00:07:06,970
+The chapter behind Roll, or
+
+46
+00:07:09,240 --> 00:07:15,490
+The bble drop for the power chapter because
+
+47
+00:07:17,630 --> 00:07:21,510
+It's been a long time, so they're together.
+
+48
+00:07:24,540 --> 00:07:26,520
+They're all one and the same.
+
+49
+00:07:29,350 --> 00:07:35,460
+When you get here, you can
+deal with it accordingly.
+
+50
+00:07:36,930 --> 00:07:45,070
+Let's do this. bogie frame It's connected in front of the vanity
+to the back of the front end. bogie frame Connect to a full backend
+
+51
+00:07:45,070 --> 00:07:50,070
+In that case, we need to create two
+connections and a connection at the front end.
+
+52
+00:07:51,840 --> 00:07:59,960
+It's in this position. It's supposed to be a vehicle range,
+which means what time is the center of the two intermediates?
+
+53
+00:08:03,670 --> 00:08:06,990
+If you want to enter it
+directly, you can enter it.
+
+54
+00:08:15,590 --> 00:08:26,520
+Because it's this far away from the track, it's definitely going to
+have to be a wave-high at the height, and then it's going to be copied.
+
+55
+00:08:28,110 --> 00:08:40,540
+And then we need to pull out a numeric
+value, for example, we'll drag it in.
+
+56
+00:08:40,760 --> 00:08:45,140
+The point before the generation
+is LC, and this is the custom LC.
+
+57
+00:08:47,980 --> 00:08:48,340
+Okay.
+
+58
+00:08:50,930 --> 00:08:54,850
+We've already done it. Let's get this one.
+
+59
+00:09:02,000 --> 00:09:08,860
+And then what?
+
+60
+00:09:10,560 --> 00:09:12,720
+And then the amateur connection point.
+
+61
+00:09:21,420 --> 00:09:31,560
+Now we need to change the location of the purchase price
+and the nine pieces of the purchase price between the cars.
+
+62
+00:09:32,000 --> 00:09:37,980
+Now, of course, because it's a purple model, we
+need to change it in its lower catalogue model.
+
+63
+00:09:39,290 --> 00:09:41,230
+We can see it when we give it.
+
+64
+00:09:42,790 --> 00:09:48,220
+bogie frame There's two of them. 9 And
+the point is... bogie frame One is... DIM
+
+65
+00:09:52,840 --> 00:09:58,200
+And then bogie frame, and there's
+two more points down there.
+
+66
+00:10:00,180 --> 00:10:05,260
+That's right. We need to keep changing it.
+
+67
+00:10:14,950 --> 00:10:16,770
+When do we change? Let's do it.
+
+68
+00:10:18,030 --> 00:10:25,420
+What about our special settlement
+and the farm team's shift to values?
+
+69
+00:10:26,880 --> 00:10:30,760
+Let's change the DM at the front price.
+
+70
+00:10:32,830 --> 00:10:44,980
+What needs to be noticed is that if we're here, we don't have to use the whole point we
+created and then we need to change the from point to the pre-generation point of our vehicle.
+
+71
+00:10:46,170 --> 00:10:51,510
+vehicle,from, connect to
+this point, connect to OK.
+
+72
+00:10:52,660 --> 00:10:59,420
+You can see that this body of ours has gone up
+ahead and this vehicle won't come in for a while.
+
+73
+00:11:01,870 --> 00:11:06,670
+Twenty positions, so when you
+want to move this bogie frame too.
+
+74
+00:11:08,600 --> 00:11:12,800
+This mover, we bogie frame,
+must be half the Latin skin.
+
+75
+00:11:13,220 --> 00:11:15,120
+And then we'll take LCQ.
+
+76
+00:11:20,500 --> 00:11:24,040
+And then you put this on your
+back, and it's easier to move back.
+
+77
+00:11:25,850 --> 00:11:31,250
+Well, now there's a bogie frame
+position in front of bogie frame.
+
+78
+00:11:31,450 --> 00:11:33,890
+I rented this one. Why do
+you still have that problem?
+
+79
+00:11:34,350 --> 00:11:39,750
+So this one of ours is a good place to be?
+
+80
+00:11:39,750 --> 00:11:42,760
+And then we'll talk about
+it. That's why we're here.
+
+81
+00:11:44,720 --> 00:11:51,260
+If the wheelset submersible
+is changed, catch it again.
+
+82
+00:11:54,430 --> 00:11:59,970
+It's half the price that's turned to
+wheelset. Of course, it needs its technology.
+
+83
+00:12:01,020 --> 00:12:08,520
+And then it's wheelset and it's running.
+
+84
+00:12:09,390 --> 00:12:20,550
+This is the front wheel, the back of the
+wheel, and it's supposed to be on this basis.
+
+85
+00:12:20,650 --> 00:12:23,490
+Then give it a copy and then inside.
+
+86
+00:12:27,540 --> 00:12:36,980
+We'll have the front one when we look
+at it, and we'll look at the circle.
+
+87
+00:12:36,980 --> 00:12:38,700
+Is it in the right position?
+
+88
+00:12:40,430 --> 00:12:42,070
+In the same way?
+
+89
+00:12:43,100 --> 00:12:50,640
+Let's give it the rest of the way.
+
+90
+00:12:51,410 --> 00:12:54,790
+And then it's transferred
+to the back and it's added.
+
+91
+00:12:56,080 --> 00:12:58,870
+Where is it?
+
+92
+00:13:00,000 --> 00:13:03,800
+Or choose a connection point
+in the rear section of the car.
+
+93
+00:13:05,300 --> 00:13:08,320
+Just call it, it's gone back there.
+
+94
+00:13:09,240 --> 00:13:13,150
+And then, plus, this should be attached.
+
+95
+00:13:14,330 --> 00:13:15,270
+Half of the vehicle's area.
+
+96
+00:13:16,100 --> 00:13:17,540
+Well, then it can go too.
+
+97
+00:13:20,970 --> 00:13:25,290
+Well, we need to get to the structure
+of its next episode, how to write it in.
+
+98
+00:13:25,470 --> 00:13:29,330
+That's what his farm
+team expected. Change it.
+
+99
+00:13:32,360 --> 00:13:38,900
+It's on the side area of the
+vehicle, and then it's got one.
+
+100
+00:13:40,560 --> 00:13:48,850
+Turn straight. It's coming.
+It's going to be in the back.
+
+101
+00:13:49,650 --> 00:13:50,610
+That's it.
+
+102
+00:13:54,560 --> 00:13:59,610
+I'm gonna add a no-car and then...
+
+103
+00:14:01,330 --> 00:14:06,830
+What about our model?
+
+104
+00:14:08,540 --> 00:14:18,240
+When it's over, let's give it a certain level
+of excellence, like 10, to see if it can run.
+
+105
+00:14:18,400 --> 00:14:21,660
+It's not running. Let's
+find out more questions.
+
+106
+00:14:36,910 --> 00:14:44,160
+Do the three-line wind.
+
+107
+00:14:44,420 --> 00:14:47,380
+And that's because we don't have
+a professional competition review.
+
+108
+00:14:54,840 --> 00:15:06,140
+When we were just running, we found the problem with the whole technology,
+so it's not right to say the direction of gravity acceleration.
+
+109
+00:15:06,140 --> 00:15:14,500
+It's a positive 9.8 cm, in Z, and then
+we'll use a timer or a Man-Bob Ice Machine.
+
+110
+00:15:14,500 --> 00:15:20,800
+Open it through VS buttons here, and
+we'll find it in the direction of gravity.
+
+111
+00:15:22,310 --> 00:15:29,920
+It's the opposite of the fact that we're
+always touching the right situation.
+
+112
+00:15:29,920 --> 00:15:37,720
+Just drop it right here and then we turn it off and
+then we turn it off and then we'll turn it back on.
+
+113
+00:15:42,560 --> 00:15:49,600
+And then we run its ego a
+little bit and it's right.
+
+114
+00:15:51,800 --> 00:15:56,440
+I've seen this before, but for a
+specific reason, it's not so light.
+
+115
+00:15:58,450 --> 00:16:06,560
+When it's over, we don't recommend
+one at a time because of our vehicle.
+
+116
+00:16:06,560 --> 00:16:16,020
+So we're gonna need to make an encounter box if our track
+parameters are based on the parameters of its whole light.
+
+117
+00:16:16,020 --> 00:16:25,470
+Then we have to do what we need
+to do with the box. Prinode
+
+118
+00:16:25,470 --> 00:16:28,910
+Let's take a look at his new touch.
+
+119
+00:16:56,180 --> 00:17:04,430
+Or I'll take it or I'll find it again.
+
+120
+00:17:09,710 --> 00:17:15,870
+Well, it helps me. There's
+a lot of stuff in there.
+
+121
+00:17:17,190 --> 00:17:23,640
+Read more about Component
+in Prinod Interdiction,
+
+122
+00:17:28,520 --> 00:17:42,340
+And then you can look at this description, which means, we're
+springing these parameters, and a dozen numbers, and it's in the parts.
+
+123
+00:17:42,340 --> 00:17:51,100
+It's measured at the time, so we're gonna have to put it
+together and then we're gonna have to do it to get even.
+
+124
+00:17:51,100 --> 00:17:59,980
+But we fishers don't say it's easy to get better
+because we're back in position and it's on our way.
+
+125
+00:18:02,050 --> 00:18:10,480
+Its parameters are answered when unassembled, but the
+space position when we assemble is the assembly position.
+
+126
+00:18:10,680 --> 00:18:15,900
+So, in that case, we can't
+say that we have a place.
+
+127
+00:18:16,160 --> 00:18:24,240
+We'll give Preno a way to give it some
+strength and then keep it in space.
+
+128
+00:18:24,240 --> 00:18:33,000
+But there's some specific parameters in it that
+preload this way, so you can see for yourself.
+
+129
+00:18:33,000 --> 00:18:40,660
+Some theories about it. These networks need to
+set their speeds to 0 before we preload them.
+
+130
+00:18:40,660 --> 00:18:45,940
+Or a very small web site, and that's
+where we're going to click on preload.
+
+131
+00:18:48,320 --> 00:18:51,200
+Or maybe online. sallpreload.
+
+132
+00:18:53,660 --> 00:18:58,660
+What needs to be noted here is that
+he's going to be involved in Project Z.
+
+133
+00:19:00,000 --> 00:19:07,820
+Gravity's power is to be involved in the other direction
+of this secret number, so we don't have to do that. Yes
+
+134
+00:19:08,710 --> 00:19:15,930
+Make sure that every one of them is
+fully involved in the classified number.
+
+135
+00:19:15,930 --> 00:19:26,990
+Once again, you have to choose the rest of the way in the same
+direction as gravity, and it's a part of this calculation.
+
+136
+00:19:39,120 --> 00:19:45,880
+All right, here's where it's selected
+and clicked on it to reach out.
+
+137
+00:19:48,890 --> 00:19:52,570
+Then we can take a look at it.
+It's bigger in every direction.
+
+138
+00:19:54,990 --> 00:19:58,910
+If you want it to be this
+one, you'll have a choice.
+
+139
+00:20:00,000 --> 00:20:07,000
+We thought we could see the
+acceleration of this Shenzhen.
+
+140
+00:20:07,000 --> 00:20:15,940
+It's a negative 12. As long as our Shenzhen's
+acceleration is less than zero, we think it's appropriate.
+
+141
+00:20:17,980 --> 00:20:28,530
+And what needs to be borne in mind is that we're correspondingly wise,
+for example, that the four principles of our rituals should be equal.
+
+142
+00:20:28,980 --> 00:20:36,580
+If we're not sure, we can make it especially
+high. We can make it relate with you.
+
+143
+00:20:36,580 --> 00:20:37,700
+Four are connected together.
+
+144
+00:20:40,080 --> 00:20:41,820
+So we're done with the net balance.
+
+145
+00:20:43,420 --> 00:20:50,800
+There's a lot of people in the net balance who say he's had
+a lot of problems, like a net balance in a certain direction.
+
+146
+00:20:52,240 --> 00:20:59,900
+It must have been a bit of a discount in the
+direction of the spatial location of the benefit.
+
+147
+00:21:00,140 --> 00:21:07,110
+For example, let's get this
+DMU under this purchase.
+
+148
+00:21:07,290 --> 00:21:16,430
+Let's go to the X of this V purchase. Let's
+add one, let's add a secret, for example.
+
+149
+00:21:21,320 --> 00:21:22,260
+Add a secret.
+
+150
+00:21:23,170 --> 00:21:35,930
+Then let's see, at this point we're in the wrong direction, and
+it must be on the wrong side, and if we look more, let's say 0.1.
+
+151
+00:21:37,110 --> 00:21:45,630
+If it's even, it's looking at the
+crown, but let's zoom in on this.
+
+152
+00:21:46,780 --> 00:21:54,460
+You see, it's a bit of a draw in the direction of Z-X, and
+it's going to strike a balance between it and Z for the moment.
+
+153
+00:21:54,460 --> 00:21:57,460
+So it won't even work out. We can try it.
+
+154
+00:22:03,540 --> 00:22:07,140
+It's bigger, and then we'll
+let it do a couple of launches.
+
+155
+00:22:07,770 --> 00:22:12,750
+You look at that sound, and
+we look at that acceleration.
+
+156
+00:22:13,390 --> 00:22:18,650
+A Body from S way, you see it's
+S's direction's voice is faster.
+
+157
+00:22:19,150 --> 00:22:23,570
+It's not going to be, it's not
+going to be, it's going to be big.
+
+158
+00:22:23,770 --> 00:22:30,070
+We have to be careful here.
+After we eat this, it's okay.
+
+159
+00:22:32,060 --> 00:22:40,420
+This Japanese key down here can take a little
+step and then we can see if it's this step.
+
+160
+00:22:40,420 --> 00:22:44,440
+Or did it make me do a few
+more since I was a kid?
+
+161
+00:22:48,160 --> 00:22:48,840
+preload
+
+162
+00:22:50,580 --> 00:22:51,840
+This time it's smaller.
+
+163
+00:22:53,190 --> 00:22:55,550
+Because the whole key is ready.
+
+164
+00:22:57,220 --> 00:23:06,890
+And here, let's give it, for example, 10.
+Let's run the data. Let's see if it's...
+
+165
+00:23:06,890 --> 00:23:07,390
+It's perfect.
+
+166
+00:23:09,740 --> 00:23:13,140
+Wait a minute. Clear the
+hangar. Clear the hangar.
+
+167
+00:23:19,740 --> 00:23:21,880
+And then you can turn around in this place.
+
+168
+00:23:24,600 --> 00:23:26,740
+Why, no, you can.
+
+169
+00:23:34,000 --> 00:23:36,060
+Okay, it's coming up. Up here.
+
+170
+00:23:39,430 --> 00:23:42,630
+Let's see where it's headed.
+
+171
+00:23:43,500 --> 00:23:44,220
+Offline position.
+
+172
+00:23:46,010 --> 00:23:58,100
+It's not too high. Let's keep
+this quiet for a long time.
+
+173
+00:23:58,100 --> 00:23:59,540
+20 seconds.
+
+174
+00:24:00,590 --> 00:24:05,470
+It's 10 m every second, that's
+the whole line to 2000, right?
+
+175
+00:24:16,130 --> 00:24:18,730
+Let's make it rational almost.
+
+176
+00:24:43,450 --> 00:24:45,070
+Let's take a look at this.
+
+177
+00:24:47,050 --> 00:24:49,610
+Well, it's now a few
+screens back on the screen.
+
+178
+00:24:49,710 --> 00:24:54,980
+Let's take another look at the
+location of this iron hammerbox.
+
+179
+00:24:56,560 --> 00:24:58,580
+Well, this one's bigger.
+
+180
+00:25:01,970 --> 00:25:07,660
+That's good for the keymap section of
+the entire vehicle, and we're done.
+
+181
+00:25:08,460 --> 00:25:12,800
+The next section might be on my
+way to Big High, to play with.
+
+182
+00:25:14,160 --> 00:25:17,060
+Take a picture of the flexible
+track settings in one of them.
+
+183
+00:25:17,840 --> 00:25:18,680
+Okay, thank you.

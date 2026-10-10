@@ -1,0 +1,1438 @@
+WEBVTT
+
+1
+00:00:03.980 --> 00:00:17.780
+Hello, we've finally met again. In two years, we've spent
+a little effort on getting Ansès out of the country.
+
+2
+00:00:19.460 --> 00:00:25.940
+Of course, in two years,
+a lot of people asked me.
+
+3
+00:00:27.200 --> 00:00:29.860
+It's all about Ansace.
+
+4
+00:00:30.020 --> 00:00:38.540
+Eacost Well, actually, he's with him
+right now. Eacost It's all from Sochi.
+
+5
+00:00:38.540 --> 00:00:46.610
+They have a very good interface
+and a more efficient calculation.
+
+6
+00:00:46.610 --> 00:00:54.910
+Actually, I'd recommend Evacost
+specifically, but if a lot of students do it,
+
+7
+00:00:54.910 --> 00:01:06.850
+It's all Ancest, right?
+
+8
+00:01:06.850 --> 00:01:09.890
+Smack's got it in.
+
+9
+00:01:09.980 --> 00:01:14.400
+Well, Ances and Anux are different.
+
+10
+00:01:15.260 --> 00:01:23.080
+The whole group of our guests,
+Ances, was done under APP.
+
+11
+00:01:23.080 --> 00:01:26.570
+So I'm going to introduce you.
+
+12
+00:01:28.170 --> 00:01:37.790
+Some of the contents of the Ances are the
+steel track saber and the orbital version.
+
+13
+00:01:37.790 --> 00:01:46.230
+This time it's a car strip and... bbi Then don't stick
+it in. It's just a steel track. checks structures
+
+14
+00:01:47.970 --> 00:01:58.400
+And then brit is 32 m's Quality Reduction Bridge,
+but our course is primarily about the transmitter.
+
+15
+00:01:58.400 --> 00:02:08.710
+The law is to teach you how to build
+a model that's as fine as it gets.
+
+16
+00:02:08.710 --> 00:02:19.660
+When we learned how to do it,
+you're going to do it yourself.
+
+17
+00:02:20.290 --> 00:02:29.320
+For example, the steel track is a fastener at zero six
+meters and the bridge uses 0.6 m's steel track directly.
+
+18
+00:02:29.320 --> 00:02:35.810
+Just hook it up with a button.
+
+19
+00:02:39.360 --> 00:02:50.940
+So this section may be a APDL order
+for a steel track Eulber's effort.
+
+20
+00:02:50.940 --> 00:03:00.490
+I'll be fine with any orders we're going
+to have in all of the Anceses classes.
+
+21
+00:03:00.500 --> 00:03:07.480
+Let's talk about how it works.
+
+22
+00:03:08.180 --> 00:03:19.430
+Modelling has been taught so that
+you can build your own model.
+
+23
+00:03:19.430 --> 00:03:26.830
+There's a lot of little partners, of
+course, and iSAPL's writing is pretty clear.
+
+24
+00:03:26.830 --> 00:03:35.000
+Then you can skip to see
+my fate flow in general.
+
+25
+00:03:35.000 --> 00:03:46.250
+Just learn to be a fluid, so
+we'll probably talk about one.
+
+26
+00:03:46.250 --> 00:03:56.530
+A steel track, a six-metre steel track, a short
+steel track Eurado effort of a ABL command
+
+27
+00:03:56.880 --> 00:03:58.260
+Why six meters?
+
+28
+00:03:58.460 --> 00:04:06.890
+In fact, in the New Taechon file, we can see that
+they're on track for a long time, but they're also.
+
+29
+00:04:06.890 --> 00:04:08.350
+Only with short steel tracks.
+
+30
+00:04:08.830 --> 00:04:11.430
+Short steel tracks can be combined.
+
+31
+00:04:11.690 --> 00:04:14.690
+In the new map, it's collable.
+
+32
+00:04:15.050 --> 00:04:18.890
+The New Particular Map is still powerful
+for its own computational functions.
+
+33
+00:04:19.350 --> 00:04:25.180
+It can put a short steel track together
+into a long steel track. It's all right.
+
+34
+00:04:28.200 --> 00:04:32.920
+Well, then we'll start looking at this.
+
+35
+00:04:34.980 --> 00:04:44.980
+ABD All right, the whole thing. ABD All right. 50 A
+couple of lines because after two years of sedimentation,
+
+36
+00:04:44.980 --> 00:04:50.220
+How does he zoom in on
+this font? Let me see.
+
+37
+00:05:01.560 --> 00:05:11.960
+I don't know why it's so different from
+what it used to be, but why is it so short?
+
+38
+00:05:11.960 --> 00:05:19.240
+Now, with AVL's proficient
+names, it's a lot of scratching.
+
+39
+00:05:19.240 --> 00:05:27.700
+It's not necessary, is it?
+
+40
+00:05:27.700 --> 00:05:41.120
+That's the main thing. So we're going to see
+the whole naming ship. First of all, we're dirt.
+
+41
+00:05:41.120 --> 00:05:41.720
+Next Chart
+
+42
+00:05:43.620 --> 00:05:48.890
+Our entire steel cabinet is
+6 m long, right? 6 m long.
+
+43
+00:05:50.080 --> 00:05:51.200
+And?
+
+44
+00:06:00.700 --> 00:06:08.100
+It's 0:06 a.m., right?
+
+45
+00:06:15.550 --> 00:06:19.130
+So how many parts of the entire
+steel track can be divided?
+
+46
+00:06:19.430 --> 00:06:26.280
+We'll introduce you to one.
+It's six and six plus one.
+
+47
+00:06:27.720 --> 00:06:31.780
+It's 11 nodes, right?
+
+48
+00:06:33.820 --> 00:06:41.400
+That's ten nodes. Then we have to
+keep one nine degrees for each node.
+
+49
+00:06:41.400 --> 00:06:43.360
+That's good.
+
+50
+00:06:44.820 --> 00:06:52.160
+All right, so this is done. Let's
+get to the first and the third.
+
+51
+00:06:52.160 --> 00:06:59.940
+Finnish Cleanup and access to the full process
+are all known and we can set the steel.
+
+52
+00:06:59.960 --> 00:07:09.120
+That's the front of the track, and
+this can be changed. ix It's a turn.
+
+53
+00:07:09.120 --> 00:07:20.820
+i y is the front of the week.
+ij is the front of the week.
+
+54
+00:07:23.390 --> 00:07:32.380
+And after this, we can't do it
+because O'Larian's in Ances.
+
+55
+00:07:32.380 --> 00:07:43.690
+It's not like we just need to save the weather
+for a long time, so we can just go back in.
+
+56
+00:07:43.690 --> 00:07:53.790
+Come on, this is what we're gonna set up for a long time, and
+then we're gonna check the views and we're gonna write a MP.
+
+57
+00:07:53.790 --> 00:07:58.880
+It's the compoundity of the search.
+
+58
+00:08:00.370 --> 00:08:12.100
+EX stands for firewood. E stands for
+what I'm saying about ET, a material.
+
+59
+00:08:12.600 --> 00:08:19.480
+Nams a material with a material number E, it is
+and is a unit, it is a unit, it is a unit number.
+
+60
+00:08:20.880 --> 00:08:25.320
+One with this unit number.
+
+61
+00:08:26.450 --> 00:08:33.230
+And the attribute to this cell number is
+the Taiwan Mora attribute is the 8.0611.
+
+62
+00:08:35.350 --> 00:08:43.620
+And then... DMS It's a
+monochrome. It's a density. 850
+
+63
+00:08:44.500 --> 00:08:54.000
+The bass on your head and the swings. PiSY
+Volatile ratio 0.3 Well, there's nothing to tell.
+
+64
+00:08:54.620 --> 00:09:06.240
+And when all three of them are done, we can put this in the bag, without saying a
+word, the number of the show is the same as this one, and then we can make a four.
+
+65
+00:09:06.560 --> 00:09:12.760
+And then we'll attach to it the
+four-infrastructure parameters.
+
+66
+00:09:13.140 --> 00:09:19.480
+The command is a fashion place. R
+is a fashion place for real, real.
+
+67
+00:09:20.060 --> 00:09:28.320
+It's the same thing. It's the number
+of the fashion place. 6 No. No. 1
+
+68
+00:09:28.320 --> 00:09:37.300
+And then he's the one who can
+take a look at this to help Manro.
+
+69
+00:09:42.050 --> 00:09:43.450
+I see.
+
+70
+00:10:06.690 --> 00:10:09.050
+Why don't we press the car and drive first?
+
+71
+00:10:09.570 --> 00:10:10.770
+Let's take this.
+
+72
+00:10:15.800 --> 00:10:25.640
+It has a constant order, and we can see
+it. It's better. N-SET The node machine.
+
+73
+00:10:25.640 --> 00:10:27.240
+It's a little bit.
+
+74
+00:10:28.910 --> 00:10:29.950
+R1
+
+75
+00:10:31.150 --> 00:10:43.020
+R2R3R4R5R6, take a quick look.
+
+76
+00:10:43.020 --> 00:10:43.980
+The...
+
+77
+00:10:48.750 --> 00:10:55.470
+This cow doesn't really taste the same.
+
+78
+00:11:03.870 --> 00:11:08.190
+It should have BIM, BIM BIMS, BS.
+
+79
+00:11:08.610 --> 00:11:11.770
+But there's no explanation for BIMS in this.
+
+80
+00:11:12.350 --> 00:11:15.410
+Well, whatever, then
+we're not looking at this.
+
+81
+00:11:15.850 --> 00:11:26.770
+I'll just say, AZ, then go around this
+end, around this end, that's how it is.
+
+82
+00:11:26.770 --> 00:11:31.050
+Press the other way to the top of the group.
+
+83
+00:11:32.600 --> 00:11:36.600
+x forward y is horizontal
+
+84
+00:11:38.050 --> 00:11:41.860
+This group is a cross.
+
+85
+00:11:46.210 --> 00:11:46.770
+Yes.
+
+86
+00:11:48.320 --> 00:11:55.940
+For example, when I give
+it a horizontal chance,
+
+87
+00:11:55.940 --> 00:12:04.780
+It's going to make Fy when it's
+horizontal. It bends like this.
+
+88
+00:12:05.140 --> 00:12:09.860
+And when this bends, it's an angle.
+
+89
+00:12:10.060 --> 00:12:14.080
+So this angle, this
+angle, is needed with IJJ.
+
+90
+00:12:14.740 --> 00:12:18.220
+That's what IJJ means.
+
+91
+00:12:19.180 --> 00:12:20.780
+It's the same angle over here.
+
+92
+00:12:21.260 --> 00:12:23.280
+IJJ is wearing this angle.
+
+93
+00:12:23.280 --> 00:12:30.900
+Okay, I1Y is a vertical angle
+that gives it a direction.
+
+94
+00:12:30.900 --> 00:12:32.800
+And then it goes down.
+
+95
+00:12:35.400 --> 00:12:44.330
+And it has an angle ahead
+of it. It's very tired.
+
+96
+00:12:44.720 --> 00:12:51.760
+Then I3 is a cowboy horn,
+so we're gonna mark it.
+
+97
+00:12:52.270 --> 00:13:00.010
+How many people do I get this animated?
+
+98
+00:13:00.020 --> 00:13:06.820
+Well, you can find it on
+this 100-degree, right?
+
+99
+00:13:07.780 --> 00:13:18.270
+There's RXS on it, and if you're
+missing RXS, it can still be worn.
+
+100
+00:13:18.270 --> 00:13:25.010
+It doesn't twist, but in
+fact, we have a special need.
+
+101
+00:13:28.560 --> 00:13:37.070
+And then we're defining
+parameters in two ways.
+
+102
+00:13:37.070 --> 00:13:38.970
+The first is a new set.
+
+103
+00:13:40.690 --> 00:13:48.770
+We name the character DL to the
+value 0.6 and then to the value 6
+
+104
+00:13:48.770 --> 00:13:56.030
+And then the steel track parameter DL is a point where the
+steel track works together, so we can write it like this.
+
+105
+00:13:58.420 --> 00:13:59.740
+Yeah, yeah.
+
+106
+00:14:00.930 --> 00:14:07.720
+0.6 equals 6 et al. 0.
+
+107
+00:14:11.600 --> 00:14:18.340
+6 on 0. 0. 0. equals 0. equals 0. 0. 0.
+
+108
+00:14:18.340 --> 00:14:32.000
+0.6 equals 0. 0. etc.
+equals 0. equals 0. etc.
+
+109
+00:14:32.000 --> 00:14:33.880
+At 0. level equals 0. at 0.
+
+110
+00:14:33.880 --> 00:14:40.920
+How many units are the same as L6 for D2
+
+111
+00:14:40.920 --> 00:14:44.280
+Every year, 610 units and then we
+
+112
+00:14:46.410 --> 00:14:54.810
+Yes. Maslabs What's in there? 4 ♪ And the circle
+is so ♪ MVL It's written the same way as the belly.
+
+113
+00:14:55.250 --> 00:15:06.430
+We're going to do the whole food node,
+and we're going to end up with this I.D.
+
+114
+00:15:06.430 --> 00:15:13.210
+Equals 1, starting with
+1 to NM plus 1, whole
+
+115
+00:15:14.100 --> 00:15:21.920
+fastener Node, that's our main node. The
+main node is... 11 One. NM10 I don't know.
+
+116
+00:15:21.920 --> 00:15:31.220
+That's like 1 to 11, and then we'll
+name the node number 1, 10,000 plus I.
+
+117
+00:15:31.220 --> 00:15:36.280
+Then I'm equal to... 1 It's time. 1 Thousand 011
+And then it's... 11 It's time. 1 Thousand 011
+
+118
+00:15:37.680 --> 00:15:44.780
+And if the first node is I equals
+1, 0, 1, 0 10 0 0, it's lonely.
+
+119
+00:15:44.780 --> 00:15:50.840
+I wrote the wrong one and changed it
+to 0 because I didn't have the one.
+
+120
+00:15:52.220 --> 00:15:59.820
+The parameters of the parameter variable are written directly to 0, and
+there are two types of S behind it that can be diagnosed because it is.
+
+121
+00:15:59.820 --> 00:16:07.150
+One X you give, the other doesn't like it by default
+is you, and we can just give it away, that's all.
+
+122
+00:16:07.450 --> 00:16:13.950
+So X also created a 11
+level point from 0 to 6.
+
+123
+00:16:14.470 --> 00:16:21.390
+Now we can take a look at AZ. Let's show it.
+
+124
+00:16:29.320 --> 00:16:32.740
+It's all out. We can see it clearly.
+
+125
+00:16:32.740 --> 00:16:43.360
+All right, here's 11 grand. He's reconnecting
+with the coordinates in nine directions.
+
+126
+00:16:44.340 --> 00:16:50.120
+Uh, 11 grand. We can take a look at him.
+
+127
+00:16:52.350 --> 00:16:57.230
+Let's see if his coordinates are
+the same as the ones we created.
+
+128
+00:16:59.190 --> 00:17:00.030
+That's ten thousand.
+
+129
+00:17:01.300 --> 00:17:05.220
+000.000.000.000.000.000.000.000.000.000.
+
+130
+00:17:05.520 --> 00:17:12.440
+000.000.000.000.000.
+
+131
+00:17:12.760 --> 00:17:14.310
+000.000.
+
+132
+00:17:21.610 --> 00:17:24.710
+000.000.
+
+133
+00:17:30.120 --> 00:17:38.730
+We're gonna start giving us
+the attributes of the unit.
+
+134
+00:17:38.730 --> 00:17:51.290
+The wealth one is a number one unit and
+the wealth one is a number one property.
+
+135
+00:17:51.830 --> 00:18:00.050
+It means selling wealth to wealth to wealth to
+wealth to wealth to wealth to wealth to wealth.
+
+136
+00:18:00.340 --> 00:18:10.580
+Disc Properties, all to 171
+and this is a three-line line.
+
+137
+00:18:10.580 --> 00:18:14.160
+We'll put these three together.
+
+138
+00:18:16.260 --> 00:18:23.160
+We'll just have to survive
+without having to do anything.
+
+139
+00:18:24.200 --> 00:18:28.840
+Then do I equals a n-n-n-n-n-n-n-n.
+
+140
+00:18:31.940 --> 00:18:33.000
+Call n n n n
+
+141
+00:18:38.340 --> 00:18:48.480
+n-n-n-e-e-e-e-e-e-e nn
+
+142
+00:18:48.850 --> 00:18:57.620
+No, no, no. Of course.
+
+143
+00:18:58.520 --> 00:19:05.710
+Of course, the one doesn't
+need a number. Sorry.
+
+144
+00:19:05.710 --> 00:19:06.570
+Okay.
+
+145
+00:19:07.400 --> 00:19:14.680
+It's like, "N" on top is like
+that K-key point you gave.
+
+146
+00:19:15.180 --> 00:19:20.500
+Then E is the equivalent of L,
+linking these two key points.
+
+147
+00:19:20.680 --> 00:19:32.280
+So we're the equivalent of 10
+units, from 1 to 10, which equals I.
+
+148
+00:19:32.280 --> 00:19:45.000
+1 It's time. 10 Here. 1010 Here. 1010 It's time. 10 It's time.
+101010 Here. 1010 It's time. 10 Here. 10 It's time. 10 Here. 10
+
+149
+00:19:45.030 --> 00:19:55.440
+To 101010 to 1010 to
+10101010 to 101010 to 10 to
+
+150
+00:19:55.440 --> 00:20:05.580
+He automatically changed you to the first girl AT, a
+page of food, a page of fish, a page of grapes, one.
+
+151
+00:20:05.580 --> 00:20:11.640
+Cable, one page, one page, one page.
+
+152
+00:20:13.710 --> 00:20:22.500
+One page, one page, one
+page, one page, one page.
+
+153
+00:20:27.920 --> 00:20:35.340
+If you choose something and you choose
+something else, you'll have to write an Oslas.
+
+154
+00:20:35.820 --> 00:20:40.500
+Maybe it's based on what
+you chose before, right?
+
+155
+00:20:41.940 --> 00:20:49.840
+Dig one up. db Let's start by digging one straight
+up. db26 The... cdb The papers are just a few.
+
+156
+00:20:49.840 --> 00:20:52.480
+These documents are required.
+
+157
+00:20:54.300 --> 00:21:00.160
+The pop period is when FBI is
+generated, we need CVB software.
+
+158
+00:21:19.560 --> 00:21:23.880
+We can see this CDB here.
+
+159
+00:21:27.260 --> 00:21:35.180
+This X6 MI CDB doesn't have a problem
+so we certainly don't have to do this.
+
+160
+00:21:35.180 --> 00:21:43.520
+And the next thing we can do, I just
+want to show you how to turn it off.
+
+161
+00:21:43.520 --> 00:21:51.890
+Then we'll read this CDB
+text and see how it works.
+
+162
+00:22:12.130 --> 00:22:16.770
+It was a few dozen bucks, and
+now we're reading this CDB file.
+
+163
+00:22:21.840 --> 00:22:25.740
+I think it's read and we'll read this LMX.
+
+164
+00:22:27.500 --> 00:22:27.820
+Huh?
+
+165
+00:22:35.600 --> 00:22:43.200
+Then it's not read in the same
+solid, and we give it to it.
+
+166
+00:22:45.610 --> 00:22:47.850
+CDB, that's us.
+
+167
+00:22:49.430 --> 00:22:52.730
+Don't you want to take a look
+at it at this file house?
+
+168
+00:23:00.100 --> 00:23:08.850
+This document, we turn it off,
+and there are often problems.
+
+169
+00:23:10.800 --> 00:23:12.600
+It's actually reading the order.
+
+170
+00:23:23.370 --> 00:23:26.120
+We're going to delete everything.
+
+171
+00:23:30.780 --> 00:23:33.240
+Then let's just do it again.
+
+172
+00:23:48.110 --> 00:23:56.760
+Well, yeah, it's right here, and
+it's already alive, and after that.
+
+173
+00:23:57.040 --> 00:24:07.470
+We're save everything, and then we end up writing
+a R1, which is probably the exact same thing.
+
+174
+00:24:07.470 --> 00:24:14.870
+If you read my APD, don't you
+need to come back and cover it up?
+
+175
+00:24:14.870 --> 00:24:20.630
+I'm just trying to show
+you if it can be read.
+
+176
+00:24:25.040 --> 00:24:28.360
+And then we order this F, and then...
+
+177
+00:24:32.130 --> 00:24:39.030
+We'll read this again, and I'll give you a
+regular CVB for the meatfish you just created.
+
+178
+00:24:41.820 --> 00:24:44.880
+I think it's in here. Look in here.
+
+179
+00:24:48.790 --> 00:24:56.810
+We don't know if it's dark,
+we don't know if it's dark.
+
+180
+00:24:56.810 --> 00:25:03.360
+The next time we do this,
+it'll be a few of our days.
+
+181
+00:25:08.120 --> 00:25:15.920
+First of all, FINISH is the same, and then
+GUNSOW is a little touch card that can be inside.
+
+182
+00:25:15.920 --> 00:25:24.260
+NLISED TAPU-NLISES and then
+point to SOCKSTARTINGU-NLISES.
+
+183
+00:25:24.860 --> 00:25:31.980
+Here's the name of NLISED TAPNLISED
+T. That's what you can look at.
+
+184
+00:25:32.460 --> 00:25:37.980
+Then substruct is substructing.cms.
+
+185
+00:25:40.010 --> 00:25:43.070
+And then we'll set one.
+
+186
+00:25:47.300 --> 00:25:50.240
+We'll turn it off and write
+it down with an ice cow.
+
+187
+00:26:04.930 --> 00:26:09.970
+We can see that it has
+
+188
+00:26:20.850 --> 00:26:34.610
+After that, it'll have a unless options on your world
+selectoptions, and then we can look at the costume.
+
+189
+00:26:34.610 --> 00:26:36.090
+Document se
+
+190
+00:26:44.090 --> 00:26:52.770
+pt options, and then what does it mean?
+
+191
+00:26:52.770 --> 00:26:59.960
+Analysis of options.
+
+192
+00:27:02.220 --> 00:27:07.560
+Then the SU file below it represents NAM,
+
+193
+00:27:16.460 --> 00:27:27.740
+In other words, it produces a written NAM point,
+a SUB file, a positive file, and a super-unit log.
+
+194
+00:27:27.740 --> 00:27:40.920
+The front is that you can just
+move to the front and then S1, A.
+
+195
+00:27:40.920 --> 00:27:47.920
+7, A7, R, S1 MATR Max Track
+
+196
+00:27:48.540 --> 00:27:49.160
+Hearings
+
+197
+00:27:50.210 --> 00:27:59.330
+And that means one Stiffness is a
+high-level proof of survival plus quality.
+
+198
+00:27:59.330 --> 00:28:03.240
+Three is a gong.
+
+199
+00:28:07.460 --> 00:28:20.230
+Quality certificate, usually only
+needs stiffness in the new Pike.
+
+200
+00:28:20.430 --> 00:28:25.270
+It can be called.
+
+201
+00:28:26.000 --> 00:28:29.380
+And Rio 1?
+
+202
+00:28:33.200 --> 00:28:42.370
+Yes. 6 m Rio 1 It's the same thing. 2 6 No.
+No. 1 We can see it. 2 That's what that means.
+
+203
+00:28:42.370 --> 00:28:43.870
+How much 1? That's it.
+
+204
+00:28:46.040 --> 00:28:47.220
+What does that mean?
+
+205
+00:28:47.520 --> 00:28:56.940
+Lumptomass Focus on the quality card. That's how it works.
+if the mass If this quality certificate is divided by one,
+
+206
+00:28:56.940 --> 00:29:04.660
+If this quality certificate is
+generated, then it can be ticked.
+
+207
+00:29:05.460 --> 00:29:07.780
+Centralized information
+cards need to be ticked.
+
+208
+00:29:07.780 --> 00:29:11.380
+Centralized evidence is needed in mind.
+
+209
+00:29:11.780 --> 00:29:14.500
+It's what you need to do when
+you're in a vocational class.
+
+210
+00:29:15.660 --> 00:29:18.400
+If you're not doing your own career,
+you don't want to check it out.
+
+211
+00:29:19.200 --> 00:29:20.520
+Vocational classes are needed.
+
+212
+00:29:21.670 --> 00:29:24.910
+Let's see if professional
+classes can achieve it.
+
+213
+00:29:28.910 --> 00:29:37.070
+I don't know much about GIG
+lately. I know I lost in APP2.
+
+214
+00:29:37.070 --> 00:29:40.330
+He's got it, but not necessarily.
+
+215
+00:29:41.770 --> 00:29:42.430
+Him.
+
+216
+00:30:00.300 --> 00:30:12.160
+I don't know where the education is, but it's what
+I explained, but I don't know where to fix it.
+
+217
+00:30:13.040 --> 00:30:15.820
+That's what I know.
+
+218
+00:30:22.340 --> 00:30:22.740
+Yes.
+
+219
+00:30:28.870 --> 00:30:39.250
+So we don't care if he's conscious, and
+that's what you do if you do it manually.
+
+220
+00:30:39.990 --> 00:30:44.250
+It'll be fine if he hits
+the table with his name.
+
+221
+00:30:46.570 --> 00:30:54.890
+He's coming out like this, but he
+probably doesn't know where he put it.
+
+222
+00:30:56.020 --> 00:30:59.220
+That's what we're after.
+
+223
+00:31:01.320 --> 00:31:08.640
+The release of a node main node,
+so we just started from 101 to 10.
+
+224
+00:31:08.670 --> 00:31:17.440
+11, so our main node is released.
+
+225
+00:31:19.780 --> 00:31:28.300
+One order is OM. The order to release the
+main node is M and then the node number 101.
+
+226
+00:31:28.300 --> 00:31:36.540
+And then it was... 6 I'm free to release them.
+10 We can all release the rest of our lives.
+
+227
+00:31:36.540 --> 00:31:45.700
+In the middle, we can be more efficient on the plane if you release less
+freedom of the node that generates FBI, which is a small generation of FBI.
+
+228
+00:31:46.280 --> 00:31:53.720
+Which direction do you care about?
+
+229
+00:31:53.720 --> 00:31:55.960
+Of course, we can just be.
+
+230
+00:32:05.760 --> 00:32:13.440
+We're not going to say these two
+names, and that's how they are.
+
+231
+00:32:13.440 --> 00:32:25.590
+M from 108 Here. 1010 What about the
+mid-points? I want to generate them. UI and UJ
+
+232
+00:32:25.590 --> 00:32:38.070
+And what's this supposed to mean? 102 Here. 104 How many creations have you seen? 102 I'm sorry, but I don't know. 103 I'm sorry, but I don't know. 1 Just every single
+one of them. 1 Generate you. 102 I'm sorry, but I don't know. 103 I'm sorry, but I don't know. 104 I'm sorry, but I don't know. 101 I'm sorry, but I don't know. 10
+
+233
+00:32:38.070 --> 00:32:46.490
+4, if your U is 2, it is 102, 104, 106.
+
+234
+00:32:46.490 --> 00:32:49.420
+Okay, that's all right.
+
+235
+00:32:50.860 --> 00:32:59.960
+So if you're out of U, you can write
+UZ, you can write UiUz, then beans.
+
+236
+00:32:59.960 --> 00:33:12.960
+x,Rot,Rotx,Rotx,x,Rotx,Rotx,Rotx,x,Rotx,RRototRx,
+
+237
+00:33:13.640 --> 00:33:20.520
+x,Rotx,Rotx,Rotx,Rotx,ototx,Rototx,
+
+238
+00:33:21.180 --> 00:33:30.820
+Rx,Rx,Rotx,Rotx, of course I'm a 0.6 m unit.
+
+239
+00:33:32.750 --> 00:33:35.700
+It's a little high for
+you to see how it works.
+
+240
+00:33:41.580 --> 00:33:43.400
+You can see if you don't know who said it.
+
+241
+00:33:45.140 --> 00:33:52.780
+Every node comes out and
+there's a mainstream node.
+
+242
+00:33:53.520 --> 00:34:03.920
+One, two, three, four, six, seven, eight, nine, ten people say, "Is it
+too small for me to have one unit between the two nodes of this unit?"
+
+243
+00:34:03.920 --> 00:34:10.930
+Well, how do we build it up?
+
+244
+00:34:10.930 --> 00:34:18.190
+So we're going to make a new unit on site.
+
+245
+00:34:19.600 --> 00:34:28.560
+Of course, we're AVDL, or we're smart, we're 0.6 m, and we're going
+to go straight to 0.1, and we're going to do every single point.
+
+246
+00:34:28.560 --> 00:34:36.360
+That's 61. That's 61. We don't
+have to change this side.
+
+247
+00:34:38.760 --> 00:34:48.340
+But in this case, we need to change whether it's the rest of the node, or
+whether it's just the number of buttons you don't need much Internet access.
+
+248
+00:34:48.340 --> 00:34:55.020
+We don't need to change it
+because it's all the same.
+
+249
+00:34:57.760 --> 00:35:07.820
+Eleven thousand, it's six meters in the middle, and
+we'll have ten thousand, one point, two, twelve thousand.
+
+250
+00:35:07.820 --> 00:35:15.350
+Thirteen thousand, fifteen thousand, four thousand,
+and it's zero one, one, one, three, one, one.
+
+251
+00:35:15.350 --> 00:35:24.340
+And then it's 00:01, and then it's 00:11, and then
+three, and four, five, six, seven, eight, seven.
+
+252
+00:35:25.160 --> 00:35:28.340
+Three zeros. One, two,
+three, four, six, eight.
+
+253
+00:35:33.520 --> 00:35:41.340
+Fourth node, fifth node,
+sixth node, seventh node.
+
+254
+00:35:42.420 --> 00:35:46.580
+One to seven is six, right? We're seven.
+
+255
+00:35:47.630 --> 00:35:59.640
+So this is 807. Are we going to
+turn around again? 1060611 Right?
+
+256
+00:35:59.640 --> 00:36:00.080
+Here.
+
+257
+00:36:03.060 --> 00:36:11.540
+Chinese soft, Chinese soft, Chinese soft
+
+258
+00:36:27.000 --> 00:36:35.360
+Chinese, Chinese, soft, soft, soft and soft.
+
+259
+00:36:36.900 --> 00:36:45.770
+We can write it as if it's actually
+possible to write it directly.
+
+260
+00:36:45.770 --> 00:36:52.880
+Five or five can be calculated directly, but it can
+also be written as something in the parameter method.
+
+261
+00:36:57.150 --> 00:37:07.080
+And after the final node, 10,000
+plus the final change is 10,000.
+
+262
+00:37:07.080 --> 00:37:12.400
+Added to 1
+
+263
+00:37:14.830 --> 00:37:23.980
+fastener, you can write a desk over here.
+
+264
+00:37:23.980 --> 00:37:29.120
+No. ls 0.6
+
+265
+00:37:31.040 --> 00:37:35.290
+So you're ls-cre.
+
+266
+00:37:37.690 --> 00:37:44.040
+ep0.6, so 0.146, let's figure it out.
+
+267
+00:37:45.190 --> 00:37:52.270
+It's $161 minus six, so it's $1005, right?
+
+268
+00:37:52.270 --> 00:37:58.130
+Five and six, right? Let's figure it
+out. It's one, two, three, four, five.
+
+269
+00:37:59.150 --> 00:38:06.860
+But the number of the interval is
+six, the number of six, seven, below.
+
+270
+00:38:06.860 --> 00:38:16.920
+It's 73, and this is
+supposed to be the 13th six.
+
+271
+00:38:25.740 --> 00:38:35.420
+Let's take a lesson, Noodles.
+
+272
+00:38:36.290 --> 00:38:43.650
+One, two, four, five, six, one
+metre just past one, right?
+
+273
+00:38:43.650 --> 00:38:52.190
+So let's just forget it, but if we don't
+have to say so much, you can just say one.
+
+274
+00:38:52.190 --> 00:38:59.790
+Well, just stay, and if
+you don't trust Jeab, Jeab.
+
+275
+00:39:00.400 --> 00:39:08.580
+R7,7,R7,R7,7,RRR7,7,7,7,7,7,7,
+
+276
+00:39:17.060 --> 00:39:21.280
+7,
+
+277
+00:39:23.340 --> 00:39:29.720
+R7,
+
+278
+00:39:31.960 --> 00:39:37.080
+We can also choose two of them.
+
+279
+00:39:40.500 --> 00:39:50.960
+We've got CMS on this side. Give
+him this one. We can get it.
+
+280
+00:39:54.410 --> 00:39:57.330
+Actually, Oxons is in here.
+
+281
+00:39:58.430 --> 00:39:59.050
+F
+
+282
+00:40:00.100 --> 00:40:08.860
+ix a free method could actually
+have given Stiffness plus Mass
+
+283
+00:40:10.770 --> 00:40:13.790
+And then Yes, that's it.
+
+284
+00:40:16.280 --> 00:40:21.470
+One of them is that the
+license can't be enough.
+
+285
+00:40:22.580 --> 00:40:23.700
+No problem.
+
+286
+00:40:27.570 --> 00:40:31.610
+We can write a 50 here.
+
+287
+00:40:36.500 --> 00:40:45.320
+His orders to you. He wants your life.
+
+288
+00:40:45.320 --> 00:40:53.440
+We're just gonna take
+responsibility for it because of 40.
+
+289
+00:40:53.440 --> 00:40:55.740
+17000 MS, that's it.
+
+290
+00:40:58.600 --> 00:41:07.240
+The Mokeson method so that we
+can see its modeling results.
+
+291
+00:41:10.540 --> 00:41:20.060
+We're talking about this model in the next class. We're talking about
+it today, but it's like there's another one that hasn't finished, right?
+
+292
+00:41:23.440 --> 00:41:27.780
+That's what we're gonna do.
+
+293
+00:41:31.230 --> 00:41:41.000
+I'm just checking in, I'm
+checking in, and then what?
+
+294
+00:41:41.500 --> 00:41:42.920
+And then two and one more.
+
+295
+00:41:44.540 --> 00:41:48.130
+Then S1 PR PR means
+
+296
+00:41:49.200 --> 00:41:49.680
+20
+
+297
+00:41:52.670 --> 00:41:58.130
+Don't say yes to the super-unit
+material or the Gaza situation.
+
+298
+00:41:59.140 --> 00:42:06.420
+Promise to the leader, print it up.
+
+299
+00:42:07.990 --> 00:42:13.440
+Load, do not print, do
+not export that material.
+
+300
+00:42:13.460 --> 00:42:15.600
+This doesn't matter. This is defective.
+
+301
+00:42:16.040 --> 00:42:21.080
+We've added a translation here,
+so let's see what a SESST is.
+
+302
+00:42:22.120 --> 00:42:28.360
+Stress,SSST,Stress Stiffness.
+
+303
+00:42:29.960 --> 00:42:32.900
+It's stiffness. What do
+we mean by writing it?
+
+304
+00:42:34.060 --> 00:42:37.550
+Do not save space
+
+305
+00:42:41.090 --> 00:42:51.410
+We can write this either way. It's the one
+that keeps an Indonesian stiffness card.
+
+306
+00:42:51.410 --> 00:42:55.110
+So this Indonesian stiffness
+certificate is okay.
+
+307
+00:43:03.300 --> 00:43:07.300
+It can be used to calculate
+things that need to be done.
+
+308
+00:43:07.900 --> 00:43:09.460
+You can have this either way.
+
+309
+00:43:09.940 --> 00:43:15.650
+If there is, anyway, FBR
+also needs it, and not it.
+
+310
+00:43:15.810 --> 00:43:17.710
+If you're gonna make it
+hard, it might need to.
+
+311
+00:43:17.930 --> 00:43:21.610
+If you don't need it, you can just admit it.
+
+312
+00:43:21.710 --> 00:43:23.830
+There's nothing behind it.
+There's nothing wrong with it.
+
+313
+00:43:24.550 --> 00:43:32.690
+You can have it on your side, after it's done, if you don't have
+to do hard work at the back, it'll be cut off automatically.
+
+314
+00:43:32.690 --> 00:43:35.070
+That's it.
+
+315
+00:43:40.670 --> 00:43:49.020
+Then we'll save this Ura and we'll finish.

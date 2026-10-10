@@ -1,0 +1,687 @@
+1
+00:00:01,360 --> 00:00:10,780
+We've already introduced you to the book
+of "The Treasure" by the new deformation.
+
+2
+00:00:10,820 --> 00:00:15,500
+Let's tell you about this lesson about the rate of reduction of the dragons and
+the speed with which the body of the car is accelerating and the mooring paper.
+
+3
+00:00:16,040 --> 00:00:18,680
+This could be the kind of standard ISO.
+
+4
+00:00:20,790 --> 00:00:31,610
+We'll do that ResultElementL, you find it and I'll
+tell you where it is right here in ModElementLibrary.
+
+5
+00:00:32,570 --> 00:00:41,450
+And then, for example, you're gonna have a lot of Q or
+something, and this ResultElements, which has a Result in it.
+
+6
+00:00:41,450 --> 00:00:45,310
+LabryLabry, we're retracking the 78 inside.
+
+7
+00:00:46,860 --> 00:00:50,460
+There's a little bit of retrace in here.
+
+8
+00:00:51,680 --> 00:00:54,320
+And then it's the corresponding parameter.
+
+9
+00:00:55,570 --> 00:01:06,580
+These variables that it produces, for example, are presented with it, for example,
+curves, crosslines, especially fine numbers, and some of his other parameters.
+
+10
+00:01:11,160 --> 00:01:18,640
+And we're a little more advanced, like
+his contacts, these models, contacts.
+
+11
+00:01:19,040 --> 00:01:23,680
+And again, we can come in, so it's
+not much to design these examples.
+
+12
+00:01:26,910 --> 00:01:31,710
+It's, like, modeling these, like this.
+
+13
+00:01:31,710 --> 00:01:36,360
+In that case, you can give
+this file to the next one.
+
+14
+00:01:37,800 --> 00:01:42,400
+Well, then we can pay it right
+over here and then we can open it.
+
+15
+00:01:44,710 --> 00:01:47,070
+It's this demo, and we can get it straight.
+
+16
+00:01:48,220 --> 00:01:48,920
+You can see it.
+
+17
+00:01:51,090 --> 00:01:59,910
+It's in the file house with a spf, but it's this spf, and it's going
+to go with our sb2, for example, and we're going to open it right now.
+
+18
+00:01:59,910 --> 00:02:08,340
+He'll say he can't find the file.
+
+19
+00:02:11,050 --> 00:02:12,150
+World view.
+
+20
+00:02:18,020 --> 00:02:23,540
+Look at this. Result Inside. SPF That's how
+it's identified. We'll just have to open it.
+
+21
+00:02:25,660 --> 00:02:30,440
+Because SPF, it's pre-packaged in some
+options and it says it can't find it.
+
+22
+00:02:31,660 --> 00:02:34,780
+If we're here, we can give it.
+
+23
+00:02:39,040 --> 00:02:47,000
+We can also transfer it automatically
+to business. We can still bring it here.
+
+24
+00:02:48,340 --> 00:02:50,340
+You can see that image.
+
+25
+00:02:57,120 --> 00:02:59,160
+Like ours.
+
+26
+00:03:06,700 --> 00:03:10,080
+We can get the others up there.
+
+27
+00:03:15,960 --> 00:03:17,080
+That's it.
+
+28
+00:03:17,140 --> 00:03:19,860
+And then we'll look at our model.
+
+29
+00:03:20,860 --> 00:03:25,670
+This is your teacher's model.
+We're back to our own model.
+
+30
+00:03:26,510 --> 00:03:32,810
+Miss, we're a little bit of animated.
+
+31
+00:03:33,210 --> 00:03:36,680
+And this furry force is
+especially suited to this.
+
+32
+00:03:36,940 --> 00:03:44,740
+We'll tell you this. Those who are able to reduce the theft's
+information about the device in the car have been tripped a few days ago.
+
+33
+00:03:44,900 --> 00:03:52,060
+What about the acceleration of the car?
+
+34
+00:03:59,160 --> 00:04:02,160
+For example, let's take a
+look at its first regulations.
+
+35
+00:04:04,350 --> 00:04:06,090
+I'll check the rules for this count.
+
+36
+00:04:07,600 --> 00:04:14,780
+Like what? ATZ Well, it's a complete piece
+of this. Let's see it. ATZ What's the rule?
+
+37
+00:04:17,320 --> 00:04:25,000
+It's... ATZ How? ATZ Less than
+2.5 cm Course contract procedures
+
+38
+00:04:25,000 --> 00:04:32,990
+Let's take a look at the old U-top. 4 More
+
+39
+00:04:35,160 --> 00:04:42,900
+12.5 has changed a little bit, but I
+don't know if I'll put it in the net.
+
+40
+00:04:42,900 --> 00:04:46,380
+All right. All we need is a row download.
+
+41
+00:04:48,370 --> 00:04:57,090
+And here's what needs to be said.
+
+42
+00:04:57,090 --> 00:04:59,010
+We need to use this.
+
+43
+00:05:06,140 --> 00:05:10,420
+Here's a design of its own.
+
+44
+00:05:13,040 --> 00:05:24,250
+A special coefficient
+needs to be planned first.
+
+45
+00:05:30,330 --> 00:05:41,850
+I turn to this pot, and it's already up, and
+it's particularly diluted when it's agreed.
+
+46
+00:05:43,030 --> 00:05:55,170
+Farming patterns, reduced patterns compared to the balance of the farming team, are also very different
+in the curves, but usually the mode of reduction is only given to you, which is not so much different.
+
+47
+00:05:55,810 --> 00:06:06,860
+And this is our DeltaP, and then you can think, for example,
+of a group farming music system with a, uh, uh, yeah.
+
+48
+00:06:06,860 --> 00:06:07,080
+Let's go.
+
+49
+00:06:08,180 --> 00:06:18,080
+And, uh, this is not the same thing that's
+down there, but it's not the download of delta.
+
+50
+00:06:18,540 --> 00:06:28,020
+So, delta, you know, let's use this word, for example, to cut the undercoat on
+a leather coat, and we think it's the one that's always used on a dragon elbow.
+
+51
+00:06:28,770 --> 00:06:37,170
+We're supposed to have a
+leather coat on top of this.
+
+52
+00:06:37,170 --> 00:06:40,130
+It's basically this elbow
+and the vehicle presses.
+
+53
+00:06:41,710 --> 00:06:49,820
+So, what's the average rate of our
+elbow reduction, delta, leather coat?
+
+54
+00:06:49,820 --> 00:06:57,300
+It can be converted into a leather suit like
+this for P1, so this is how it was before.
+
+55
+00:06:57,300 --> 00:07:06,390
+If this muscle were to be cut off, it'd be a
+little face-to-face, and it'd end up like this.
+
+56
+00:07:07,010 --> 00:07:15,160
+Such symmetry, for example,
+is not particularly common.
+
+57
+00:07:16,160 --> 00:07:18,500
+That's why we have to go first.
+
+58
+00:07:20,780 --> 00:07:28,380
+It's a dragon on the left
+and a dragon on the right.
+
+59
+00:07:28,380 --> 00:07:36,120
+If we're here to build two points
+of this, do we have to drag it?
+
+60
+00:07:37,220 --> 00:07:45,740
+Four teams, two pairs, are about to drag this
+dragon-car man's locker to the right to both sides.
+
+61
+00:07:46,510 --> 00:07:53,720
+This is the right and this is
+the left. Let's drag it in.
+
+62
+00:07:54,770 --> 00:08:05,600
+Here's one of the Delta Ps that bought us.
+
+63
+00:08:06,080 --> 00:08:15,720
+P1's short for this little P
+plus is the one in the finance.
+
+64
+00:08:21,650 --> 00:08:30,000
+We're going to need some medical care here, and
+we're going to have to take this one and that's it.
+
+65
+00:08:30,950 --> 00:08:38,080
+Get it on the underground line and
+get it in the radar if you need to.
+
+66
+00:08:38,080 --> 00:08:43,480
+It's got a lot of types of
+help in documents, for example.
+
+67
+00:08:54,990 --> 00:08:58,790
+You can see what it's about.
+
+68
+00:09:00,350 --> 00:09:09,440
+There's a lot of things you can do on your own when
+it's used, and that's what it's all about, right?
+
+69
+00:09:09,440 --> 00:09:18,410
+And here's what we're talking
+about, one for another, right?
+
+70
+00:09:19,500 --> 00:09:29,830
+It's a good function. Let's pick this
+one. The first one we add, we get it.
+
+71
+00:09:29,830 --> 00:09:39,420
+We can put pressure on it or not, because when it's
+in the group, we can sell it, that's what's behind us.
+
+72
+00:09:39,610 --> 00:09:41,510
+Yeah, and what about us?
+
+73
+00:09:42,980 --> 00:09:50,970
+Well, hide this from us
+and let's see what's below.
+
+74
+00:09:53,580 --> 00:09:55,260
+Yeah, it's true.
+
+75
+00:09:57,600 --> 00:10:05,360
+One cut, one cut, one cut, one
+cut, one pick, or this one.
+
+76
+00:10:06,930 --> 00:10:11,960
+As you can see, it's basically very small.
+
+77
+00:10:16,870 --> 00:10:29,980
+We'll add a filter here, we'll get a set
+here. This one's on the seam. This one.
+
+78
+00:10:29,980 --> 00:10:32,300
+On the stitches.
+
+79
+00:10:33,040 --> 00:10:40,120
+It's a web site with a woven paper
+belt to see this woven paper.
+
+80
+00:10:45,170 --> 00:10:46,770
+Yeah, this is ABS.
+
+81
+00:10:57,280 --> 00:11:02,410
+This network needs X and then AABS X.
+
+82
+00:11:04,460 --> 00:11:11,780
+You can see it's all in our scripts, for
+example, that we need it to see this.
+
+83
+00:11:12,520 --> 00:11:22,290
+Liter stuff can reach it and then ABS.
+
+84
+00:11:22,870 --> 00:11:28,650
+Here's a detailed description of what
+it is. Liter There's a lot of them.
+
+85
+00:11:30,380 --> 00:11:37,230
+What about this strap like that and then it floats
+over there to see, for example, where we live?
+
+86
+00:11:39,020 --> 00:11:40,380
+This is our home.
+
+87
+00:11:42,260 --> 00:11:50,050
+There's something else we can do about it.
+
+88
+00:11:51,010 --> 00:11:58,010
+Even if we drink it, we use
+it to sew it, we need it here.
+
+89
+00:11:58,010 --> 00:12:02,620
+Listen to a new process. This is
+what happens. That's what it is.
+
+90
+00:12:03,820 --> 00:12:07,300
+We're not the spirits in this.
+
+91
+00:12:07,480 --> 00:12:10,040
+It's common sense to choose between us.
+
+92
+00:12:10,740 --> 00:12:14,650
+Choose this uh to show up.
+
+93
+00:12:15,940 --> 00:12:18,600
+Okay, let's take this option.
+
+94
+00:12:19,480 --> 00:12:24,340
+And this is the value of
+its rural penetration rate.
+
+95
+00:12:24,340 --> 00:12:30,160
+So you get it out of your front
+leg and make it look like it's mud.
+
+96
+00:12:32,650 --> 00:12:37,030
+Yeah, it's heavy.
+
+97
+00:12:48,100 --> 00:12:49,120
+In the leg.
+
+98
+00:12:50,880 --> 00:12:52,920
+A long time I've turned myself into
+
+99
+00:12:56,510 --> 00:13:06,050
+Well, I like coffee when it's white.
+
+100
+00:13:06,050 --> 00:13:14,820
+I like this. I like this. I like this.
+
+101
+00:13:15,380 --> 00:13:27,070
+I like it. I like it. I like it.
+
+102
+00:13:30,340 --> 00:13:31,760
+Eat.
+
+103
+00:13:39,150 --> 00:13:47,080
+I like this one.
+
+104
+00:13:47,080 --> 00:13:55,520
+I like this.
+
+105
+00:13:56,700 --> 00:14:06,010
+And this one we can just drag it
+straight up and move it around.
+
+106
+00:14:06,260 --> 00:14:08,980
+It's an acceleration in Chinese, and
+it's a microscopic picture of Wisconsin.
+
+107
+00:14:10,630 --> 00:14:12,850
+This could do it in Chinese.
+
+108
+00:14:13,310 --> 00:14:22,400
+But in fact, in this standard, its weight in the Chinese
+acceleration of the body must not necessarily come from this method.
+
+109
+00:14:22,560 --> 00:14:24,200
+Not on a special basis.
+
+110
+00:14:24,300 --> 00:14:32,550
+This could be called a motorcycle
+or something. It's different.
+
+111
+00:14:32,550 --> 00:14:40,730
+Well, then we'll have to
+create something like this.
+
+112
+00:14:40,730 --> 00:14:43,210
+I'd like to talk about this here.
+
+113
+00:14:44,840 --> 00:14:52,820
+Except for that, we're going to talk about the four Berlins,
+which, in the strict sense, is not the four Berlins.
+
+114
+00:14:52,820 --> 00:14:59,690
+We're all different because it's a standard.
+
+115
+00:15:00,830 --> 00:15:13,920
+Let's see, it's this one that needs to be put in the car to
+speed up, and then to increase this regularity of 120. Let's see.
+
+116
+00:15:19,970 --> 00:15:23,530
+That's where it's got
+your standard, that's all.
+
+117
+00:15:24,710 --> 00:15:30,210
+And then it's 480 something, a book
+hole, these levels, with this one of us.
+
+118
+00:15:32,070 --> 00:15:36,020
+Well, the 480 V tags are still a little off.
+
+119
+00:15:41,130 --> 00:15:46,950
+That's why he's supposed to be teaching
+from this Sven. He's supposed to be.
+
+120
+00:15:48,010 --> 00:15:52,170
+It's a little strange to
+be a student of interest.
+
+121
+00:15:54,500 --> 00:15:59,140
+He's supposed to be the O-Bird.
+
+122
+00:16:00,440 --> 00:16:06,520
+The way, but there's no way
+we're going to get a sign.
+
+123
+00:16:09,000 --> 00:16:12,280
+It's not in this library, so
+we have to become ourselves.
+
+124
+00:16:13,250 --> 00:16:16,650
+So let's talk about what's going on in it.
+
+125
+00:16:17,250 --> 00:16:24,100
+Our way is the choice of Jo Intel, for
+example, straight down, looks like.
+
+126
+00:16:24,100 --> 00:16:30,670
+And this is 105.
+
+127
+00:16:32,820 --> 00:16:38,160
+It's got a choice. Don't talk about moons.
+
+128
+00:16:41,000 --> 00:16:42,760
+It's in here.
+
+129
+00:16:46,790 --> 00:16:51,010
+It's a desk with a few parameters.
+
+130
+00:16:56,060 --> 00:16:58,360
+It's a button rack, but you
+can come down and take a look.
+
+131
+00:17:02,260 --> 00:17:10,360
+It's a Japanese-like thing, and it's not a very nice thing to do, but
+it's got to be able to lead itself through the appropriate procedures.
+
+132
+00:17:13,920 --> 00:17:25,920
+For example, this VL is the
+kind of teaching we use here.
+
+133
+00:17:25,920 --> 00:17:27,930
+It's different.
+
+134
+00:17:32,600 --> 00:17:38,600
+So when you use this, you have to pay special
+attention to what kind of standards it's got.
+
+135
+00:17:39,890 --> 00:17:41,710
+Well, the method of calculation.
+
+136
+00:17:45,520 --> 00:17:49,180
+Well, we're here, for example,
+to choose because of the song.
+
+137
+00:17:50,780 --> 00:17:58,400
+Other than that, we don't have to, and then
+we can get a number and feel the expression.
+
+138
+00:17:58,400 --> 00:17:59,960
+It's not necessarily our country sign.
+
+139
+00:18:08,170 --> 00:18:16,010
+And then, according to the content of
+our curriculum, we're done with it.
+
+140
+00:18:16,040 --> 00:18:24,310
+And then the next step of the net might
+say, "We'll see how many people we need."
+
+141
+00:18:24,310 --> 00:18:34,290
+The network at the later stages will talk about
+something deeper, like video rate conversion.
+
+142
+00:18:35,270 --> 00:18:37,730
+Like the risk of fatigue.
+
+143
+00:18:38,890 --> 00:18:46,720
+And, for example, when we have an
+ecological connection to other things,
+
+144
+00:18:47,550 --> 00:18:49,830
+Well, there's a little more of this.
+
+145
+00:18:50,880 --> 00:18:58,160
+And then our little car had this,
+uh, lower-horizonal seismograph.
+
+146
+00:18:58,160 --> 00:19:06,260
+The actual shock absorber, which is very much like this
+detailed model of instruction, and this kind of gyroscope.
+
+147
+00:19:06,260 --> 00:19:10,600
+A detailed model,
+depending on the situation.
+
+148
+00:19:12,010 --> 00:19:24,730
+And after this, we're going to have a series out here later on, and we're
+going to have an orbital traffic truck based on Anthes and New Canker.
+
+149
+00:19:24,730 --> 00:19:31,730
+It's an opening line or a line bridge.
+
+150
+00:19:31,730 --> 00:19:38,690
+Then you can continue
+buying on this platform.
+
+151
+00:19:40,360 --> 00:19:45,720
+All right, the whole class. We're done.

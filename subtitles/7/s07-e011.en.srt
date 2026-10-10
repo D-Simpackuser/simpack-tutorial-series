@@ -1,0 +1,828 @@
+1
+00:00:02,860 --> 00:00:10,500
+One of the two ways we've talked about this is
+to write FTR by ourselves according to the rules.
+
+2
+00:00:10,920 --> 00:00:21,660
+The other is the GUI node list, the
+FTR first, and here's a faster one.
+
+3
+00:00:22,200 --> 00:00:29,220
+So it's using a SIMPAC explosion, and then
+we're directly producing one of the models.
+
+4
+00:00:31,490 --> 00:00:34,530
+One way to directly produce our FTL.
+
+5
+00:00:35,620 --> 00:00:40,040
+We can actually take a look
+in here. Let's get one first.
+
+6
+00:00:41,390 --> 00:00:42,190
+Like what?
+
+7
+00:00:47,550 --> 00:00:49,850
+Let's open our FTL file.
+
+8
+00:00:51,840 --> 00:00:59,880
+We know what it's doing here.
+
+9
+00:01:00,330 --> 00:01:07,330
+It'll be easier if you don't find it.
+
+10
+00:01:07,330 --> 00:01:08,390
+To create it.
+
+11
+00:01:16,660 --> 00:01:26,240
+All we're saying is, all we need to do
+is read this internationally, this SE.
+
+12
+00:01:26,980 --> 00:01:34,550
+Yeah, yeah, and set up something to make it a
+dumpling and make it look like it's making it wrong.
+
+13
+00:01:34,550 --> 00:01:44,240
+When it breaks out, it'll produce a few things,
+especially those that work for this kind of steel cabinet.
+
+14
+00:01:44,240 --> 00:01:51,360
+It's a bridge. It's a bridge. It's a bridge.
+
+15
+00:01:51,360 --> 00:01:53,740
+And it works. We can take a look at it.
+
+16
+00:01:54,870 --> 00:02:06,740
+Let's open our F, Test,
+and we'll turn it off.
+
+17
+00:02:11,190 --> 00:02:19,280
+You can look at it. It's
+the first point to read.
+
+18
+00:02:29,250 --> 00:02:37,530
+If you're one of our previous classes, that's to
+say, the steel guys, the bridges are built together.
+
+19
+00:02:37,530 --> 00:02:41,890
+It's out of the whole list.
+What's the problem with us?
+
+20
+00:02:43,270 --> 00:02:48,710
+Because we're the wind, so we're
+just doing district business here.
+
+21
+00:02:52,570 --> 00:03:00,040
+That's one way to get a number of
+points, because that's the same thing.
+
+22
+00:03:00,040 --> 00:03:08,940
+The people who were first not familiar with them meant something to them
+because he was wrong, but you don't know which phone he was wrong about.
+
+23
+00:03:08,940 --> 00:03:21,170
+And then you don't know how these things work, and it's actually
+gonna help you write this quick, and we're gonna leave it out of this.
+
+24
+00:03:21,170 --> 00:03:22,970
+And then let it take away.
+
+25
+00:03:24,570 --> 00:03:25,390
+Just say "N."
+
+26
+00:03:28,420 --> 00:03:38,470
+And then it's the key to it, and you look at it, and you
+argue about it, and don't you see what's wrong with our key?
+
+27
+00:03:41,370 --> 00:03:47,290
+That's right. Shut it down
+and we'll turn it into this.
+
+28
+00:03:52,670 --> 00:03:54,010
+Shut it down.
+
+29
+00:03:58,370 --> 00:04:01,420
+Let's see if the first row is actually done.
+
+30
+00:04:01,420 --> 00:04:03,740
+See? The same way?
+
+31
+00:04:03,960 --> 00:04:05,620
+Then can we try this way?
+
+32
+00:04:20,150 --> 00:04:21,730
+And then we'll delete this.
+
+33
+00:04:33,310 --> 00:04:37,720
+Then we'll add a 100 to the front.
+
+34
+00:04:41,890 --> 00:04:43,450
+Uh, for example, a 100.
+
+35
+00:04:44,730 --> 00:04:55,860
+Huh? Huh? Huh? Huh?
+
+36
+00:04:58,390 --> 00:05:04,890
+Huh? Huh? Huh? Huh?
+
+37
+00:05:08,880 --> 00:05:10,500
+And then...
+
+38
+00:05:21,260 --> 00:05:24,200
+Again.
+
+39
+00:05:34,630 --> 00:05:35,370
+Turn him off.
+
+40
+00:05:54,740 --> 00:06:06,840
+He'd still be wrong, and then the same way often repeats
+the process, but that's what it is, if it's alone.
+
+41
+00:06:06,840 --> 00:06:12,700
+If it's not so efficient,
+we can look at this bridge.
+
+42
+00:06:14,070 --> 00:06:27,830
+Let's take a look at this bridge. If you're a single
+sword, you mean the steel track, the steel bar, the bridge.
+
+43
+00:06:27,830 --> 00:06:32,170
+One sword better be in the Angry
+Room, connected to two or something.
+
+44
+00:06:34,350 --> 00:06:43,380
+We can tell everything right after
+the explosion comes down here.
+
+45
+00:06:43,380 --> 00:06:53,260
+The FTL from Abbox, who's a
+non-resident, may not be used to it.
+
+46
+00:06:54,160 --> 00:06:55,380
+Let's turn it off.
+
+47
+00:06:59,700 --> 00:07:13,410
+Okay, well, see, it's nicer if it's like
+this, and then it won't get over it.
+
+48
+00:07:20,930 --> 00:07:31,560
+Let's make sure it's all right for the best of us,
+but we'll get rid of the one that's been deleted.
+
+49
+00:07:37,420 --> 00:07:39,120
+Like this place.
+
+50
+00:07:41,190 --> 00:07:50,000
+There's a relative
+benefit to gy in that way.
+
+51
+00:07:50,000 --> 00:08:00,120
+You don't have to sort yourself out.
+
+52
+00:08:00,880 --> 00:08:07,030
+That would be a lot of
+provinces and cities. Again.
+
+53
+00:08:12,090 --> 00:08:16,220
+Read it again.
+
+54
+00:08:22,040 --> 00:08:28,490
+There is also a paper office, which may not have
+been replicated in the line to see if this exists.
+
+55
+00:08:32,590 --> 00:08:41,530
+Look at him. I'll look at this in the morning and see
+if he's got a point that doesn't go up or something.
+
+56
+00:08:42,560 --> 00:08:53,140
+He must have deleted it
+earlier this morning.
+
+57
+00:08:53,700 --> 00:08:54,220
+Kong.
+
+58
+00:09:00,100 --> 00:09:09,270
+I was wrong, and it's true that it's missing
+number one, and it's actually relatively efficient.
+
+59
+00:09:11,830 --> 00:09:16,120
+Close it for a second and open it.
+
+60
+00:09:19,120 --> 00:09:20,860
+Close and open
+
+61
+00:09:32,020 --> 00:09:37,880
+Wow, and then there's no right back.
+
+62
+00:09:39,060 --> 00:09:43,360
+Look at this. Look at this place.
+
+63
+00:09:44,770 --> 00:09:54,870
+Turn it off again and turn it on again.
+
+64
+00:09:55,870 --> 00:09:59,900
+If we don't have it, we'll take it all.
+
+65
+00:10:02,000 --> 00:10:13,720
+In fact, the process is, um, because the steel track is separated, and it's not connected in
+the dark, and if you're connected in the dark, it's very efficient, then you just come out.
+
+66
+00:10:13,720 --> 00:10:20,960
+And then we'll use the one from the previous
+class and then we'll make a presentation.
+
+67
+00:10:20,960 --> 00:10:32,880
+We're going to build a second one so that you
+can check it out if it's the right thing to do.
+
+68
+00:10:33,530 --> 00:10:36,190
+If it corresponds to what you're talking
+about, we're gonna have to check it.
+
+69
+00:10:37,410 --> 00:10:43,860
+Then I suggest we just write
+it out and let it read it.
+
+70
+00:10:44,950 --> 00:10:53,550
+Yeah, and when we read it, this is our model, and then it's the whole space,
+and we're gonna have to adjust it in Abox, and we don't need to focus on it.
+
+71
+00:10:53,930 --> 00:11:04,540
+So when you're in this frame of reference and you're in it, and you're in it, and you're in
+it, and you're in it, and you're in it, we don't have to make a lot of adjustments to him.
+
+72
+00:11:04,860 --> 00:11:11,480
+And what we need to focus on here is that if you write
+it yourself, you can write it in here with a FM2.
+
+73
+00:11:11,560 --> 00:11:17,360
+You see, he keeps all these nodes, and
+he creates them, and here's some of them.
+
+74
+00:11:18,120 --> 00:11:27,760
+Let's take a look at some of the points that have
+been kept on top of him, so we can go out and write.
+
+75
+00:11:28,600 --> 00:11:37,320
+But this is where we're going to change the direction we're
+going to be, and this is where we're going to choose one.
+
+76
+00:11:37,320 --> 00:11:46,440
+We're going to use this as a faster
+and easier way to write an F-man file.
+
+77
+00:11:47,840 --> 00:11:55,900
+We're talking about using it because we're in that ECONOM,
+and it's in there and it's going to make it go back to a list.
+
+78
+00:11:55,900 --> 00:12:01,240
+We can see that we don't
+need FBI before we delete it.
+
+79
+00:12:04,180 --> 00:12:06,220
+And here we are to create a FTIA.
+
+80
+00:12:09,410 --> 00:12:12,910
+Then when Nolina Flags
+Track is selected here.
+
+81
+00:12:13,490 --> 00:12:15,690
+Actually, it's this. We
+can look at the help file.
+
+82
+00:12:15,830 --> 00:12:19,270
+This Flina Track and Nol
+Track and Flag Track.
+
+83
+00:12:19,750 --> 00:12:26,680
+That's the way Nolina is, the
+difference comes after 2018 years.
+
+84
+00:12:26,740 --> 00:12:31,060
+Then the foreign Nolina Track,
+if the video is available,
+
+85
+00:12:33,270 --> 00:12:37,580
+Find us to study, but
+this may not be necessary.
+
+86
+00:12:40,200 --> 00:12:47,530
+Well, there's two of them:
+lilacarklacark. It's more detailed.
+
+87
+00:12:49,070 --> 00:12:57,160
+It's focused on Abacusda and now it's
+working because it's just out of here.
+
+88
+00:12:57,160 --> 00:13:04,500
+So there's a lot of things that it can't do to extract the
+dot number, and I feel like it's just a simple thing to say.
+
+89
+00:13:05,900 --> 00:13:11,700
+So we're going to create it in the way
+that we're best able to do what we need.
+
+90
+00:13:12,220 --> 00:13:20,380
+The ability to do so can normally be said to be in our midst,
+which is what we're asking for in this table of contents section.
+
+91
+00:13:20,380 --> 00:13:28,000
+The design of a data base search is a file to search
+for a path followed by a mbd name for this flag time
+
+92
+00:13:28,000 --> 00:13:35,940
+And then mbl, and then this fd2 is a hard-wired
+structurer, so this is what we do in the old tradition.
+
+93
+00:13:35,940 --> 00:13:38,850
+Just write it in a way.
+
+94
+00:13:47,550 --> 00:13:56,330
+And then the 2019 version
+adds an absolute path.
+
+95
+00:13:57,100 --> 00:14:06,170
+And then we're inside, and now we're just going to talk to the file, and then we're going to click
+on opline, and we're going to click on opline, and we're going to find that it's not imported.
+
+96
+00:14:06,170 --> 00:14:13,260
+This size, because it didn't create
+this baby, doesn't show it, does it?
+
+97
+00:14:13,900 --> 00:14:23,520
+So what we're doing here
+is making it a wrong list.
+
+98
+00:14:24,160 --> 00:14:34,160
+So let's give him one way to do that kind of waste
+use or electric security, and we're usually wrong.
+
+99
+00:14:34,160 --> 00:14:42,880
+But sometimes our mistakes can be
+exported as one of his opposites.
+
+100
+00:14:42,880 --> 00:14:46,980
+Then can we make it a
+way in and out of here?
+
+101
+00:14:50,560 --> 00:14:54,790
+Then we'll take care of the inside.
+
+102
+00:14:57,260 --> 00:15:05,120
+We're actually talking about what time it's called, and then x y
+z's because we're talking about this point that corresponds to it.
+
+103
+00:15:05,120 --> 00:15:11,390
+So let's get rid of this.
+
+104
+00:15:24,860 --> 00:15:26,820
+That's where it is.
+
+105
+00:15:33,860 --> 00:15:35,260
+Just delete it.
+
+106
+00:15:38,750 --> 00:15:42,070
+And what we need to know here is that
+there's a key word in front of it.
+
+107
+00:15:43,420 --> 00:15:46,360
+And delete it here.
+
+108
+00:15:48,770 --> 00:15:57,120
+Now, for example, replace it with a net and divide
+it and we'll give him these points he needs.
+
+109
+00:15:58,100 --> 00:16:05,320
+The way he was created was the way it was done
+before morning and with the old prototype.
+
+110
+00:16:06,390 --> 00:16:14,430
+And here, the most important step is to say what the Chinese and English fights
+are, to put it in, to make it clear, otherwise it's going to be a problem.
+
+111
+00:16:14,650 --> 00:16:16,930
+I have a condition in the microbutton.
+
+112
+00:16:17,530 --> 00:16:21,510
+I can turn it all into English characters.
+
+113
+00:16:21,690 --> 00:16:23,870
+You can look for this yourself.
+
+114
+00:16:24,650 --> 00:16:25,990
+Look, it's gonna turn into this.
+
+115
+00:16:25,990 --> 00:16:35,360
+And then we'll write it down here
+and we'll read it when it's finished.
+
+116
+00:16:35,360 --> 00:16:43,310
+Did he turn this thing off and turn it off?
+
+117
+00:16:43,310 --> 00:16:46,830
+Turn this place off and save it for Coke.
+
+118
+00:16:49,540 --> 00:16:51,440
+Then take him to the new place.
+
+119
+00:16:57,360 --> 00:17:03,140
+Well, we can see here whether he has some
+points or not, and we need to give them here.
+
+120
+00:17:19,380 --> 00:17:23,060
+Again, let's get these points on it.
+
+121
+00:17:23,520 --> 00:17:29,500
+So in this case, if you've just been completely
+pasted in, you're usually straight with it.
+
+122
+00:17:30,540 --> 00:17:34,780
+Yeah, and then we'll put this in it.
+
+123
+00:17:35,560 --> 00:17:41,900
+Sometimes we try to see if there's something wrong with us,
+and then we avoid repeating it, and now we can search it.
+
+124
+00:17:41,900 --> 00:17:46,300
+Like this, F3, and then try this.
+
+125
+00:17:47,450 --> 00:17:55,020
+For example, 27898, it's a point
+where we can see where it is.
+
+126
+00:18:02,560 --> 00:18:12,290
+This 27898 and this is right.
+
+127
+00:18:12,290 --> 00:18:24,570
+And when we just copied it, it's like you're going to have
+to notice that when you choose this one, don't get into it.
+
+128
+00:18:24,570 --> 00:18:33,710
+Well, then, for example, if we're here,
+it's a 38602 36002, it's a lot of choice.
+
+129
+00:18:34,290 --> 00:18:38,810
+Let's give it here. That's it.
+
+130
+00:18:39,900 --> 00:18:44,340
+Then go to this position in 38602.
+
+131
+00:18:47,860 --> 00:18:56,400
+It's in front of us, because we're not perfect, so we're gonna
+copy this column, and it's actually gonna be where you're at.
+
+132
+00:18:56,400 --> 00:19:04,380
+I'll wrap it up again and turn it off.
+
+133
+00:19:08,240 --> 00:19:10,000
+Then we'll open it again.
+
+134
+00:19:11,420 --> 00:19:19,000
+In general, when this load is slower, your S2 is
+finished, and it's supposed to be bigger, so it's slower.
+
+135
+00:19:19,460 --> 00:19:26,280
+Let's look at the CPU's occupancy rate.
+
+136
+00:19:28,390 --> 00:19:32,030
+It's loaded in. It'll take a while.
+
+137
+00:19:41,290 --> 00:19:50,290
+And in addition to this position, we just created the point and we
+have a job to do, which is to say he's pushing the human extension.
+
+138
+00:19:50,290 --> 00:19:59,530
+If you don't do most of the things you're doing because you're
+concerned about the speed of the process, then you don't do it.
+
+139
+00:19:59,570 --> 00:20:06,360
+And then, yes, let's just...
+
+140
+00:20:08,180 --> 00:20:15,560
+The whole thing, and he's not wrong, so let's just say
+we're using the wrong information and give him this.
+
+141
+00:20:20,490 --> 00:20:32,750
+fk, which is a lot faster than it was before, a lot faster than it was,
+and then we're gonna have to do a few things we need to do to create him.
+
+142
+00:20:32,750 --> 00:20:41,170
+It's to create a fixed point of its two-end springs
+and a high-altitude constraint at the bottom.
+
+143
+00:20:41,710 --> 00:20:49,710
+So we need to import it here again, or if we come
+here to see, like, a card, we can go straight to F2.
+
+144
+00:20:50,610 --> 00:20:58,090
+By creating Mark dots, give it more
+to come in and force it to push first.
+
+145
+00:21:03,250 --> 00:21:15,100
+We were just talking about a micro-extraction of this place with a few virtual points that could be
+extrapolated and then down, that's the fixed point of the four angles on the steel track that need to be done.
+
+146
+00:21:15,100 --> 00:21:23,020
+And then the other one's gonna make a few of these
+points, which is actually what needs to be passed.
+
+147
+00:21:26,900 --> 00:21:36,720
+The way you borrowed it from the front, it's easier to look at it yourself,
+because you're sure you know which dots or you'll guess by yourself.
+
+148
+00:21:36,720 --> 00:21:40,900
+Maybe it's a bit more troublesome, and then,
+for example, it's got the effect right here.
+
+149
+00:21:45,210 --> 00:21:52,530
+Yeah, we're usually giving it a high enough height, which
+means giving it a high enough height and a group name.
+
+150
+00:21:52,530 --> 00:21:59,940
+Actually, it's the same thing to think it's a
+solid constraint, so we're here to give them all.
+
+151
+00:21:59,940 --> 00:22:00,700
+Give it to him.
+
+152
+00:22:02,980 --> 00:22:11,020
+Hong Kong's only shot out of the mud and it's
+like giving it a standing honor. F2 This way.
+
+153
+00:22:11,020 --> 00:22:16,520
+But F2 can also try to get to our point,
+for example, that we create a point.
+
+154
+00:22:38,120 --> 00:22:39,120
+That's right. It's a little slow.
+
+155
+00:22:41,120 --> 00:22:48,700
+According to what we said earlier, south of the bridge is four points
+south of the bridge, and then it's equivalent to three or 42 points.
+
+156
+00:22:48,700 --> 00:22:56,160
+It's 12, plus two at each
+end and two at both ends: 16
+
+157
+00:22:56,160 --> 00:22:59,910
+And the tens of thousands in this
+position are about that much.
+
+158
+00:23:08,840 --> 00:23:18,090
+Okay, then in this list, we can convert it into a
+building, like, we're going to have a whole box point.
+
+159
+00:23:18,790 --> 00:23:30,460
+So we can see the points that we've kept, and the one that we've read in FTA is that one
+is this point, and you choose it directly, and then it's gonna jump on this all the time.
+
+160
+00:23:30,460 --> 00:23:39,490
+Then if you write it yourself, you can test it directly, and then you can
+convert it into this, like this, and then it can be exported directly.
+
+161
+00:23:40,090 --> 00:23:48,210
+And then we apply this pattern to what K0 D0,
+which point and which point, for example, K0.
+
+162
+00:23:49,620 --> 00:23:57,580
+And the second is its big location,
+and the second is its back.
+
+163
+00:23:57,580 --> 00:24:06,280
+We don't really need this.
+
+164
+00:24:06,280 --> 00:24:12,760
+That's x, y, y, y, y, y, y, y,
+
+165
+00:24:15,780 --> 00:24:22,780
+Yeah, yeah, yeah, yeah, yeah, yeah.
+
+166
+00:24:22,900 --> 00:24:33,780
+Y, y, y, y, y, y, y,y ♪ I'm, you're, ♪
+
+167
+00:24:38,800 --> 00:24:43,680
+Y, y, these two points
+just back on the two ends.
+
+168
+00:24:47,080 --> 00:24:48,220
+Yeah, that's right.
+
+169
+00:24:53,850 --> 00:25:06,280
+That's the point and we've tried it out.
+
+170
+00:25:13,730 --> 00:25:21,310
+And then what we're saying is that our FTL has already
+communicated, so why are we suggesting that we do this?
+
+171
+00:25:21,310 --> 00:25:31,510
+And then do it the way it's in FTL, because it's
+easy and you're going to adjust the balance.
+
+172
+00:25:31,510 --> 00:25:38,790
+It's a little bit more efficient
+than that, so let's model it.
+
+173
+00:25:38,790 --> 00:25:45,930
+If it's like a steel track, then you make a
+steel track and you connect to these points.
+
+174
+00:25:45,930 --> 00:25:54,150
+And after that, you can use your own
+fatigue program to do it yourself.
+
+175
+00:25:54,750 --> 00:26:06,160
+Because different concerns may require different elements or
+models like this one, this is the way we offer you a simple lesson.
+
+176
+00:26:06,220 --> 00:26:14,330
+The way it used to be, it's the usual
+way, just the way it was in that video.
+
+177
+00:26:14,450 --> 00:26:19,950
+And then by connecting FB2 in this way, it's
+certainly possible to create it in a way.
+
+178
+00:26:20,090 --> 00:26:27,880
+In that case, when you're more free to create,
+it's certainly more complicated to calculate.
+
+179
+00:26:27,880 --> 00:26:33,380
+The other one's a relative
+figure. A little bit of a model.

@@ -1,0 +1,5 @@
+*.srt -text
+*.vtt -text
+*.md text eol=lf
+*.json text eol=lf
+*.py text eol=lf

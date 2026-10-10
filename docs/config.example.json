@@ -1,0 +1,12 @@
+{
+  "video_root": "<VIDEO_SOURCE>",
+  "subtitle_root": "<SUBTITLE_SOURCE>",
+  "work_root": "<WORKSPACE>",
+  "github": {
+    "owner": null,
+    "repository": "simpack-tutorial-series",
+    "allow_remote_write": false,
+    "initial_visibility": "private"
+  },
+  "ffprobe": null
+}

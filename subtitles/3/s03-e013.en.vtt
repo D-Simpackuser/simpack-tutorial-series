@@ -1,0 +1,1986 @@
+WEBVTT
+
+1
+00:00:03.090 --> 00:00:11.460
+This lesson explains substructure reduction
+in Mechanical within Ansys Workbench.
+
+2
+00:00:11.680 --> 00:00:19.560
+Many students find APDL difficult
+to learn and get started with.
+
+3
+00:00:19.740 --> 00:00:23.960
+Working through a solution in Workbench
+
+4
+00:00:23.960 --> 00:00:30.100
+may help you build a solid
+understanding of APDL.
+
+5
+00:00:30.100 --> 00:00:35.580
+However, APDL is relatively
+easier to control.
+
+6
+00:00:35.580 --> 00:00:43.000
+For rail modeling and batch node creation,
+APDL is more convenient than Workbench.
+
+7
+00:00:43.000 --> 00:00:51.770
+Workbench still uses APDL
+commands to run the solution
+
+8
+00:00:52.290 --> 00:00:53.490
+to reduce substructures.
+
+9
+00:00:54.720 --> 00:01:02.880
+After learning Workbench, I recommend
+studying the APDL solution workflow carefully.
+
+10
+00:01:04.390 --> 00:01:11.120
+This is a file I prepared earlier.
+
+11
+00:01:11.120 --> 00:01:18.350
+It was only a test, so we will recreate it.
+
+12
+00:01:18.350 --> 00:01:25.960
+We follow the commands in the
+Simpack Help documentation.
+
+13
+00:01:35.350 --> 00:01:42.610
+After completing the other
+settings, we solve the substructure.
+
+14
+00:01:42.610 --> 00:01:44.510
+The procedure is the same as before.
+
+15
+00:01:44.510 --> 00:01:51.910
+These belong to a substructure
+analysis step. The key is
+
+16
+00:01:51.910 --> 00:01:58.620
+to create a recovery
+matrix. Let us take a look.
+
+17
+00:02:01.670 --> 00:02:08.990
+Select the appropriate retained-data
+format for the recovery matrix.
+
+18
+00:02:09.550 --> 00:02:16.170
+Here we retain the stiffness and
+mass matrices. As for damping,
+
+19
+00:02:17.620 --> 00:02:21.820
+The imported [FBR/FBI: unclear]
+has no damping in Simpack.
+
+20
+00:02:21.820 --> 00:02:25.760
+The damping must be assigned in Simpack.
+
+21
+00:02:26.620 --> 00:02:28.380
+Next,
+
+22
+00:02:29.610 --> 00:02:36.030
+CMSOPT has little effect in this workflow.
+
+23
+00:02:36.270 --> 00:02:42.730
+As shown here, it is
+effective only in a Batch Job.
+
+24
+00:02:43.510 --> 00:02:48.770
+You may include it for reference,
+but it has no effect here.
+
+25
+00:02:49.360 --> 00:02:55.680
+CMSEL is used for our node selection,
+
+26
+00:02:55.680 --> 00:03:00.180
+selecting this component set.
+
+27
+00:03:00.180 --> 00:03:04.880
+Retained Node is the name
+I created in Workbench.
+
+28
+00:03:04.880 --> 00:03:11.060
+For upper and lower node sets, use CMSEL.
+
+29
+00:03:11.060 --> 00:03:17.580
+After selecting the first set,
+use A to add the other node set.
+
+30
+00:03:17.690 --> 00:03:21.210
+For this beam-element model,
+only one set is needed.
+
+31
+00:03:22.450 --> 00:03:27.420
+Next is the M command.
+
+32
+00:03:27.420 --> 00:03:32.590
+This command includes
+the entire selected set
+
+33
+00:03:32.590 --> 00:03:35.370
+and retains all its degrees of freedom.
+
+34
+00:03:36.930 --> 00:03:41.470
+For OMEGA, no additional
+force control is needed here.
+
+35
+00:03:41.470 --> 00:03:45.010
+The solution setup is now complete.
+
+36
+00:03:45.010 --> 00:03:54.290
+After solving the substructure in ANSYS,
+
+37
+00:03:54.290 --> 00:03:57.770
+the output files are SUB and CDB.
+
+38
+00:03:57.770 --> 00:04:02.050
+A CDB file is comparable
+to an Abaqus INP file.
+
+39
+00:04:02.050 --> 00:04:05.490
+The SUB file contains
+the reduced superelement.
+
+40
+00:04:05.490 --> 00:04:10.410
+TCMS is the file used to
+represent the recovery matrix.
+
+41
+00:04:10.410 --> 00:04:12.910
+A recovery matrix has already been created,
+
+42
+00:04:13.370 --> 00:04:20.650
+but the results must be converted
+
+43
+00:04:20.650 --> 00:04:28.310
+before they are written to a TCMS file.
+
+44
+00:04:28.310 --> 00:04:32.130
+In most cases, not converting
+them causes no problem.
+
+45
+00:04:32.130 --> 00:04:37.990
+Tests show that SUB and CDB
+are generally sufficient.
+
+46
+00:04:38.630 --> 00:04:41.810
+TCMS therefore has limited
+practical value here.
+
+47
+00:04:41.810 --> 00:04:46.810
+When importing it with
+a compatibility version,
+
+48
+00:04:46.810 --> 00:04:52.070
+or with Workbench, errors occur,
+so I do not recommend using it.
+
+49
+00:04:52.810 --> 00:04:55.930
+We also need a CDB file.
+
+50
+00:04:55.930 --> 00:05:01.670
+Use the CDWRITE command
+
+51
+00:05:01.670 --> 00:05:06.830
+to write the CDB file. The
+IGES option can be omitted,
+
+52
+00:05:06.830 --> 00:05:10.490
+but including this
+optional item is also fine.
+
+53
+00:05:10.490 --> 00:05:13.510
+Now open Workbench.
+
+54
+00:05:15.760 --> 00:05:18.620
+Save this project
+
+55
+00:05:21.920 --> 00:05:25.320
+in this folder on the Desktop.
+
+56
+00:05:26.590 --> 00:05:30.770
+Create a new project in Workbench.
+
+57
+00:05:32.610 --> 00:05:33.890
+Select New.
+
+58
+00:05:33.890 --> 00:05:41.020
+I will provide this file later.
+
+59
+00:05:47.300 --> 00:05:48.360
+[Unclear phrase.]
+
+60
+00:05:54.930 --> 00:06:00.980
+There is one more point I omitted earlier.
+
+61
+00:06:01.830 --> 00:06:08.760
+CMSOPT has another option
+
+62
+00:06:08.760 --> 00:06:15.790
+that specifies CMS. As discussed earlier,
+
+63
+00:06:15.790 --> 00:06:18.510
+it is a component mode synthesis method.
+
+64
+00:06:19.340 --> 00:06:25.980
+Among these methods, it is more
+accurate than traditional substructuring
+
+65
+00:06:27.270 --> 00:06:30.070
+in this context.
+
+66
+00:06:31.010 --> 00:06:38.750
+Consult ANSYS material and
+technical forums on CMS.
+
+67
+00:06:38.750 --> 00:06:43.390
+For example, CMS uses
+generalized coordinates,
+
+68
+00:06:43.390 --> 00:06:47.390
+whereas traditional substructuring does not.
+
+69
+00:06:47.390 --> 00:06:53.430
+It therefore describes the
+dynamic behavior less completely.
+
+70
+00:06:53.430 --> 00:06:58.050
+Under static loading, the
+two methods differ little,
+
+71
+00:06:58.050 --> 00:07:01.830
+but CMS is more accurate
+for dynamic analysis.
+
+72
+00:07:01.830 --> 00:07:08.580
+The original Substructure approach
+is the traditional method.
+
+73
+00:07:09.200 --> 00:07:11.120
+Take a look here.
+
+74
+00:07:11.120 --> 00:07:19.420
+ANSYS uses this method, and
+information is available online.
+
+75
+00:07:19.420 --> 00:07:24.930
+For dynamic simulation,
+avoid the traditional method.
+
+76
+00:07:24.930 --> 00:07:28.390
+Use the CMS component mode synthesis method.
+
+77
+00:07:28.950 --> 00:07:34.990
+For this file, consult the Help website
+
+78
+00:07:34.990 --> 00:07:38.690
+for the description of CMS.
+
+79
+00:07:38.690 --> 00:07:45.570
+I will put the link in a
+TXT file for reference.
+
+80
+00:07:45.960 --> 00:07:47.780
+Other websites also explain the method.
+
+81
+00:07:47.780 --> 00:07:55.890
+You can review comparisons
+between the methods.
+
+82
+00:07:55.890 --> 00:08:02.410
+For example, this article describes
+
+83
+00:08:02.410 --> 00:08:08.930
+and compares several methods.
+
+84
+00:08:11.660 --> 00:08:20.470
+We perform a dynamic solution and enter
+
+85
+00:08:20.610 --> 00:08:28.110
+the number of modes, such as 40.
+
+86
+00:08:28.110 --> 00:08:35.490
+The first 6 ANSYS modes are
+rigid-body modes. Excluding them
+
+87
+00:08:35.490 --> 00:08:42.790
+leaves 40 minus 6, or 34 modes,
+as the generated file will show.
+
+88
+00:08:42.790 --> 00:08:44.450
+First, add a Modal analysis.
+
+89
+00:08:54.410 --> 00:08:57.950
+First, define the material.
+
+90
+00:08:58.750 --> 00:09:02.650
+We are using Structural Steel,
+so no custom material is needed.
+
+91
+00:09:02.650 --> 00:09:06.250
+For a different material,
+create a new material here.
+
+92
+00:09:08.450 --> 00:09:18.400
+Its principal properties include
+elastic modulus and density.
+
+93
+00:09:19.350 --> 00:09:26.710
+Enter those values if you
+have custom material data.
+
+94
+00:09:26.710 --> 00:09:34.230
+Under Isotropic Elasticity, also enter
+the elastic modulus and Poisson's ratio.
+
+95
+00:09:34.230 --> 00:09:41.510
+Our material is already defined,
+so use Structural Steel directly.
+
+96
+00:09:41.970 --> 00:09:48.310
+Next, import the geometry model.
+
+97
+00:09:49.270 --> 00:09:53.190
+Previously, geometry was
+imported with DesignModeler.
+
+98
+00:09:53.830 --> 00:09:59.110
+I now find SpaceClaim more convenient
+for direct geometry editing.
+
+99
+00:09:59.110 --> 00:10:07.000
+Browse to the file and select New from
+the SpaceClaim folder on the Desktop.
+
+100
+00:10:07.000 --> 00:10:10.050
+Click here.
+
+101
+00:10:10.790 --> 00:10:19.460
+The file is loaded; click Refresh.
+
+102
+00:10:22.240 --> 00:10:22.590
+[?]
+
+103
+00:10:35.420 --> 00:10:36.620
+This may be slow.
+
+104
+00:10:59.520 --> 00:11:02.420
+Open it here.
+
+105
+00:11:09.040 --> 00:11:10.180
+This...
+
+106
+00:11:28.300 --> 00:11:29.880
+may take a moment to open.
+
+107
+00:11:56.550 --> 00:12:02.210
+Much of the Help documentation
+can be downloaded
+
+108
+00:12:04.890 --> 00:12:12.190
+as PDF files, including
+descriptions of many modules.
+
+109
+00:12:12.190 --> 00:12:15.770
+You can also search Help
+directly for specific questions.
+
+110
+00:12:16.800 --> 00:12:23.700
+That is often more efficient than
+searching the web for a tutorial.
+
+111
+00:12:23.700 --> 00:12:30.070
+The geometry model is now imported.
+
+112
+00:12:30.070 --> 00:12:34.640
+Press F7 to fit the
+complete model in the view.
+
+113
+00:12:34.640 --> 00:12:39.270
+With this display setting,
+
+114
+00:12:40.690 --> 00:12:43.430
+inspect the geometry here.
+
+115
+00:12:44.880 --> 00:12:50.320
+The cross-section was loaded
+directly at the beginning,
+
+116
+00:12:50.320 --> 00:12:55.120
+so it does not need to be imported again.
+
+117
+00:12:55.120 --> 00:13:01.900
+Its properties have already been calculated,
+including cross-sectional area and moments of inertia.
+
+118
+00:13:01.900 --> 00:13:04.280
+These values describe the
+cross-section properties.
+
+119
+00:13:04.280 --> 00:13:12.530
+For the material, if a
+different material is used,
+
+120
+00:13:12.530 --> 00:13:14.650
+assign that material.
+
+121
+00:13:17.060 --> 00:13:21.960
+The material is assigned here.
+
+122
+00:13:21.960 --> 00:13:23.320
+Select the body.
+
+123
+00:13:23.320 --> 00:13:25.180
+A custom material would appear here.
+
+124
+00:13:26.650 --> 00:13:31.610
+Here, allow Structural Steel
+to be assigned automatically.
+
+125
+00:13:31.610 --> 00:13:38.990
+Only a line is displayed,
+without its cross-section.
+
+126
+00:13:38.990 --> 00:13:45.370
+Click the cross-section display option here,
+
+127
+00:13:49.290 --> 00:13:56.650
+to show the complete profile.
+
+128
+00:13:56.650 --> 00:14:03.930
+The beam line lies at the
+cross-section centroid.
+
+129
+00:14:04.010 --> 00:14:10.660
+Next, generate the mesh.
+
+130
+00:14:11.250 --> 00:14:16.830
+Generate it once before
+continuing. For a complex part,
+
+131
+00:14:18.110 --> 00:14:25.300
+first confirm that the mesh can be
+created correctly, then proceed with
+
+132
+00:14:25.300 --> 00:14:32.710
+the remaining settings.
+
+133
+00:14:32.710 --> 00:14:39.770
+To control the mesh more
+precisely, insert a Sizing control.
+
+134
+00:14:41.510 --> 00:14:49.010
+Select the geometry edges first,
+then apply the Sizing control.
+
+135
+00:14:49.010 --> 00:14:53.850
+The selection can be made
+individually or with a box.
+
+136
+00:14:55.110 --> 00:15:01.990
+Box selection failed earlier because
+edges, not faces, must be selected.
+
+137
+00:15:02.100 --> 00:15:09.500
+Select these edges and apply the
+control. The length here is 21 m.
+
+138
+00:15:09.500 --> 00:15:13.360
+Typical sleeper spacing
+is about 0.625 to 0.60 m,
+
+139
+00:15:13.360 --> 00:15:20.600
+so use 0.6 m. With solid elements,
+
+140
+00:15:20.600 --> 00:15:24.270
+place one node at each rail fastener
+
+141
+00:15:25.480 --> 00:15:31.340
+and place another at midspan,
+giving 0.3 m node spacing.
+
+142
+00:15:31.730 --> 00:15:35.730
+For retained nodes, however, keep only
+
+143
+00:15:38.910 --> 00:15:45.630
+the points spaced at 0.6 m. Let us check.
+
+144
+00:15:46.500 --> 00:15:51.490
+This is the completed
+mesh, with 0.6 m spacing.
+
+145
+00:15:53.470 --> 00:15:58.450
+What is the most important next step?
+
+146
+00:15:59.070 --> 00:16:01.950
+Orient the model along the Y direction.
+
+147
+00:16:03.460 --> 00:16:12.250
+The interface is a little
+slow. Align it with Y.
+
+148
+00:16:12.330 --> 00:16:15.370
+This is now the longitudinal direction.
+
+149
+00:16:16.800 --> 00:16:19.760
+Next, select a node.
+
+150
+00:16:20.180 --> 00:16:23.200
+There is an element-order setting here.
+
+151
+00:16:23.200 --> 00:16:29.420
+With first order, or linear
+elements, select this node.
+
+152
+00:16:29.560 --> 00:16:38.610
+Only the end nodes are selectable;
+there is no midside node.
+
+153
+00:16:39.810 --> 00:16:45.750
+If you select quadratic elements,
+
+154
+00:16:52.480 --> 00:16:54.900
+then make the same selection,
+
+155
+00:17:05.030 --> 00:17:08.290
+a midside node appears in each element.
+
+156
+00:17:18.190 --> 00:17:25.000
+That is the key difference. Here, use
+Program Controlled for the mesh order
+
+157
+00:17:25.000 --> 00:17:28.790
+and regenerate the mesh.
+
+158
+00:17:44.740 --> 00:17:51.760
+The previous choice was incorrect, but it
+conveniently illustrates the difference.
+
+159
+00:17:52.030 --> 00:17:58.360
+Select second order to inspect
+the quadratic-element result.
+
+160
+00:18:09.470 --> 00:18:16.810
+A node appears at each element
+midpoint. With a linear
+
+161
+00:18:16.810 --> 00:18:23.400
+element, there is no midside node.
+
+162
+00:18:28.210 --> 00:18:32.030
+Be sure to switch to node selection, then
+
+163
+00:18:35.430 --> 00:18:42.930
+return the mesh order to Program Controlled
+so it is generated automatically.
+
+164
+00:18:42.930 --> 00:18:49.250
+The next important task is selecting
+the interface nodes to retain.
+
+165
+00:18:49.250 --> 00:18:56.650
+Because the APDL command
+will reference them,
+
+166
+00:18:56.650 --> 00:19:04.080
+create a Named Selection here.
+
+167
+00:19:04.080 --> 00:19:13.750
+The mesh spacing is 0.3 m,
+so select every other node,
+
+168
+00:19:14.950 --> 00:19:22.750
+This gives a better result.
+
+169
+00:19:23.380 --> 00:19:30.480
+Box selection is convenient because
+each required location must be selected.
+
+170
+00:19:30.620 --> 00:19:37.630
+Hold Ctrl while selecting. This
+is one node, and this is the next.
+
+171
+00:19:38.130 --> 00:19:45.260
+This point should not be included,
+so restart from the beginning.
+
+172
+00:19:49.490 --> 00:19:57.820
+I do not recommend selecting this way when
+there are many nodes, because it is inefficient.
+
+173
+00:20:11.120 --> 00:20:13.630
+Select every other node
+to obtain 0.6 m spacing.
+
+174
+00:20:26.550 --> 00:20:34.210
+The operations look simple, but the
+amount of repetitive work is substantial.
+
+175
+00:20:34.210 --> 00:20:38.340
+After learning this method,
+
+176
+00:20:45.350 --> 00:20:47.730
+you should still learn the APDL workflow.
+
+177
+00:20:47.730 --> 00:20:53.060
+Use Retainnode [old text:
+Retained; check speech].
+
+178
+00:20:53.060 --> 00:20:54.580
+That is done.
+
+179
+00:21:01.950 --> 00:21:02.790
+All right.
+
+180
+00:21:12.790 --> 00:21:14.730
+the Named Selection has been created.
+
+181
+00:21:14.730 --> 00:21:21.840
+Verify that it contains exactly these nodes.
+
+182
+00:21:22.950 --> 00:21:24.330
+Next,
+
+183
+00:21:26.230 --> 00:21:33.530
+run a modal analysis so that
+the result can be inspected
+
+184
+00:21:33.530 --> 00:21:40.840
+and verified. Configure
+parallel processing here.
+
+185
+00:21:40.840 --> 00:21:45.510
+Select the number of CPU cores; this
+computer has four cores. Then solve.
+
+186
+00:21:53.680 --> 00:21:57.560
+The solver output can be displayed here.
+
+187
+00:22:12.230 --> 00:22:18.250
+A message confirms that these
+commands were sent to the solver.
+
+188
+00:22:18.970 --> 00:22:26.450
+No special action is
+required; this is simply
+
+189
+00:22:26.450 --> 00:22:29.550
+the output from the
+complete solution process.
+
+190
+00:22:49.150 --> 00:22:56.320
+Because the final objective
+is substructure reduction,
+
+191
+00:22:57.450 --> 00:23:03.500
+I originally omitted these result settings.
+We will add them here for clarity.
+
+192
+00:23:03.920 --> 00:23:11.210
+Leave the other items unchanged, then
+
+193
+00:23:11.210 --> 00:23:16.430
+evaluate the results again.
+
+194
+00:23:17.980 --> 00:23:24.140
+Solution time depends mainly on the mesh.
+The mesh statistics show the node count.
+
+195
+00:23:24.140 --> 00:23:30.920
+Tens of thousands of nodes are usually
+acceptable, with reasonable solution speed.
+
+196
+00:23:30.920 --> 00:23:38.370
+A much denser mesh
+produces much larger files.
+
+197
+00:23:38.370 --> 00:23:45.500
+The solver output
+documents this information.
+
+198
+00:23:45.500 --> 00:23:49.680
+The relevant details
+should appear in this file.
+
+199
+00:23:49.680 --> 00:23:56.940
+The first six are rigid-body modes
+in the X, Y and Z directions;
+
+200
+00:23:56.940 --> 00:24:01.190
+the later modes are the
+structure's own modes.
+
+201
+00:24:01.190 --> 00:24:08.460
+Now inspect the solution results.
+
+202
+00:24:08.460 --> 00:24:14.530
+Beginning with mode 7,
+display Total Deformation.
+
+203
+00:24:15.820 --> 00:24:22.880
+Mode 7 moves in X. [Old text
+also says Y: unconfirmed.]
+
+204
+00:24:28.210 --> 00:24:30.290
+Inspect the animation.
+
+205
+00:24:37.400 --> 00:24:39.060
+Then review the subsequent modes.
+
+206
+00:24:39.060 --> 00:24:44.550
+No fixed constraints were applied,
+so there are quite a few free modes.
+
+207
+00:24:44.550 --> 00:24:52.100
+For example, inspect the
+higher-frequency modes.
+
+208
+00:24:52.100 --> 00:25:01.110
+It may be clearer to add a
+constraint for this visualization.
+
+209
+00:25:01.310 --> 00:25:08.170
+Otherwise, the calculated result... In Abaqus,
+its effect on this structure is not very large.
+
+210
+00:25:10.160 --> 00:25:11.840
+In other words, the free-free modes
+
+211
+00:25:18.670 --> 00:25:20.830
+have little effect here.
+
+212
+00:25:23.050 --> 00:25:24.270
+Stop this.
+
+213
+00:25:25.480 --> 00:25:33.470
+Published comparisons
+have examined this issue.
+
+214
+00:25:33.470 --> 00:25:35.990
+It is not critical here.
+
+215
+00:25:35.990 --> 00:25:41.350
+Evaluate the result.
+
+216
+00:25:41.350 --> 00:25:47.490
+This mode
+
+217
+00:25:48.270 --> 00:25:54.990
+This mode has a frequency
+of 126.55 [unit not spoken].
+
+218
+00:25:54.990 --> 00:25:59.150
+We can create result objects
+for all of these modes.
+
+219
+00:26:02.960 --> 00:26:04.840
+Delete this Total Deformation result.
+
+220
+00:26:05.590 --> 00:26:09.290
+We only need to create
+
+221
+00:26:09.290 --> 00:26:17.120
+the required modal results.
+
+222
+00:26:17.560 --> 00:26:20.730
+Then export
+
+223
+00:26:20.730 --> 00:26:27.730
+the natural modes as
+well. Select all of them
+
+224
+00:26:27.730 --> 00:26:35.090
+Then create the result shapes,
+showing their deformation.
+
+225
+00:26:35.090 --> 00:26:42.570
+Then evaluate all 40 results.
+
+226
+00:26:43.450 --> 00:26:50.910
+Use Evaluate All Results
+here, then inspect this mode.
+
+227
+00:26:50.910 --> 00:26:57.600
+This result contains no rigid-body
+motion; neither does the next mode.
+
+228
+00:27:02.060 --> 00:27:06.920
+Save the file first, and
+remember to save frequently.
+
+229
+00:27:24.320 --> 00:27:30.560
+For a small model like this, use an
+official licensed version or apply for
+
+230
+00:27:31.500 --> 00:27:40.880
+the student edition. The student
+edition limits node and element counts,
+
+231
+00:27:42.330 --> 00:27:47.310
+but it is sufficient for simple
+models and is generally stable.
+
+232
+00:27:47.310 --> 00:27:47.970
+This...
+
+233
+00:27:55.670 --> 00:28:02.690
+starts a little slowly, but it is now open.
+
+234
+00:28:18.250 --> 00:28:23.980
+Notice that the result objects
+created earlier are gone.
+
+235
+00:28:26.190 --> 00:28:28.590
+I will first
+
+236
+00:28:30.050 --> 00:28:31.390
+Recreate it; this is quick.
+
+237
+00:28:39.820 --> 00:28:45.970
+For example, align the generated
+mesh in this direction.
+
+238
+00:28:50.790 --> 00:28:51.930
+Run the solution briefly.
+
+239
+00:28:55.620 --> 00:28:57.180
+Then select these nodes
+
+240
+00:28:57.180 --> 00:28:58.220
+using box selection.
+
+241
+00:28:58.220 --> 00:29:02.840
+This point must be selected.
+
+242
+00:29:18.300 --> 00:29:23.580
+Although a Chinese version exists, I recommend
+reading the English Help documentation.
+
+243
+00:29:24.530 --> 00:29:32.010
+The English version is generally more
+accurate and easier to interpret.
+
+244
+00:29:32.010 --> 00:29:38.890
+Some Chinese technical translations are
+poor, especially in the Fluent documentation.
+
+245
+00:29:40.630 --> 00:29:43.370
+This section is OK
+[Structural/DesignModeler?].
+
+246
+00:29:58.720 --> 00:30:05.880
+Again, remember to save frequently.
+
+247
+00:30:05.880 --> 00:30:12.850
+We selected the nodes
+manually in this way, so
+
+248
+00:30:12.850 --> 00:30:19.570
+a small oversight can cause problems.
+
+249
+00:30:24.760 --> 00:30:32.920
+I strongly advise against this method: it
+takes too much time and is inefficient.
+
+250
+00:30:41.730 --> 00:30:45.740
+The underlying workflow still uses APDL.
+
+251
+00:30:46.630 --> 00:30:54.670
+The most difficult parts of learning APDL are
+often meshing, node handling, and node selection.
+
+252
+00:30:55.700 --> 00:31:01.240
+With practice, these
+tasks become manageable.
+
+253
+00:31:30.890 --> 00:31:33.630
+Continue by creating a Named Selection.
+
+254
+00:31:43.430 --> 00:31:44.990
+Rename it.
+
+255
+00:32:01.650 --> 00:32:02.270
+Check it.
+
+256
+00:32:02.700 --> 00:32:03.960
+This is correct.
+
+257
+00:32:03.960 --> 00:32:05.400
+Then save it.
+
+258
+00:32:14.440 --> 00:32:15.200
+Save it.
+
+259
+00:32:15.200 --> 00:32:17.480
+Then run the solution again.
+
+260
+00:32:17.550 --> 00:32:18.710
+Open Analysis Settings.
+
+261
+00:32:18.710 --> 00:32:21.730
+For example, request 40 modes.
+
+262
+00:32:23.150 --> 00:32:25.730
+Rail models can readily reach
+
+263
+00:32:26.930 --> 00:32:27.890
+relatively high
+
+264
+00:32:32.390 --> 00:32:33.030
+frequencies.
+
+265
+00:32:33.030 --> 00:32:37.420
+About 30 to 40 modes are sufficient here.
+
+266
+00:32:38.870 --> 00:32:40.590
+This is some of the solver output.
+
+267
+00:32:41.460 --> 00:32:42.060
+In solving,
+
+268
+00:32:44.510 --> 00:32:46.210
+Modal analysis is quick.
+
+269
+00:32:46.210 --> 00:32:49.150
+The first six modes are
+the rigid-body modes.
+
+270
+00:32:49.720 --> 00:32:51.660
+Then inspect the solution results.
+
+271
+00:32:52.230 --> 00:32:56.110
+Create deformation-shape
+results for these modes.
+
+272
+00:32:57.630 --> 00:32:59.390
+Create, then evaluate the results.
+
+273
+00:33:01.490 --> 00:33:02.830
+After evaluation, save.
+
+274
+00:33:02.830 --> 00:33:05.990
+The previous project was saved at this mode.
+
+275
+00:33:19.630 --> 00:33:20.730
+A rigid-body mode.
+
+276
+00:33:20.730 --> 00:33:23.730
+This is also a rigid-body mode.
+
+277
+00:33:25.930 --> 00:33:34.790
+The following results show the first,
+second, and third bending modes.
+
+278
+00:33:39.370 --> 00:33:44.370
+These are the first through fourth modes in the
+other direction; this is the fourth mode shape.
+
+279
+00:33:45.280 --> 00:33:47.500
+Where are max and min displayed?
+
+280
+00:33:47.500 --> 00:33:50.710
+They should be available
+in the result object.
+
+281
+00:33:50.710 --> 00:33:55.020
+Use a Probe to display
+the maximum and minimum.
+
+282
+00:33:55.020 --> 00:34:01.490
+You can also place the Probe at
+any location to inspect its value.
+
+283
+00:34:05.330 --> 00:34:07.930
+The modal solution is now complete.
+
+284
+00:34:07.930 --> 00:34:11.760
+Next, insert a Commands object.
+
+285
+00:34:12.440 --> 00:34:19.210
+It will contain the substructure-reduction
+commands and related prompts.
+
+286
+00:34:19.700 --> 00:34:23.720
+Enter the commands based on
+the content explained earlier.
+
+287
+00:34:25.380 --> 00:34:30.540
+These are general commands, similar
+to CLEAN and CLEAR under Main Menu.
+
+288
+00:34:32.090 --> 00:34:35.250
+They perform the same type of housekeeping.
+
+289
+00:34:35.360 --> 00:34:37.700
+We will not discuss them here.
+
+290
+00:34:41.680 --> 00:34:44.810
+Enter the fields here; prompts are provided.
+
+291
+00:34:47.360 --> 00:34:56.670
+For example, set File Name to SUB.
+
+292
+00:35:00.100 --> 00:35:07.470
+An invalid entry produces
+a prompt. Then define
+
+293
+00:35:07.470 --> 00:35:14.690
+the solution and set its analysis type.
+
+294
+00:35:15.050 --> 00:35:20.610
+Use ANTYPE and select Substructure.
+
+295
+00:35:24.370 --> 00:35:33.790
+Request stiffness and mass output:
+the stiffness and mass matrices.
+
+296
+00:35:36.770 --> 00:35:42.250
+Next, enable CMS.
+
+297
+00:35:42.940 --> 00:35:47.120
+If the text is too small,
+increase the font size.
+
+298
+00:35:47.120 --> 00:35:53.250
+Adjust it here.
+
+299
+00:35:53.250 --> 00:36:01.620
+Under CMSOPT, select component mode
+synthesis and set the method to Free.
+
+300
+00:36:01.620 --> 00:36:07.520
+Set the requested mode count to about 40.
+
+301
+00:36:09.130 --> 00:36:12.310
+The remaining fields are optional.
+
+302
+00:36:16.700 --> 00:36:26.420
+Then generate TCMS. As noted earlier, it is not necessary
+here; the TCMS setting makes no difference here.
+
+303
+00:36:27.140 --> 00:36:33.870
+Use CMSEL with option S
+to select the component.
+
+304
+00:36:34.570 --> 00:36:37.410
+Use Retainnode for Name
+[check the spoken name].
+
+305
+00:36:38.770 --> 00:36:44.400
+It must match the name on the
+left, or the solution will fail.
+
+306
+00:36:45.900 --> 00:36:47.800
+Set Type to NODE.
+
+307
+00:36:49.790 --> 00:36:56.310
+Select all degrees of
+freedom for these nodes.
+
+308
+00:36:56.310 --> 00:36:59.430
+Select all the nodes for the component.
+
+309
+00:36:59.430 --> 00:37:08.250
+If there are several components—for
+example, upper and lower sets—use option A
+
+310
+00:37:08.250 --> 00:37:14.110
+and create another Named Selection here
+
+311
+00:37:14.830 --> 00:37:15.610
+to append it.
+
+312
+00:37:15.610 --> 00:37:19.270
+Then use the M command
+for all retained nodes.
+
+313
+00:37:19.730 --> 00:37:26.890
+These are all the nodes to be retained,
+
+314
+00:37:26.890 --> 00:37:30.430
+with every degree of freedom retained.
+
+315
+00:37:37.610 --> 00:37:39.030
+Retain them accordingly.
+
+316
+00:37:47.770 --> 00:37:55.510
+Save it. Keep the name consistent with
+the earlier commands, then use CDWRITE
+
+317
+00:37:57.350 --> 00:38:00.750
+to write the CDB file.
+
+318
+00:38:05.530 --> 00:38:11.620
+Use file or sub [speech
+unclear; screen: FILE,CDB].
+
+319
+00:38:14.480 --> 00:38:18.680
+Here, use CDB consistently [speech unclear].
+
+320
+00:38:18.680 --> 00:38:25.790
+Include the optional IGES argument as well.
+
+321
+00:38:25.790 --> 00:38:29.900
+Run the solution.
+
+322
+00:38:29.900 --> 00:38:37.090
+Add FINISH
+
+323
+00:38:37.090 --> 00:38:42.210
+to terminate the command sequence.
+
+324
+00:38:44.500 --> 00:38:46.920
+Now solve.
+
+325
+00:38:52.430 --> 00:38:54.550
+Switch to the
+
+326
+00:38:55.870 --> 00:38:57.930
+Solver Output window.
+
+327
+00:39:00.250 --> 00:39:02.810
+This is an XML file viewed as a web page.
+
+328
+00:39:02.810 --> 00:39:05.990
+It can be viewed in a
+browser or by other means.
+
+329
+00:39:17.090 --> 00:39:18.990
+Check whether any errors were reported.
+
+330
+00:39:22.110 --> 00:39:27.670
+The calculation finished very quickly, but no
+substructure-reduction output was produced.
+
+331
+00:39:27.840 --> 00:39:32.350
+That indicates an error or warning.
+
+332
+00:39:32.350 --> 00:39:33.950
+Inspect this section.
+
+333
+00:39:35.910 --> 00:39:38.930
+Use Solver Output to
+identify the likely cause.
+
+334
+00:39:39.970 --> 00:39:42.310
+Open the corresponding folder.
+
+335
+00:39:44.130 --> 00:39:51.150
+In this directory, inspect the error file.
+
+336
+00:39:58.010 --> 00:40:04.330
+The path is dp0/SYS.
+
+337
+00:40:04.660 --> 00:40:09.760
+Open the Mechanical subdirectory
+and read the message.
+
+338
+00:40:13.930 --> 00:40:19.450
+Data file FULL.db does not exist for RESUME.
+
+339
+00:40:24.810 --> 00:40:28.430
+One of the commands must be incorrect.
+
+340
+00:40:30.580 --> 00:40:31.660
+Check the commands.
+
+341
+00:40:34.300 --> 00:40:42.960
+This entry should use FULL.
+
+342
+00:40:42.960 --> 00:40:43.580
+So
+
+343
+00:40:54.180 --> 00:40:55.080
+Paste it here.
+
+344
+00:40:55.080 --> 00:40:56.100
+That is it.
+
+345
+00:40:56.950 --> 00:40:58.730
+You can run it yourself.
+
+346
+00:40:58.730 --> 00:41:07.810
+I must have mistyped one of the
+entries during the previous run.
+
+347
+00:41:10.130 --> 00:41:11.530
+The problem is here:
+
+348
+00:41:12.600 --> 00:41:13.900
+the names do not match.
+
+349
+00:41:13.900 --> 00:41:22.180
+I changed one occurrence to SUB but left
+another as FULL, which caused the error.
+
+350
+00:41:22.410 --> 00:41:26.650
+Solve again and inspect Solver Output.
+
+351
+00:41:37.350 --> 00:41:41.870
+The eigenfrequency solution is now running.
+
+352
+00:41:51.900 --> 00:41:59.810
+Inspect the result; an
+error message appears.
+
+353
+00:42:02.570 --> 00:42:10.010
+The speaker says this error does not affect
+the result. Then inspect the directory.
+
+354
+00:42:10.010 --> 00:42:16.630
+Inspect this directory.
+
+355
+00:42:19.580 --> 00:42:21.900
+Solver Output shows that the run completed.
+
+356
+00:42:21.900 --> 00:42:22.920
+We can continue.
+
+357
+00:42:22.920 --> 00:42:32.370
+Because the frequencies have already been calculated,
+the stiffness and mass matrices are generated.
+
+358
+00:42:32.370 --> 00:42:35.890
+The warning can therefore be ignored.
+
+359
+00:42:35.890 --> 00:42:37.950
+Workbench Mechanical gives this warning.
+
+360
+00:42:38.510 --> 00:42:46.950
+The output window may also report that
+some content exceeds its display range.
+
+361
+00:42:46.950 --> 00:42:51.350
+A finer mesh produces more output and
+can exceed the window's display limit.
+
+362
+00:42:51.750 --> 00:43:00.970
+Right-click here and select
+Open Solver Files Directory.
+
+363
+00:43:03.190 --> 00:43:07.370
+After opening the
+directory, take the OUT file
+
+364
+00:43:08.230 --> 00:43:14.290
+and open it in a text editor.
+
+365
+00:43:15.710 --> 00:43:20.250
+The complete solver output
+can be reviewed there.
+
+366
+00:43:20.930 --> 00:43:26.400
+The completed and commented
+lines shown here can be ignored.
+
+367
+00:43:28.490 --> 00:43:36.010
+This completes the
+file-generation procedure.
+
+368
+00:43:36.950 --> 00:43:41.630
+I still recommend
+
+369
+00:43:44.040 --> 00:43:48.570
+the more explicit
+
+370
+00:43:49.850 --> 00:43:52.370
+APDL workflow.
+
+371
+00:43:52.930 --> 00:44:00.830
+This Workbench procedure performs only substructure
+reduction and exposes only part of the results.
+
+372
+00:44:01.750 --> 00:44:05.010
+The current error prevents the mode
+shapes from being displayed here.
+
+373
+00:44:05.950 --> 00:44:12.130
+If they cannot be displayed, connect the
+model data to another analysis system.
+
+374
+00:44:14.310 --> 00:44:20.700
+Share the data here, then
+
+375
+00:44:22.060 --> 00:44:28.430
+remove the mode-order setting
+from this result branch
+
+376
+00:44:29.030 --> 00:44:35.710
+and create a shared
+
+377
+00:44:35.710 --> 00:44:41.650
+Modal system to display the mode shapes.
+
+378
+00:44:41.650 --> 00:44:49.870
+This makes both validation and
+visualization easier to understand.
+
+379
+00:45:12.630 --> 00:45:17.310
+Delete these deformation result objects.
+
+380
+00:45:22.830 --> 00:45:25.690
+This does not affect the
+substructure solution settings.
+
+381
+00:45:30.500 --> 00:45:38.970
+The number of modes has
+already been set in CMS.
+
+382
+00:45:43.040 --> 00:45:43.390
+modes.
+
+383
+00:45:49.250 --> 00:45:53.650
+For example, increase the mode
+count under Analysis Settings
+
+384
+00:45:53.650 --> 00:45:58.370
+to 40.
+
+385
+00:45:59.890 --> 00:46:03.860
+Then solve.
+
+386
+00:46:03.860 --> 00:46:04.280
+Now
+
+387
+00:46:24.840 --> 00:46:32.480
+create the display results
+
+388
+00:46:33.410 --> 00:46:35.030
+and evaluate them.
+
+389
+00:46:35.030 --> 00:46:41.190
+Wait for the model to finish.
+
+390
+00:46:55.220 --> 00:46:56.360
+Let the solution run.
+
+391
+00:46:57.230 --> 00:46:58.110
+Neither affects it.
+
+392
+00:47:05.040 --> 00:47:06.240
+Inspect the mode shapes.
+
+393
+00:47:06.240 --> 00:47:13.860
+The initial modes are rigid-body
+modes. These are modes 1 and 2.
+
+394
+00:47:15.390 --> 00:47:17.890
+The mesh is too coarse
+for a clear visualization.
+
+395
+00:47:17.890 --> 00:47:18.970
+Make it somewhat finer.
+
+396
+00:47:18.970 --> 00:47:20.650
+The overall display will be clearer.
+
+397
+00:47:21.970 --> 00:47:25.110
+This looks better.
+
+398
+00:47:31.120 --> 00:47:36.470
+For example, set the size
+to 0.01 [unit not spoken],
+
+399
+00:47:43.590 --> 00:47:45.940
+and regenerate it.
+
+400
+00:48:01.220 --> 00:48:05.490
+Then evaluate the results again.
+
+401
+00:48:19.590 --> 00:48:25.170
+Solve again. Remeshing changes the results.
+
+402
+00:48:47.890 --> 00:48:52.370
+Be sure to save first.
+
+403
+00:48:56.860 --> 00:48:57.440
+It is slow.
+
+404
+00:48:59.740 --> 00:49:05.770
+A finer mesh is recommended; the
+speaker says it is more efficient.
+
+405
+00:49:09.370 --> 00:49:11.230
+Relatively speaking, it is higher.
+
+406
+00:49:13.770 --> 00:49:16.950
+We will not recalculate this model now.
+
+407
+00:49:42.850 --> 00:49:50.170
+The fine mesh makes the deformation
+shape look more detailed.
+
+408
+00:49:50.170 --> 00:49:54.350
+You can also hide the mesh.
+
+409
+00:50:00.410 --> 00:50:09.810
+Either display mode is acceptable for this
+
+410
+00:50:16.250 --> 00:50:17.910
+result.
+
+411
+00:50:17.910 --> 00:50:25.400
+Where is the mesh display option?
+
+412
+00:50:25.400 --> 00:50:32.880
+Turn off the mesh display
+
+413
+00:50:32.880 --> 00:50:41.670
+and select the smooth contour view.
+
+414
+00:50:41.670 --> 00:50:48.430
+This produces a smooth contour plot.
+
+415
+00:50:53.790 --> 00:51:01.350
+Set the edge display to No
+Wireframe and inspect the result.
+
+416
+00:51:01.350 --> 00:51:08.530
+This is the first mode.
+
+417
+00:51:08.530 --> 00:51:09.830
+Now the second mode:
+
+418
+00:51:16.850 --> 00:51:17.730
+inspect its shape.
+
+419
+00:51:52.530 --> 00:52:00.360
+Rendering is slow, but these
+animations show the mode shapes.
+
+420
+00:52:01.070 --> 00:52:06.750
+By modes 30 to 40, the frequencies
+are already quite high.
+
+421
+00:52:08.850 --> 00:52:12.050
+Adjust this setting, for example.
+
+422
+00:52:12.440 --> 00:52:13.620
+Wait for it to display.
+
+423
+00:52:17.590 --> 00:52:22.310
+This is one complete mode shape.
+
+424
+00:52:22.310 --> 00:52:31.040
+These results can then be exported.
+
+425
+00:52:31.040 --> 00:52:33.980
+This section also demonstrated
+several Workbench operations.
+
+426
+00:52:34.400 --> 00:52:37.440
+Workbench is relatively concise
+
+427
+00:52:38.970 --> 00:52:42.810
+and the overall workflow
+is easier to understand.
+
+428
+00:52:43.520 --> 00:52:50.480
+Nevertheless, I recommend learning APDL because
+it improves workflow control, efficiency,
+
+429
+00:52:50.480 --> 00:52:56.460
+and understanding of the complete
+substructure-reduction process.
+
+430
+00:52:57.340 --> 00:53:01.300
+This concludes today's lesson.
+
+431
+00:53:01.300 --> 00:53:04.200
+There is one additional
+point I omitted earlier.
+
+432
+00:53:04.200 --> 00:53:09.450
+After saving the project, archive it.
+
+433
+00:53:10.480 --> 00:53:12.960
+I will add that step here.
+
+434
+00:53:14.170 --> 00:53:17.610
+Select Archive.
+
+435
+00:53:20.020 --> 00:53:25.260
+Workbench packages the
+project into a WBPZ file.
+
+436
+00:53:25.260 --> 00:53:28.880
+You can then move the project
+by copying this single archive.
+
+437
+00:53:29.830 --> 00:53:32.150
+Add finish/finished as
+a suffix [unconfirmed].
+
+438
+00:53:32.150 --> 00:53:32.810
+All right.
+
+439
+00:53:40.660 --> 00:53:41.920
+Include the results.
+
+440
+00:53:42.420 --> 00:53:50.620
+A finer mesh produces larger solver files.
+
+441
+00:53:50.620 --> 00:53:58.890
+The mesh value [expression unclear];
+the result files are about 36 GB.
+
+442
+00:53:58.890 --> 00:54:03.530
+Consider how mesh density
+affects results and file size.
+
+443
+00:54:07.020 --> 00:54:09.960
+This is the packaged archive.
+
+444
+00:54:09.960 --> 00:54:11.160
+Only just over 20 MB.
+
+445
+00:54:12.490 --> 00:54:15.090
+This concludes the lesson.
+
+446
+00:54:15.090 --> 00:54:21.790
+Next, we will generate an [FDR/FBI:
+unclear] elastic-body file in Simpack.

@@ -1,0 +1,236 @@
+1
+00:00:01,870 --> 00:00:09,170
+According to our curriculum, we're now going to issue
+a number before we deal with this part of the analysis.
+
+2
+00:00:09,170 --> 00:00:18,710
+We're going to have a lot of animated numbers for this game,
+and I've got a few files here that we've been working on.
+
+3
+00:00:18,710 --> 00:00:27,060
+If we open this again, we'll send a post,
+and then it's our sd2 file on the right.
+
+4
+00:00:27,060 --> 00:00:34,740
+This sd2 file, it's two parts, one of the
+visualization of this model, and one of its own.
+
+5
+00:00:34,740 --> 00:00:40,500
+Copy the structure and we're gonna
+visualize it and drag it inside.
+
+6
+00:00:41,900 --> 00:00:46,580
+We'll see it when we go inside.
+
+7
+00:00:47,620 --> 00:00:56,520
+And if it's also a dress structure,
+it'll save our main body fluid.
+
+8
+00:00:56,520 --> 00:01:01,220
+This face takes form or hides it, we...
+
+9
+00:01:10,440 --> 00:01:14,450
+Open this display.
+
+10
+00:01:21,990 --> 00:01:30,670
+So it can be seen that it can quickly hide these
+parts in the morning that no longer need to be hidden.
+
+11
+00:01:31,730 --> 00:01:34,890
+Let's just say we're in the middle of
+the morning and we'll just get a hook.
+
+12
+00:01:47,000 --> 00:01:52,200
+And then we switch to our slip top.
+
+13
+00:01:52,320 --> 00:01:59,820
+And it depends on the reaction and the
+deformation of the steel and it needs to be.
+
+14
+00:02:00,120 --> 00:02:05,630
+property has changed
+its pattern coefficient.
+
+15
+00:02:07,390 --> 00:02:13,430
+We're here to go back to
+our animation this way.
+
+16
+00:02:13,590 --> 00:02:15,970
+Let's choose the attributes like this.
+
+17
+00:02:18,760 --> 00:02:22,480
+The most visible of these are
+the fixed multiples of the fish.
+
+18
+00:02:23,370 --> 00:02:30,170
+For example, we don't check. Let's see.
+
+19
+00:02:30,170 --> 00:02:30,930
+And then...
+
+20
+00:02:47,950 --> 00:02:52,310
+You can't even hear it if you can't drag it.
+
+21
+00:02:53,430 --> 00:02:54,830
+There's no place for it.
+
+22
+00:02:56,050 --> 00:02:57,490
+It's a deformation now.
+
+23
+00:03:08,990 --> 00:03:10,530
+It's not written about this deformation.
+
+24
+00:03:11,600 --> 00:03:14,920
+So come here to make it write to me.
+
+25
+00:03:14,980 --> 00:03:16,960
+Let's turn this thing up.
+
+26
+00:03:17,080 --> 00:03:19,180
+Let's move to 100, for example.
+
+27
+00:03:19,300 --> 00:03:20,420
+Take a look at the effect first.
+
+28
+00:03:44,180 --> 00:03:46,320
+Let's take it down to this mirror.
+
+29
+00:03:51,240 --> 00:03:52,920
+It's a little faster.
+
+30
+00:04:04,640 --> 00:04:08,140
+So we can see the coefficient
+of this deformation.
+
+31
+00:04:08,960 --> 00:04:11,500
+Let's adjust it out of the way.
+
+32
+00:04:36,340 --> 00:04:39,740
+We can see it deformed in this position.
+
+33
+00:05:07,070 --> 00:05:10,870
+Here we can export the video.
+
+34
+00:05:12,720 --> 00:05:19,890
+You can set NPS and resolution.
+
+35
+00:05:19,890 --> 00:05:22,050
+Like 2016.
+
+36
+00:05:22,710 --> 00:05:24,090
+2016.
+
+37
+00:05:24,860 --> 00:05:25,720
+That's what I'm saying.
+
+38
+00:05:26,750 --> 00:05:30,550
+NPS, for example, we think 60.
+
+39
+00:05:33,490 --> 00:05:35,190
+And then this button is enough to show.
+
+40
+00:05:36,720 --> 00:05:38,630
+Just scratch it yourself.
+
+41
+00:05:40,420 --> 00:05:47,190
+If you want to keep the possible crosses of the
+video frame, you might want to keep them off sale.
+
+42
+00:05:54,440 --> 00:05:59,180
+The network in the process can also
+make it look like it's coming and going.
+
+43
+00:06:09,820 --> 00:06:10,940
+It's okay here.
+
+44
+00:06:12,820 --> 00:06:16,860
+Yes.
+
+45
+00:06:28,610 --> 00:06:31,560
+It's deformed.
+
+46
+00:06:37,890 --> 00:06:40,530
+Then I can stop it.
+
+47
+00:06:44,770 --> 00:06:49,150
+And then we can see it this way.
+
+48
+00:06:49,650 --> 00:06:52,390
+We found the position of this net clamp.
+
+49
+00:06:54,700 --> 00:06:55,660
+High profile here.
+
+50
+00:07:03,520 --> 00:07:09,950
+If we open it with the light of the
+paper stone belt, it might be good.
+
+51
+00:07:10,520 --> 00:07:15,010
+Or there's a voice that doesn't work.
+
+52
+00:07:15,690 --> 00:07:20,030
+Let's change the theory tools, like our VLC.
+
+53
+00:07:22,380 --> 00:07:23,060
+This can do.
+
+54
+00:07:27,470 --> 00:07:28,490
+A word like that can do it.
+
+55
+00:07:33,560 --> 00:07:37,820
+And then the light and the sexual
+enlightenment animated, and here we go.

@@ -1,0 +1,686 @@
+1
+00:00:04,460 --> 00:00:18,290
+The earlier version of Tanin steel tracks were built in the
+same official and more conventional way as the original version.
+
+2
+00:00:18,290 --> 00:00:28,030
+It's a way to connect, to help the website
+explain how FTA is going to write about it.
+
+3
+00:00:28,570 --> 00:00:36,210
+But then there's a problem, that's if you have a lot of
+points and say, for example, you're a curve or a fall.
+
+4
+00:00:36,210 --> 00:00:44,970
+Or a bridge with a lot of structures, but it's an
+irregular point, and it's hard for us to do that.
+
+5
+00:00:44,970 --> 00:00:56,690
+So I'm here, after all, to provide you with a simple, quick
+and misleading message about what we're importing into FTL.
+
+6
+00:00:56,690 --> 00:01:06,820
+Draw it down and use it as an input to
+our FTL, for example, we produce F2 here.
+
+7
+00:01:06,820 --> 00:01:08,140
+Elastomer files.
+
+8
+00:01:09,360 --> 00:01:20,500
+Here we're looking for, for example, a folder, and
+we're creating a name called this, which is in F2.
+
+9
+00:01:20,500 --> 00:01:31,760
+In the eighth code of the prototype, the name M,BS,Gang,DB
+must be created in Dabase, or Database FlagTrack.
+
+10
+00:01:31,760 --> 00:01:40,440
+And when you go in, the pseudonym will be read in
+exactly the same way as the name of the F2 in it.
+
+11
+00:01:40,440 --> 00:01:48,130
+Otherwise, you can't read it, and that
+means there's a F2 file under this file.
+
+12
+00:01:48,130 --> 00:01:56,700
+It read this LBN, and it's just going to
+read it under the same directory as it does.
+
+13
+00:01:56,700 --> 00:02:04,300
+But it also introduces the absolute path inside the highboard, and the
+relative path, so all we have to do is make sure it's an outside document.
+
+14
+00:02:04,300 --> 00:02:08,180
+The bells are the same
+name as this FKR inside.
+
+15
+00:02:08,780 --> 00:02:13,940
+And then we'll take the last
+section and make you the first head.
+
+16
+00:02:15,470 --> 00:02:17,690
+These are some of the definitions
+of some of its conceptual words.
+
+17
+00:02:18,490 --> 00:02:25,870
+We're here to give it a full effect.
+
+18
+00:02:26,850 --> 00:02:28,790
+We'll say yes here.
+
+19
+00:02:31,490 --> 00:02:38,190
+So we can remove the back, and then we can use the front,
+actually. let I'm sorry. call Open it for everyone.
+
+20
+00:02:46,530 --> 00:02:48,090
+And here we are.
+
+21
+00:02:49,440 --> 00:02:56,940
+The regiment says one of its search ranges and another
+stiffness's minimum value or minimum mass value.
+
+22
+00:02:56,940 --> 00:03:05,940
+Which means if it's the one that's holding a
+flag when it falls into a bridge in its arms.
+
+23
+00:03:07,160 --> 00:03:17,960
+We can limit that number
+to the size of the sift.
+
+24
+00:03:19,780 --> 00:03:30,180
+When you're big and big, it's like we're in a situation where we take our
+general choice to remove this small species from it with a very high quality.
+
+25
+00:03:30,180 --> 00:03:40,200
+Just don't keep it and then make sure that the whole of our strategist mechanics
+doesn't practice the uprising and this EcoNode is our most important meaning.
+
+26
+00:03:40,200 --> 00:03:47,480
+That means we're going to get it back to this branding node and whether
+it matches it and then we're going to get it out to the end of our day.
+
+27
+00:03:48,640 --> 00:03:52,880
+And then the second is...
+
+28
+00:03:55,820 --> 00:04:04,360
+Showing that it's a model, for example, if it's a
+physical model, or if it's an Anth set up in two units.
+
+29
+00:04:05,060 --> 00:04:13,000
+We need to add this to the
+bridge model to make it real.
+
+30
+00:04:13,000 --> 00:04:22,340
+I'd like you to use this to avoid the kind of hand-made
+way that we're talking about writing orbits in the back.
+
+31
+00:04:22,340 --> 00:04:31,180
+And to avoid simply removing that part of the
+approval, and here's our key step: SE and our FB2.
+
+32
+00:04:31,180 --> 00:04:38,390
+Then set its input to damping, Aawa Beta and
+set the coordinates of its starting point.
+
+33
+00:04:38,390 --> 00:04:43,460
+And then the other one is the
+one in the direction of X.
+
+34
+00:04:45,360 --> 00:04:50,900
+The matrix switch is another
+Z and we're here, for example.
+
+35
+00:04:53,140 --> 00:05:01,050
+Let's build a new model.
+Let's take a look at our F2.
+
+36
+00:05:03,820 --> 00:05:06,380
+You've got this door, right?
+
+37
+00:05:13,260 --> 00:05:21,980
+We're here to build a F2 so we're usually in a
+position to make it easy for you to check out.
+
+38
+00:05:22,860 --> 00:05:28,300
+If this point corresponds to what it should
+do with your group, we'll check it out.
+
+39
+00:05:29,360 --> 00:05:36,000
+Then I suggest we just write
+it out and let it read it.
+
+40
+00:05:37,080 --> 00:05:45,560
+After reading it, this is our model, and it's a whole space slot
+and we don't need much attention after we've adjusted it in Abox.
+
+41
+00:05:45,560 --> 00:05:53,400
+So normally, when you're in it and you're in it, maybe you're in it and you're
+in it and you're in it and you're in it and you're in it and you're in it.
+
+42
+00:05:53,400 --> 00:06:03,540
+We usually don't have to make a lot of adjustments to it, and what we need to
+focus on here is that if you write it yourself, there's a name in it that's FM2.
+
+43
+00:06:03,540 --> 00:06:09,360
+You can keep all these nodes, and you can
+create them, and there's some of them.
+
+44
+00:06:10,100 --> 00:06:19,770
+And then you look at some of the points that you
+keep on top of it, so in that case, we can all write.
+
+45
+00:06:20,590 --> 00:06:29,310
+But here, it's just that we're here to change the direction
+of the sign, and here we're going to give it a 111.
+
+46
+00:06:29,710 --> 00:06:31,530
+That's what we're gonna do next.
+
+47
+00:06:32,550 --> 00:06:38,410
+We'll write a FTL file to it
+in a faster and easier way.
+
+48
+00:06:39,910 --> 00:06:47,670
+We're talking about the wrong information with it because
+we're in ECONOM and it's inside and it's going back to a list.
+
+49
+00:06:47,670 --> 00:06:52,850
+We can see that we don't need
+FB2 first to get rid of it.
+
+50
+00:06:55,760 --> 00:06:58,960
+All right, let's give him a little fun.
+
+51
+00:07:01,200 --> 00:07:12,340
+When Lonina Flask Track is selected here, it can look at the help
+document, it is flina track and flina track and flat track, which is Lina
+
+52
+00:07:12,340 --> 00:07:18,700
+The grade difference in this
+way comes after the year 2018.
+
+53
+00:07:18,980 --> 00:07:25,980
+A foreigner from Lonina Track,
+if the video needs it, call us.
+
+54
+00:07:25,980 --> 00:07:27,140
+Go study.
+
+55
+00:07:58,710 --> 00:08:03,700
+But perfecting the kind of
+effort we need to create it.
+
+56
+00:08:04,080 --> 00:08:12,360
+The usual thing about trying to be within us is that it would
+be what we just said about this list of documents section.
+
+57
+00:08:12,360 --> 00:08:21,060
+It's setting up a Database setting is a file for the search
+path and the next is mbd,flag becoming famous and mbd2.
+
+58
+00:08:21,060 --> 00:08:28,140
+And this fd2, it's the structurer that tunes
+it, so that's the way we used to do it.
+
+59
+00:08:28,140 --> 00:08:30,840
+Just write it down.
+
+60
+00:08:39,580 --> 00:08:48,300
+And then the 2019 version adds
+this way to the absolute path.
+
+61
+00:08:49,080 --> 00:09:00,240
+And then we sell it, and now we're talking about this file, and then we click to confirm, click on
+OPLINE, click on OPLINE, and we find that it's not imported into this world because it's not judged.
+
+62
+00:09:00,240 --> 00:09:11,440
+It doesn't show class anymore, does it?
+
+63
+00:09:11,440 --> 00:09:22,640
+That's what these dots don't have in F72, so let's
+give them a way of doing non-use or favi insurance.
+
+64
+00:09:22,640 --> 00:09:32,760
+We usually avoid mistakes, but sometimes our
+mistakes can go to the opposite side of it.
+
+65
+00:09:32,760 --> 00:09:38,960
+Can we use it the way we're going to reverse it and
+then make it an input that we're in the middle of?
+
+66
+00:09:42,390 --> 00:09:47,010
+Then we'll give the inside
+down and I'll take that.
+
+67
+00:09:50,450 --> 00:09:53,250
+Open the keyboard display
+
+68
+00:10:00,310 --> 00:10:02,290
+Let's get this done.
+
+69
+00:10:03,730 --> 00:10:06,970
+Get it and stick it to this.
+
+70
+00:10:12,790 --> 00:10:17,550
+And then we're actually here on the
+other side of it, and then X,Y,Z.
+
+71
+00:10:18,130 --> 00:10:22,350
+Because that's what we're talking
+about. It's the source that's turned.
+
+72
+00:10:22,390 --> 00:10:26,030
+So let's get this elected.
+
+73
+00:10:40,040 --> 00:10:41,980
+That's what it is in this position.
+
+74
+00:10:42,260 --> 00:10:42,460
+And then...
+
+75
+00:10:49,380 --> 00:10:50,440
+Just delete it.
+
+76
+00:10:54,470 --> 00:10:57,490
+And what we need to note here is that
+there's a key word in front of it.
+
+77
+00:10:58,880 --> 00:11:06,750
+Well, then, then, choose
+the bottom, for example.
+
+78
+00:11:06,750 --> 00:11:14,840
+And then we split it, and here we give
+it these points that it needs to create.
+
+79
+00:11:16,060 --> 00:11:20,720
+It's the way we used to do
+it with the old prototype.
+
+80
+00:11:21,960 --> 00:11:28,960
+And the most important step here is to say that
+you're going to enter this Chinese-English fight.
+
+81
+00:11:28,960 --> 00:11:29,900
+It's going to be a problem.
+
+82
+00:11:29,900 --> 00:11:33,700
+Here I am. There's a plug
+in the tablet button.
+
+83
+00:11:34,900 --> 00:11:48,200
+All Chinese characters become English
+characters, and you can look for them yourself.
+
+84
+00:11:48,200 --> 00:11:51,660
+When it's finished, we
+can take a look at it.
+
+85
+00:11:53,310 --> 00:12:07,300
+And turn it off and open it in the state that it can read the
+new one directly, turn it off and save it, and then take it in.
+
+86
+00:12:13,020 --> 00:12:18,300
+And here you can see whether there are some points,
+or not, and here you need to put some points.
+
+87
+00:12:34,760 --> 00:12:38,560
+And the same thing, tell it to it.
+
+88
+00:12:39,080 --> 00:12:44,940
+In that case, if you've just been completely
+pasted in, it's usually a direct response to it.
+
+89
+00:12:45,990 --> 00:12:50,230
+And then tell it to it.
+
+90
+00:12:50,930 --> 00:12:59,550
+For example, if we're trying to verify that we're wrong about something
+and avoid repeating it, we can search it for something like this F32.
+
+91
+00:13:07,700 --> 00:13:10,500
+It's the point. Let's see where it is.
+
+92
+00:13:17,550 --> 00:13:31,220
+It's 27898 with this one. Yeah, it's why. You see, if we're on
+this list, it's a copy, and when we actually copy it, it's a list.
+
+93
+00:13:31,220 --> 00:13:38,440
+It's lost the previous one. It's the same model that you have to
+pay attention to, which means you don't give it when you choose it.
+
+94
+00:13:39,820 --> 00:13:49,350
+Then, for example, if we're here,
+it's a 38602, it's a lot of choice.
+
+95
+00:13:49,350 --> 00:13:51,210
+Let's give it here.
+
+96
+00:13:52,390 --> 00:13:59,280
+For example, this is the
+location and then 38602.
+
+97
+00:14:03,590 --> 00:14:11,850
+And the number in front of it, because we don't have a positive
+sign on top of it, so we'll copy this column, and it'll be fine.
+
+98
+00:14:11,850 --> 00:14:19,850
+If you put it in this position, it won't happen,
+and we'll make it a little bit, turn it off.
+
+99
+00:14:23,780 --> 00:14:32,660
+And then let's turn on the general situation,
+which, if you don't slow down, is your FTA.
+
+100
+00:14:32,660 --> 00:14:41,540
+So it'll be slower and then we'll
+look at the rate of the CPU.
+
+101
+00:14:41,540 --> 00:14:44,960
+And then this family came in.
+
+102
+00:14:45,970 --> 00:14:47,470
+It'll take a while.
+
+103
+00:14:56,650 --> 00:15:05,740
+And in addition to this position, we've just created 8 points and we've got
+a job to do, which is to say he's pushing the extension point for humans.
+
+104
+00:15:05,740 --> 00:15:15,020
+You can do it, you can do it, you can do it.
+
+105
+00:15:17,310 --> 00:15:21,790
+Yeah, well, then we'll just...
+
+106
+00:15:23,580 --> 00:15:26,080
+The whole thing went
+in, and it wasn't wrong.
+
+107
+00:15:27,220 --> 00:15:36,810
+In that case, we're going to go straight
+to FK, using the wrong information.
+
+108
+00:15:36,810 --> 00:15:48,470
+It's a lot faster than it was before, then it's a lot
+faster, and there's a few things we need to do to create it.
+
+109
+00:15:48,470 --> 00:15:56,330
+Say it's gonna create a fixed point of the steel track on
+both ends of the spring, and the steel level that's under it.
+
+110
+00:15:57,430 --> 00:16:10,200
+So we're going to have to import it here again, or we're going to look inside, for
+example, with a card, and we can read it directly in FTR by creating Mark points.
+
+111
+00:16:10,900 --> 00:16:13,560
+Let's give it a push in here.
+
+112
+00:16:18,180 --> 00:16:29,620
+Just as I was talking about a few virtual points that were extended by the FTR bit,
+we're not going to do it, and we're going down to the four angles of that steel track.
+
+113
+00:16:29,620 --> 00:16:43,440
+If you need to do it and the other one is stuck to that point, it's the
+kind of thing that I'm suggesting is going to go through the front handler.
+
+114
+00:16:43,440 --> 00:16:52,160
+It's easier if you look at it yourself, because you're
+sure you know which dots or you'll guess by yourself.
+
+115
+00:16:52,160 --> 00:16:56,300
+It's probably a little more troublesome and,
+for example, the effect of the product is here.
+
+116
+00:17:00,610 --> 00:17:08,110
+Yeah, well, we're usually giving it a high enough height,
+which means giving it a high enough height to damping.
+
+117
+00:17:08,110 --> 00:17:16,130
+Actually, it's the same thing to think it's a solid
+constraint, so we're here to give it all these points.
+
+118
+00:17:18,410 --> 00:17:26,490
+Height and damping are high and that's the same as giving
+it a fixed dignity that we just wanted to pass through F2.
+
+119
+00:17:26,490 --> 00:17:32,030
+But in fact, F2 has tried
+the same thing to our point.
+
+120
+00:17:53,560 --> 00:17:54,580
+That's right. It's a little slow.
+
+121
+00:17:56,340 --> 00:18:08,040
+According to what we've said
+before, it's south of the bridge.
+
+122
+00:18:08,040 --> 00:18:13,560
+Bridge Bar
+
+123
+00:18:21,850 --> 00:18:32,630
+Bridge
+
+124
+00:18:33,590 --> 00:18:41,510
+The one that's already read in the ftl.
+
+125
+00:18:42,920 --> 00:18:51,350
+And that's the point you choose, and then he'll jump into this position and
+you'll be able to study it if you write it yourself, and then you'll be in here.
+
+126
+00:18:52,390 --> 00:18:59,650
+Like this one, and then he can export it
+directly, and then we can apply it directly. k0 d0
+
+127
+00:18:59,650 --> 00:19:03,760
+Which dot, which dot, for example, is K0
+
+128
+00:19:05,090 --> 00:19:14,490
+And the second is its big location, and then
+this is its back, and we don't really need it.
+
+129
+00:19:14,490 --> 00:19:25,810
+All we have to do is take charge of the first section and
+then, for example, 10's B10, and then repeat it six times.
+
+130
+00:19:25,810 --> 00:19:34,710
+♪ y y y and ♪
+
+131
+00:19:35,450 --> 00:19:45,180
+Bring it back to yy.
+
+132
+00:19:45,690 --> 00:19:48,510
+♪ y y y y y y ♪
+
+133
+00:19:51,680 --> 00:19:53,900
+y
+
+134
+00:19:55,550 --> 00:19:59,090
+It's internal training. It's just
+these two points on both ends.
+
+135
+00:20:02,150 --> 00:20:03,650
+For this point,
+
+136
+00:20:09,100 --> 00:20:21,160
+That's the point, and then we copied it, which is, uh, like, what
+we wrote earlier, and if you copy it directly, you can do it.
+
+137
+00:20:29,140 --> 00:20:42,720
+And then, in our case, our FT2 has already communicated, so why are we suggesting that
+we do this kind of academic thing and then, uh, do it the way in FT2, because it's easy.
+
+138
+00:20:42,860 --> 00:20:51,820
+And behind you, when it comes to
+balancing, it's more efficient than it is.
+
+139
+00:20:51,820 --> 00:21:00,000
+It's a whole lot easier to model than if it's
+like a steel track and then a steel track.
+
+140
+00:21:00,300 --> 00:21:11,620
+And even after the dots and the dots and the dots and the dots and the dots and the dots
+and the dots and the dots and the dots and the dots and the dots and the dots and the dots.
+
+141
+00:21:11,620 --> 00:21:20,200
+Well, the kind of equations that might need to be
+done, or the one-size-fits-all model is different.
+
+142
+00:21:20,200 --> 00:21:26,220
+It's the way it used to
+be, it's the way it was.
+
+143
+00:21:27,330 --> 00:21:35,430
+The way that the original video said the Xian Sword orbit
+and then connected this FB2 to profit, Kindity created it.
+
+144
+00:21:35,430 --> 00:21:43,350
+If you're free to create more, it'll
+be more complicated to calculate.
+
+145
+00:21:43,350 --> 00:21:48,830
+The other one's a little
+more complicated than that.

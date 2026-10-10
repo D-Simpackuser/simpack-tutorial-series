@@ -1,0 +1,1026 @@
+1
+00:00:05,490 --> 00:00:18,910
+What about the modeling of the orbital base of the vehicle and the steps
+related to the orbital path of the vehicle and to the search parameters?
+
+2
+00:00:18,910 --> 00:00:29,710
+We've got our solver to calculate the outcome document, but the solver to calculate how the
+data in the outcome document can be extracted efficiently and shown to the user or otherwise.
+
+3
+00:00:29,710 --> 00:00:40,330
+It's a manual for reporting that's the main thing
+about after-treatment that requires online learning.
+
+4
+00:00:40,330 --> 00:00:43,170
+We've always got what we need.
+
+5
+00:00:44,340 --> 00:00:51,560
+The other result of the corresponding calculation
+parameter is that it's more intuitive.
+
+6
+00:00:52,300 --> 00:01:00,700
+It's a more beautiful
+display that hits right here.
+
+7
+00:01:00,740 --> 00:01:04,300
+Open the model files that we
+have calculated to complete.
+
+8
+00:01:07,720 --> 00:01:11,820
+The model file that was calculated was
+the SBL file, which we could just open.
+
+9
+00:01:15,700 --> 00:01:25,320
+And then on the right is the number of our results, and then one
+is the atmosphere, and the other is the animation of the model.
+
+10
+00:01:25,400 --> 00:01:27,800
+The other is the result of
+some of its calculations.
+
+11
+00:01:28,540 --> 00:01:35,580
+And then all the models that
+were used in our program.
+
+12
+00:01:37,420 --> 00:01:48,130
+Saved as a project key, we can open
+it and reprint the SPF file directly.
+
+13
+00:01:50,690 --> 00:01:59,920
+It's reading this thing now, if you're saving this kind of
+outcome document as SPF, it's actually only one at a time.
+
+14
+00:01:59,920 --> 00:02:12,650
+I need you to block this thing out, and after that, it'll be
+able to do it as long as it doesn't change your S-table file.
+
+15
+00:02:12,940 --> 00:02:21,520
+A fuck planned or rereaded.
+
+16
+00:02:22,000 --> 00:02:30,560
+Do.
+
+17
+00:02:31,400 --> 00:02:40,060
+You can insert this into PTT as an
+animation, and you can use animated software.
+
+18
+00:02:40,060 --> 00:02:50,460
+It's a whole piece of GIF, which means, for example, that it's Scream
+2G IF or this software, and you can do a simple operation on it.
+
+19
+00:02:51,230 --> 00:02:57,210
+And then we'll show you the template
+in the morning and then we'll tell you.
+
+20
+00:02:59,190 --> 00:03:03,480
+Well, how do you do this for us?
+
+21
+00:03:09,340 --> 00:03:17,390
+First of all, the most important thing
+we're going to do is to get him to do it.
+
+22
+00:03:23,070 --> 00:03:28,090
+We'll have to figure this out in advance,
+like what you're trying to show us.
+
+23
+00:03:28,270 --> 00:03:38,310
+One of the examples we have shown is that the curves that are displayed are mainly
+steel-orbiting, steel-track acceleration, all-mortality, all-mortality acceleration.
+
+24
+00:03:39,390 --> 00:03:50,500
+In this position, we can make a simpler shift in the back of the
+steel track, and we'll have an acceleration in the whole column.
+
+25
+00:03:50,500 --> 00:03:59,640
+We'll have a structure behind us,
+so let's talk about this animation.
+
+26
+00:03:59,640 --> 00:04:04,680
+Set up, and then this layout, how to adjust, and
+the font, and after all, how to adjust these.
+
+27
+00:04:05,780 --> 00:04:06,740
+We're here.
+
+28
+00:04:08,130 --> 00:04:16,650
+Set four or four boxes, or three, and then select
+it to the largest position when it's most needed.
+
+29
+00:04:16,650 --> 00:04:22,590
+There's a choice to choose some layouts, for example, if we put
+an animated picture here, an animated one here, and then next.
+
+30
+00:04:31,340 --> 00:04:40,950
+That's one of the simple projects that we had at the
+time of our course publicity and this kind of display.
+
+31
+00:04:40,950 --> 00:04:43,850
+Then we can look at the whole thing.
+
+32
+00:04:47,920 --> 00:04:53,880
+This view on the left is
+a relatively fixed view.
+
+33
+00:04:55,240 --> 00:05:04,240
+A relative touch, and this one on the right,
+is the way the Reds are running in front of it.
+
+34
+00:05:13,980 --> 00:05:20,980
+And then to the left, it's a high seat. It's a
+high speed. It's a little hot. It's a medium speed.
+
+35
+00:05:20,980 --> 00:05:21,860
+Yeah.
+
+36
+00:05:22,550 --> 00:05:31,060
+Then he's deformed and he's a little bit
+in the direction, just the direction.
+
+37
+00:05:31,060 --> 00:05:38,000
+And this line, our high-profile
+moon, our bridge is really big moon.
+
+38
+00:05:39,320 --> 00:05:46,920
+And we're going to say it's simple.
+
+39
+00:05:46,920 --> 00:05:56,400
+I'll just give you a picture of two angles and a little
+print in one direction, and how do these Chinese fonts go?
+
+40
+00:05:56,400 --> 00:06:08,160
+How do you change the width of the line
+and the background of these effects?
+
+41
+00:06:08,160 --> 00:06:15,740
+And how does this background line go about
+how to adjust and change the size of the map?
+
+42
+00:06:15,740 --> 00:06:23,570
+Let's do a demonstration here and open
+this sd file from the calculation.
+
+43
+00:06:24,070 --> 00:06:24,470
+And then...
+
+44
+00:06:33,400 --> 00:06:44,310
+It's actually this place and
+it's starting with a few angles.
+
+45
+00:06:44,310 --> 00:06:49,500
+Save it for, say, no painting.
+
+46
+00:06:53,610 --> 00:07:05,840
+Uh, let's just make sure we put one under two on it, and then
+we'll choose the angle and drag it in and then drag it in.
+
+47
+00:07:05,980 --> 00:07:13,540
+That said this morning, it's relatively fixed, and
+it actually shows it to me in the shape of my lover.
+
+48
+00:07:14,200 --> 00:07:17,870
+Drag it in and wait for a suitable angle.
+
+49
+00:07:18,780 --> 00:07:20,760
+That's a point of view.
+
+50
+00:07:21,480 --> 00:07:28,660
+It's an angle. It's an angle. It's an angle.
+
+51
+00:07:28,660 --> 00:07:39,760
+Or is it the diagonal view of the projective,
+the right angle, and then the right angle?
+
+52
+00:07:40,420 --> 00:07:50,110
+Then we can set up a camel, for
+example, one of a farm team.
+
+53
+00:07:51,450 --> 00:07:58,940
+The view of the building is the same as the
+one that was shown earlier this morning.
+
+54
+00:07:58,940 --> 00:08:03,200
+The same thing inside is this one that
+sees how it's deformed from the side.
+
+55
+00:08:03,620 --> 00:08:07,620
+Or you can choose another angle.
+
+56
+00:08:12,240 --> 00:08:13,660
+These can be created by themselves.
+
+57
+00:08:15,800 --> 00:08:20,260
+For example, in that perspective is Roclyn.
+
+58
+00:08:22,560 --> 00:08:23,760
+Can be so close.
+
+59
+00:08:28,920 --> 00:08:29,880
+Side,top.
+
+60
+00:08:32,820 --> 00:08:34,200
+That's the perspective.
+
+61
+00:08:36,790 --> 00:08:38,350
+You can put it in front of you.
+
+62
+00:08:40,170 --> 00:08:41,470
+In front.
+
+63
+00:08:44,700 --> 00:08:49,070
+This video is part of the story.
+
+64
+00:08:51,300 --> 00:08:59,690
+And that's one of those things that we saw sooner
+or later, one of the perspectives of the propaganda.
+
+65
+00:09:00,300 --> 00:09:13,040
+This is animated, for example, we're going to make him a name now, like
+this place, and we're going to call it a show, and we're going to show it.
+
+66
+00:09:15,480 --> 00:09:28,880
+So we'll call him Otra, and you see he finds out he's a waste, and the main reason is
+that his fonts are not Chinese, and you're going to use one of his identifying fonts.
+
+67
+00:09:28,880 --> 00:09:37,120
+For example, Microsoft, Windows, the computer
+itself is set to Yahe Microsoft and send it up.
+
+68
+00:09:40,100 --> 00:09:49,060
+YaheOK, that's how it gets to this title.
+
+69
+00:09:49,120 --> 00:09:56,620
+To the right, to the middle, and then to the
+middle, for example, it's a few steps in the middle.
+
+70
+00:09:56,660 --> 00:09:58,840
+In the middle, these can be set.
+
+71
+00:10:00,570 --> 00:10:09,990
+Then this means you can set this thing up to the current level,
+or you can change all sides of the current project in fonts.
+
+72
+00:10:10,120 --> 00:10:14,330
+Like natural red, uh, natural red.
+
+73
+00:10:16,200 --> 00:10:17,280
+It's okay.
+
+74
+00:10:35,170 --> 00:10:41,270
+That's a page, and then page,
+you can show it as a title.
+
+75
+00:10:42,280 --> 00:10:47,260
+You can either hold these
+feet or you don't show them.
+
+76
+00:10:51,390 --> 00:10:59,930
+Now, some of the under-shows they're making can be put in
+some angles, or some of the Logo company Logo in this place.
+
+77
+00:11:01,300 --> 00:11:11,280
+For example, it's red
+in the background color.
+
+78
+00:11:13,080 --> 00:11:21,770
+Background colours can be
+selected for one, usually white.
+
+79
+00:11:26,400 --> 00:11:31,380
+And then this is some distance, and
+usually interest can be adjusted.
+
+80
+00:11:34,100 --> 00:11:42,980
+And then this is one of its specifications, and if you find out
+that you're not enough for someone else, he'll give you this.
+
+81
+00:11:42,980 --> 00:11:46,990
+And now we'll just keep this one.
+
+82
+00:11:52,460 --> 00:11:59,960
+And then we're going to go over this movie system and you're
+going to choose it and you're going to be able to do it.
+
+83
+00:11:59,960 --> 00:12:06,360
+Take this box and look at it.
+Let me change the color to Visor.
+
+84
+00:12:08,000 --> 00:12:17,420
+Let's see, each one of us, it's actually a window, the window
+of this line, and then we pick it, a little bit high in red.
+
+85
+00:12:18,300 --> 00:12:22,880
+Then we can actually have
+a look at this place.
+
+86
+00:12:22,880 --> 00:12:27,480
+For example, it's an actual
+display, or it's a hidden line.
+
+87
+00:12:28,650 --> 00:12:38,400
+This painting can be displayed in each of the individual parts, for
+example, if you look at this relationship, each of its parts can be shown.
+
+88
+00:12:38,400 --> 00:12:47,380
+For example, it's the right painting, its color,
+its display, its invisibility, and transparency.
+
+89
+00:12:48,040 --> 00:12:49,080
+It's all right.
+
+90
+00:12:50,160 --> 00:12:51,760
+We'll set a master here.
+
+91
+00:12:58,200 --> 00:13:06,920
+Well, it's a color of the top of its walls, like we're going
+to set one, you see, it's just a meeting color, and it's...
+
+92
+00:13:06,920 --> 00:13:09,020
+A continuous color, that's it.
+
+93
+00:13:12,340 --> 00:13:15,440
+For example, if you two set it up
+like this, it's completely blank.
+
+94
+00:13:20,650 --> 00:13:28,540
+And then the other is this time, when we show this room, you can put it to
+the bottom of the left, to the bottom of the right, to the top of the right.
+
+95
+00:13:30,350 --> 00:13:39,100
+And this would show that there are some examples of things
+that need to be added and that would show that we are.
+
+96
+00:13:40,550 --> 00:13:47,900
+That kind of deformation, like, we're not sure if we can see
+this right now, and we can convert it to this one in millimeters.
+
+97
+00:13:47,900 --> 00:13:52,900
+Come on. This way. And
+then this one's for use.
+
+98
+00:13:54,310 --> 00:14:06,570
+For example, what we choose is a deformation, for example,
+a square, a deformation, a transformation, a deformation.
+
+99
+00:14:07,830 --> 00:14:19,660
+Transformation, transformation, transformation, transformation, transformation, transformation,
+transformation, transformation, transformation, transformation, transformation, transformation.
+
+100
+00:14:19,660 --> 00:14:30,730
+Transformation, transformation, transformation, transformation, transformation,
+transformation, transformation, transformation, transformation, transformation, transformation.
+
+101
+00:14:30,730 --> 00:14:32,990
+You can go in the same direction.
+
+102
+00:14:37,080 --> 00:14:44,820
+And then this is legend from legend, and this is a stand-alone
+situation, where, for example, font colours can change.
+
+103
+00:14:45,420 --> 00:14:51,080
+Like black. Like black. Like black.
+
+104
+00:14:55,380 --> 00:15:07,360
+And after all, it's colored like what
+color you're going to fill, right?
+
+105
+00:15:07,360 --> 00:15:11,120
+And then there's usually no color.
+
+106
+00:15:14,040 --> 00:15:27,620
+And what it says here is one way to make it a zero, like a hard force or a
+deformed one, or this one, which is based on a personal good, and this color.
+
+107
+00:15:30,320 --> 00:15:33,380
+I prefer this brightness.
+It's its own default.
+
+108
+00:15:39,100 --> 00:15:40,160
+That's why
+
+109
+00:15:45,010 --> 00:15:51,150
+That's how you turn it around, like
+you make it a little red, like us.
+
+110
+00:15:53,290 --> 00:15:57,170
+You can turn it into a red
+one and turn it around.
+
+111
+00:16:05,700 --> 00:16:15,540
+This sign will make it bigger and thicker.
+
+112
+00:16:15,770 --> 00:16:23,470
+You can look at places like these.
+
+113
+00:16:23,820 --> 00:16:33,770
+Like you want to put it on the
+same side as our case, right?
+
+114
+00:16:35,840 --> 00:16:38,340
+Or we can keep it fine-tuned. Just...
+
+115
+00:16:43,970 --> 00:16:44,250
+Yeah.
+
+116
+00:16:46,620 --> 00:16:52,040
+You can hide this frame, or
+you can hide it from the back.
+
+117
+00:16:55,220 --> 00:16:58,740
+Actually, if you don't want
+to adjust, think about it.
+
+118
+00:17:01,840 --> 00:17:10,090
+And then we'll adjust that perspective, and this one in front
+of us, and then we'll do it, and then we'll see what's going on.
+
+119
+00:17:13,610 --> 00:17:20,990
+I mean, it's a little bit too much to
+look at lateral things like this, right?
+
+120
+00:17:22,720 --> 00:17:31,250
+Put this on, like, 500, which is a relatively
+difficult thing to say about buying officers.
+
+121
+00:17:32,740 --> 00:17:33,780
+Take a look.
+
+122
+00:17:35,740 --> 00:17:42,760
+This is one of its forms, or do you think small can
+make it bigger than you can find a problem here?
+
+123
+00:17:42,760 --> 00:17:46,420
+That means it's here when it's transferred.
+
+124
+00:17:51,520 --> 00:17:58,220
+It's a layer where it's blocked
+so it can block you with this map.
+
+125
+00:18:01,770 --> 00:18:07,130
+And then this example
+should be possible, too.
+
+126
+00:18:09,750 --> 00:18:19,570
+That's it, that's it, that's it, that's it,
+that's it, that's it, that's it, that's it.
+
+127
+00:18:23,380 --> 00:18:35,940
+And the fact that this one doesn't come in is that you can choose what you don't come in or what
+you don't, for example, this body doesn't show, this body doesn't show, hey, so it doesn't show.
+
+128
+00:18:38,690 --> 00:18:49,210
+Or if you want it to show some of these
+points or something, you can show them, right?
+
+129
+00:18:49,210 --> 00:18:53,020
+We have one here that shows these points.
+
+130
+00:18:58,330 --> 00:19:08,640
+For example, we're going to be able to drop it at this point to
+see how much it's going to be on the dragon team and put it down.
+
+131
+00:19:08,640 --> 00:19:16,070
+Well, let's take a look, and we'll
+just give you some of this. See?
+
+132
+00:19:20,620 --> 00:19:26,170
+And then it's going around, and that's
+the point where you can see better.
+
+133
+00:19:34,090 --> 00:19:44,020
+That's one of the effects of
+an animation demonstration.
+
+134
+00:19:44,180 --> 00:19:51,860
+The limit below is, for example, that we're going
+to pick a little bit of a little beam right now.
+
+135
+00:19:53,960 --> 00:19:57,400
+Not half. Like 3014, yes.
+
+136
+00:20:02,750 --> 00:20:11,860
+And then in the morning, you can
+see that he's in the same name.
+
+137
+00:20:16,180 --> 00:20:24,700
+Let's just make it look like
+it's going to cost us a lot.
+
+138
+00:20:25,430 --> 00:20:27,690
+He's got the same type.
+
+139
+00:20:31,690 --> 00:20:32,220
+Show it.
+
+140
+00:20:33,520 --> 00:20:41,020
+I forgot to record it. I'll
+re-record it in the morning.
+
+141
+00:20:45,560 --> 00:20:53,640
+How did I get this place in here?
+
+142
+00:20:53,640 --> 00:21:04,090
+Let's open up this closet, for example, where Jorah crosses, and then make
+some adjustments from the new one, and then adjust the Chinese language.
+
+143
+00:21:16,660 --> 00:21:19,800
+Then we'll play the box, and
+then we'll turn it into this.
+
+144
+00:21:21,120 --> 00:21:26,440
+You can also lose MACRO directly to make
+it dark, and then position it quickly.
+
+145
+00:21:27,450 --> 00:21:32,150
+Black, here OK, adjust two
+boxes of Chinese language.
+
+146
+00:21:32,870 --> 00:21:35,450
+Let's do this one by one.
+
+147
+00:21:35,750 --> 00:21:41,920
+The real thing is that it shows something
+that's common. Others say it's the same.
+
+148
+00:21:42,980 --> 00:21:45,400
+It's the color of its background.
+
+149
+00:21:46,800 --> 00:21:53,980
+Does this color show a pattern? Let me
+see. Legend Isn't it all about control?
+
+150
+00:21:54,020 --> 00:22:04,550
+That's how the phase-out is done. It can be
+left, it can be right, middle, multilateral.
+
+151
+00:22:05,770 --> 00:22:15,750
+We can set it up here. For
+example, we're better at it now.
+
+152
+00:22:16,090 --> 00:22:24,660
+And we can set it up like this, so it
+changes the font, and it's pressurized.
+
+153
+00:22:27,790 --> 00:22:29,290
+Let's see if there's a way out.
+
+154
+00:22:39,680 --> 00:22:46,930
+Actually, this grade is the net after all.
+
+155
+00:22:46,930 --> 00:22:56,380
+You could use a different color,
+like knitting it, or knitting it.
+
+156
+00:22:56,380 --> 00:23:02,060
+But let's take a look at this personal
+need. We'll take this grind off.
+
+157
+00:23:04,230 --> 00:23:10,390
+Or you're here, or you're here.
+
+158
+00:23:11,870 --> 00:23:15,240
+Then we'll go back to this.
+
+159
+00:23:18,900 --> 00:23:22,560
+Open our whole property.
+
+160
+00:23:27,230 --> 00:23:36,540
+And then one of the main things about us is that we're gonna
+put it in 'cause now we just want it to be three, right?
+
+161
+00:23:36,640 --> 00:23:39,220
+Then you can change it manually.
+
+162
+00:23:40,260 --> 00:23:45,340
+And it's a scale increment in places
+like these. Don't let it do it.
+
+163
+00:23:46,620 --> 00:23:52,810
+You can make it a manual change,
+like this one, like two people.
+
+164
+00:23:55,410 --> 00:23:59,610
+And then how many times does it put this on again
+and again, which means it's 0 over and over.
+
+165
+00:24:04,010 --> 00:24:11,930
+Automatically, because our words are usually out-of-pocket, they make
+it more efficient and then they don't have to worry too much about it.
+
+166
+00:24:11,970 --> 00:24:20,920
+And then this is the linear, non-linear one, and this
+Z is the same way, and you can control this display.
+
+167
+00:24:24,550 --> 00:24:27,070
+For example, you make it look like
+a full-time re-girded magnetic net.
+
+168
+00:24:28,440 --> 00:24:32,000
+That's what he saw right
+there in the morning.
+
+169
+00:24:37,090 --> 00:24:46,320
+That's our millimeter, right?
+
+170
+00:24:47,180 --> 00:24:52,820
+But we can also find out in the morning
+that there's something wrong with his unit.
+
+171
+00:24:57,030 --> 00:25:02,160
+And then Latement-A-A-Latement
+was actually a simple one.
+
+172
+00:25:04,260 --> 00:25:13,570
+If you can do that, you can open it. It's active, and
+then you can move the fonts, for example, in black.
+
+173
+00:25:16,030 --> 00:25:17,210
+Just OK
+
+174
+00:25:19,040 --> 00:25:22,040
+And then, for example, it becomes a curve.
+
+175
+00:25:29,180 --> 00:25:30,520
+It's an activity. It's a thing.
+
+176
+00:25:35,260 --> 00:25:46,420
+And then you can set it up on this curve with a color liner and the type of line
+material with a eccentric color, and you can also be a line maniac with a spinning color.
+
+177
+00:25:53,710 --> 00:26:03,900
+And then you can take this wire freak, which is the
+coordinate ruler, and then you can see it everywhere.
+
+178
+00:26:03,900 --> 00:26:13,750
+Here's every location you can slide to and see if you see
+it and then we turn it off, and there'll be a moving ruler.
+
+179
+00:26:13,750 --> 00:26:14,510
+Yeah.
+
+180
+00:26:23,720 --> 00:26:26,200
+Give this to me. Drop it.
+
+181
+00:26:27,230 --> 00:26:38,040
+Well, just don't want it. You can
+turn this line color into a wide sex.
+
+182
+00:26:38,040 --> 00:26:38,920
+Make it wider.
+
+183
+00:26:40,690 --> 00:26:45,710
+More water, more water.
+
+184
+00:26:49,390 --> 00:26:50,510
+Well, that's cheap.
+
+185
+00:27:01,280 --> 00:27:05,200
+And then, in here, look at his stuff.
+
+186
+00:27:06,440 --> 00:27:19,720
+This place has a sign, a sign, that we could actually see before this
+place, like this one, it's a log, and it's a percentage, like we're 40%.
+
+187
+00:27:19,720 --> 00:27:26,880
+Ten of your colors can be based on the color of the line,
+for example, the color of the line you're using right now.
+
+188
+00:27:26,880 --> 00:27:29,660
+The color of the base
+can look at this effect.
+
+189
+00:27:32,700 --> 00:27:40,850
+Right? And when you can actually
+add an instrument, you say a logo.
+
+190
+00:27:40,850 --> 00:27:47,620
+And then you can turn it into this, and then you can put it
+a little bit thicker and point it to this big chicken paper.
+
+191
+00:27:49,330 --> 00:27:51,530
+And the name's called Chicken.
+
+192
+00:27:55,300 --> 00:27:57,400
+Well, let's change the font.
+
+193
+00:28:05,040 --> 00:28:05,880
+That's fine.
+
+194
+00:28:07,670 --> 00:28:13,280
+For example, this Boundary Local.
+
+195
+00:28:15,370 --> 00:28:17,330
+This status quo is still relevant.
+
+196
+00:28:20,810 --> 00:28:23,190
+Let's say it's set in red.
+
+197
+00:28:24,160 --> 00:28:25,460
+That's how it looks.
+
+198
+00:28:26,870 --> 00:28:27,510
+Let's.
+
+199
+00:28:30,120 --> 00:28:32,780
+We can raise it if it's too big.
+
+200
+00:28:38,750 --> 00:28:39,430
+A little more.
+
+201
+00:28:43,030 --> 00:28:45,310
+This should be easy to move.
+
+202
+00:28:45,390 --> 00:28:46,530
+For example, I put it here.
+
+203
+00:28:53,040 --> 00:28:59,900
+And the guy who's looking for this
+place has a show to record it.
+
+204
+00:29:01,310 --> 00:29:12,870
+It's gonna work better if you make a video, and if this word is right here, there's
+this place, and this one is a compression rate, and the compression rate is six percent.
+
+205
+00:29:12,870 --> 00:29:20,710
+Just don't want anything and this screen, and this is a 60-percent
+refresher, and then the ass is the form we're dealing with.
+
+206
+00:29:21,370 --> 00:29:30,270
+If it's an animation, he'll just have one form and then
+the cover leader will be transferred directly to two ks.
+
+207
+00:29:31,210 --> 00:29:39,510
+And what we need to be aware of here is that it's wrapped from one
+path to the other, and it's usually under Australia's normal key.
+
+208
+00:29:40,050 --> 00:29:41,270
+It will automatically rise one.
+
+209
+00:29:42,500 --> 00:29:52,060
+And here, it's a pattern that says cycling or playing
+to a certain extent, and it stops or keeps playing.
+
+210
+00:29:52,600 --> 00:29:57,760
+You can set it up, or you can do it
+directly. You can play it once or always.
+
+211
+00:30:00,640 --> 00:30:06,620
+That way we can grove the woods, let's say we're
+going to let him light the record now, show him.
+
+212
+00:30:07,840 --> 00:30:12,280
+Cover him up, then we can move
+faster than we need. Right?
+
+213
+00:30:12,600 --> 00:30:21,400
+Let's get him out of here. We can
+slow him down and slow him down.
+
+214
+00:30:22,750 --> 00:30:34,250
+You can also drag this into the bridge and let him out
+for a little while so that the trees can be raised up.
+
+215
+00:30:51,360 --> 00:30:53,800
+But next thing you know,
+
+216
+00:30:54,850 --> 00:31:05,700
+It actually takes a certain amount of resources to record it, so it's
+probably faster if you look at it, but it's less effective if you look at it.
+
+217
+00:31:06,920 --> 00:31:08,800
+And then you'll be on it.
+
+218
+00:31:08,940 --> 00:31:13,920
+And then we're going down to our Autoputt route,
+and then we're going to look at the flowers.
+
+219
+00:31:19,240 --> 00:31:23,860
+It's actually all about reporting,
+and it's all about video publicity.
+
+220
+00:31:26,520 --> 00:31:34,240
+And then we're going to put this
+elastic deformation in the reprocessing.
+
+221
+00:31:34,240 --> 00:31:41,780
+And there's animated, and how to
+make an animated, and it's done.

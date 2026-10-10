@@ -1,0 +1,244 @@
+WEBVTT
+
+1
+00:00:00.430 --> 00:00:09.410
+Hey, guys, I'm a pre-Siffen's class. We've got the
+physical model and the grid and the material properties.
+
+2
+00:00:09.410 --> 00:00:11.010
+It's all set.
+
+3
+00:00:12.260 --> 00:00:22.000
+What about the first class? When you're looking at it, you're gonna have
+to hold onto it a little bit, so don't get caught up in something else.
+
+4
+00:00:22.000 --> 00:00:29.000
+It's not the rest of the class.
+
+5
+00:00:29.000 --> 00:00:36.840
+Well, it's mostly steel tracks, orbital
+plates, slurry-dismantling, support.
+
+6
+00:00:36.840 --> 00:00:44.220
+And the two bodies' modelling material
+properties and grids must be learned.
+
+7
+00:00:44.220 --> 00:00:53.800
+All right, I'll do the lesson. fastener All
+right. fastener It's actually very simple.
+
+8
+00:00:54.320 --> 00:00:56.700
+Well, it's more common.
+
+9
+00:01:00.540 --> 00:01:13.740
+We're going to open up the model. This
+is a model case that I've already done.
+
+10
+00:01:13.800 --> 00:01:15.340
+So there is no need to repeat it.
+
+11
+00:01:16.680 --> 00:01:22.330
+Then there's something different from the previous
+class. We're gonna have to record it, right?
+
+12
+00:01:22.330 --> 00:01:25.250
+So let's start with copy, a model 2.
+
+13
+00:01:29.280 --> 00:01:40.780
+Okay, I'm gonna need a model 2 to show you how this fastener
+was built and we're gonna start with what he's built.
+
+14
+00:01:41.500 --> 00:01:42.580
+I'll delete it.
+
+15
+00:02:01.700 --> 00:02:09.400
+Okay, we can see that there's Val,Val here,
+and we can delete Val from this model.
+
+16
+00:02:17.010 --> 00:02:20.290
+Delete its Val.
+
+17
+00:02:20.360 --> 00:02:33.620
+Well, as you can see, I actually created all the points from the
+dial connector, but the dot connector was on the Internet before me.
+
+18
+00:02:33.620 --> 00:02:35.420
+The published version is somewhat different.
+
+19
+00:02:36.540 --> 00:02:44.280
+If you have needs, you can find me, and
+if you don't, it's a matter of time.
+
+20
+00:02:44.280 --> 00:02:51.280
+Let's delete it. Let's take
+a fastener, for example.
+
+21
+00:02:51.280 --> 00:02:57.620
+First of all, we're gonna do it. fastener It's gotta be set up.
+fastener Properties, huh? fastener Where's the property, we?
+
+22
+00:02:58.660 --> 00:03:07.700
+Let's assume one, that's when I set it up.
+
+23
+00:03:07.700 --> 00:03:17.320
+If we look alike, we are. 7.51 -6 Aah!
+7.51 -6 Uh, it's, uh, horizontal. 15
+
+24
+00:03:17.900 --> 00:03:25.520
+1 -6 Ah, 151 -622 is horizontally
+inclined and, uh, let me see.
+
+25
+00:03:25.520 --> 00:03:27.360
+7.5, 1 -6
+
+26
+00:03:29.330 --> 00:03:31.430
+It's this way.
+
+27
+00:03:32.900 --> 00:03:38.740
+Let me take a look at this one.
+
+28
+00:03:40.780 --> 00:03:48.560
+There's a problem with that.
+I'm gonna change it. 30.
+
+29
+00:03:50.810 --> 00:03:56.750
+30 -116 Ah, 30 -116, so it's leaning
+towards stiffness, and it'll increase.
+
+30
+00:03:58.090 --> 00:03:59.450
+Yeah, and then...
+
+31
+00:04:01.770 --> 00:04:13.930
+Device settings are usually heavy with 21 -4, 21
+-4, and horizontally with 1.25, 1.25, 1.24, and then
+
+32
+00:04:13.930 --> 00:04:18.430
+The hammer is also 21 -4, yes, that's it.
+
+33
+00:04:19.550 --> 00:04:22.010
+In that case, our material
+properties are set.
+
+34
+00:04:23.410 --> 00:04:33.170
+What's the material properties, it's Dcard? What's the
+setting? Let's say one and then click and write a dcar here.
+
+35
+00:04:33.170 --> 00:04:40.990
+You don't have to pick and then continue, and
+then you just have to add the yellow plus damping.
+
+36
+00:04:40.990 --> 00:04:48.830
+He couldn't add damping because I didn't choose the direction,
+but we could add it now and then you could write it.
+
+37
+00:04:48.830 --> 00:04:56.650
+He can add damping to
+damping in three directions.
+
+38
+00:04:57.790 --> 00:04:58.830
+So that's...
+
+39
+00:05:00.340 --> 00:05:10.480
+What about the setup, we set it up, we set it up, we draw the line
+and then this is the button, and then we click it, and then...
+
+40
+00:05:11.970 --> 00:05:21.240
+Click to add a point to the orbital panel
+and then point a point to the steel track.
+
+41
+00:05:21.740 --> 00:05:31.540
+The right side is the same, and
+all the tracks are the same.
+
+42
+00:05:31.540 --> 00:05:38.760
+It's gonna show up here every time it's
+done, and I'm gonna do it all over.
+
+43
+00:05:38.760 --> 00:05:45.780
+When the dot is finished, the middle mouse button press
+down, then ok, and it generates a VL1 here, right?
+
+44
+00:05:45.780 --> 00:05:54.440
+We light this VL1, it lights up, and
+then how do we create this button?
+
+45
+00:05:55.470 --> 00:06:04.360
+It's to attach the button properties to the line and choose
+this one. Let's go over it and see if it's the one we ordered.
+
+46
+00:06:04.360 --> 00:06:11.600
+Okay, when we're done, we'll pick it
+and find the attributes we just created.
+
+47
+00:06:11.600 --> 00:06:19.500
+Okay, so we're done copying fastener.
+
+48
+00:06:19.500 --> 00:06:19.780
+Yeah.
+
+49
+00:06:21.160 --> 00:06:32.400
+If you have a partner who doesn't need to be more efficient, you can
+still contact me for the information section outside of this class.
+
+50
+00:06:32.400 --> 00:06:37.520
+It's the batch connector
+setting. It's not a problem.
+
+51
+00:06:38.590 --> 00:06:46.690
+Okay, so this piece of fastener, I'm
+gonna say there's a lot of follow-up.
+
+52
+00:06:46.690 --> 00:06:52.850
+You can call me again.
+Okay, fastener, that's it.

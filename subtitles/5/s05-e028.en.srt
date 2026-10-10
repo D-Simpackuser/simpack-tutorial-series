@@ -1,0 +1,295 @@
+1
+00:00:03,600 --> 00:00:11,740
+And when it's over, we're going to put
+it on top because it's a piece-by-part.
+
+2
+00:00:11,740 --> 00:00:21,040
+So we need to make it a box if our parameters
+are based on the parameters of its entire light.
+
+3
+00:00:21,040 --> 00:00:30,510
+If we don't have to make a box, what we need
+to do is talk about this box today. Prinode
+
+4
+00:00:30,510 --> 00:00:34,010
+We can take a look at
+his new friend's skills.
+
+5
+00:01:05,070 --> 00:01:06,490
+I'll look again.
+
+6
+00:01:14,010 --> 00:01:25,250
+It helps me with a lot of stuff, so you can
+read more about it in Component, Prinod,
+
+7
+00:01:27,350 --> 00:01:35,050
+You can look at this description.
+
+8
+00:01:36,720 --> 00:01:50,490
+If you're going to describe it, say we're yellow, and we're going to measure
+it, and it's going to be measured when we're parts, so when we put it together,
+
+9
+00:01:50,490 --> 00:01:55,330
+It needs to be fishy before
+it reaches an average balance.
+
+10
+00:01:56,010 --> 00:02:06,400
+But we, fishy, don't mean to make it easier, because when the
+whole location is ready, it's at the point where the equipment is.
+
+11
+00:02:07,200 --> 00:02:15,440
+Its parameters are based on the unequipped period, but the space
+position at the time of our equipment is the location of the equipment.
+
+12
+00:02:15,760 --> 00:02:20,920
+So we can't say that we
+have some kind of threat.
+
+13
+00:02:20,920 --> 00:02:29,260
+So the way we're going to offer primal is to
+give it some strength and keep it in space.
+
+14
+00:02:29,260 --> 00:02:37,940
+But there's some specific parameters in it that
+preload this way, so you can see for yourself.
+
+15
+00:02:38,500 --> 00:02:40,140
+Some theory about it.
+
+16
+00:02:41,240 --> 00:02:48,620
+We need to set the speed to 0 before
+we preload it, or it's very small.
+
+17
+00:02:48,620 --> 00:02:50,940
+And then click this preload.
+
+18
+00:02:53,270 --> 00:02:56,290
+Or maybe we can have sort preload.
+
+19
+00:02:58,310 --> 00:03:07,420
+What needs to be noted here is that it is only
+involved in Project Z, that is, the power of gravity.
+
+20
+00:03:07,720 --> 00:03:10,720
+Participation is a great thing,
+and no other direction is needed.
+
+21
+00:03:10,860 --> 00:03:12,860
+In such a case, we choose Yes.
+
+22
+00:03:13,880 --> 00:03:22,020
+Make sure that every one of them meets
+up to the top, and that it fits again.
+
+23
+00:03:23,420 --> 00:03:31,760
+Make sure you choose the other direction
+of gravity. It's a different calculation.
+
+24
+00:03:44,420 --> 00:03:50,560
+I've got it right here.
+
+25
+00:03:53,880 --> 00:04:04,190
+Then we can look at it in every
+direction, and it should have a 9.81.
+
+26
+00:04:04,900 --> 00:04:07,680
+Let's make it count.
+
+27
+00:04:09,800 --> 00:04:17,140
+It's a negative 12, as long as our
+holy language is less than zero.
+
+28
+00:04:17,620 --> 00:04:20,920
+If you're talking, you can
+think of it as appropriate.
+
+29
+00:04:22,880 --> 00:04:33,560
+What you also need to be aware of is that our little meaning, for
+example, is that the four rituals of our ritual should be equal.
+
+30
+00:04:34,380 --> 00:04:43,220
+If we're not sure, we can put it together.
+
+31
+00:04:45,040 --> 00:04:46,860
+So we're done with static equilibrium.
+
+32
+00:04:48,420 --> 00:04:51,160
+At static equilibrium, there are
+really a lot of people who say,
+
+33
+00:04:52,480 --> 00:04:59,980
+He's had a variety of problems,
+like static equilibrium.
+
+34
+00:04:59,980 --> 00:05:12,420
+In the direction of the position, it means that it's got to have
+a certain amount of bias, like this DMU, which we're going to buy.
+
+35
+00:05:12,420 --> 00:05:21,340
+We'll add one, plus a pound of hair.
+
+36
+00:05:26,480 --> 00:05:34,440
+Add a pound, and let's see. We're in a different
+direction at this point. It's a bit of a prognosis.
+
+37
+00:05:35,060 --> 00:05:43,850
+If we see a lot more, let's say we give a
+0.1 so that we can make a little balance.
+
+38
+00:05:43,850 --> 00:05:50,640
+He's looking at the basics, but
+we're going to zoom in on this.
+
+39
+00:05:51,710 --> 00:05:59,510
+You see, it must be different
+in the direction of Z-X.
+
+40
+00:05:59,510 --> 00:06:03,060
+So it won't be able to do a few. We can try.
+
+41
+00:06:08,710 --> 00:06:12,170
+It's bigger. Let's make
+it a couple of rounds.
+
+42
+00:06:12,920 --> 00:06:17,780
+It's loud. Let's look at
+it at the acceleration.
+
+43
+00:06:18,440 --> 00:06:23,660
+A Boogie from S direction, which is a
+S direction with a much faster voice.
+
+44
+00:06:24,220 --> 00:06:28,600
+It's
+S-S-S-S-S-S-S-S-S-Z-S-S-S-S-S-S-S-S-S-S-S.
+
+45
+00:06:28,600 --> 00:06:35,380
+If we're here, we're gonna
+have to suck it up and eat it.
+
+46
+00:06:36,600 --> 00:06:45,540
+This next day's paper can take a little
+step and then we can see if it's done.
+
+47
+00:06:45,540 --> 00:06:49,440
+Or are we gonna make a few
+more bottles when I was a kid?
+
+48
+00:06:53,190 --> 00:06:53,850
+preload
+
+49
+00:06:55,600 --> 00:06:56,860
+This time it's smaller.
+
+50
+00:06:58,240 --> 00:07:00,100
+Because of the play. Hit it.
+
+51
+00:07:02,310 --> 00:07:12,440
+Let's give it a count of ten, let it run
+the data, let's see if it's appropriate.
+
+52
+00:07:14,820 --> 00:07:18,160
+Wait a minute. Offline
+groups, offline groups.
+
+53
+00:07:24,760 --> 00:07:26,700
+And then there's a transfer in this place.
+
+54
+00:07:29,290 --> 00:07:30,290
+Why?
+
+55
+00:07:30,930 --> 00:07:31,490
+Why?
+
+56
+00:07:32,510 --> 00:07:32,910
+Okay.
+
+57
+00:07:39,440 --> 00:07:45,270
+It's on. Let's go up and check it out.
+
+58
+00:07:46,440 --> 00:07:49,520
+It's Z position. Z position.
+
+59
+00:07:51,320 --> 00:07:56,260
+It's not as high as it gets.
+Let's keep it in the middle.
+
+60
+00:08:02,460 --> 00:08:10,460
+Like 20 s, it's 10 m without seconds, which
+means the line is going to go to 2000, right?
+
+61
+00:08:21,150 --> 00:08:23,870
+Let's do it this way.
+
+62
+00:08:48,260 --> 00:08:56,860
+Well, it's almost back on the screen now.
+
+63
+00:08:57,860 --> 00:09:03,680
+It's bigger.
+
+64
+00:09:07,100 --> 00:09:12,580
+Then we'll be finished with the
+modeling part of our entire vehicle.

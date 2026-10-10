@@ -17,6 +17,13 @@ import library_verify as verifier
 import github_release as transport
 
 
+def temporary_fixture():
+    """Keep every synthetic test write inside the publishing workspace."""
+    tests_root = Path(__file__).resolve().parents[2] / "_local" / "tests"
+    tests_root.mkdir(parents=True, exist_ok=True)
+    return tempfile.TemporaryDirectory(prefix="library-verify-", dir=tests_root)
+
+
 def fixture(root):
     """A complete seven-series library, including the one missing subtitle group."""
     catalog = {"schema_version": 1, "episodes": []}
@@ -187,7 +194,7 @@ class TransportSafetyTests(unittest.TestCase):
 class LibraryInvariantTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.temp = tempfile.TemporaryDirectory()
+        cls.temp = temporary_fixture()
         cls.root = Path(cls.temp.name)
         cls.catalog, cls.baseline = fixture(cls.root)
 
@@ -330,7 +337,7 @@ class LibraryInvariantTests(unittest.TestCase):
 
 class ReceiptBoundaryTests(unittest.TestCase):
     def test_public_output_and_existing_receipts_rejected(self):
-        with tempfile.TemporaryDirectory() as directory:
+        with temporary_fixture() as directory:
             root = Path(directory)
             private = root / "_local"
             private.mkdir()

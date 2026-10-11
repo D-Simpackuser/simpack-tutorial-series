@@ -325,6 +325,12 @@ def plan(work, series='all'):
 
 
 def build(work):
+    # Internationalized projects render from the already verified schema 1
+    # catalogue. Do not reconstruct links, reset names, rewrite subtitles or
+    # overwrite reader-maintained provenance with the legacy initial template.
+    import i18n_engine
+    if i18n_engine.enabled(work):
+        return i18n_engine.render(work)
     inventory = work.read_json('inventory.json')
     if inventory is None:
         raise ValueError('Run scan first')
@@ -332,9 +338,21 @@ def build(work):
     current = snapshot(work, 'build_before')
     if scanned is None or compare_snapshots(scanned, current):
         raise ValueError('Sources changed since scan; run scan before build')
-    documentation = Path(__file__).resolve().parents[1] / 'docs/publishing.md'
+    documentation_root = Path(__file__).resolve().parents[1] / 'docs'
+    # A fresh legacy project has no multilingual/maintainer documentation yet.
+    # Reuse the retained complete upload guide, not a Stage C navigation stub
+    # whose targets would be absent from such a project.
+    retained_guide = documentation_root / 'maintainer/publishing.md'
+    documentation = retained_guide if retained_guide.is_file() else documentation_root / 'publishing.md'
     if not work.repo('docs/publishing.md').exists():
-        work.write_repo('docs/publishing.md', documentation.read_bytes())
+        guide = documentation.read_text(encoding='utf-8')
+        # The current maintainer guide begins with links/commands for an
+        # internationalized project. A fresh legacy workspace has none of
+        # those inputs or architecture pages; retain only its A/B section.
+        retained_section = '\n## Retained Stage A/B workflow / 保留的阶段 A/B 流程\n'
+        if documentation == retained_guide and retained_section in guide:
+            guide = guide.split('\n', 1)[0] + '\n\n' + guide.split(retained_section, 1)[1].lstrip('\n')
+        work.write_repo('docs/publishing.md', guide)
     before = current
     episodes = inventory['episodes']
     checks = []
@@ -480,6 +498,8 @@ def audit(work):
     issues = [x for x in walk_issues if not x['relative_path'].startswith('.git/')]
     candidate, subtitle_materials, unmanaged = [], [], []
     owned_code = {'scripts/core.py','scripts/catalog_engine.py','scripts/publish.py','scripts/github_release.py',
+                  'scripts/i18n_engine.py','tests/test_i18n.py',
+                  'scripts/library_verify.py','tests/test_library_verify.py','tests/test_branding.py',
                   'tests/test_local.py','tests/test_github_release.py','tests/test_stage_b_catalog.py',
                   'tests/test_stage_b_release.py','docs/publishing.md'}
     forbidden_extensions = VIDEO_EXT | {'.zip','.rar','.7z','.bin','.log','.tmp','.pem','.key','.exe','.dll'}
@@ -515,10 +535,45 @@ def audit(work):
     result = {'created_at': now(), 'passed': not issues, 'issues': issues, 'candidate_files': sorted(candidate),
               'unconfirmed_material_files': sorted(subtitle_materials), 'excluded_unmanaged_files': sorted(unmanaged), 'git_index_checked': False,
               'staged_files': [], 'remote_calls': 0}
-    stage_b = work.config.get('phase') == 'B'
+    stage_c_manifest = work.read_json('stage_c/stage_manifest.json')
+    stage_c = stage_c_manifest is not None
+    stage_b = work.config.get('phase') == 'B' and not stage_c
     stage_allowed = set()
     subtitle_hashes = {}
-    if stage_b:
+    if stage_c:
+        # Documentation preparation has its own exact manifest. It neither
+        # changes Phase B's private authorization nor authorizes media edits.
+        manifest = stage_c_manifest
+        listed = manifest.get('files') if isinstance(manifest, dict) else None
+        if (not isinstance(manifest, dict) or manifest.get('phase') != 'C' or
+                manifest.get('repository') != 'D-Simpackuser/simpack-tutorial-series' or
+                manifest.get('repository_id') != 1412669436 or
+                manifest.get('authorization_scope') != 'documentation_only' or
+                not isinstance(listed, list) or any(not isinstance(rel, str) for rel in listed) or
+                len(listed) != len(set(listed))):
+            result['issues'].append({'kind': 'invalid_stage_c_stage_manifest'})
+        else:
+            for rel in listed:
+                parts = Path(rel).parts
+                doc_location = bool(parts) and (len(parts) == 1 or parts[0] in
+                                ('docs', 'series', 'lessons', 'i18n', 'scripts', 'tests', '.github'))
+                if (rel not in candidate or not doc_location or
+                        Path(rel).suffix.lower() not in ('.md', '.json', '.py', '.yml', '.yaml')):
+                    result['issues'].append({'kind': 'unauthorized_stage_c_manifest_file', 'path': rel})
+                else:
+                    stage_allowed.add(rel)
+        result['stage_c_documentation_files'] = sorted(stage_allowed)
+        # Existing subtitle bytes can be reviewed, but no new or changed
+        # subtitle blob is approved by this documentation-only manifest.
+        result['unconfirmed_material_files'] = []
+        inventory = work.read_json('inventory.json', {})
+        expected_subs = {f'subtitles/{ep["series_id"]}/{data.get("asset_name", "")}': data.get('sha256')
+                         for ep in inventory.get('episodes', []) for data in ep.get('subtitles', {}).values()
+                         if data.get('status') == 'matched' and data.get('sha256')}
+        for rel in subtitle_materials:
+            if rel not in expected_subs or sha256(work.repo(rel)) != expected_subs[rel]:
+                result['issues'].append({'kind': 'retained_subtitle_sha256_mismatch', 'path': rel})
+    elif stage_b:
         rights = work.read_json('rights.json', {})
         inventory = work.read_json('inventory.json', {})
         authorization = work.read_json('authorization.json', {})
@@ -568,7 +623,7 @@ def audit(work):
             result['passed'] = False
         staged = [s.decode('utf-8') for s in proc.stdout.split(b'\0') if s]
         result['staged_files'] = staged
-        if staged and not stage_b:
+        if staged and not (stage_b or stage_c):
             result['issues'].append({'kind': 'unexpected_staged_files_in_stage_A', 'paths': staged})
             result['passed'] = False
         elif staged:

@@ -1,0 +1,33 @@
+name: Subtitle or title correction / 字幕与译名纠错
+description: Report a specific subtitle, title or terminology issue / 反馈字幕、题名或术语问题
+title: "[Correction] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please include only information you have permission to share. Do not post tokens, passwords, licence keys, private paths or signed download URLs.
+        请勿提交无权传播的资料、token、密码、许可证密钥、私有路径或签名下载地址。
+  - type: input
+    id: lesson
+    attributes:
+      label: Series and lesson ID / 系列与课程 ID
+      placeholder: "6 / s06-e001"
+    validations:
+      required: true
+  - type: input
+    id: language
+    attributes:
+      label: Language and file or page / 语言及文件或页面
+      placeholder: "English .en.srt, or README.ko.md"
+  - type: input
+    id: timestamp
+    attributes:
+      label: Timestamp, if relevant / 相关时间戳（如适用）
+      placeholder: "00:03:12"
+  - type: textarea
+    id: correction
+    attributes:
+      label: Problem and proposed correction / 问题及建议改法
+      description: Explain the wording, meaning or timing issue; cite a short source where available. / 说明措辞、含义或时间轴问题，可附简短出处。
+    validations:
+      required: true

@@ -1,0 +1,23 @@
+name: Broken link / 链接问题
+description: Report a page or media link that fails / 反馈页面或媒体链接问题
+title: "[Link] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Private repository links require access. Share a normal repository or Release URL, not a temporary signed URL, token or account credential.
+        private 仓库链接需要访问权限。请提供普通仓库或 Release 地址，不贴临时签名链接、token 或账号凭据。
+  - type: input
+    id: location
+    attributes:
+      label: Page, Release or lesson ID / 页面、Release 或课程 ID
+      placeholder: "series/6/README.md / s06-e001"
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Link and observed result / 链接及实际访问结果
+      description: State whether it is a page, video or subtitle link, and describe the error without personal details. / 说明是页面、视频或字幕链接，并描述错误，不含个人信息。
+    validations:
+      required: true

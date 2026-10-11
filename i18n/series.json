@@ -1,0 +1,494 @@
+{
+  "schema_version": 1,
+  "package_version": "2",
+  "target_repository": "D-Simpackuser/simpack-tutorial-series",
+  "target_repository_id": 1412669436,
+  "default_locale": "en",
+  "locales": [
+    "en",
+    "zh-CN",
+    "ja",
+    "fr",
+    "de",
+    "it",
+    "es",
+    "ko"
+  ],
+  "subtitle_languages_existing": [
+    "zh-CN",
+    "en"
+  ],
+  "source_scope": "User-supplied official series names and course filenames; repository metadata and selected committed files inspected. No full video or subtitle-semantic review.",
+  "translation_review_status": "editorial_draft_not_independently_native_reviewed",
+  "series": [
+    {
+      "id": "1",
+      "titles": {
+        "zh-CN": "基于ABAQUS-Simpack联合的轨道车辆-柔性轨-浮置板耦合动力学",
+        "en": "Coupled Railway Vehicle–Flexible Rail–Floating Slab Dynamics with Abaqus and Simpack",
+        "ja": "Abaqus・Simpackによる鉄道車両・弾性レール・フローティングスラブの連成動力学",
+        "fr": "Dynamique couplée véhicule ferroviaire–rail flexible–dalle flottante avec Abaqus et Simpack",
+        "de": "Gekoppelte Dynamik von Schienenfahrzeug, elastischer Schiene und schwimmend gelagerter Fahrbahnplatte mit Abaqus und Simpack",
+        "it": "Dinamica accoppiata veicolo ferroviario–rotaia flessibile–soletta flottante con Abaqus e Simpack",
+        "es": "Dinámica acoplada de vehículo ferroviario, carril flexible y losa flotante con Abaqus y Simpack",
+        "ko": "Abaqus–Simpack 기반 철도차량·유연 레일·플로팅 슬래브 연성동역학"
+      },
+      "modules": {
+        "en": [
+          "Flexible rail and spring-supported floating slab modelling in Abaqus; FBI generation",
+          "FTR authoring and flexible-track setup in Simpack",
+          "Wheelset, bogie-frame and complete-vehicle modelling; vehicle–floating-slab coupling",
+          "TRE / PSD excitation, flexible-body animation and response post-processing"
+        ],
+        "zh-CN": [
+          "Abaqus 柔性钢轨与钢弹簧浮置板建模；FBI 文件生成",
+          "FTR 文件编写与 Simpack 柔性轨道设置",
+          "轮对、构架和整车建模；车辆与浮置板轨道耦合",
+          "TRE / PSD 激励、柔性体动画及响应后处理"
+        ],
+        "ja": [
+          "Abaqusによる弾性レールとばね支持フローティングスラブのモデル化、FBI生成",
+          "FTRファイルの作成とSimpackの弾性軌道設定",
+          "輪軸・台車枠・車両全体のモデル化と車両–フローティングスラブの連成",
+          "TRE／PSD加振、弾性体の変形アニメーション、応答の後処理"
+        ],
+        "fr": [
+          "Modélisation du rail flexible et de la dalle flottante sur ressorts dans Abaqus ; génération FBI",
+          "Rédaction des fichiers FTR et configuration de la voie flexible dans Simpack",
+          "Modèles d’essieu monté, de châssis de bogie et de véhicule complet ; couplage avec la dalle flottante",
+          "Excitations TRE / PSD, animation des corps flexibles et post-traitement des réponses"
+        ],
+        "de": [
+          "Elastische Schienen und federgelagerte Fahrbahnplatten in Abaqus; FBI-Erzeugung",
+          "FTR-Dateien und Einrichtung elastischer Gleise in Simpack",
+          "Radsatz-, Drehgestellrahmen- und Gesamtfahrzeugmodelle; Kopplung mit der Fahrbahnplatte",
+          "TRE-/PSD-Anregung, Animation flexibler Körper und Auswertung der Antworten"
+        ],
+        "it": [
+          "Modellazione della rotaia flessibile e della soletta flottante su molle in Abaqus; generazione FBI",
+          "Scrittura dei file FTR e configurazione del binario flessibile in Simpack",
+          "Modelli di sala montata, telaio del carrello e veicolo completo; accoppiamento con la soletta flottante",
+          "Eccitazioni TRE / PSD, animazione dei corpi flessibili e post-elaborazione delle risposte"
+        ],
+        "es": [
+          "Modelado del carril flexible y de la losa flotante sobre resortes en Abaqus; generación FBI",
+          "Creación de archivos FTR y configuración de la vía flexible en Simpack",
+          "Modelos de eje montado, bastidor de bogie y vehículo completo; acoplamiento con la losa flotante",
+          "Excitaciones TRE / PSD, animación de cuerpos flexibles y posprocesado de respuestas"
+        ],
+        "ko": [
+          "Abaqus에서 유연 레일과 스프링 지지 플로팅 슬래브 모델링 및 FBI 생성",
+          "FTR 파일 작성과 Simpack 유연 궤도 설정",
+          "윤축·대차 프레임·전체 차량 모델링 및 차량–플로팅 슬래브 연성",
+          "TRE / PSD 가진, 유연체 변형 애니메이션, 응답 후처리"
+        ]
+      },
+      "release_tag": "series-1-v1",
+      "existing_page": "series/1/README.md",
+      "video_count_baseline": 18,
+      "subtitle_file_count_baseline": 72
+    },
+    {
+      "id": "2",
+      "titles": {
+        "zh-CN": "基于ANSYS/ABAQUS-Simpack-Fesafe的弹性体动态应力应变/疲劳仿真解决方案",
+        "en": "Dynamic Stress, Strain and Fatigue Analysis of Flexible Bodies with Ansys/Abaqus, Simpack and fe-safe",
+        "ja": "Ansys／Abaqus・Simpack・fe-safeによる弾性体の動的応力・ひずみと疲労解析",
+        "fr": "Analyse des contraintes et déformations dynamiques et de la fatigue des corps flexibles avec Ansys/Abaqus, Simpack et fe-safe",
+        "de": "Dynamische Spannungs-, Dehnungs- und Ermüdungsanalyse flexibler Körper mit Ansys/Abaqus, Simpack und fe-safe",
+        "it": "Analisi delle tensioni, delle deformazioni dinamiche e della fatica dei corpi flessibili con Ansys/Abaqus, Simpack e fe-safe",
+        "es": "Análisis de tensiones, deformaciones dinámicas y fatiga de cuerpos flexibles con Ansys/Abaqus, Simpack y fe-safe",
+        "ko": "Ansys/Abaqus–Simpack–fe-safe 기반 유연체의 동적 응력·변형률 및 피로 해석"
+      },
+      "modules": {
+        "en": [
+          "Abaqus / Ansys interface preparation and FBI flexible-body generation",
+          "Flexible-body setup and stress/strain recovery in Simpack",
+          "Deformation, stress and strain visualisation in Simpack Post",
+          "Export to fe-safe; fatigue analysis and an integrated workflow example"
+        ],
+        "zh-CN": [
+          "Abaqus / Ansys 接口准备与 FBI 柔性体文件生成",
+          "Simpack 柔性体设置及应力、应变恢复",
+          "Simpack Post 变形与应力应变结果查看",
+          "向 fe-safe 导出计算文件；疲劳分析与完整流程案例"
+        ],
+        "ja": [
+          "Abaqus／Ansysのインターフェース用データ準備とFBI生成",
+          "Simpackの弾性体設定と応力・ひずみの復元",
+          "Simpack Postによる変形・応力・ひずみの可視化",
+          "fe-safeへのデータ出力、疲労解析、一連の解析手順の事例"
+        ],
+        "fr": [
+          "Préparation des interfaces Abaqus / Ansys et génération des corps flexibles FBI",
+          "Configuration des corps flexibles et restitution des contraintes et déformations dans Simpack",
+          "Visualisation des déformées, contraintes et déformations dans Simpack Post",
+          "Export vers fe-safe, analyse de fatigue et exemple de chaîne de calcul intégrée"
+        ],
+        "de": [
+          "Vorbereitung der Abaqus-/Ansys-Schnittstellen und Erzeugung von FBI-Dateien",
+          "Einrichtung flexibler Körper sowie Spannungs- und Dehnungsrückgewinnung in Simpack",
+          "Darstellung von Verformungen, Spannungen und Dehnungen in Simpack Post",
+          "Export nach fe-safe, Ermüdungsanalyse und durchgängiges Ablaufbeispiel"
+        ],
+        "it": [
+          "Preparazione delle interfacce Abaqus / Ansys e generazione dei corpi flessibili FBI",
+          "Configurazione dei corpi flessibili e recupero di tensioni e deformazioni in Simpack",
+          "Visualizzazione di deformate, tensioni e deformazioni in Simpack Post",
+          "Esportazione verso fe-safe, analisi a fatica ed esempio di flusso di lavoro integrato"
+        ],
+        "es": [
+          "Preparación de interfaces Abaqus / Ansys y generación de cuerpos flexibles FBI",
+          "Configuración de cuerpos flexibles y recuperación de tensiones y deformaciones en Simpack",
+          "Visualización de deformadas, tensiones y deformaciones en Simpack Post",
+          "Exportación a fe-safe, análisis de fatiga y ejemplo de flujo de trabajo integrado"
+        ],
+        "ko": [
+          "Abaqus / Ansys 인터페이스 데이터 준비와 FBI 유연체 생성",
+          "Simpack 유연체 설정 및 응력·변형률 복원",
+          "Simpack Post의 변형·응력·변형률 시각화",
+          "fe-safe용 데이터 내보내기, 피로 해석, 통합 작업 흐름 사례"
+        ]
+      },
+      "release_tag": "series-2-v1",
+      "existing_page": "series/2/README.md",
+      "video_count_baseline": 13,
+      "subtitle_file_count_baseline": 52
+    },
+    {
+      "id": "3",
+      "titles": {
+        "zh-CN": "基于ANSYS Workbench Mechanical & APDL的轨道车辆-弹性轨道动力学全平台实现",
+        "en": "Railway Vehicle–Flexible Track Dynamics with Ansys Workbench Mechanical, APDL and Simpack",
+        "ja": "Ansys Workbench Mechanical・APDL・Simpackによる鉄道車両・弾性軌道の動力学解析",
+        "fr": "Dynamique véhicule ferroviaire–voie flexible avec Ansys Workbench Mechanical, APDL et Simpack",
+        "de": "Schienenfahrzeug–Fahrweg-Dynamik mit elastischem Gleis in Ansys Workbench Mechanical, APDL und Simpack",
+        "it": "Dinamica veicolo ferroviario–binario flessibile con Ansys Workbench Mechanical, APDL e Simpack",
+        "es": "Dinámica de vehículo ferroviario y vía flexible con Ansys Workbench Mechanical, APDL y Simpack",
+        "ko": "Ansys Workbench Mechanical·APDL·Simpack을 이용한 철도차량–유연 궤도 동역학 해석"
+      },
+      "modules": {
+        "en": [
+          "Rail beam modelling in SpaceClaim; substructuring in Workbench Mechanical",
+          "APDL graphical and command-based workflows; FBI interface handling",
+          "FTR foundation connections and batch configuration of force elements",
+          "Simple vehicle models, TRE / PSD excitation, animation and post-processing parameters"
+        ],
+        "zh-CN": [
+          "SpaceClaim 钢轨梁模型；Workbench Mechanical 子结构缩减",
+          "APDL 图形界面与命令流；FBI 接口处理",
+          "FTR 弹性轨道基础连接与力元批量设置",
+          "简易车辆、TRE / PSD 激励、动画与后处理参数读取"
+        ],
+        "ja": [
+          "SpaceClaimのレール梁モデルとWorkbench Mechanicalの部分構造縮約",
+          "APDLのGUI・コマンド処理とFBIインターフェース",
+          "FTRの軌道基礎接続と力要素の一括設定",
+          "簡易車両、TRE／PSD加振、アニメーション、後処理パラメータ"
+        ],
+        "fr": [
+          "Modèle de rail en poutres dans SpaceClaim ; sous-structuration dans Workbench Mechanical",
+          "Procédures APDL par interface graphique et commandes ; interface FBI",
+          "Connexions de fondation FTR et configuration groupée des éléments de force",
+          "Véhicules simplifiés, excitations TRE / PSD, animations et paramètres de post-traitement"
+        ],
+        "de": [
+          "Schienen-Balkenmodell in SpaceClaim; Substrukturreduktion in Workbench Mechanical",
+          "APDL mit grafischer Oberfläche und Befehlen; FBI-Schnittstelle",
+          "FTR-Fundamentverbindungen und stapelweise Einrichtung von Kraftelementen",
+          "Einfache Fahrzeugmodelle, TRE-/PSD-Anregung, Animationen und Auswerteparameter"
+        ],
+        "it": [
+          "Modello di rotaia a travi in SpaceClaim; riduzione per sottostrutture in Workbench Mechanical",
+          "Procedure APDL tramite interfaccia grafica e comandi; gestione dell’interfaccia FBI",
+          "Connessioni della fondazione FTR e configurazione in serie degli elementi di forza",
+          "Veicoli semplificati, eccitazioni TRE / PSD, animazioni e parametri di post-elaborazione"
+        ],
+        "es": [
+          "Modelo de carril con elementos viga en SpaceClaim; reducción por subestructuras en Workbench Mechanical",
+          "Procedimientos APDL mediante interfaz gráfica y comandos; gestión de la interfaz FBI",
+          "Conexiones de cimentación FTR y configuración por lotes de elementos de fuerza",
+          "Vehículos simplificados, excitaciones TRE / PSD, animación y parámetros de posprocesado"
+        ],
+        "ko": [
+          "SpaceClaim 레일 보 모델과 Workbench Mechanical 부분구조 축약",
+          "APDL 그래픽 인터페이스·명령 작업 흐름과 FBI 인터페이스 처리",
+          "FTR 궤도 기초 연결 및 힘 요소 일괄 설정",
+          "단순 차량 모델, TRE / PSD 가진, 애니메이션, 후처리 매개변수"
+        ]
+      },
+      "release_tag": "series-3-v1",
+      "existing_page": "series/3/README.md",
+      "video_count_baseline": 16,
+      "subtitle_file_count_baseline": 64
+    },
+    {
+      "id": "5",
+      "titles": {
+        "zh-CN": "ABAQUS-Simpack联合仿真实现车线桥耦合动力学系统",
+        "en": "Coupled Vehicle–Track–Bridge Dynamics with Abaqus and Simpack",
+        "ja": "Abaqus・Simpackによる車両・軌道・橋梁の連成動力学",
+        "fr": "Dynamique couplée véhicule–voie–pont avec Abaqus et Simpack",
+        "de": "Gekoppelte Fahrzeug–Fahrweg–Brücken-Dynamik mit Abaqus und Simpack",
+        "it": "Dinamica accoppiata veicolo–binario–ponte con Abaqus e Simpack",
+        "es": "Dinámica acoplada vehículo–vía–puente con Abaqus y Simpack",
+        "ko": "Abaqus–Simpack을 이용한 차량–궤도–교량 연성동역학"
+      },
+      "modules": {
+        "en": [
+          "Rails, CRTS III track slabs, concrete layers, base slabs and a simply supported bridge girder",
+          "Materials, mesh, fasteners, internal contacts and substructure generation",
+          "FBI / FTR, parameterised vehicles, static equilibrium and vehicle–track–bridge coupling",
+          "Preload, solver setup, track irregularities and the dynamics assessment quantities addressed in the recordings"
+        ],
+        "zh-CN": [
+          "钢轨、CRTS III 型轨道板、混凝土层、底座板与简支梁",
+          "材料、网格、扣件、内部接触和子结构生成",
+          "FBI / FTR、参数化车辆、静平衡及车–线–桥耦合",
+          "预载荷、求解、轨道不平顺及课程涉及的动力学评价指标"
+        ],
+        "ja": [
+          "レール、CRTS III軌道スラブ、コンクリート層、路盤スラブ、単純支持橋桁",
+          "材料、メッシュ、締結装置、内部接触、部分構造生成",
+          "FBI／FTR、車両のパラメータ化、静的釣り合い、車両–軌道–橋梁の連成",
+          "初期荷重、ソルバー設定、軌道不整、動画で扱う動力学評価量"
+        ],
+        "fr": [
+          "Rails, dalles de voie CRTS III, couches de béton, dalles de base et poutre de pont simplement appuyée",
+          "Matériaux, maillage, attaches, contacts internes et génération de sous-structures",
+          "FBI / FTR, véhicules paramétrés, équilibre statique et couplage véhicule–voie–pont",
+          "Précharge, solveur, irrégularités de voie et grandeurs d’évaluation dynamique abordées dans les vidéos"
+        ],
+        "de": [
+          "Schienen, CRTS-III-Gleisplatten, Betonschichten, Grundplatten und einfach gelagerte Brückenträger",
+          "Materialien, Vernetzung, Schienenbefestigungen, interne Kontakte und Substrukturen",
+          "FBI / FTR, parametrisierte Fahrzeuge, statisches Gleichgewicht und Fahrzeug–Fahrweg–Brücken-Kopplung",
+          "Vorlast, Solver, Gleisunregelmäßigkeiten und die in den Videos behandelten dynamischen Bewertungsgrößen"
+        ],
+        "it": [
+          "Rotaie, lastre di binario CRTS III, strati di calcestruzzo, piastre di base e trave da ponte semplicemente appoggiata",
+          "Materiali, mesh, attacchi, contatti interni e generazione di sottostrutture",
+          "FBI / FTR, veicoli parametrizzati, equilibrio statico e accoppiamento veicolo–binario–ponte",
+          "Precarico, solutore, irregolarità del binario e grandezze di valutazione dinamica trattate nei video"
+        ],
+        "es": [
+          "Carriles, losas de vía CRTS III, capas de hormigón, losas de base y viga de puente simplemente apoyada",
+          "Materiales, malla, sujeciones, contactos internos y generación de subestructuras",
+          "FBI / FTR, vehículos parametrizados, equilibrio estático y acoplamiento vehículo–vía–puente",
+          "Precarga, solucionador, irregularidades de vía y magnitudes de evaluación dinámica tratadas en los vídeos"
+        ],
+        "ko": [
+          "레일, CRTS III 궤도 슬래브, 콘크리트 층, 기초 슬래브 및 단순지지 교량 거더",
+          "재료, 메시, 체결장치, 내부 접촉 및 부분구조 생성",
+          "FBI / FTR, 매개변수화 차량, 정적 평형 및 차량–궤도–교량 연성",
+          "초기 하중, 솔버, 궤도 불규칙 및 영상에서 다루는 동역학 평가량"
+        ]
+      },
+      "release_tag": "series-5-v1",
+      "existing_page": "series/5/README.md",
+      "video_count_baseline": 42,
+      "subtitle_file_count_baseline": 164
+    },
+    {
+      "id": "6",
+      "titles": {
+        "zh-CN": "Simpack轨道车辆动力学快速入门案例",
+        "en": "Getting Started with Railway Vehicle Dynamics in Simpack",
+        "ja": "Simpackによる鉄道車両動力学の入門事例",
+        "fr": "Prise en main de la dynamique des véhicules ferroviaires avec Simpack",
+        "de": "Einstieg in die Schienenfahrzeugdynamik mit Simpack",
+        "it": "Introduzione alla dinamica dei veicoli ferroviari con Simpack",
+        "es": "Introducción a la dinámica de vehículos ferroviarios con Simpack",
+        "ko": "Simpack 철도차량 동역학 입문 사례"
+      },
+      "modules": {
+        "en": [
+          "Wheelset and bogie-frame modelling",
+          "Complete-vehicle model assembly",
+          "TRE files and PSD excitation",
+          "Response post-processing and analysis"
+        ],
+        "zh-CN": [
+          "轮对与构架建模",
+          "整车模型装配",
+          "TRE 文件与 PSD 激励设置",
+          "仿真响应的后处理及分析"
+        ],
+        "ja": [
+          "輪軸と台車枠のモデル化",
+          "車両全体モデルの組立",
+          "TREファイルとPSD加振",
+          "応答の後処理と解析"
+        ],
+        "fr": [
+          "Modélisation de l’essieu monté et du châssis de bogie",
+          "Assemblage du véhicule complet",
+          "Fichiers TRE et excitation PSD",
+          "Post-traitement et analyse des réponses"
+        ],
+        "de": [
+          "Radsatz- und Drehgestellrahmenmodellierung",
+          "Zusammenbau des Gesamtfahrzeugmodells",
+          "TRE-Dateien und PSD-Anregung",
+          "Nachverarbeitung und Analyse der Antworten"
+        ],
+        "it": [
+          "Modellazione della sala montata e del telaio del carrello",
+          "Assemblaggio del modello del veicolo completo",
+          "File TRE ed eccitazione PSD",
+          "Post-elaborazione e analisi delle risposte"
+        ],
+        "es": [
+          "Modelado del eje montado y del bastidor de bogie",
+          "Ensamblaje del modelo de vehículo completo",
+          "Archivos TRE y excitación PSD",
+          "Posprocesado y análisis de respuestas"
+        ],
+        "ko": [
+          "윤축과 대차 프레임 모델링",
+          "전체 차량 모델 조립",
+          "TRE 파일과 PSD 가진",
+          "응답 후처리 및 분석"
+        ]
+      },
+      "release_tag": "series-6-v1",
+      "existing_page": "series/6/README.md",
+      "video_count_baseline": 8,
+      "subtitle_file_count_baseline": 32
+    },
+    {
+      "id": "7",
+      "titles": {
+        "zh-CN": "ANSYS-SIMPACK 车-线-桥大系统联合仿真动力学（Beam-Solid）",
+        "en": "Vehicle–Track–Bridge Dynamics with Ansys and Simpack: Beam–Solid Modelling",
+        "ja": "Ansys・Simpackによる車両・軌道・橋梁の連成動力学：Beam–Solidモデル",
+        "fr": "Dynamique véhicule–voie–pont avec Ansys et Simpack : modélisation Beam–Solid",
+        "de": "Fahrzeug–Fahrweg–Brücken-Dynamik mit Ansys und Simpack: Beam–Solid-Modellierung",
+        "it": "Dinamica veicolo–binario–ponte con Ansys e Simpack: modellazione Beam–Solid",
+        "es": "Dinámica vehículo–vía–puente con Ansys y Simpack: modelado Beam–Solid",
+        "ko": "Ansys–Simpack 차량–궤도–교량 연성동역학: Beam–Solid 모델링"
+      },
+      "modules": {
+        "en": [
+          "RAIL-EULER, rail-timo, solid bridge models and modal topics",
+          "Rail and bridge FBI files; FTR authoring and troubleshooting",
+          "Parameterised vehicles, coupling order and transition-zone stiffness/damping",
+          "Preload, solver setup, excitation, bridge/rail responses and model organisation"
+        ],
+        "zh-CN": [
+          "RAIL-EULER、rail-timo、实体桥梁与模态相关课程",
+          "钢轨和桥梁 FBI 文件；FTR 编写与错误排查",
+          "参数化车辆、耦合顺序及过渡段刚度阻尼",
+          "预载荷、求解、激励、桥梁与钢轨响应、模型整理"
+        ],
+        "ja": [
+          "RAIL-EULER、rail-timo、ソリッド橋梁モデル、モード関連の内容",
+          "レール・橋梁のFBIファイル、FTR作成と問題の切り分け",
+          "車両のパラメータ化、連成設定の順序、遷移区間の剛性・減衰",
+          "初期荷重、求解、加振、橋梁・レールの応答、モデル整理"
+        ],
+        "fr": [
+          "RAIL-EULER, rail-timo, pont modélisé en éléments volumiques et thèmes modaux",
+          "Fichiers FBI du rail et du pont ; rédaction et diagnostic FTR",
+          "Véhicules paramétrés, ordre du couplage, raideur et amortissement des zones de transition",
+          "Précharge, solveur, excitation, réponses du pont et du rail, organisation des modèles"
+        ],
+        "de": [
+          "RAIL-EULER, rail-timo, Brückenmodelle mit Volumenelementen und modale Themen",
+          "FBI-Dateien für Schienen und Brücken; FTR-Erstellung und Fehlersuche",
+          "Parametrisierte Fahrzeuge, Kopplungsreihenfolge sowie Steifigkeit und Dämpfung im Übergangsbereich",
+          "Vorlast, Solver, Anregung, Brücken- und Schienenantworten, Modellorganisation"
+        ],
+        "it": [
+          "RAIL-EULER, rail-timo, modelli di ponte con elementi solidi e argomenti modali",
+          "File FBI di rotaia e ponte; scrittura e diagnosi dei file FTR",
+          "Veicoli parametrizzati, ordine di accoppiamento, rigidezza e smorzamento delle zone di transizione",
+          "Precarico, solutore, eccitazione, risposte di ponte e rotaia, organizzazione dei modelli"
+        ],
+        "es": [
+          "RAIL-EULER, rail-timo, modelos de puente con elementos sólidos y temas modales",
+          "Archivos FBI del carril y del puente; creación y diagnóstico de archivos FTR",
+          "Vehículos parametrizados, orden de acoplamiento, rigidez y amortiguamiento en zonas de transición",
+          "Precarga, solucionador, excitación, respuestas del puente y del carril, organización de modelos"
+        ],
+        "ko": [
+          "RAIL-EULER, rail-timo, 솔리드 교량 모델 및 모드 관련 내용",
+          "레일·교량 FBI 파일, FTR 작성 및 오류 분석",
+          "매개변수화 차량, 연성 설정 순서, 전이 구간 강성과 감쇠",
+          "초기 하중, 솔버, 가진, 교량·레일 응답 및 모델 정리"
+        ]
+      },
+      "release_tag": "series-7-v1",
+      "existing_page": "series/7/README.md",
+      "video_count_baseline": 46,
+      "subtitle_file_count_baseline": 184
+    },
+    {
+      "id": "8",
+      "titles": {
+        "zh-CN": "ANSYS-SIMPACK 车-线-桥大系统联合仿真动力学（Beam-Beam）",
+        "en": "Vehicle–Track–Bridge Dynamics with Ansys and Simpack: Beam–Beam Modelling",
+        "ja": "Ansys・Simpackによる車両・軌道・橋梁の連成動力学：Beam–Beamモデル",
+        "fr": "Dynamique véhicule–voie–pont avec Ansys et Simpack : modélisation Beam–Beam",
+        "de": "Fahrzeug–Fahrweg–Brücken-Dynamik mit Ansys und Simpack: Beam–Beam-Modellierung",
+        "it": "Dinamica veicolo–binario–ponte con Ansys e Simpack: modellazione Beam–Beam",
+        "es": "Dinámica vehículo–vía–puente con Ansys y Simpack: modelado Beam–Beam",
+        "ko": "Ansys–Simpack 차량–궤도–교량 연성동역학: Beam–Beam 모델링"
+      },
+      "modules": {
+        "en": [
+          "RAIL-EULER, rail-timo, BEAM188 bridge models and modal topics",
+          "FBI / FTR setup, parameterised vehicles and vehicle–track–bridge coupling",
+          "Batch creation of rail/bridge connection points, connections, supports and sensors",
+          "Preload, solver setup, excitation, post-processing and model organisation"
+        ],
+        "zh-CN": [
+          "RAIL-EULER、rail-timo、BEAM188 桥梁与模态相关课程",
+          "FBI / FTR 设置、参数化车辆与车–线–桥耦合",
+          "钢轨和桥梁连接点、连接作用、支座及传感器批量创建",
+          "预载荷、求解、激励、后处理和模型整理"
+        ],
+        "ja": [
+          "RAIL-EULER、rail-timo、BEAM188橋梁モデル、モード関連の内容",
+          "FBI／FTR設定、車両のパラメータ化、車両–軌道–橋梁の連成",
+          "レール・橋梁の接続点、接続要素、支承、センサーの一括作成",
+          "初期荷重、求解、加振、後処理、モデル整理"
+        ],
+        "fr": [
+          "RAIL-EULER, rail-timo, pont modélisé avec BEAM188 et thèmes modaux",
+          "Configuration FBI / FTR, véhicules paramétrés et couplage véhicule–voie–pont",
+          "Création groupée des points de connexion, liaisons, appuis et capteurs du rail et du pont",
+          "Précharge, solveur, excitation, post-traitement et organisation des modèles"
+        ],
+        "de": [
+          "RAIL-EULER, rail-timo, BEAM188-Brückenmodelle und modale Themen",
+          "FBI-/FTR-Einstellungen, parametrisierte Fahrzeuge und Fahrzeug–Fahrweg–Brücken-Kopplung",
+          "Stapelweise Erstellung von Verbindungspunkten, Verbindungen, Lagern und Sensoren",
+          "Vorlast, Solver, Anregung, Nachverarbeitung und Modellorganisation"
+        ],
+        "it": [
+          "RAIL-EULER, rail-timo, modelli di ponte BEAM188 e argomenti modali",
+          "Configurazione FBI / FTR, veicoli parametrizzati e accoppiamento veicolo–binario–ponte",
+          "Creazione in serie di punti di connessione, collegamenti, appoggi e sensori",
+          "Precarico, solutore, eccitazione, post-elaborazione e organizzazione dei modelli"
+        ],
+        "es": [
+          "RAIL-EULER, rail-timo, modelos de puente BEAM188 y temas modales",
+          "Configuración FBI / FTR, vehículos parametrizados y acoplamiento vehículo–vía–puente",
+          "Creación por lotes de puntos de conexión, uniones, apoyos y sensores",
+          "Precarga, solucionador, excitación, posprocesado y organización de modelos"
+        ],
+        "ko": [
+          "RAIL-EULER, rail-timo, BEAM188 교량 모델 및 모드 관련 내용",
+          "FBI / FTR 설정, 매개변수화 차량 및 차량–궤도–교량 연성",
+          "레일·교량 연결점, 연결 요소, 받침 및 센서 일괄 생성",
+          "초기 하중, 솔버, 가진, 후처리 및 모델 정리"
+        ]
+      },
+      "release_tag": "series-8-v1",
+      "existing_page": "series/8/README.md",
+      "video_count_baseline": 51,
+      "subtitle_file_count_baseline": 204
+    }
+  ]
+}

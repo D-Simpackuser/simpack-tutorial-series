@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "target_repository": "D-Simpackuser/simpack-tutorial-series",
+  "target_repository_id": 1412669436,
+  "brand_name": "RailDyn Atlas",
+  "titles": {
+    "en": "RailDyn Atlas",
+    "zh-CN": "RailDyn Atlas｜轨道车辆系统动力学教程图谱",
+    "ja": "RailDyn Atlas",
+    "fr": "RailDyn Atlas",
+    "de": "RailDyn Atlas",
+    "it": "RailDyn Atlas",
+    "es": "RailDyn Atlas",
+    "ko": "RailDyn Atlas"
+  },
+  "subtitles": {
+    "en": "Simpack Railway Dynamics & Flexible-Body Simulation Library",
+    "zh-CN": "轨道车辆系统动力学教程图谱",
+    "ja": "Simpack 鉄道車両動力学・柔軟体シミュレーション資料ライブラリー",
+    "fr": "Bibliothèque Simpack de dynamique ferroviaire et de simulation de corps flexibles",
+    "de": "Simpack-Bibliothek für Schienenfahrzeugdynamik und Simulation flexibler Körper",
+    "it": "Biblioteca Simpack di dinamica ferroviaria e simulazione di corpi flessibili",
+    "es": "Biblioteca Simpack de dinámica ferroviaria y simulación de cuerpos flexibles",
+    "ko": "Simpack 철도차량 동역학 및 유연체 시뮬레이션 자료 라이브러리"
+  }
+}

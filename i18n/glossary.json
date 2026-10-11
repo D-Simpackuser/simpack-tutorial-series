@@ -1,0 +1,207 @@
+{
+  "schema_version": 1,
+  "status": "editorial terminology suggestions; not independently reviewed by native-speaking railway engineers",
+  "scope": "Term choices for this documentation task, not vendor-certified terminology or translations of statutory standards.",
+  "terms": [
+    {
+      "zh-CN": "轨道车辆动力学",
+      "en": "railway vehicle dynamics",
+      "ja": "鉄道車両の運動力学",
+      "fr": "dynamique des véhicules ferroviaires",
+      "de": "Schienenfahrzeugdynamik",
+      "it": "dinamica dei veicoli ferroviari",
+      "es": "dinámica de vehículos ferroviarios",
+      "ko": "철도차량 동역학"
+    },
+    {
+      "zh-CN": "车辆—轨道—桥梁耦合动力学",
+      "en": "coupled vehicle–track–bridge dynamics",
+      "ja": "車両・軌道・橋梁の連成動力学",
+      "fr": "dynamique couplée véhicule–voie–pont",
+      "de": "gekoppelte Fahrzeug–Gleis–Brücken-Dynamik",
+      "it": "dinamica accoppiata veicolo–binario–ponte",
+      "es": "dinámica acoplada vehículo–vía–puente",
+      "ko": "차량–궤도–교량 연성 동역학"
+    },
+    {
+      "zh-CN": "轮对",
+      "en": "wheelset",
+      "ja": "輪軸",
+      "fr": "essieu monté",
+      "de": "Radsatz",
+      "it": "sala montata",
+      "es": "eje montado",
+      "ko": "윤축"
+    },
+    {
+      "zh-CN": "构架（转向架构架）",
+      "en": "bogie frame",
+      "ja": "台車枠",
+      "fr": "châssis de bogie",
+      "de": "Drehgestellrahmen",
+      "it": "telaio del carrello",
+      "es": "bastidor del bogie",
+      "ko": "대차 프레임"
+    },
+    {
+      "zh-CN": "转向架",
+      "en": "bogie",
+      "ja": "台車",
+      "fr": "bogie",
+      "de": "Drehgestell",
+      "it": "carrello",
+      "es": "bogie",
+      "ko": "대차"
+    },
+    {
+      "zh-CN": "车体",
+      "en": "carbody",
+      "ja": "車体",
+      "fr": "caisse du véhicule",
+      "de": "Wagenkasten",
+      "it": "cassa del veicolo",
+      "es": "caja del vehículo",
+      "ko": "차체"
+    },
+    {
+      "zh-CN": "钢轨",
+      "en": "rail",
+      "ja": "レール",
+      "fr": "rail",
+      "de": "Schiene",
+      "it": "rotaia",
+      "es": "carril",
+      "ko": "레일"
+    },
+    {
+      "zh-CN": "轨道",
+      "en": "track",
+      "ja": "軌道",
+      "fr": "voie",
+      "de": "Gleis",
+      "it": "binario",
+      "es": "vía",
+      "ko": "궤도"
+    },
+    {
+      "zh-CN": "柔性体／弹性体（多体系统语境）",
+      "en": "flexible body",
+      "ja": "柔軟体",
+      "fr": "corps flexible",
+      "de": "flexibler Körper",
+      "it": "corpo flessibile",
+      "es": "cuerpo flexible",
+      "ko": "유연체"
+    },
+    {
+      "zh-CN": "浮置板轨道",
+      "en": "floating slab track",
+      "ja": "フローティングスラブ軌道",
+      "fr": "voie sur dalle flottante",
+      "de": "Masse-Feder-System mit schwimmender Fahrbahnplatte",
+      "it": "binario su soletta flottante",
+      "es": "vía sobre losa flotante",
+      "ko": "플로팅 슬래브 궤도"
+    },
+    {
+      "zh-CN": "应力",
+      "en": "stress",
+      "ja": "応力",
+      "fr": "contrainte",
+      "de": "Spannung",
+      "it": "tensione",
+      "es": "tensión",
+      "ko": "응력"
+    },
+    {
+      "zh-CN": "应变",
+      "en": "strain",
+      "ja": "ひずみ",
+      "fr": "déformation",
+      "de": "Dehnung",
+      "it": "deformazione",
+      "es": "deformación",
+      "ko": "변형률"
+    },
+    {
+      "zh-CN": "疲劳分析",
+      "en": "fatigue analysis",
+      "ja": "疲労解析",
+      "fr": "analyse en fatigue",
+      "de": "Ermüdungsanalyse",
+      "it": "analisi a fatica",
+      "es": "análisis de fatiga",
+      "ko": "피로 해석"
+    },
+    {
+      "zh-CN": "模态缩减",
+      "en": "modal reduction",
+      "ja": "モード縮約",
+      "fr": "réduction modale",
+      "de": "modale Reduktion",
+      "it": "riduzione modale",
+      "es": "reducción modal",
+      "ko": "모드 축소"
+    },
+    {
+      "zh-CN": "子结构",
+      "en": "substructure",
+      "ja": "部分構造",
+      "fr": "sous-structure",
+      "de": "Substruktur",
+      "it": "sottostruttura",
+      "es": "subestructura",
+      "ko": "부분구조"
+    },
+    {
+      "zh-CN": "静平衡",
+      "en": "static equilibrium",
+      "ja": "静的つり合い",
+      "fr": "équilibre statique",
+      "de": "statisches Gleichgewicht",
+      "it": "equilibrio statico",
+      "es": "equilibrio estático",
+      "ko": "정적 평형"
+    },
+    {
+      "zh-CN": "预载荷",
+      "en": "preload",
+      "ja": "予荷重",
+      "fr": "précharge",
+      "de": "Vorlast",
+      "it": "precarico",
+      "es": "precarga",
+      "ko": "예하중"
+    },
+    {
+      "zh-CN": "轨道不平顺",
+      "en": "track irregularities",
+      "ja": "軌道不整",
+      "fr": "irrégularités de la voie",
+      "de": "Gleisunregelmäßigkeiten",
+      "it": "irregolarità del binario",
+      "es": "irregularidades de la vía",
+      "ko": "궤도 불규칙"
+    },
+    {
+      "zh-CN": "功率谱密度",
+      "en": "power spectral density (PSD)",
+      "ja": "パワースペクトル密度（PSD）",
+      "fr": "densité spectrale de puissance (PSD)",
+      "de": "spektrale Leistungsdichte (PSD)",
+      "it": "densità spettrale di potenza (PSD)",
+      "es": "densidad espectral de potencia (PSD)",
+      "ko": "파워 스펙트럼 밀도(PSD)"
+    },
+    {
+      "zh-CN": "应力恢复",
+      "en": "stress recovery",
+      "ja": "応力回復",
+      "fr": "restitution des contraintes",
+      "de": "Spannungsrückgewinnung",
+      "it": "recupero delle tensioni",
+      "es": "recuperación de tensiones",
+      "ko": "응력 복원"
+    }
+  ]
+}

@@ -444,6 +444,20 @@ class BuildTests(LocalFixture):
         private_page = self.work.repo(f"lessons/{output[1]['episode_id']}.md").read_text(encoding="utf-8")
         self.assertRegex(private_page, r"访问权限|access")
 
+    def test_fresh_legacy_guide_keeps_upload_controls_without_maintenance_dependencies(self):
+        self.lesson("1/1-课程.mp4")
+        self.scan()
+        catalog_engine.build(self.work)
+        guide = self.work.repo("docs/publishing.md").read_text(encoding="utf-8")
+        self.assertNotIn("Maintaining the existing library", guide)
+        self.assertNotIn("](architecture.md)", guide)
+        self.assertNotIn("publish.py i18n-validate", guide)
+        for retained_control in ("simpack-local-publish-v1", "approved_existing_asset_names",
+                                 "阶段 B 前提", "同名内容不同不覆盖、不删除"):
+            self.assertIn(retained_control, guide)
+        result = catalog_engine.audit(self.work)
+        self.assertTrue(result['passed'], result['issues'])
+
     def test_audit_does_not_add_unmanaged_benign_file_to_publish_manifest(self):
         self.lesson("1/1-课程.mp4")
         self.scan()

@@ -345,7 +345,14 @@ def build(work):
     retained_guide = documentation_root / 'maintainer/publishing.md'
     documentation = retained_guide if retained_guide.is_file() else documentation_root / 'publishing.md'
     if not work.repo('docs/publishing.md').exists():
-        work.write_repo('docs/publishing.md', documentation.read_bytes())
+        guide = documentation.read_text(encoding='utf-8')
+        # The current maintainer guide begins with links/commands for an
+        # internationalized project. A fresh legacy workspace has none of
+        # those inputs or architecture pages; retain only its A/B section.
+        retained_section = '\n## Retained Stage A/B workflow / 保留的阶段 A/B 流程\n'
+        if documentation == retained_guide and retained_section in guide:
+            guide = guide.split('\n', 1)[0] + '\n\n' + guide.split(retained_section, 1)[1].lstrip('\n')
+        work.write_repo('docs/publishing.md', guide)
     before = current
     episodes = inventory['episodes']
     checks = []

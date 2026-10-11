@@ -2,7 +2,26 @@
 
 全部命令在发布工作目录执行。仅依赖已有 Python 3 标准库与 GitHub CLI。视频从只读源读取，不进入 Git，不使用 LFS，不转码。
 
-阶段 A 已完成本地准备；当前工程按本轮明确授权进入阶段 B。实际执行权限以私有配置、逐项权利记录、本轮授权、真实登录身份和目标 commit 为准，本文不代替授权。仓库保持 private，不自动改为 public。
+## Maintaining the existing library / 维护既有资料库
+
+For RailDyn Atlas documentation maintenance, use the shared internationalization inputs and the existing local build/validation commands below. Follow the [maintainer architecture](architecture.md) for precise staged-file auditing, the frozen lesson-identity baseline, and GET-only Release/attachment verification with the preserved private baseline and new receipt filenames. Local rendering and metadata verification do not authorize media uploads or other remote changes.
+
+维护 RailDyn Atlas 现有文档时，修改共用国际化输入并使用下列本地构建与验证入口。精确暂存审计、冻结课程身份基线及只读远端核验步骤见[维护架构](architecture.md)；核验使用保留的私有基线并另存新回执。原视频和字幕目录保持只读，原课程 ID、媒体映射及 tag 保留。
+
+```powershell
+python -B .\repo\scripts\publish.py build
+python -B .\repo\scripts\publish.py i18n-validate
+python -B .\repo\scripts\publish.py test
+python -B .\repo\scripts\publish.py audit
+```
+
+The retained Stage A/B workflow below is for separately authorized media additions. Routine maintenance uses `library_verify.py` as documented above; the legacy `publish.py verify` belongs to the upload workflow. Do not rerun `scan` to reallocate existing IDs or use the old `report` command for internationalization progress: it writes Stage A/B summaries to the private progress record. Preserve that record and update the current maintenance evidence directly.
+
+下文保留阶段 A/B 流程，供另行明确授权的新增媒体使用。日常维护采用维护架构中的 `library_verify.py`；旧 `publish.py verify` 属于上传流程。不要重新扫描并分配已有课程 ID；旧 `report` 会把私有进度记录写为 A/B 摘要，国际化续接应保留原记录并直接更新当前证据。上传权利、授权范围、同名冲突及工程识别检查继续生效。
+
+## Retained Stage A/B workflow / 保留的阶段 A/B 流程
+
+以下说明保留阶段 A/B 的准备与上传流程。实际执行权限以私有配置、逐项权利记录、本轮授权、真实登录身份和目标 commit 为准，本文不代替授权。仓库保持 private，不自动改为 public。
 
 未加 `--apply` 的 upload/release 命令仍仅预演；预演不会调用 GitHub 接口，不会计算全部视频哈希，也不会产生下载链接。阶段 B 的 `verify` 会查询远端并更新核验状态，`--download` 可在需要时下载到私有临时目录比对字节。
 

@@ -4,8 +4,6 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Italiano](README.it.md) · [Español](README.es.md) · [한국어](README.ko.md)
 
-> 현재 비공개 저장소입니다. 영상과 자막을 다운로드하려면 저장소 접근 권한이 있는 GitHub 계정이 필요합니다.
-
 **차량–궤도–교량 상호작용 · 유연체 · 응력 복원 및 피로 해석**
 
 RailDyn Atlas는 Simpack, Abaqus, Ansys, fe-safe를 이용한 철도 동역학 작업 흐름을 일곱 시리즈로 정리합니다. 차량 모델링, 유연 레일과 궤도 기초, 차량–궤도–교량 연성, 유연체의 응력·변형률 복원 및 피로 해석을 주제별로 찾아볼 수 있습니다.

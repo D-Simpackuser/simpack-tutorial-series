@@ -2,8 +2,6 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Italiano](README.it.md) · [Español](README.es.md) · [한국어](README.ko.md)
 
-> Private repository: a GitHub account with repository access is required for video and subtitle downloads.
-
 46 video lessons · 184 subtitle files · 46 lessons with all four subtitle files.
 
 Titles and topic groups are editorial descriptions, not independently validated simulation results. Lesson details are bilingual English / Chinese; original Chinese filenames remain there for exact identification.

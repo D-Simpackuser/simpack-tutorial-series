@@ -4,8 +4,6 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Italiano](README.it.md) · [Español](README.es.md) · [한국어](README.ko.md)
 
-> El repositorio es privado actualmente. Para descargar vídeos y subtítulos se necesita una cuenta de GitHub con acceso.
-
 **Interacción vehículo–vía–puente · Cuerpos flexibles · Recuperación de tensiones y fatiga**
 
 RailDyn Atlas reúne siete series de tutoriales sobre flujos de trabajo de dinámica ferroviaria con Simpack, Abaqus, Ansys y fe-safe. Su organización abarca modelos de vehículos, carriles y cimentaciones de vía flexibles, acoplamiento vehículo–vía–puente, recuperación de tensiones y deformaciones y análisis de fatiga de cuerpos flexibles.

@@ -13,6 +13,10 @@
     "es": "RailDyn Atlas",
     "ko": "RailDyn Atlas"
   },
+  "positioning": {
+    "en": "Find railway vehicle and flexible-body tutorials by learning goal, then follow a route through the existing Simpack, Abaqus and Ansys material.",
+    "zh-CN": "按学习目标查找轨道车辆与柔性体教程，通过清晰目录衔接 Simpack、Abaqus 和 Ansys 学习路线。"
+  },
   "subtitles": {
     "en": "Simpack Railway Dynamics & Flexible-Body Simulation Library",
     "zh-CN": "轨道车辆系统动力学教程图谱",

@@ -4,8 +4,6 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Italiano](README.it.md) · [Español](README.es.md) · [한국어](README.ko.md)
 
-> 現在は非公開リポジトリです。動画・字幕のダウンロードにはアクセス権のある GitHub アカウントが必要です。
-
 **車両・軌道・橋梁の連成 · 弾性体 · 応力復元と疲労解析**
 
 RailDyn Atlasは、Simpack、Abaqus、Ansys、fe-safeを用いた鉄道動力学の動画教材を七つのシリーズに整理しています。車両モデル、弾性レールと軌道基礎、車両・軌道・橋梁の連成、弾性体の応力・ひずみ復元と疲労解析を、テーマ別に探せます。

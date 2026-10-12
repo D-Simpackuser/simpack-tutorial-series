@@ -137,6 +137,43 @@ class BrandingTests(LocalFixture):
         self.assertNotIn('dynamics &amp; flexible', text)
         self.assertIn('Fixture description. ' * 25, text)
 
+    def test_positioning_route_fragments_and_feedback_survive_repeated_builds(self):
+        self.prepare()
+        project = self.project()
+        project['positioning'] = {'en': 'Find lessons by learning goal.'}
+        self.write_project(project)
+        source_path = 'i18n/readme/README.md'
+        source = self.work.repo(source_path).read_text(encoding='utf-8')
+        anchors = ('simpack-basics', 'abaqus-flexible-track', 'stress-recovery-fatigue')
+        links = ' '.join(f'[Route](../../docs/learning-paths.md#{anchor})' for anchor in anchors)
+        links += ' [Feedback](../../CONTRIBUTING.md)'
+        self.work.write_repo(source_path, source.replace('\n## ', '\n{{project_positioning}}\n\n' + links + '\n\n## ', 1))
+        self.work.write_repo('docs/learning-paths.md', '# Learning paths\n\n' + '\n'.join(
+            f'<a id="{anchor}"></a>\n\n## Route\n' for anchor in anchors))
+        first = catalog_engine.build(self.work)
+        page = self.work.repo('README.md').read_text(encoding='utf-8')
+        self.assertIn(project['positioning']['en'], page)
+        self.assertNotIn('{{project_positioning}}', page)
+        self.assertIn('{{project_positioning}}', self.work.repo(source_path).read_text(encoding='utf-8'))
+        for anchor in anchors:
+            self.assertIn(f'](docs/learning-paths.md#{anchor})', page)
+        self.assertIn('](CONTRIBUTING.md)', page)
+        self.assertTrue(engine.validate(self.work)['passed'])
+        self.assertEqual(first, catalog_engine.build(self.work))
+        self.assertEqual(page, self.work.repo('README.md').read_text(encoding='utf-8'))
+        self.assertEqual(self.catalog_bytes, self.work.repo('catalog.json').read_bytes())
+        self.assertEqual(self.original_media, self.snapshot(self.subtitle_root))
+        self.assertEqual(self.original_videos, self.snapshot(self.video_root))
+
+    def test_positioning_placeholder_without_trusted_metadata_fails_before_writes(self):
+        self.prepare()
+        self.write_project(self.project())
+        source = self.work.repo('i18n/readme/README.md').read_text(encoding='utf-8')
+        self.work.write_repo('i18n/readme/README.md', source.replace('\n## ', '\n{{project_positioning}}\n\n## ', 1))
+        with patch.object(self.work, 'write_repo', side_effect=AssertionError('Unexpected page write')):
+            with self.assertRaisesRegex(ValueError, 'Missing project positioning'):
+                engine.render(self.work)
+
     def test_incomplete_foreign_or_markup_branding_fails_before_any_page_write(self):
         self.prepare()
         cases = []

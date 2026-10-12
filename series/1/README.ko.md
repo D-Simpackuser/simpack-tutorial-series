@@ -2,8 +2,6 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Italiano](README.it.md) · [Español](README.es.md) · [한국어](README.ko.md)
 
-> 현재 비공개 저장소입니다. 영상과 자막을 다운로드하려면 저장소 접근 권한이 있는 GitHub 계정이 필요합니다.
-
 영상 18개 · 자막 파일 72개 · 네 종류의 자막이 있는 강의 18개.
 
 제목과 주제 분류는 편집상 정리이며 독립 검증을 뜻하지 않습니다. 상세 페이지는 영어 / 중국어이며 원래 중국어 파일명을 유지합니다.

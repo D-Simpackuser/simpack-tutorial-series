@@ -2,8 +2,6 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Italiano](README.it.md) · [Español](README.es.md) · [한국어](README.ko.md)
 
-> Il repository è attualmente privato. Per scaricare video e sottotitoli serve un account GitHub autorizzato ad accedervi.
-
 42 video · 164 file di sottotitoli · 41 video con tutti e quattro i file. Lezioni senza file di sottotitoli: `s05-e001` — 0-课程效果.
 
 Titoli e temi sono un’organizzazione editoriale, non una validazione indipendente. I dettagli sono in inglese / cinese e conservano i nomi cinesi dei file originali.

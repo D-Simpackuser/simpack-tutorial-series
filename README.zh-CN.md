@@ -2,13 +2,19 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Italiano](README.it.md) · [Español](README.es.md) · [한국어](README.ko.md)
 
-> 仓库当前为 private：下载视频及字幕需要具有仓库访问权限的 GitHub 账号。
-
 **车辆–轨道–桥梁耦合 · 柔性体 · 应力应变恢复与疲劳分析**
 
-RailDyn Atlas 按七个系列整理 Simpack、Abaqus、Ansys 与 fe-safe 相关的轨道车辆动力学视频教程，覆盖车辆建模、柔性钢轨与轨道基础、车–线–桥耦合，以及柔性体应力应变恢复和疲劳分析。目录用于按主题定位课程、下载视频并选择对应字幕。
+按学习目标查找轨道车辆与柔性体教程，通过清晰目录衔接 Simpack、Abaqus 和 Ansys 学习路线。
 
 194 个视频课程 · 772 个字幕文件 · 193 课具备四种配套字幕文件。 没有配套字幕的课程：`s05-e001` — 0-课程效果.
+
+**选择学习入口：**[Simpack 入门](docs/learning-paths.md#simpack-basics) · [Abaqus 柔性轨道](docs/learning-paths.md#abaqus-flexible-track) · [应力恢复与疲劳](docs/learning-paths.md#stress-recovery-fatigue)
+
+**当前开放范围：**仓库已为 public，可匿名浏览目录并通过原有课程链接下载既有已发布 Release 中的视频及字幕，无需仓库成员权限。公众可访问不等于获得一般性再利用许可。
+
+**最短看课步骤：**在系列目录找课，打开已有本地 MP4，或从该系列 Release 下载；再用支持外挂字幕的播放器选择同课中文或英文 SRT。详见[使用说明](docs/using-the-library.md)。当前没有内嵌播放器、专用搜索界面或自动学习进度功能。
+
+**反馈入口：**[纠错与贡献说明](CONTRIBUTING.md)列明课程 ID、时间戳与问题描述的写法。公开问题单可匿名阅读；提交问题需要登录 GitHub。
 
 [下载说明](docs/using-the-library.md) · [学习建议](docs/learning-paths.md) · [质量与版本](docs/quality-and-versions.md)
 
@@ -26,11 +32,11 @@ RailDyn Atlas 按七个系列整理 Simpack、Abaqus、Ansys 与 fe-safe 相关�
 | 7 | [ANSYS-SIMPACK 车-线-桥大系统联合仿真动力学（Beam-Solid）](series/7/README.zh-CN.md) | 46 | [下载合集](https://github.com/D-Simpackuser/simpack-tutorial-series/releases/tag/series-7-v1) |
 | 8 | [ANSYS-SIMPACK 车-线-桥大系统联合仿真动力学（Beam-Beam）](series/8/README.zh-CN.md) | 51 | [下载合集](https://github.com/D-Simpackuser/simpack-tutorial-series/releases/tag/series-8-v1) |
 
-点击系列名称进入现有逐课目录，点击下载合集进入该系列的 Release。保留原始系列编号，不补建系列 4，也不因学习顺序调整而重编号。
+点击系列名称进入现有逐课目录，点击下载合集进入已发布的系列 Release。保留原始系列编号，不补建系列 4，也不因学习顺序调整而重编号。
 
 ## 从哪里开始
 
-初次建立车辆模型，建议先学习**系列 6**。柔性轨道方向可按工具背景选择 Abaqus 路线的**系列 1**或 Ansys 路线的**系列 3**，随后进入**系列 5、7、8**中的车–线–桥耦合内容。以应力、应变恢复和疲劳分析为目标时，重点查看**系列 2**。这是目录维护者提出的学习建议，不是已经核验的课程先修关系。
+初次建立车辆模型，建议从[Simpack 入门路线](docs/learning-paths.md#simpack-basics)进入**系列 6**。柔性轨道方向可选择[Abaqus 路线](docs/learning-paths.md#abaqus-flexible-track)的**系列 1**，或 Ansys 路线的**系列 3**，随后进入**系列 5、7、8**中的车–线–桥耦合内容。以应力、应变恢复和疲劳分析为目标时，查看[应力恢复与疲劳路线](docs/learning-paths.md#stress-recovery-fatigue)及**系列 2**。这是目录维护者提出的学习建议，不是已经核验的课程先修关系。
 
 ## 主题导览
 
@@ -87,7 +93,7 @@ RailDyn Atlas 按七个系列整理 Simpack、Abaqus、Ansys 与 fe-safe 相关�
 
 ## 下载与使用
 
-进入对应系列后，下载所需课程的 MP4 和同课的 `.zh-CN.srt` 或 `.en.srt`。保留文件名中的稳定课程编号，在本地播放器中选择对应字幕；需要时也可使用 VTT 格式。克隆仓库或点击 Code → Download ZIP，不会下载存放在 Releases 中的视频附件。
+进入对应系列后，可先复用已有本地 MP4；需要下载时，可从该系列 Release 获取视频及同课的 `.zh-CN.srt` 或 `.en.srt`。保留文件名中的稳定课程编号，在本地播放器中选择对应字幕；需要时也可使用 VTT 格式。克隆仓库或点击 Code → Download ZIP，不会下载存放在 Releases 中的视频附件；视频不在 clone 内不代表丢失。`s05-e001` 的四种配套字幕均缺失。
 
 下载权限随仓库可见性变化。仓库仍为 private 时，需要具有访问权限的 GitHub 账号。视频入口用于下载，不代表仓库已经提供内嵌流媒体播放器。
 
@@ -103,7 +109,7 @@ RailDyn Atlas 按七个系列整理 Simpack、Abaqus、Ansys 与 fe-safe 相关�
 
 ## 纠错与协作
 
-反馈问题时，请给出系列编号、稳定课程编号、相关字幕语言及时间戳。修改显示标题或译名时保留原始文件标识。不要提交未经许可的商业软件、许可文件、第三方课程或模型资料。
+请按[贡献说明](CONTRIBUTING.md)反馈问题，给出系列编号、稳定课程编号、相关字幕语言及时间戳。修改显示标题或译名时保留原始文件标识。公开仓库的问题表单供已登录 GitHub 的读者使用。不要提交未经许可的商业软件、许可文件、第三方课程或模型资料。
 
 ## 来源与使用权限
 

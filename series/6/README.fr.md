@@ -2,8 +2,6 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Italiano](README.it.md) · [Español](README.es.md) · [한국어](README.ko.md)
 
-> Dépôt actuellement privé : un compte GitHub disposant des droits d’accès est nécessaire pour télécharger les vidéos et les sous-titres.
-
 8 vidéos · 32 fichiers de sous-titres · 8 vidéos avec les quatre fichiers.
 
 Les titres et thèmes sont un classement éditorial, pas une validation indépendante des résultats. Les détails sont en anglais / chinois et conservent les noms chinois d’origine.

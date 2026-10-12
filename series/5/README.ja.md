@@ -2,8 +2,6 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Italiano](README.it.md) · [Español](README.es.md) · [한국어](README.ko.md)
 
-> 現在は非公開リポジトリです。動画・字幕のダウンロードにはアクセス権のある GitHub アカウントが必要です。
-
 動画 42 本 · 字幕ファイル 164 個 · 4種類の字幕が揃う動画 41 本。 字幕ファイルのない講義：`s05-e001` — 0-课程效果.
 
 題名とテーマは編集上の整理であり、解析結果の独立した検証を示しません。詳細ページは英語・中国語で、照合用の中国語原ファイル名を保持しています。

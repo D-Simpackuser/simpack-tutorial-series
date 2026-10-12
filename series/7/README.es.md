@@ -2,8 +2,6 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Italiano](README.it.md) · [Español](README.es.md) · [한국어](README.ko.md)
 
-> El repositorio es privado actualmente. Para descargar vídeos y subtítulos se necesita una cuenta de GitHub con acceso.
-
 46 vídeos · 184 archivos de subtítulos · 46 vídeos con los cuatro archivos.
 
 Los títulos y temas son una organización editorial, no una validación independiente. Los detalles están en inglés / chino y conservan los nombres chinos originales.

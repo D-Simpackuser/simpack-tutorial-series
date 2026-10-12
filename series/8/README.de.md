@@ -2,8 +2,6 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Italiano](README.it.md) · [Español](README.es.md) · [한국어](README.ko.md)
 
-> Das Repository ist derzeit privat. Für Video- und Untertiteldownloads ist ein GitHub-Konto mit Zugriffsberechtigung erforderlich.
-
 51 Videos · 204 Untertiteldateien · 51 Videos mit allen vier Untertiteldateien.
 
 Titel und Themengruppen sind redaktionell geordnet und belegen keine unabhängige Validierung. Die Detailseiten sind Englisch / Chinesisch; chinesische Originaldateinamen bleiben erhalten.

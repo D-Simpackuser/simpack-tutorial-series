@@ -232,6 +232,13 @@ def _project(work):
             if not isinstance(value, str) or not value.strip() or value != value.strip():
                 raise ValueError('Reader project display text is empty or invalid')
             values.append(value)
+    positioning = project.get('positioning', {})
+    if not isinstance(positioning, dict) or not set(positioning).issubset(LOCALES):
+        raise ValueError('Reader project positioning locales are invalid')
+    for value in positioning.values():
+        if not isinstance(value, str) or not value.strip() or value != value.strip():
+            raise ValueError('Reader project positioning text is empty or invalid')
+        values.append(value)
     if any(re.search(r'[<>\r\n`*\\\[\]]', value) for value in values):
         raise ValueError('Reader project branding must contain plain single-line text')
     for locale in LOCALES:
@@ -367,9 +374,14 @@ def _stat_paragraph(locale, episodes):
 
 def _root_readme(locale, data):
     text = data['introductions'][locale]
+    if '{{project_positioning}}' in text:
+        positioning = (data.get('project') or {}).get('positioning', {}).get(locale)
+        if not positioning:
+            raise ValueError(f'Missing project positioning for introduction: {locale}')
+        text = text.replace('{{project_positioning}}', positioning)
     # Introduction sources live under i18n/readme, while generated pages live
     # at the root. Keep these guide links valid in both reviewed locations.
-    text = re.sub(r'\(\.\./\.\./(docs/(?:using-the-library|learning-paths|quality-and-versions)\.md)\)',
+    text = re.sub(r'\(\.\./\.\./((?:docs/(?:using-the-library|learning-paths|quality-and-versions)\.md|CONTRIBUTING\.md)(?:#[A-Za-z0-9_-]+)?)\)',
                   r'(\1)', text)
     paragraphs = text.split('\n\n')
     counts = [i for i, paragraph in enumerate(paragraphs) if

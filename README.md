@@ -4,13 +4,19 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Italiano](README.it.md) · [Español](README.es.md) · [한국어](README.ko.md)
 
-> Private repository: a GitHub account with repository access is required for video and subtitle downloads.
-
 **Vehicle–track–bridge interaction · Flexible bodies · Stress recovery and fatigue**
 
-RailDyn Atlas is a tutorial library comprising seven series on railway dynamics workflows using Simpack, Abaqus, Ansys and fe-safe. It provides a structured route through vehicle modelling, flexible rails and track foundations, vehicle–track–bridge coupling, and flexible-body stress and fatigue analysis.
+Find railway vehicle and flexible-body tutorials by learning goal, then follow a route through the existing Simpack, Abaqus and Ansys material.
 
 194 video lessons · 772 subtitle files · 193 lessons with all four subtitle files. No accompanying subtitle files: `s05-e001` — 0-课程效果.
+
+**Choose a learning route:** [Simpack basics](docs/learning-paths.md#simpack-basics) · [Abaqus flexible track](docs/learning-paths.md#abaqus-flexible-track) · [Stress recovery and fatigue](docs/learning-paths.md#stress-recovery-fatigue)
+
+**Current access:** the repository is public. Readers can browse the catalogue and download the existing published Release videos and subtitles without repository membership. Use the recorded lesson links; public access does not grant a blanket reuse licence.
+
+**Shortest viewing steps:** find a lesson in its series catalogue, open an existing local MP4 or download it from the series Release, then select the matching Chinese or English SRT in a player that supports external subtitles. Start with [the usage guide](docs/using-the-library.md). The library currently has no embedded player, dedicated search interface or automatic learning-progress tracking.
+
+**Feedback:** [correction and contribution instructions](CONTRIBUTING.md) explain how to report a lesson ID, timestamp and observed problem. Public issues are readable without repository membership; creating an issue requires GitHub sign-in.
 
 [Download guide](docs/using-the-library.md) · [Learning paths](docs/learning-paths.md) · [Quality and versions](docs/quality-and-versions.md)
 
@@ -28,11 +34,11 @@ Tutorial recordings; accompanying model files and software versions are not conf
 | 7 | [Vehicle–Track–Bridge Dynamics with Ansys and Simpack: Beam–Solid Modelling](series/7/README.md) | 46 | [Release](https://github.com/D-Simpackuser/simpack-tutorial-series/releases/tag/series-7-v1) |
 | 8 | [Vehicle–Track–Bridge Dynamics with Ansys and Simpack: Beam–Beam Modelling](series/8/README.md) | 51 | [Release](https://github.com/D-Simpackuser/simpack-tutorial-series/releases/tag/series-8-v1) |
 
-Open a series title for the existing lesson-by-lesson index. Release pages contain the downloadable video and subtitle assets. The original series identifiers are retained; there is no Series 4.
+Open a series title for the existing lesson-by-lesson index. Published Release pages contain the downloadable video and subtitle assets. The original series identifiers are retained; there is no Series 4.
 
 ## Where to start
 
-For a first vehicle model, start with **Series 6**. For flexible-track workflows, choose **Series 1** for the Abaqus route or **Series 3** for the Ansys route. Continue with **Series 5, 7 or 8** for vehicle–track–bridge models. Use **Series 2** when the focus is stress/strain recovery and fatigue. This is an editorial learning suggestion, not a verified prerequisite chain.
+For a first vehicle model, start with [Simpack basics](docs/learning-paths.md#simpack-basics) and **Series 6**. For flexible-track workflows, choose [the Abaqus route](docs/learning-paths.md#abaqus-flexible-track) in **Series 1** or the Ansys route in **Series 3**. Continue with **Series 5, 7 or 8** for vehicle–track–bridge models. Use [stress recovery and fatigue](docs/learning-paths.md#stress-recovery-fatigue) in **Series 2** when that is your focus. This is an editorial learning suggestion, not a verified prerequisite chain.
 
 ## Topic guide
 
@@ -89,7 +95,7 @@ The topic groups below organise the supplied lesson titles. They are not evidenc
 
 ## Download and use
 
-Open the relevant series, choose a lesson and download its MP4 together with the matching `.zh-CN.srt` or `.en.srt` file. Keep the stable filename stem unchanged and select the subtitle file in your local video player. VTT files are available as an alternative format. A repository clone or the Code → Download ZIP archive does not include the video assets stored in Releases.
+Open the relevant series, choose a lesson and reuse an existing local MP4 when available. Otherwise, download its MP4 together with the matching `.zh-CN.srt` or `.en.srt` file from the series Release. Keep the stable filename stem unchanged and select the subtitle file in your local video player. VTT files are available as an alternative format. A repository clone or the Code → Download ZIP archive does not include the video assets stored in Releases; their absence from a clone does not indicate missing media. The four subtitle formats are absent for `s05-e001`.
 
 Download links follow the repository’s access settings. While the repository is private, an authorised GitHub account is required. Video links are download links, not a promise of an embedded streaming player.
 
@@ -105,7 +111,7 @@ Subtitle file presence and checksum agreement do not establish translation accur
 
 ## Corrections and contributions
 
-Report corrections with the series identifier, stable lesson identifier, subtitle language and timestamp where relevant. Keep original file identifiers unchanged when proposing a better title or translation. Do not upload commercial software, licence files, third-party course material or models without the necessary permission.
+Follow the [contribution guide](CONTRIBUTING.md) and report corrections with the series identifier, stable lesson identifier, subtitle language and timestamp where relevant. Keep original file identifiers unchanged when proposing a better title or translation. The public repository's issue forms are available to signed-in GitHub users. Do not upload commercial software, licence files, third-party course material or models without the necessary permission.
 
 ## Sources and permissions
 

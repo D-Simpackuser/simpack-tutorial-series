@@ -19,7 +19,7 @@ Software versions are not assigned from product names or guessed interface appea
 
 Course titles that discuss older and newer locomotive dynamics standards do not establish which standards apply today, in your jurisdiction or to a particular vehicle. Verify the actual standard, date and application requirements separately when using the material. The library does not claim official vendor certification, supplied model files or an experimentally validated benchmark. Coupled or integrated workflows are not automatically described as synchronized co-simulation, and “full-platform” wording does not demonstrate compatibility with every operating system.
 
-Video, subtitle and documentation permissions are distinct from these technical checks. Existing private-upload permission is not a public-distribution grant. A full content privacy review of all recordings has not been established. See [sources and distribution rights](../PROVENANCE.md). For a correction, cite the lesson ID and the specific source or timestamp in [a contribution](../CONTRIBUTING.md).
+Video, subtitle and documentation permissions are distinct from these technical checks. Historical private-upload permission is distinct from the maintainer's later explicit instruction to make the existing repository and published content public; that instruction is recorded in the provenance statement and does not create a reuse licence. A full content privacy review of all recordings has not been established. See [sources and distribution rights](../PROVENANCE.md). For a correction, cite the lesson ID and the specific source or timestamp in [a contribution](../CONTRIBUTING.md).
 
 ## 简体中文
 
@@ -38,4 +38,4 @@ Video, subtitle and documentation permissions are distinct from these technical 
 
 讲解机车动力学新、旧标准的课目，不能证明当前适用标准、地区要求或特定车辆要求。实际应用时需另行核实标准、日期及适用条件。本资料库不声称官方厂商认证、提供模型文件或经过试验验证的 benchmark。耦合或集成流程不能自动称为同步联合求解；“全平台”字样也不证明全部操作系统兼容。
 
-视频、字幕及文档的传播权利与这些技术检查分别处理。现有 private 上传授权不等于向公众分发的授权；尚未建立全部录像内容的完整隐私审阅记录。详见[来源与传播权利](../PROVENANCE.md)。纠错请在[贡献](../CONTRIBUTING.md)中给出课程 ID 和明确出处或时间戳。
+视频、字幕及文档的传播权利与这些技术检查分别处理。历史 private 上传授权与维护者后来明确公开既有仓库及已发布内容的指令分别记录，该指令见来源说明，不额外授予再利用许可；尚未建立全部录像内容的完整隐私审阅记录。详见[来源与传播权利](../PROVENANCE.md)。纠错请在[贡献](../CONTRIBUTING.md)中给出课程 ID 和明确出处或时间戳。

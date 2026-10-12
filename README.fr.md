@@ -4,8 +4,6 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Italiano](README.it.md) · [Español](README.es.md) · [한국어](README.ko.md)
 
-> Dépôt actuellement privé : un compte GitHub disposant des droits d’accès est nécessaire pour télécharger les vidéos et les sous-titres.
-
 **Interaction véhicule–voie–pont · Corps flexibles · Restitution des contraintes et fatigue**
 
 RailDyn Atlas réunit sept séries de tutoriels consacrées aux chaînes de calcul en dynamique ferroviaire avec Simpack, Abaqus, Ansys et fe-safe. Le classement couvre la modélisation des véhicules, les rails et fondations de voie flexibles, le couplage véhicule–voie–pont, ainsi que la restitution des contraintes et déformations et l’analyse de fatigue.

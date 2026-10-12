@@ -2,8 +2,6 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Italiano](README.it.md) · [Español](README.es.md) · [한국어](README.ko.md)
 
-> 仓库当前为 private：下载视频及字幕需要具有仓库访问权限的 GitHub 账号。
-
 13 个视频课程 · 52 个字幕文件 · 13 课具备四种配套字幕文件。
 
 显示题名和主题分组是编辑整理，不代表仿真结果经过独立验证。课程详情为中英双语，保留原始中文文件名用于精确识别。

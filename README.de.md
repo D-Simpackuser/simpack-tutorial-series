@@ -4,8 +4,6 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Italiano](README.it.md) · [Español](README.es.md) · [한국어](README.ko.md)
 
-> Das Repository ist derzeit privat. Für Video- und Untertiteldownloads ist ein GitHub-Konto mit Zugriffsberechtigung erforderlich.
-
 **Fahrzeug–Fahrweg–Brücken-Interaktion · Flexible Körper · Spannungsrückgewinnung und Ermüdung**
 
 RailDyn Atlas bündelt sieben Tutorial-Reihen zu Arbeitsabläufen der Eisenbahndynamik mit Simpack, Abaqus, Ansys und fe-safe. Die Themen reichen von Fahrzeugmodellen über elastische Schienen und Gleisfundamente bis zur Fahrzeug–Fahrweg–Brücken-Kopplung sowie zur Spannungs-, Dehnungs- und Ermüdungsanalyse flexibler Körper.
